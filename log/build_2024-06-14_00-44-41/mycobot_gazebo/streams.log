@@ -1,0 +1,110 @@
+[0.039s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_gazebo -- -j16 -l16
+[0.085s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.339s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.418s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.425s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.441s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.772s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.774s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.832s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.855s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.897s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.912s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.931s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.072s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[3.129s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.185s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.204s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[3.204s]   By not providing "Findignition-cmake2.cmake" in CMAKE_MODULE_PATH this
+[3.204s]   project has asked CMake to find a package configuration file provided by
+[3.204s]   "ignition-cmake2", but CMake did not find one.
+[3.204s] 
+[3.204s]   Could not find a package configuration file provided by "ignition-cmake2"
+[3.205s]   with any of the following names:
+[3.205s] 
+[3.205s]     ignition-cmake2Config.cmake
+[3.205s]     ignition-cmake2-config.cmake
+[3.205s] 
+[3.206s]   Add the installation prefix of "ignition-cmake2" to CMAKE_PREFIX_PATH or
+[3.206s]   set "ignition-cmake2_DIR" to a directory containing one of the above files.
+[3.206s]   If "ignition-cmake2" provides a separate development package or SDK, be
+[3.206s]   sure it has been installed.
+[3.206s] Call Stack (most recent call first):
+[3.206s]   /usr/lib/x86_64-linux-gnu/cmake/ignition-math6/ignition-math6-config.cmake:63 (find_dependency)
+[3.207s]   /usr/lib/x86_64-linux-gnu/cmake/sdformat9/sdformat9-config.cmake:60 (find_package)
+[3.207s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:208 (find_package)
+[3.207s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[3.207s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[3.207s]   /opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.207s]   /opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[3.207s]   CMakeLists.txt:11 (find_package)
+[3.208s] 
+[3.208s] [0m
+[3.208s] [33mCMake Warning at /usr/lib/x86_64-linux-gnu/cmake/sdformat9/sdformat9-config.cmake:60 (find_package):
+[3.208s]   Found package configuration file:
+[3.208s] 
+[3.208s]     /usr/lib/x86_64-linux-gnu/cmake/ignition-math6/ignition-math6-config.cmake
+[3.208s] 
+[3.208s]   but it set ignition-math6_FOUND to FALSE so package "ignition-math6" is
+[3.209s]   considered to be NOT FOUND.  Reason given by package:
+[3.209s] 
+[3.210s]   ignition-math6 could not be found because dependency ignition-cmake2 could
+[3.210s]   not be found.
+[3.210s] 
+[3.210s] Call Stack (most recent call first):
+[3.210s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:208 (find_package)
+[3.210s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[3.210s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[3.211s]   /opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.211s]   /opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[3.211s]   CMakeLists.txt:11 (find_package)
+[3.211s] 
+[3.211s] [0m
+[3.211s] -- Looking for OGRE...
+[3.216s] -- Found Ogre Ghadamon (1.9.0)
+[3.216s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.233s] -- Looking for OGRE_Paging...
+[3.233s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.233s] -- Looking for OGRE_Terrain...
+[3.234s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.234s] -- Looking for OGRE_Property...
+[3.234s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.234s] -- Looking for OGRE_RTShaderSystem...
+[3.235s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.235s] -- Looking for OGRE_Volume...
+[3.235s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.235s] -- Looking for OGRE_Overlay...
+[3.235s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.431s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.432s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.450s] [31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[3.450s]   By not providing "Findignition-cmake2.cmake" in CMAKE_MODULE_PATH this
+[3.450s]   project has asked CMake to find a package configuration file provided by
+[3.451s]   "ignition-cmake2", but CMake did not find one.
+[3.451s] 
+[3.451s]   Could not find a package configuration file provided by "ignition-cmake2"
+[3.451s]   with any of the following names:
+[3.452s] 
+[3.452s]     ignition-cmake2Config.cmake
+[3.452s]     ignition-cmake2-config.cmake
+[3.452s] 
+[3.452s]   Add the installation prefix of "ignition-cmake2" to CMAKE_PREFIX_PATH or
+[3.452s]   set "ignition-cmake2_DIR" to a directory containing one of the above files.
+[3.452s]   If "ignition-cmake2" provides a separate development package or SDK, be
+[3.453s]   sure it has been installed.
+[3.453s] Call Stack (most recent call first):
+[3.453s]   /usr/lib/x86_64-linux-gnu/cmake/ignition-transport8/ignition-transport8-config.cmake:63 (find_dependency)
+[3.453s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:235 (find_package)
+[3.454s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+[3.454s]   /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+[3.454s]   /opt/ros/humble/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[3.454s]   /opt/ros/humble/share/gazebo_ros/cmake/gazebo_rosConfig.cmake:41 (include)
+[3.454s]   CMakeLists.txt:11 (find_package)
+[3.454s] 
+[3.455s] [0m
+[3.455s] -- Configuring incomplete, errors occurred!
+[3.455s] See also "/home/coleman/ros2_ws/build/mycobot_gazebo/CMakeFiles/CMakeOutput.log".
+[3.469s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[3.474s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_gazebo -- -j16 -l16

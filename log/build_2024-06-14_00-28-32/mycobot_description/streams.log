@@ -1,0 +1,57 @@
+[0.029s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/coleman/ros2_ws/install/mycobot_description
+[0.140s] -- The C compiler identification is GNU 11.4.0
+[0.257s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.432s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.432s] -- Detecting C compile features
+[0.433s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.604s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.621s] -- Detecting CXX compile features
+[0.621s] -- Detecting CXX compile features - done
+[0.625s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.921s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.079s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.218s] -- Added test 'lint_cmake' to check CMake code style
+[1.222s] -- Added test 'xmllint' to check XML markup files
+[1.225s] -- Configuring done
+[1.230s] -- Generating done
+[1.232s] -- Build files have been written to: /home/coleman/ros2_ws/build/mycobot_description
+[1.239s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_description -DCMAKE_INSTALL_PREFIX=/home/coleman/ros2_ws/install/mycobot_description
+[1.244s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_description -- -j16 -l16
+[1.320s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_description -- -j16 -l16
+[1.392s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_description
+[1.404s] -- Install configuration: ""
+[1.404s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/launch
+[1.404s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes
+[1.405s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280
+[1.405s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.stl
+[1.408s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/spectrometer.stl
+[1.408s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/holder.stl
+[1.408s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.stl
+[1.412s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.stl
+[1.415s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.stl
+[1.418s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.stl
+[1.420s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.stl
+[1.421s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.stl
+[1.423s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/rviz
+[1.423s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/urdf
+[1.423s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_urdf.xacro
+[1.424s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[1.424s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[1.425s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[1.425s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[1.425s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+[1.426s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[1.426s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+[1.426s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+[1.426s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[1.427s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[1.428s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+[1.428s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[1.428s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[1.429s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[1.429s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml
+[1.433s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_description

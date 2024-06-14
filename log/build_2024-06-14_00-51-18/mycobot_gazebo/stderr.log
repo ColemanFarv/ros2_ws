@@ -1,0 +1,23 @@
+[31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+  By not providing "Findignition-cmake2.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ignition-cmake2", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ignition-cmake2"
+  with any of the following names:
+
+    ignition-cmake2Config.cmake
+    ignition-cmake2-config.cmake
+
+  Add the installation prefix of "ignition-cmake2" to CMAKE_PREFIX_PATH or
+  set "ignition-cmake2_DIR" to a directory containing one of the above files.
+  If "ignition-cmake2" provides a separate development package or SDK, be
+  sure it has been installed.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-msgs8/ignition-msgs8-config.cmake:63 (find_dependency)
+  /opt/ros/humble/share/ros_gz_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/humble/share/ros_gz_bridge/cmake/ros_gz_bridgeConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

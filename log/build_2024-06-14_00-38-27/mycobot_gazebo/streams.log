@@ -1,0 +1,20 @@
+[0.037s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_gazebo -- -j16 -l16
+[0.112s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_gazebo -- -j16 -l16
+[0.196s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_gazebo
+[0.244s] -- Install configuration: ""
+[0.245s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/ament_index/resource_index/package_run_dependencies/mycobot_gazebo
+[0.245s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/ament_index/resource_index/parent_prefix_path/mycobot_gazebo
+[0.246s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/environment/ament_prefix_path.sh
+[0.247s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/environment/ament_prefix_path.dsv
+[0.247s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/environment/path.sh
+[0.247s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/environment/path.dsv
+[0.248s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.bash
+[0.248s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.sh
+[0.249s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.zsh
+[0.250s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/local_setup.dsv
+[0.250s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.dsv
+[0.250s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/ament_index/resource_index/packages/mycobot_gazebo
+[0.251s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/cmake/mycobot_gazeboConfig.cmake
+[0.251s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/cmake/mycobot_gazeboConfig-version.cmake
+[0.252s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.xml
+[0.270s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_gazebo
