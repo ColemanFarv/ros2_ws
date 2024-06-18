@@ -1,0 +1,35 @@
+[0.135s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_description -- -j16 -l16
+[0.473s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_description -- -j16 -l16
+[0.606s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_description
+[0.834s] -- Install configuration: ""
+[0.835s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/launch
+[0.835s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes
+[0.837s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280
+[0.840s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.stl
+[0.841s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/spectrometer.stl
+[0.842s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/holder.stl
+[0.843s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.stl
+[0.844s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.stl
+[0.845s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.stl
+[0.846s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.stl
+[0.847s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.stl
+[0.848s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.stl
+[0.852s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/rviz
+[0.852s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/urdf
+[0.853s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_urdf.xacro
+[0.855s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[0.856s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[0.856s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[0.858s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[0.860s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+[0.863s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[0.865s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+[0.868s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+[0.868s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[0.872s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[0.873s] -- Installing: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+[0.874s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[0.874s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[0.875s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[0.876s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml
+[1.463s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_description

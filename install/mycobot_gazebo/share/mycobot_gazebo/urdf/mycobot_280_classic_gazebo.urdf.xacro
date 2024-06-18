@@ -247,8 +247,7 @@
         <material>Gazebo/Orange</material>
     </gazebo>
 
-
-  <gazebo reference="link3">
+<gazebo reference="link3">
         <material>Gazebo/Green</material>
     </gazebo>
 

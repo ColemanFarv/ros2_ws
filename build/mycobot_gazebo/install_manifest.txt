@@ -1,4 +1,6 @@
+/home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/config/mycobot_280_controllers.yaml
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/mycobot_280_arduino_bringup_classic_gazebo.launch.py
+/home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/mycobot_280_arduino_bringup_ros2_control_classic_gazebo.launch.py
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/models/aws_robomaker_residential_PortraitD_02/model.sdf
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_02.png
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_01.png
@@ -497,6 +499,9 @@
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01.DAE
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE
+/home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/urdf/ros2_control/classic_gazebo/mycobot_280_classic_gazebo.xacro
+/home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/urdf/ros2_control/classic_gazebo/mycobot_280.urdf.xacro
+/home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/urdf/ros2_control/classic_gazebo/mycobot_280_ros2_control.xacro
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/urdf/mycobot_280_classic_gazebo.urdf.xacro
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/worlds/empty_classic.world
 /home/coleman/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/worlds/house_classic.world
