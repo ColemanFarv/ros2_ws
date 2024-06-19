@@ -7,7 +7,6 @@ Panels:
         - /Global Options1
         - /Status1
         - /RobotModel1
-        - /RobotModel1/Status1
       Splitter Ratio: 0.5
     Tree Height: 549
   - Class: rviz_common/Selection
@@ -66,6 +65,8 @@ Visualization Manager:
           Value: true
         link5:
           Value: true
+        link5_flange:
+          Value: true
         world:
           Value: true
       Marker Scale: 1
@@ -81,7 +82,8 @@ Visualization Manager:
                 link3:
                   link4:
                     link5:
-                      {}
+                      link5_flange:
+                        {}
       Update Interval: 0
       Value: true
     - Alpha: 1

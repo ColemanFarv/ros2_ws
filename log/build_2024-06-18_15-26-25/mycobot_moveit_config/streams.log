@@ -1,0 +1,59 @@
+[0.100s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_gazebo:/home/coleman/ros2_ws/install/mycobot_ros2:/home/coleman/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/coleman/ros2_ws/install/mycobot_moveit_config
+[0.699s] -- The C compiler identification is GNU 11.4.0
+[1.223s] -- The CXX compiler identification is GNU 11.4.0
+[1.256s] -- Detecting C compiler ABI info
+[1.791s] -- Detecting C compiler ABI info - done
+[1.804s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.805s] -- Detecting C compile features
+[1.815s] -- Detecting C compile features - done
+[1.816s] -- Detecting CXX compiler ABI info
+[2.238s] -- Detecting CXX compiler ABI info - done
+[2.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.265s] -- Detecting CXX compile features
+[2.268s] -- Detecting CXX compile features - done
+[2.406s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.014s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.846s] -- Configuring done
+[3.873s] -- Generating done
+[3.876s] -- Build files have been written to: /home/coleman/ros2_ws/build/mycobot_moveit_config
+[3.904s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_gazebo:/home/coleman/ros2_ws/install/mycobot_ros2:/home/coleman/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/coleman/ros2_ws/install/mycobot_moveit_config
+[3.907s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_gazebo:/home/coleman/ros2_ws/install/mycobot_ros2:/home/coleman/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_moveit_config -- -j16 -l16
+[4.100s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_gazebo:/home/coleman/ros2_ws/install/mycobot_ros2:/home/coleman/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_moveit_config -- -j16 -l16
+[4.263s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_gazebo:/home/coleman/ros2_ws/install/mycobot_ros2:/home/coleman/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_moveit_config
+[4.292s] -- Install configuration: ""
+[4.295s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_config
+[4.297s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_config
+[4.297s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.sh
+[4.298s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.dsv
+[4.299s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.sh
+[4.299s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.dsv
+[4.300s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.bash
+[4.303s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.sh
+[4.304s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.zsh
+[4.304s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.dsv
+[4.307s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.dsv
+[4.308s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/packages/mycobot_moveit_config
+[4.308s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig.cmake
+[4.310s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig-version.cmake
+[4.312s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.xml
+[4.313s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch
+[4.315s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/warehouse_db.launch.py
+[4.315s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/rsp.launch.py
+[4.316s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/setup_assistant.launch.py
+[4.317s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/demo.launch.py
+[4.320s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[4.323s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/move_group.launch.py
+[4.323s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/spawn_controllers.launch.py
+[4.337s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/moveit_rviz.launch.py
+[4.340s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config
+[4.350s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/pilz_cartesian_limits.yaml
+[4.351s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280.ros2_control.xacro
+[4.352s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/moveit.rviz
+[4.356s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/initial_positions.yaml
+[4.360s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280.urdf.xacro
+[4.363s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280.srdf
+[4.364s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/moveit_controllers.yaml
+[4.365s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/joint_limits.yaml
+[4.368s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/kinematics.yaml
+[4.371s] -- Installing: /home/coleman/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/.setup_assistant
+[4.373s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_gazebo:/home/coleman/ros2_ws/install/mycobot_ros2:/home/coleman/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_moveit_config

@@ -1,6 +1,6 @@
 # Author: Addison Sears-Collins
-# Date: April 17, 2024
-# Description: Launch a robotic arm in Gazebo (Classic)
+# Date: April 27, 2024
+# Description: Launch a robotic arm in Gazebo (Classic). The URDF uses the ROS 2 Control library.
 import os
 from launch import LaunchDescription
 from launch.actions import AppendEnvironmentVariable, DeclareLaunchArgument, IncludeLaunchDescription
@@ -21,8 +21,8 @@ def generate_launch_description():
   gazebo_launch_file_path = 'launch'
   gazebo_models_path = 'models'
   rviz_config_file_path = 'rviz/mycobot_280_arduino_view_description.rviz'
-  urdf_file_path = 'urdf/mycobot_280_classic_gazebo.urdf.xacro'
-  world_file_path = 'worlds/empty_classic.world' # Example: 'worlds/house_classic.world', 'worlds/empty_classic.world'
+  urdf_file_path = 'urdf/ros2_control/classic_gazebo/mycobot_280.urdf.xacro'
+  world_file_path = 'worlds/empty_classic.world' # Example: 'worlds/house_classic.world', 'worlds/empty_classic.world', 'worlds/small_warehouse_classic.world'
 
   # Set the path to different files and folders.  
   pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros')  
@@ -112,7 +112,7 @@ def generate_launch_description():
     
   declare_z_cmd = DeclareLaunchArgument(
     name='z',
-    default_value='0.05',
+    default_value='0.05', # 0.05 for house_classic.world and empty_classic.world, 0.2 for small_warehouse_classic.world
     description='z component of initial position, meters')
     
   declare_roll_cmd = DeclareLaunchArgument(
@@ -136,6 +136,17 @@ def generate_launch_description():
     'GAZEBO_MODEL_PATH',
     gazebo_models_path)
   
+  # Launch arm controller
+  start_arm_controller_cmd = Node(
+    package="controller_manager",
+    executable="spawner",
+    arguments=[
+      "arm_controller",
+      "--controller-manager",
+      "/controller_manager"
+    ]
+  )  
+  
   # Start Gazebo server
   start_gazebo_server_cmd = IncludeLaunchDescription(
     PythonLaunchDescriptionSource(
@@ -148,9 +159,20 @@ def generate_launch_description():
     PythonLaunchDescriptionSource(
       os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')),
     condition=IfCondition(PythonExpression([use_simulator, ' and not ', headless])))
+
+  # Launch joint state broadcaster
+  start_joint_state_broadcaster_cmd = Node(
+    package="controller_manager",
+    executable="spawner",
+    arguments=[
+      "joint_state_broadcaster",
+      "--controller-manager",
+      "/controller_manager"
+    ]
+  )  
     
   # Subscribe to the joint states of the robot, and publish the 3D pose of each link.
-  robot_description_content = ParameterValue(Command(['xacro ', urdf_model]), value_type=str)
+  robot_description_content = ParameterValue(Command(['xacro ', urdf_model]), value_type=None)
   start_robot_state_publisher_cmd = Node(
     condition=IfCondition(use_robot_state_pub),
     package='robot_state_publisher',
@@ -176,7 +198,7 @@ def generate_launch_description():
     executable='spawn_entity.py',
     arguments=[
       '-entity', robot_name,
-      '-topic', "robot_description",  
+      '-topic', "robot_description", 
       '-x', x,
       '-y', y,
       '-z', z,
@@ -209,11 +231,12 @@ def generate_launch_description():
 
   # Add any actions
   ld.add_action(set_env_vars_resources)
+  ld.add_action(start_arm_controller_cmd) 
   ld.add_action(start_gazebo_server_cmd)
   ld.add_action(start_gazebo_client_cmd)
+  ld.add_action(start_joint_state_broadcaster_cmd)
   ld.add_action(start_robot_state_publisher_cmd)
-  ld.add_action(start_rviz_cmd)
-  
+  ld.add_action(start_rviz_cmd)  
   ld.add_action(start_gazebo_ros_spawner_cmd)
 
   return ld
