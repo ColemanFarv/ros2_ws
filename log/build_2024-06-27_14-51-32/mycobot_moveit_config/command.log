@@ -1,0 +1,2 @@
+Invoking command in '/home/coleman/ros2_ws/build/mycobot_moveit_config': /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_moveit_config -- -j16 -l16
+Invoked command in '/home/coleman/ros2_ws/build/mycobot_moveit_config' returned '2': /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_moveit_config -- -j16 -l16

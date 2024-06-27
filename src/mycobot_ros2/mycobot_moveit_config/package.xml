@@ -4,7 +4,7 @@
   <name>mycobot_moveit_config</name>
   <version>0.3.0</version>
   <description>
-     An automatically generated package with all the configuration and launch files for using the mycobot_280 with the MoveIt Motion Planning Framework
+     An automatically generated package with all the configuration and launch files for using the firefighter with the MoveIt Motion Planning Framework
   </description>
   <maintainer email="chrfarvolden@gmail.com">coleman</maintainer>
 
@@ -36,13 +36,14 @@
   <exec_depend>moveit_ros_visualization</exec_depend>
   <exec_depend>moveit_ros_warehouse</exec_depend>
   <exec_depend>moveit_setup_assistant</exec_depend>
-  <exec_depend>mycobot_gazebo</exec_depend>
+  <exec_depend>mycobot_description</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>rviz_common</exec_depend>
   <exec_depend>rviz_default_plugins</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
   <exec_depend>warehouse_ros_mongo</exec_depend>
+  <exec_depend>xacro</exec_depend>
 
 
   <export>

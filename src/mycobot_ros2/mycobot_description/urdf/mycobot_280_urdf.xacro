@@ -220,6 +220,56 @@
 		</inertial>
   </link>
 
+   <link name="holder">
+
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find mycobot_description)/meshes/mycobot_280/holder.stl"/>
+    </geometry>
+
+  </visual>
+
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find mycobot_description)/meshes/mycobot_280/holder.stl"/>
+    </geometry>
+  </collision>
+
+   <inertial>
+    <origin xyz="1.257105390531987e-13 1.2571147787950272e-13 2.8451187525301305e-14" rpy="0 0 0"/>
+    <mass value="5.2360263698612974e-11"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+
+</link>
+
+<link name="spectrometer">
+ 
+  <visual>
+    <origin xyz="-1.3e-05 -0.0 -1e-05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find mycobot_description)/meshes/mycobot_280/spectrometer.stl"/>
+    </geometry>
+  </visual>
+
+  <collision>
+    <origin xyz="-1.3e-05 -0.0 -1e-05" rpy="0 0 0"/>
+    <geometry>
+     <mesh filename="file://$(find mycobot_description)/meshes/mycobot_280/spectrometer.stl"/>
+    </geometry>
+  </collision>
+
+   <inertial>
+    <origin xyz="4.249999739073161e-06 1.024970783172406e-14 -2.4999998975029586e-07" rpy="0 0 0"/>
+    <mass value="1.893181328918444e-11"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+
+</link>
+
+
 
 <!-- ********** JOINTS ********** -->
 
@@ -291,6 +341,19 @@
 		<origin xyz= "0 0.0456 0" rpy = "${-pi/2} 0 0"/>
         <dynamics damping="0.01" friction="0.005"/>
 	</joint>
+
+  <joint name="robot to holder" type="fixed">
+  <origin xyz="1.3e-05 0.0 1e-05" rpy="0 0 0"/>
+  <parent link="link5_flange"/>
+  <child link="holder"/>
+</joint>
+
+
+<joint name="Rigid 1" type="fixed">
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <parent link="holder"/>
+  <child link="spectrometer"/>
+</joint>
 		
 
 </robot>

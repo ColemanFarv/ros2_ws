@@ -1,0 +1,390 @@
+[0.073s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_interfaces -- -j16 -l16
+[0.209s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_generator_c[0m
+[0.245s] [  0%] Built target mycobot_interfaces__cpp
+[0.264s] [ 12%] Built target mycobot_interfaces__rosidl_generator_c
+[0.291s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_cpp[0m
+[0.293s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.293s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.296s] [ 12%] Built target ament_cmake_python_copy_mycobot_interfaces
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_introspection_c[0m
+[0.317s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_c[0m
+[0.362s] [ 32%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c
+[0.363s] [ 36%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[0.412s] [ 47%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.415s] [ 59%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp
+[0.417s] [ 71%] Built target mycobot_interfaces__rosidl_typesupport_c
+[0.417s] [ 83%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c
+[0.919s] [ 83%] Built target mycobot_interfaces
+[1.151s] [ 84%] Built target mycobot_interfaces__py
+[1.153s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_generator_py[0m
+[1.153s] [ 95%] Built target mycobot_interfaces__rosidl_generator_py
+[1.154s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.154s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.154s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_c__pyext[0m
+[1.155s] [ 97%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.155s] [ 98%] Built target mycobot_interfaces__rosidl_typesupport_c__pyext
+[1.155s] [100%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.157s] running egg_info
+[1.158s] writing mycobot_interfaces.egg-info/PKG-INFO
+[1.158s] writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt
+[1.158s] writing top-level names to mycobot_interfaces.egg-info/top_level.txt
+[1.158s] reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[1.158s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[1.158s] [100%] Built target ament_cmake_python_build_mycobot_interfaces_egg
+[1.176s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_interfaces -- -j16 -l16
+[2.674s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_interfaces
+[2.690s] -- Install configuration: ""
+[2.691s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/mycobot_interfaces
+[2.692s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[2.694s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[2.696s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_angles.h
+[2.697s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_coords.h
+[2.698s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_angles.h
+[2.698s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.699s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[2.699s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__functions.h
+[2.701s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__functions.h
+[2.701s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__struct.h
+[2.702s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__functions.c
+[2.702s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__struct.h
+[2.703s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__functions.c
+[2.703s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__struct.h
+[2.703s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.h
+[2.704s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.h
+[2.705s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__functions.c
+[2.705s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__struct.h
+[2.706s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__functions.c
+[2.707s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__struct.h
+[2.707s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.h
+[2.707s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__functions.h
+[2.707s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.h
+[2.708s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.h
+[2.708s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__functions.c
+[2.708s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__functions.c
+[2.708s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.h
+[2.709s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__functions.h
+[2.709s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__functions.h
+[2.709s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__functions.h
+[2.710s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.h
+[2.710s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_pump_status.h
+[2.710s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_gripper_status.h
+[2.710s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_coords.h
+[2.710s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[2.711s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_angles.h
+[2.711s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[2.711s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__struct.h
+[2.711s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__functions.h
+[2.713s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__functions.c
+[2.714s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__functions.h
+[2.714s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__struct.h
+[2.714s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.h
+[2.714s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__struct.h
+[2.715s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.h
+[2.715s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__functions.c
+[2.715s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__functions.h
+[2.715s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__functions.h
+[2.715s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__functions.c
+[2.716s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.h
+[2.716s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__functions.c
+[2.716s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.h
+[2.716s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.h
+[2.717s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__struct.h
+[2.717s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__functions.c
+[2.717s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.h
+[2.717s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__functions.h
+[2.717s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__struct.h
+[2.717s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__functions.c
+[2.718s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__struct.h
+[2.718s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__functions.h
+[2.718s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_angles.h
+[2.719s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/gripper_status.h
+[2.719s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_coords.h
+[2.719s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/pump_status.h
+[2.719s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_coords.h
+[2.720s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.sh
+[2.720s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/library_path.dsv
+[2.720s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_c.so
+[2.721s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[2.721s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[2.721s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.721s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[2.721s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_fastrtps_c.h
+[2.721s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_fastrtps_c.h
+[2.721s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_fastrtps_c.h
+[2.722s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_fastrtps_c.h
+[2.722s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_fastrtps_c.h
+[2.722s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_fastrtps_c.h
+[2.722s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[2.723s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[2.723s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_c.h
+[2.723s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_c.h
+[2.723s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_c.h
+[2.723s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_c.h
+[2.727s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h
+[2.727s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[2.727s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.727s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[2.728s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[2.728s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[2.728s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_introspection_c.h
+[2.728s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.c
+[2.729s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.c
+[2.730s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_c.h
+[2.730s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.c
+[2.731s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_c.h
+[2.731s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_introspection_c.h
+[2.731s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_introspection_c.h
+[2.731s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.c
+[2.733s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.c
+[2.734s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.c
+[2.735s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_introspection_c.h
+[2.735s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.735s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[2.735s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[2.736s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.c
+[2.736s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_c.h
+[2.736s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.c
+[2.736s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.c
+[2.736s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h
+[2.736s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.c
+[2.736s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_c.h
+[2.737s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.c
+[2.737s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.c
+[2.737s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[2.737s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_c.h
+[2.737s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_c.h
+[2.737s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_c.so
+[2.737s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_c.so
+[2.738s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[2.738s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[2.738s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_coords.hpp
+[2.738s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_gripper_status.hpp
+[2.738s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_pump_status.hpp
+[2.738s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_angles.hpp
+[2.738s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[2.738s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__builder.hpp
+[2.739s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__builder.hpp
+[2.739s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__struct.hpp
+[2.739s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__traits.hpp
+[2.739s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__struct.hpp
+[2.739s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__builder.hpp
+[2.739s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__builder.hpp
+[2.739s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__struct.hpp
+[2.740s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__traits.hpp
+[2.740s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__builder.hpp
+[2.740s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__struct.hpp
+[2.740s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__builder.hpp
+[2.741s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__traits.hpp
+[2.741s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__struct.hpp
+[2.741s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__struct.hpp
+[2.741s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__traits.hpp
+[2.741s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__traits.hpp
+[2.741s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__traits.hpp
+[2.742s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_coords.hpp
+[2.742s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/mycobot_set_angles.hpp
+[2.742s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[2.742s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_coords.hpp
+[2.742s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/gripper_status.hpp
+[2.742s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_coords.hpp
+[2.743s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[2.743s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__struct.hpp
+[2.743s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__builder.hpp
+[2.743s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__traits.hpp
+[2.743s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__builder.hpp
+[2.743s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__traits.hpp
+[2.743s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__struct.hpp
+[2.744s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__builder.hpp
+[2.744s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__struct.hpp
+[2.744s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__builder.hpp
+[2.744s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__builder.hpp
+[2.745s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__traits.hpp
+[2.745s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__traits.hpp
+[2.745s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__struct.hpp
+[2.745s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__struct.hpp
+[2.745s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__traits.hpp
+[2.745s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__traits.hpp
+[2.745s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__builder.hpp
+[2.746s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__struct.hpp
+[2.746s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/set_angles.hpp
+[2.746s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/get_angles.hpp
+[2.746s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/pump_status.hpp
+[2.746s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[2.746s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[2.746s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[2.746s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/dds_fastrtps
+[2.747s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[2.748s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.748s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[2.749s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[2.749s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.749s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/dds_fastrtps
+[2.749s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[2.749s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[2.750s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.750s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[2.750s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.750s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.750s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces
+[2.750s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg
+[2.750s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail
+[2.751s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__rosidl_typesupport_introspection_cpp.hpp
+[2.751s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__rosidl_typesupport_introspection_cpp.hpp
+[2.751s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__type_support.cpp
+[2.751s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__type_support.cpp
+[2.751s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_pump_status__type_support.cpp
+[2.751s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.751s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[2.752s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.752s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__type_support.cpp
+[2.752s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_angles__type_support.cpp
+[2.752s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_set_coords__type_support.cpp
+[2.753s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/msg/detail/mycobot_coords__rosidl_typesupport_introspection_cpp.hpp
+[2.753s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv
+[2.753s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail
+[2.753s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__type_support.cpp
+[2.753s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__type_support.cpp
+[2.753s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_cpp.hpp
+[2.753s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__type_support.cpp
+[2.754s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.754s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_cpp.hpp
+[2.754s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp
+[2.754s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/pump_status__type_support.cpp
+[2.754s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__type_support.cpp
+[2.754s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[2.754s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_cpp.hpp
+[2.755s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/include/mycobot_interfaces/mycobot_interfaces/srv/detail/get_angles__type_support.cpp
+[2.755s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.755s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_typesupport_cpp.so
+[2.755s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.sh
+[2.755s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/pythonpath.dsv
+[2.755s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info
+[2.756s] -- Installing: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.756s] -- Installing: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.756s] -- Installing: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.757s] -- Installing: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.757s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces
+[2.757s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c
+[2.757s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.757s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.757s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/__init__.py
+[2.757s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg
+[2.757s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_coords_s.c
+[2.758s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_angles.py
+[2.758s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_coords.py
+[2.758s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_angles_s.c
+[2.758s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_gripper_status_s.c
+[2.758s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_angles_s.c
+[2.758s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/__init__.py
+[2.758s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_pump_status_s.c
+[2.759s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_coords_s.c
+[2.759s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_gripper_status.py
+[2.759s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_pump_status.py
+[2.759s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_angles.py
+[2.759s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg/_mycobot_set_coords.py
+[2.759s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.759s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.760s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/libmycobot_interfaces__rosidl_generator_py.so
+[2.760s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.761s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv
+[2.761s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_angles.py
+[2.761s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_coords_s.c
+[2.761s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_gripper_status.py
+[2.762s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_pump_status.py
+[2.762s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/__init__.py
+[2.762s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_angles.py
+[2.762s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_coords.py
+[2.762s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_pump_status_s.c
+[2.762s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_coords.py
+[2.763s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_gripper_status_s.c
+[2.763s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_coords_s.c
+[2.763s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_set_angles_s.c
+[2.763s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv/_get_angles_s.c
+[2.800s] Listing '/home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces'...
+[2.800s] Listing '/home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/msg'...
+[2.801s] Listing '/home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/srv'...
+[2.809s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.810s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.811s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.813s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/lib/libmycobot_interfaces__rosidl_generator_py.so
+[2.814s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.idl
+[2.814s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.idl
+[2.814s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.idl
+[2.814s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.idl
+[2.816s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.idl
+[2.816s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.idl
+[2.817s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.idl
+[2.817s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.idl
+[2.817s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.idl
+[2.817s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.idl
+[2.817s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.idl
+[2.817s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.idl
+[2.818s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotAngles.msg
+[2.819s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotCoords.msg
+[2.819s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetAngles.msg
+[2.820s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotSetCoords.msg
+[2.820s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotGripperStatus.msg
+[2.820s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/msg/MycobotPumpStatus.msg
+[2.821s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles.srv
+[2.821s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles_Request.msg
+[2.821s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetAngles_Response.msg
+[2.821s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles.srv
+[2.821s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles_Request.msg
+[2.822s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetAngles_Response.msg
+[2.822s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords.srv
+[2.823s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords_Request.msg
+[2.823s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GetCoords_Response.msg
+[2.823s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords.srv
+[2.823s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords_Request.msg
+[2.824s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/SetCoords_Response.msg
+[2.824s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus.srv
+[2.824s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus_Request.msg
+[2.824s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/GripperStatus_Response.msg
+[2.824s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus.srv
+[2.824s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus_Request.msg
+[2.825s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/srv/PumpStatus_Response.msg
+[2.825s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/package_run_dependencies/mycobot_interfaces
+[2.825s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/parent_prefix_path/mycobot_interfaces
+[2.825s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/ament_prefix_path.sh
+[2.826s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/ament_prefix_path.dsv
+[2.826s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/path.sh
+[2.826s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/environment/path.dsv
+[2.826s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.bash
+[2.826s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.sh
+[2.826s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.zsh
+[2.827s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/local_setup.dsv
+[2.827s] -- Installing: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.dsv
+[2.827s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/ament_index/resource_index/packages/mycobot_interfaces
+[2.827s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cExport.cmake
+[2.828s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.829s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.829s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.829s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.829s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.829s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cExport.cmake
+[2.830s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.830s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_cppExport.cmake
+[2.830s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.830s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.830s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.831s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.831s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cppExport.cmake
+[2.831s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.831s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_pyExport.cmake
+[2.832s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/export_mycobot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.832s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.832s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.833s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.833s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.833s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.833s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.833s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.834s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfacesConfig.cmake
+[2.835s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/cmake/mycobot_interfacesConfig-version.cmake
+[2.835s] -- Up-to-date: /home/coleman/ros2_ws/install/mycobot_interfaces/share/mycobot_interfaces/package.xml
+[2.842s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_interfaces

@@ -1,0 +1,94 @@
+[2.232s] Invoking command in '/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_280': AMENT_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_interfaces:/home/coleman/ros2_ws/install/mycobot_description:/home/coleman/ros2_ws/install/mycobot_ros2:/home/coleman/ros2_ws/install/mycobot_moveit_config:/home/coleman/ros2_ws/install/mycobot_gazebo LD_LIBRARY_PATH=/home/coleman/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/coleman/ros2_ws/build/mycobot_280/prefix_override:/home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:/home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280 build --build-base /home/coleman/ros2_ws/build/mycobot_280/build install --record /home/coleman/ros2_ws/build/mycobot_280/install.log --single-version-externally-managed install_data
+[2.753s] running egg_info
+[2.754s] creating ../../../../build/mycobot_280/mycobot_280.egg-info
+[2.754s] writing ../../../../build/mycobot_280/mycobot_280.egg-info/PKG-INFO
+[2.755s] writing dependency_links to ../../../../build/mycobot_280/mycobot_280.egg-info/dependency_links.txt
+[2.756s] writing entry points to ../../../../build/mycobot_280/mycobot_280.egg-info/entry_points.txt
+[2.756s] writing requirements to ../../../../build/mycobot_280/mycobot_280.egg-info/requires.txt
+[2.756s] writing top-level names to ../../../../build/mycobot_280/mycobot_280.egg-info/top_level.txt
+[2.756s] writing manifest file '../../../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+[2.760s] reading manifest file '../../../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+[2.760s] adding license file 'LICENSE'
+[2.763s] writing manifest file '../../../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+[2.763s] running build
+[2.764s] running build_py
+[2.764s] creating /home/coleman/ros2_ws/build/mycobot_280/build
+[2.765s] creating /home/coleman/ros2_ws/build/mycobot_280/build/lib
+[2.766s] creating /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.766s] copying mycobot_280/listen_real_of_topic.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.766s] copying mycobot_280/teleop_keyboard.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.767s] copying mycobot_280/detect_marker.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.767s] copying mycobot_280/follow_and_pump.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.767s] copying mycobot_280/__init__.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.768s] copying mycobot_280/following_marker.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.768s] copying mycobot_280/opencv_camera.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.768s] copying mycobot_280/simple_gui.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.768s] copying mycobot_280/slider_control.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.769s] copying mycobot_280/listen_real.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.769s] copying mycobot_280/follow_display.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.770s] copying mycobot_280/camera_display.py -> /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[2.770s] running install
+[2.771s] running install_lib
+[2.773s] creating /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.774s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/listen_real_of_topic.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.774s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/teleop_keyboard.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.774s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/detect_marker.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.775s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/follow_and_pump.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.775s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/__init__.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.777s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/following_marker.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.779s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/opencv_camera.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.779s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/simple_gui.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.779s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/slider_control.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.779s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/listen_real.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.780s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/follow_display.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.780s] copying /home/coleman/ros2_ws/build/mycobot_280/build/lib/mycobot_280/camera_display.py -> /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[2.782s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+[2.783s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[2.788s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/detect_marker.py to detect_marker.cpython-310.pyc
+[2.788s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/follow_and_pump.py to follow_and_pump.cpython-310.pyc
+[2.791s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/__init__.py to __init__.cpython-310.pyc
+[2.792s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/following_marker.py to following_marker.cpython-310.pyc
+[2.792s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/opencv_camera.py to opencv_camera.cpython-310.pyc
+[2.793s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/simple_gui.py to simple_gui.cpython-310.pyc
+[2.798s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/slider_control.py to slider_control.cpython-310.pyc
+[2.800s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/listen_real.py to listen_real.cpython-310.pyc
+[2.801s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/follow_display.py to follow_display.cpython-310.pyc
+[2.804s] byte-compiling /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/camera_display.py to camera_display.cpython-310.pyc
+[2.805s] running install_data
+[2.805s] creating /home/coleman/ros2_ws/install/mycobot_280/share/ament_index
+[2.805s] creating /home/coleman/ros2_ws/install/mycobot_280/share/ament_index/resource_index
+[2.806s] creating /home/coleman/ros2_ws/install/mycobot_280/share/ament_index/resource_index/packages
+[2.806s] copying resource/mycobot_280 -> /home/coleman/ros2_ws/install/mycobot_280/share/ament_index/resource_index/packages
+[2.806s] copying package.xml -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280
+[2.806s] creating /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.806s] copying launch/slider_control_camera_flange.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.807s] copying launch/slider_control.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.809s] copying launch/mycobot_follow.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.809s] copying launch/simple_gui.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.809s] copying launch/teleop_keyboard.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.810s] copying launch/simple_gui_pump.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.811s] copying launch/detect_marker.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.811s] copying launch/test_camera_flange_pump.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.811s] copying launch/test_camera_flange.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.812s] copying launch/detect_marker_with_topic.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.812s] copying launch/test_pump.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.813s] copying launch/test.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.813s] copying launch/slider_control_pump.launch.py -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[2.813s] creating /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/config
+[2.815s] copying config/mycobot_with_marker.rviz -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/config
+[2.815s] copying config/mycobot.rviz -> /home/coleman/ros2_ws/install/mycobot_280/share/mycobot_280/config
+[2.815s] running install_egg_info
+[2.820s] Copying ../../../../build/mycobot_280/mycobot_280.egg-info to /home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280-0.0.0-py3.10.egg-info
+[2.821s] running install_scripts
+[2.861s] Installing camera_display script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.862s] Installing detect_marker script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.863s] Installing follow_display script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.863s] Installing following_marker script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.864s] Installing listen_real script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.864s] Installing listen_real_of_topic script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.865s] Installing opencv_camera script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.865s] Installing simple_gui script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.866s] Installing slider_control script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.867s] Installing teleop_keyboard script to /home/coleman/ros2_ws/install/mycobot_280/lib/mycobot_280
+[2.868s] writing list of installed files to '/home/coleman/ros2_ws/build/mycobot_280/install.log'
+[2.919s] Invoked command in '/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_280/mycobot_280' returned '0': AMENT_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/coleman/ros2_ws/install/mycobot_interfaces:/home/coleman/ros2_ws/install/mycobot_description:/home/coleman/ros2_ws/install/mycobot_ros2:/home/coleman/ros2_ws/install/mycobot_moveit_config:/home/coleman/ros2_ws/install/mycobot_gazebo LD_LIBRARY_PATH=/home/coleman/ros2_ws/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/coleman/ros2_ws/build/mycobot_280/prefix_override:/home/coleman/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:/home/coleman/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/mycobot_280 build --build-base /home/coleman/ros2_ws/build/mycobot_280/build install --record /home/coleman/ros2_ws/build/mycobot_280/install.log --single-version-externally-managed install_data

@@ -1,0 +1,12 @@
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotAngles.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotCoords.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotSetAngles.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotSetCoords.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotGripperStatus.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotPumpStatus.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GetAngles.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/SetAngles.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GetCoords.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/SetCoords.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GripperStatus.idl
+/home/coleman/ros2_ws/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/PumpStatus.idl

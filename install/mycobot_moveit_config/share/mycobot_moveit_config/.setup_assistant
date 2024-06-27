@@ -1,10 +1,25 @@
 moveit_setup_assistant_config:
   urdf:
-    package: mycobot_gazebo
-    relative_path: urdf/ros2_control/classic_gazebo/mycobot_280.urdf.xacro
+    package: mycobot_description
+    relative_path: urdf/mycobot_280_urdf.xacro
   srdf:
-    relative_path: config/mycobot_280.srdf
+    relative_path: config/firefighter.srdf
   package_settings:
     author_name: coleman
     author_email: chrfarvolden@gmail.com
-    generated_timestamp: 1718773074
+    generated_timestamp: 1719514687
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
