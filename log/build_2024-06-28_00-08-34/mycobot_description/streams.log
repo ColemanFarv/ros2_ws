@@ -1,0 +1,11 @@
+[0.048s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_description -- -j16 -l16
+[0.119s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/coleman/ros2_ws/build/mycobot_description -- -j16 -l16
+[0.188s] Invoking command in '/home/coleman/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_description
+[0.203s] -- Install configuration: ""
+[0.203s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.203s]   file INSTALL cannot find
+[0.204s]   "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_description/launch": No
+[0.204s]   such file or directory.
+[0.204s] 
+[0.206s] [0m
+[0.208s] Invoked command in '/home/coleman/ros2_ws/build/mycobot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/coleman/ros2_ws/build/mycobot_description

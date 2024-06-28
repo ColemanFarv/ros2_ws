@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/launch
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.stl
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/spectrometer.stl
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/holder.stl
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.stl
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.stl
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.stl
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.stl
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.stl
+-- Up-to-date: /home/coleman/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.stl
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_description/rviz": No such
+  file or directory.
+
+[0m
