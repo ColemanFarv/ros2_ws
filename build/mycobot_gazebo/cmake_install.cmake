@@ -47,15 +47,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/config"
     "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/launch"
     "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/models"
-    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/scripts"
-    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/src"
     "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/urdf"
     "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/worlds"
     )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

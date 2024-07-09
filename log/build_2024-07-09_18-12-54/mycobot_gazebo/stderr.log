@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:56 (file):
+  file INSTALL cannot find
+  "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/include": No such file
+  or directory.
+
+[0m

@@ -1,0 +1,25 @@
+[0.033s] Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target maybe_error[0m
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target no_discard[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target validate_in[0m
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target result[0m
+[0.153s] [ 10%] Built target maybe_error
+[0.168s] [ 20%] Built target validate_in
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target validate_range[0m
+[0.191s] [ 30%] Built target no_discard
+[0.211s] [ 40%] Built target result
+[0.252s] [ 50%] Built target validate_range
+[0.253s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.279s] [ 60%] Built target gtest_main
+[0.326s] [ 65%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.073s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.164s] [ 70%] Built target gtest
+[5.208s] [ 75%] [32mBuilding CXX object test/CMakeFiles/validate_tests.dir/validate_tests.cpp.o[0m
+[5.229s] [ 80%] [32mBuilding CXX object test/CMakeFiles/result_tests.dir/result_tests.cpp.o[0m
+[5.237s] [ 85%] [32mBuilding CXX object test/CMakeFiles/mbind_tests.dir/mbind_tests.cpp.o[0m
+[8.687s] [ 90%] [32m[1mLinking CXX executable mbind_tests[0m
+[8.885s] [ 90%] Built target mbind_tests
+[10.368s] [ 95%] [32m[1mLinking CXX executable validate_tests[0m
+[10.627s] [ 95%] Built target validate_tests
+[11.045s] [100%] [32m[1mLinking CXX executable result_tests[0m
+[11.277s] [100%] Built target result_tests

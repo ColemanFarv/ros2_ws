@@ -1,0 +1,23 @@
+[0.042s] Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.143s] [  5%] [32mBuilding CXX object examples/CMakeFiles/result.dir/result.cpp.o[0m
+[0.177s] [ 10%] [32mBuilding CXX object examples/CMakeFiles/maybe_error.dir/maybe_error.cpp.o[0m
+[0.201s] [ 15%] [32mBuilding CXX object examples/CMakeFiles/validate_in.dir/validate_in.cpp.o[0m
+[0.259s] [ 20%] [32mBuilding CXX object examples/CMakeFiles/no_discard.dir/no_discard.cpp.o[0m
+[6.799s] [ 25%] [32m[1mLinking CXX executable no_discard[0m
+[7.011s] [ 30%] [32m[1mLinking CXX executable validate_in[0m
+[7.051s] [ 30%] Built target no_discard
+[7.132s] [ 35%] [32mBuilding CXX object examples/CMakeFiles/validate_range.dir/validate_range.cpp.o[0m
+[7.177s] [ 40%] [32m[1mLinking CXX executable maybe_error[0m
+[7.195s] [ 40%] Built target validate_in
+[7.229s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.325s] [ 45%] Built target maybe_error
+[7.377s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.364s] [ 55%] [32m[1mLinking CXX executable result[0m
+[8.569s] [ 55%] Built target result
+[8.750s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.819s] [ 60%] Built target gtest_main
+[11.003s] [ 65%] [32m[1mLinking CXX executable validate_range[0m
+[11.155s] [ 65%] Built target validate_range
+[11.793s] gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+[11.795s] gmake[1]: *** [CMakeFiles/Makefile2:411: gtest/CMakeFiles/gtest.dir/all] Interrupt
+[11.795s] gmake: *** [Makefile:146: all] Interrupt

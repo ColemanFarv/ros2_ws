@@ -44,9 +44,7 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_description" TYPE DIRECTORY FILES
-    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description/launch"
     "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description/meshes"
-    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description/rviz"
     "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description/urdf"
     )
 endif()

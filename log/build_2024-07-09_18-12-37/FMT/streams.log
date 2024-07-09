@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake /home/jelly/ros2_ws/src/fmt -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/FMT
+[0.040s] -- CMake version: 3.22.1
+[0.253s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.409s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.414s] -- {fmt} version: 11.0.1
+[0.414s] -- Build type: Release
+[0.422s] -- Target 'doc' disabled because doxygen not found
+[0.424s] -- Looking for C++ include pthread.h
+[0.548s] -- Looking for C++ include pthread.h - found
+[0.548s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.683s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.684s] -- Found Threads: TRUE  
+[0.689s] -- Looking for strptime
+[0.838s] -- Looking for strptime - found
+[0.903s] -- FMT_PEDANTIC: OFF
+[0.914s] -- Configuring done
+[0.959s] -- Generating done
+[0.962s] -- Build files have been written to: /home/jelly/ros2_ws/build/FMT

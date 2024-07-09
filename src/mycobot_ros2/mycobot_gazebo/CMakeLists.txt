@@ -35,14 +35,10 @@ include_directories(include)
 
 # Copy necessary files to designated locations in the project
 install (
-  DIRECTORY config launch models scripts src urdf worlds
+  DIRECTORY config launch models urdf worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
-install(
-  DIRECTORY include/
-  DESTINATION include
-)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

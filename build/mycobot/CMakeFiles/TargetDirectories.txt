@@ -1,0 +1,12 @@
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/uninstall.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/mycobot_uninstall.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/mycobot.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/wiggle.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/test_mycobot.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/test.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/edit_cache.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/rebuild_cache.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/list_install_components.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/install.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/install/local.dir
+/home/jelly/ros2_ws/build/mycobot/CMakeFiles/install/strip.dir

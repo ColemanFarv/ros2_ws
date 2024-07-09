@@ -1,0 +1,1 @@
+Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4

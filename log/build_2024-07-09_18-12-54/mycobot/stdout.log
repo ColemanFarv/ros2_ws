@@ -1,0 +1,32 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found fp: 0.0.1 (/home/jelly/ros2_ws/install/fp/share/fp/cmake)
+-- Found serial: 1.2.1 (/home/jelly/ros2_ws/install/serial/share/serial/cmake)
+-- Found catch2: 2.13.8 (/home/jelly/ros2_ws/install/catch2/share/catch2/cmake)
+-- Found ament_cmake_catch2: 1.2.1 (/opt/ros/humble/share/ament_cmake_catch2/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jelly/ros2_ws/build/mycobot
+[  8%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/mycobot.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/detect.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/command.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/process_received.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/serialize.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libmycobot.a[0m
+[ 50%] Built target mycobot
+[ 58%] [32mBuilding CXX object CMakeFiles/test_mycobot.dir/test/test_serialize.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_mycobot.dir/test/main.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/wiggle.dir/bringup/wiggle.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/test_mycobot.dir/test/test_process_received.cpp.o[0m

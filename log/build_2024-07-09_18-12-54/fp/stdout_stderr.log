@@ -1,0 +1,44 @@
+[ 10%] Built target result
+[ 20%] Built target no_discard
+[ 30%] Built target maybe_error
+[ 40%] Built target validate_in
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 50%] Built target validate_range
+[ 60%] Built target gtest_main
+[ 70%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target mbind_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target result_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target validate_tests[0m
+[ 80%] Built target mbind_tests
+[ 90%] Built target result_tests
+[100%] Built target validate_tests
+-- Install configuration: ""
+-- Installing: /home/jelly/ros2_ws/install/fp/include/
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp/all.hpp
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp/monad.hpp
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp/result.hpp
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp/_external
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp/_external/expected.hpp
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp/no_discard.hpp
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp/macros.hpp
+-- Installing: /home/jelly/ros2_ws/install/fp/include//fp/validate.hpp
+-- Installing: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/package_run_dependencies/fp
+-- Installing: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/parent_prefix_path/fp
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.sh
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.dsv
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.sh
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.dsv
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.bash
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.sh
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.zsh
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.dsv
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/package.dsv
+-- Installing: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/packages/fp
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpTargetsExport.cmake
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig.cmake
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig-version.cmake
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/package.xml

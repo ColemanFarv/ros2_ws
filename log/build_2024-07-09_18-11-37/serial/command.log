@@ -1,0 +1,1 @@
+Invoking command in '/home/jelly/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/serial
