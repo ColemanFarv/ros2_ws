@@ -1,0 +1,59 @@
+[1.442s] Invoking command in '/home/jelly/ros2_ws/mycobot_ros2/mecharm/mecharm_communication': PYTHONPATH=/home/jelly/ros2_ws/build/mecharm_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mecharm_communication build --build-base /home/jelly/ros2_ws/build/mecharm_communication/build install --record /home/jelly/ros2_ws/build/mecharm_communication/install.log --single-version-externally-managed install_data
+[2.017s] running egg_info
+[2.017s] creating ../../../build/mecharm_communication/mecharm_communication.egg-info
+[2.042s] writing ../../../build/mecharm_communication/mecharm_communication.egg-info/PKG-INFO
+[2.043s] writing dependency_links to ../../../build/mecharm_communication/mecharm_communication.egg-info/dependency_links.txt
+[2.043s] writing entry points to ../../../build/mecharm_communication/mecharm_communication.egg-info/entry_points.txt
+[2.043s] writing requirements to ../../../build/mecharm_communication/mecharm_communication.egg-info/requires.txt
+[2.043s] writing top-level names to ../../../build/mecharm_communication/mecharm_communication.egg-info/top_level.txt
+[2.044s] writing manifest file '../../../build/mecharm_communication/mecharm_communication.egg-info/SOURCES.txt'
+[2.044s] reading manifest file '../../../build/mecharm_communication/mecharm_communication.egg-info/SOURCES.txt'
+[2.044s] writing manifest file '../../../build/mecharm_communication/mecharm_communication.egg-info/SOURCES.txt'
+[2.044s] running build
+[2.045s] running build_py
+[2.045s] creating /home/jelly/ros2_ws/build/mecharm_communication/build
+[2.045s] creating /home/jelly/ros2_ws/build/mecharm_communication/build/lib
+[2.045s] creating /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication
+[2.045s] copying mecharm_communication/mecharm_topics.py -> /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication
+[2.046s] copying mecharm_communication/__init__.py -> /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication
+[2.046s] copying mecharm_communication/mecharm_services.py -> /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication
+[2.046s] copying mecharm_communication/mecharm_topics_jsnn.py -> /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication
+[2.046s] copying mecharm_communication/mecharm_topics_seeed.py -> /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication
+[2.046s] copying mecharm_communication/mecharm_topics_pi.py -> /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication
+[2.047s] running install
+[2.047s] running install_lib
+[2.047s] creating /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication
+[2.047s] copying /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication/mecharm_topics.py -> /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication
+[2.047s] copying /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication/__init__.py -> /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication
+[2.048s] copying /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication/mecharm_services.py -> /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication
+[2.053s] copying /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication/mecharm_topics_jsnn.py -> /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication
+[2.055s] copying /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication/mecharm_topics_seeed.py -> /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication
+[2.056s] copying /home/jelly/ros2_ws/build/mecharm_communication/build/lib/mecharm_communication/mecharm_topics_pi.py -> /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication
+[2.056s] byte-compiling /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication/mecharm_topics.py to mecharm_topics.cpython-310.pyc
+[2.057s] byte-compiling /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication/__init__.py to __init__.cpython-310.pyc
+[2.057s] byte-compiling /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication/mecharm_services.py to mecharm_services.cpython-310.pyc
+[2.058s] byte-compiling /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication/mecharm_topics_jsnn.py to mecharm_topics_jsnn.cpython-310.pyc
+[2.059s] byte-compiling /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication/mecharm_topics_seeed.py to mecharm_topics_seeed.cpython-310.pyc
+[2.061s] byte-compiling /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication/mecharm_topics_pi.py to mecharm_topics_pi.cpython-310.pyc
+[2.079s] running install_data
+[2.079s] creating /home/jelly/ros2_ws/install/mecharm_communication/share/ament_index
+[2.079s] creating /home/jelly/ros2_ws/install/mecharm_communication/share/ament_index/resource_index
+[2.091s] creating /home/jelly/ros2_ws/install/mecharm_communication/share/ament_index/resource_index/packages
+[2.091s] copying resource/mecharm_communication -> /home/jelly/ros2_ws/install/mecharm_communication/share/ament_index/resource_index/packages
+[2.091s] copying package.xml -> /home/jelly/ros2_ws/install/mecharm_communication/share/mecharm_communication
+[2.091s] creating /home/jelly/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.092s] copying launch/communication_jsnn.launch.py -> /home/jelly/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.092s] copying launch/communication_topic_pi.launch.py -> /home/jelly/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.092s] copying launch/communication_service.launch.py -> /home/jelly/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.092s] copying launch/communication_topic.launch.py -> /home/jelly/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.093s] copying launch/communication_seeed.launch.py -> /home/jelly/ros2_ws/install/mecharm_communication/share/mecharm_communication/launch
+[2.093s] running install_egg_info
+[2.093s] Copying ../../../build/mecharm_communication/mecharm_communication.egg-info to /home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages/mecharm_communication-0.0.0-py3.10.egg-info
+[2.094s] running install_scripts
+[2.131s] Installing mecharm_services script to /home/jelly/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[2.132s] Installing mycobot_topics script to /home/jelly/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[2.132s] Installing mycobot_topics_jsnn script to /home/jelly/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[2.132s] Installing mycobot_topics_pi script to /home/jelly/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[2.132s] Installing mycobot_topics_seeed script to /home/jelly/ros2_ws/install/mecharm_communication/lib/mecharm_communication
+[2.133s] writing list of installed files to '/home/jelly/ros2_ws/build/mecharm_communication/install.log'
+[2.176s] Invoked command in '/home/jelly/ros2_ws/mycobot_ros2/mecharm/mecharm_communication' returned '0': PYTHONPATH=/home/jelly/ros2_ws/build/mecharm_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/ros2_ws/install/mecharm_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mecharm_communication build --build-base /home/jelly/ros2_ws/build/mecharm_communication/build install --record /home/jelly/ros2_ws/build/mecharm_communication/install.log --single-version-externally-managed install_data

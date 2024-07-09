@@ -1,0 +1,85 @@
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 107, in _call_userfunc
+    f = getattr(self, tree.data)
+AttributeError: 'PrepareGrammar' object has no attribute 'range'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>
+gmake[2]: *** [CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/build.make:341: CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_angles__functions.c.o] Interrupt
+gmake[2]: *** [CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/build.make:355: CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_coords__functions.c.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/all] Interrupt
+    generate_cpp(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp
+    return generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 333, in __init__
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main
+    generate_cpp(args.generator_arguments_file, args.typesupports)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp
+    self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1408, in load_grammar
+    return generate_files(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    builder.load_grammar(grammar, source)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1233, in load_grammar
+    tree = _parse_grammar(grammar_text, grammar_name)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 961, in _parse_grammar
+    tree = _get_parser().parse(text + '\n', start)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+    return self.parser.parse(stream, chosen_start, **kw)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 41, in parse
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    return self.parser.parse(lexer, start)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 171, in parse
+    return self.parse_from_state(parser_state)
+  File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 178, in parse_from_state
+    for token in state.lexer.lex(state):
+  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 453, in lex
+    yield self.next_token(state, parser_state)
+  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 469, in next_token
+    if type_ not in self.ignore_types:
+KeyboardInterrupt
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 333, in __init__
+    self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1408, in load_grammar
+    builder.load_grammar(grammar, source)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1233, in load_grammar
+    tree = _parse_grammar(grammar_text, grammar_name)
+  File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 973, in _parse_grammar
+    return PrepareGrammar().transform(tree)
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 272, in transform
+    subtree.children = list(self._transform_children(subtree.children))
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 138, in _transform_children
+    res = self._transform_tree(c)
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 268, in _transform_tree
+    return self._call_userfunc(tree)
+  File "/usr/lib/python3/dist-packages/lark/visitors.py", line 109, in _call_userfunc
+    return self.__default__(tree.data, children, tree.meta)
+  File "/usr/lib/python3/dist-packages/lark/tree.py", line 57, in meta
+    @property
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/build.make:123: rosidl_typesupport_cpp/mecharm_interfaces/msg/mecharm_angles__type_support.cpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:125: rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/msg/detail/dds_fastrtps/mecharm_angles__type_support.cpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

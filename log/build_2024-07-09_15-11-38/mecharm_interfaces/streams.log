@@ -1,0 +1,144 @@
+[0.035s] Invoking command in '/home/jelly/ros2_ws/build/mecharm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/mycobot_ros2/mecharm/mecharm_interfaces -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mecharm_interfaces
+[0.175s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.324s] -- Detecting C compiler ABI info
+[0.476s] -- Detecting C compiler ABI info - done
+[0.521s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.522s] -- Detecting C compile features
+[0.523s] -- Detecting C compile features - done
+[0.528s] -- Detecting CXX compiler ABI info
+[0.733s] -- Detecting CXX compiler ABI info - done
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.760s] -- Detecting CXX compile features
+[0.760s] -- Detecting CXX compile features - done
+[0.762s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.134s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.331s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.360s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.442s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.504s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[1.507s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[2.630s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.951s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.993s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.995s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.037s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.038s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.038s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.038s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.101s] -- Found PythonExtra: .so  
+[4.352s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.431s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.445s] -- Added test 'lint_cmake' to check CMake code style
+[4.447s] -- Added test 'xmllint' to check XML markup files
+[4.451s] -- Configuring done
+[4.660s] -- Generating done
+[4.661s] -- Build files have been written to: /home/jelly/ros2_ws/build/mecharm_interfaces
+[4.690s] Invoked command in '/home/jelly/ros2_ws/build/mecharm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/mycobot_ros2/mecharm/mecharm_interfaces -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mecharm_interfaces
+[4.704s] Invoking command in '/home/jelly/ros2_ws/build/mecharm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mecharm_interfaces -- -j4 -l4
+[4.940s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.001s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.050s] [  1%] Built target ament_cmake_python_copy_mecharm_interfaces
+[5.957s] running egg_info
+[5.957s] creating mecharm_interfaces.egg-info
+[5.958s] writing mecharm_interfaces.egg-info/PKG-INFO
+[5.958s] writing dependency_links to mecharm_interfaces.egg-info/dependency_links.txt
+[5.961s] writing top-level names to mecharm_interfaces.egg-info/top_level.txt
+[5.961s] writing manifest file 'mecharm_interfaces.egg-info/SOURCES.txt'
+[5.961s] reading manifest file 'mecharm_interfaces.egg-info/SOURCES.txt'
+[5.973s] writing manifest file 'mecharm_interfaces.egg-info/SOURCES.txt'
+[6.116s] [  1%] Built target ament_cmake_python_build_mecharm_interfaces_egg
+[9.835s] [  1%] Built target mecharm_interfaces__cpp
+[9.885s] [  2%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_angles__functions.c.o[0m
+[9.901s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.925s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.929s] [  4%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_coords__functions.c.o[0m
+[10.104s] [  5%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_angles__functions.c.o[0m
+[10.270s] [  5%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_coords__functions.c.o[0m
+[10.316s] Traceback (most recent call last):
+[10.316s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>
+[10.316s]     sys.exit(main())
+[10.316s]   File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main
+[10.317s] Traceback (most recent call last):
+[10.317s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 107, in _call_userfunc
+[10.319s]     f = getattr(self, tree.data)
+[10.319s] AttributeError: 'PrepareGrammar' object has no attribute 'range'
+[10.319s] 
+[10.319s] During handling of the above exception, another exception occurred:
+[10.319s] 
+[10.319s] Traceback (most recent call last):
+[10.319s]   File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>
+[10.323s] gmake[2]: *** [CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/build.make:341: CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_angles__functions.c.o] Interrupt
+[10.323s] gmake[2]: *** [CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/build.make:355: CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_coords__functions.c.o] Interrupt
+[10.324s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/all] Interrupt
+[10.324s]     generate_cpp(args.generator_arguments_file)
+[10.325s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp
+[10.325s]     return generate_files(generator_arguments_file, mapping)
+[10.325s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[10.325s]     idl_file = parse_idl_file(locator)
+[10.325s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[10.325s]     content = parse_idl_string(string, png_file=png_file)
+[10.325s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[10.325s]     tree = get_ast_from_idl_string(idl_string)
+[10.325s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[10.325s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[10.325s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 333, in __init__
+[10.330s]     sys.exit(main())
+[10.330s]   File "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main
+[10.331s]     generate_cpp(args.generator_arguments_file, args.typesupports)
+[10.331s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp
+[10.331s]     self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)
+[10.331s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1408, in load_grammar
+[10.331s]     return generate_files(
+[10.332s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[10.332s]     idl_file = parse_idl_file(locator)
+[10.332s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[10.332s]     builder.load_grammar(grammar, source)
+[10.332s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1233, in load_grammar
+[10.332s]     tree = _parse_grammar(grammar_text, grammar_name)
+[10.333s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 961, in _parse_grammar
+[10.333s]     tree = _get_parser().parse(text + '\n', start)
+[10.333s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[10.333s]     return self.parser.parse(stream, chosen_start, **kw)
+[10.333s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 41, in parse
+[10.334s]     content = parse_idl_string(string, png_file=png_file)
+[10.335s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[10.335s]     return self.parser.parse(lexer, start)
+[10.335s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 171, in parse
+[10.335s]     return self.parse_from_state(parser_state)
+[10.335s]   File "/usr/lib/python3/dist-packages/lark/parsers/lalr_parser.py", line 178, in parse_from_state
+[10.335s]     for token in state.lexer.lex(state):
+[10.335s]   File "/usr/lib/python3/dist-packages/lark/lexer.py", line 453, in lex
+[10.335s]     yield self.next_token(state, parser_state)
+[10.335s]   File "/usr/lib/python3/dist-packages/lark/lexer.py", line 469, in next_token
+[10.335s]     if type_ not in self.ignore_types:
+[10.336s] KeyboardInterrupt
+[10.339s]     tree = get_ast_from_idl_string(idl_string)
+[10.339s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+[10.339s]     _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+[10.339s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 333, in __init__
+[10.339s]     self.grammar, used_files = load_grammar(grammar, self.source_path, self.options.import_paths, self.options.keep_all_tokens)
+[10.339s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1408, in load_grammar
+[10.339s]     builder.load_grammar(grammar, source)
+[10.340s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 1233, in load_grammar
+[10.340s]     tree = _parse_grammar(grammar_text, grammar_name)
+[10.340s]   File "/usr/lib/python3/dist-packages/lark/load_grammar.py", line 973, in _parse_grammar
+[10.340s]     return PrepareGrammar().transform(tree)
+[10.340s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 272, in transform
+[10.341s]     subtree.children = list(self._transform_children(subtree.children))
+[10.341s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 138, in _transform_children
+[10.342s]     res = self._transform_tree(c)
+[10.342s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 268, in _transform_tree
+[10.342s]     return self._call_userfunc(tree)
+[10.342s]   File "/usr/lib/python3/dist-packages/lark/visitors.py", line 109, in _call_userfunc
+[10.342s]     return self.__default__(tree.data, children, tree.meta)
+[10.342s]   File "/usr/lib/python3/dist-packages/lark/tree.py", line 57, in meta
+[10.352s]     @property
+[10.353s] KeyboardInterrupt
+[10.364s] gmake[2]: *** [CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/build.make:123: rosidl_typesupport_cpp/mecharm_interfaces/msg/mecharm_angles__type_support.cpp] Interrupt
+[10.365s] gmake[1]: *** [CMakeFiles/Makefile2:394: CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/all] Interrupt
+[10.367s] gmake[2]: *** [CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:125: rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/msg/detail/dds_fastrtps/mecharm_angles__type_support.cpp] Interrupt
+[10.367s] gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[10.368s] gmake: *** [Makefile:146: all] Interrupt

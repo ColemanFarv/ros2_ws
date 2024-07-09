@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_moveit_config
+CMAKE_SOURCE_DIR = /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_moveit_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coleman/ros2_ws/build/mycobot_moveit_config
+CMAKE_BINARY_DIR = /home/jelly/ros2_ws/build/mycobot_moveit_config
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,8 +77,8 @@ test/fast: test
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/coleman/ros2_ws/build/mycobot_moveit_config/CMakeFiles /home/coleman/ros2_ws/build/mycobot_moveit_config//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jelly/ros2_ws/build/mycobot_moveit_config/CMakeFiles /home/jelly/ros2_ws/build/mycobot_moveit_config//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/coleman/ros2_ws/build/mycobot_moveit_config/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jelly/ros2_ws/build/mycobot_moveit_config/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,0 +1,94 @@
+[1.012s] Invoking command in '/home/jelly/ros2_ws/src/mycobot_280': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/ros2_control_demo_example_7:/home/jelly/ros2_ws/install/ros2_control_demo_description:/home/jelly/ros2_ws/install/hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/custom_hardware PYTHONPATH=/home/jelly/ros2_ws/build/mycobot_280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mycobot_280 build --build-base /home/jelly/ros2_ws/build/mycobot_280/build install --record /home/jelly/ros2_ws/build/mycobot_280/install.log --single-version-externally-managed install_data
+[1.376s] running egg_info
+[1.377s] creating ../../build/mycobot_280/mycobot_280.egg-info
+[1.377s] writing ../../build/mycobot_280/mycobot_280.egg-info/PKG-INFO
+[1.377s] writing dependency_links to ../../build/mycobot_280/mycobot_280.egg-info/dependency_links.txt
+[1.377s] writing entry points to ../../build/mycobot_280/mycobot_280.egg-info/entry_points.txt
+[1.378s] writing requirements to ../../build/mycobot_280/mycobot_280.egg-info/requires.txt
+[1.378s] writing top-level names to ../../build/mycobot_280/mycobot_280.egg-info/top_level.txt
+[1.378s] writing manifest file '../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+[1.380s] reading manifest file '../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+[1.380s] adding license file 'LICENSE'
+[1.381s] writing manifest file '../../build/mycobot_280/mycobot_280.egg-info/SOURCES.txt'
+[1.382s] running build
+[1.382s] running build_py
+[1.382s] creating /home/jelly/ros2_ws/build/mycobot_280/build
+[1.382s] creating /home/jelly/ros2_ws/build/mycobot_280/build/lib
+[1.382s] creating /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.382s] copying mycobot_280/detect_marker.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.383s] copying mycobot_280/following_marker.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.383s] copying mycobot_280/follow_display.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.383s] copying mycobot_280/slider_control.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.383s] copying mycobot_280/__init__.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.383s] copying mycobot_280/listen_real_of_topic.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.383s] copying mycobot_280/opencv_camera.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.383s] copying mycobot_280/camera_display.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.384s] copying mycobot_280/teleop_keyboard.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.384s] copying mycobot_280/listen_real.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.384s] copying mycobot_280/simple_gui.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.384s] copying mycobot_280/follow_and_pump.py -> /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280
+[1.385s] running install
+[1.385s] running install_lib
+[1.386s] creating /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.386s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/detect_marker.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.386s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/following_marker.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.386s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/follow_display.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.387s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/slider_control.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.387s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/__init__.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.387s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/listen_real_of_topic.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.387s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/opencv_camera.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.387s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/camera_display.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.387s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/teleop_keyboard.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.388s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/listen_real.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.388s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/simple_gui.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.388s] copying /home/jelly/ros2_ws/build/mycobot_280/build/lib/mycobot_280/follow_and_pump.py -> /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280
+[1.389s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/detect_marker.py to detect_marker.cpython-310.pyc
+[1.390s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/following_marker.py to following_marker.cpython-310.pyc
+[1.390s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/follow_display.py to follow_display.cpython-310.pyc
+[1.391s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/slider_control.py to slider_control.cpython-310.pyc
+[1.392s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/__init__.py to __init__.cpython-310.pyc
+[1.392s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/listen_real_of_topic.py to listen_real_of_topic.cpython-310.pyc
+[1.393s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/opencv_camera.py to opencv_camera.cpython-310.pyc
+[1.393s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/camera_display.py to camera_display.cpython-310.pyc
+[1.394s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[1.395s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/listen_real.py to listen_real.cpython-310.pyc
+[1.396s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/simple_gui.py to simple_gui.cpython-310.pyc
+[1.401s] byte-compiling /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280/follow_and_pump.py to follow_and_pump.cpython-310.pyc
+[1.402s] running install_data
+[1.402s] creating /home/jelly/ros2_ws/install/mycobot_280/share/ament_index
+[1.402s] creating /home/jelly/ros2_ws/install/mycobot_280/share/ament_index/resource_index
+[1.402s] creating /home/jelly/ros2_ws/install/mycobot_280/share/ament_index/resource_index/packages
+[1.402s] copying resource/mycobot_280 -> /home/jelly/ros2_ws/install/mycobot_280/share/ament_index/resource_index/packages
+[1.403s] copying package.xml -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280
+[1.403s] creating /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.403s] copying launch/test.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.403s] copying launch/slider_control_pump.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.403s] copying launch/teleop_keyboard.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.403s] copying launch/test_camera_flange.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.403s] copying launch/detect_marker.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.403s] copying launch/detect_marker_with_topic.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.404s] copying launch/simple_gui_pump.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.404s] copying launch/mycobot_follow.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.404s] copying launch/slider_control_camera_flange.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.404s] copying launch/test_camera_flange_pump.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.404s] copying launch/test_pump.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.405s] copying launch/simple_gui.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.405s] copying launch/slider_control.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[1.405s] creating /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/config
+[1.405s] copying config/mycobot.rviz -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/config
+[1.405s] copying config/mycobot_with_marker.rviz -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/config
+[1.405s] running install_egg_info
+[1.408s] Copying ../../build/mycobot_280/mycobot_280.egg-info to /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot_280-0.0.0-py3.10.egg-info
+[1.410s] running install_scripts
+[1.438s] Installing camera_display script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.438s] Installing detect_marker script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.438s] Installing follow_display script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.438s] Installing following_marker script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.438s] Installing listen_real script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.439s] Installing listen_real_of_topic script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.439s] Installing opencv_camera script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.439s] Installing simple_gui script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.439s] Installing slider_control script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.439s] Installing teleop_keyboard script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[1.440s] writing list of installed files to '/home/jelly/ros2_ws/build/mycobot_280/install.log'
+[1.479s] Invoked command in '/home/jelly/ros2_ws/src/mycobot_280' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/ros2_control_demo_example_7:/home/jelly/ros2_ws/install/ros2_control_demo_description:/home/jelly/ros2_ws/install/hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/custom_hardware PYTHONPATH=/home/jelly/ros2_ws/build/mycobot_280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mycobot_280 build --build-base /home/jelly/ros2_ws/build/mycobot_280/build install --record /home/jelly/ros2_ws/build/mycobot_280/install.log --single-version-externally-managed install_data

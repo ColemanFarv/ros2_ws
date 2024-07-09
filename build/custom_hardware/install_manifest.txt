@@ -1,0 +1,15 @@
+/home/jelly/ros2_ws/install/custom_hardware/share/ament_index/resource_index/package_run_dependencies/custom_hardware
+/home/jelly/ros2_ws/install/custom_hardware/share/ament_index/resource_index/parent_prefix_path/custom_hardware
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/environment/ament_prefix_path.sh
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/environment/ament_prefix_path.dsv
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/environment/path.sh
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/environment/path.dsv
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/local_setup.bash
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/local_setup.sh
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/local_setup.zsh
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/local_setup.dsv
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/package.dsv
+/home/jelly/ros2_ws/install/custom_hardware/share/ament_index/resource_index/packages/custom_hardware
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/cmake/custom_hardwareConfig.cmake
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/cmake/custom_hardwareConfig-version.cmake
+/home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/package.xml

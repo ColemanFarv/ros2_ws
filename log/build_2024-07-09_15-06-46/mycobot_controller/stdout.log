@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/mycobot_controller/mycobot_controller.egg-info
+writing ../../build/mycobot_controller/mycobot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/mycobot_controller/mycobot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/mycobot_controller/mycobot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/mycobot_controller/mycobot_controller.egg-info/requires.txt
+writing top-level names to ../../build/mycobot_controller/mycobot_controller.egg-info/top_level.txt
+writing manifest file '../../build/mycobot_controller/mycobot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/mycobot_controller/mycobot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/mycobot_controller/mycobot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jelly/ros2_ws/build/mycobot_controller/build
+creating /home/jelly/ros2_ws/build/mycobot_controller/build/lib
+creating /home/jelly/ros2_ws/build/mycobot_controller/build/lib/mycobot_controller
+copying mycobot_controller/mycobot_joint_state_node.py -> /home/jelly/ros2_ws/build/mycobot_controller/build/lib/mycobot_controller
+copying mycobot_controller/__init__.py -> /home/jelly/ros2_ws/build/mycobot_controller/build/lib/mycobot_controller
+running install
+running install_lib
+creating /home/jelly/ros2_ws/install/mycobot_controller/lib/python3.10/site-packages/mycobot_controller
+copying /home/jelly/ros2_ws/build/mycobot_controller/build/lib/mycobot_controller/mycobot_joint_state_node.py -> /home/jelly/ros2_ws/install/mycobot_controller/lib/python3.10/site-packages/mycobot_controller
+copying /home/jelly/ros2_ws/build/mycobot_controller/build/lib/mycobot_controller/__init__.py -> /home/jelly/ros2_ws/install/mycobot_controller/lib/python3.10/site-packages/mycobot_controller
+byte-compiling /home/jelly/ros2_ws/install/mycobot_controller/lib/python3.10/site-packages/mycobot_controller/mycobot_joint_state_node.py to mycobot_joint_state_node.cpython-310.pyc
+byte-compiling /home/jelly/ros2_ws/install/mycobot_controller/lib/python3.10/site-packages/mycobot_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jelly/ros2_ws/install/mycobot_controller/share/ament_index
+creating /home/jelly/ros2_ws/install/mycobot_controller/share/ament_index/resource_index
+creating /home/jelly/ros2_ws/install/mycobot_controller/share/ament_index/resource_index/packages
+copying resource/mycobot_controller -> /home/jelly/ros2_ws/install/mycobot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/jelly/ros2_ws/install/mycobot_controller/share/mycobot_controller
+running install_egg_info
+Copying ../../build/mycobot_controller/mycobot_controller.egg-info to /home/jelly/ros2_ws/install/mycobot_controller/lib/python3.10/site-packages/mycobot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mycobot_joint_state_node script to /home/jelly/ros2_ws/install/mycobot_controller/lib/mycobot_controller
+writing list of installed files to '/home/jelly/ros2_ws/build/mycobot_controller/install.log'

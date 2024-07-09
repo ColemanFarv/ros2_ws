@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo
+CMAKE_SOURCE_DIR = /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coleman/ros2_ws/build/mycobot_gazebo
+CMAKE_BINARY_DIR = /home/jelly/ros2_ws/build/mycobot_gazebo
 
 # Utility rule file for mycobot_gazebo_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/mycobot_gazebo_uninstall.dir/compiler_depend.make
 include CMakeFiles/mycobot_gazebo_uninstall.dir/progress.make
 
 CMakeFiles/mycobot_gazebo_uninstall:
-	/usr/bin/cmake -P /home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 mycobot_gazebo_uninstall: CMakeFiles/mycobot_gazebo_uninstall
 mycobot_gazebo_uninstall: CMakeFiles/mycobot_gazebo_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/mycobot_gazebo_uninstall.dir/clean:
 .PHONY : CMakeFiles/mycobot_gazebo_uninstall.dir/clean
 
 CMakeFiles/mycobot_gazebo_uninstall.dir/depend:
-	cd /home/coleman/ros2_ws/build/mycobot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo /home/coleman/ros2_ws/build/mycobot_gazebo /home/coleman/ros2_ws/build/mycobot_gazebo /home/coleman/ros2_ws/build/mycobot_gazebo/CMakeFiles/mycobot_gazebo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jelly/ros2_ws/build/mycobot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo /home/jelly/ros2_ws/build/mycobot_gazebo /home/jelly/ros2_ws/build/mycobot_gazebo /home/jelly/ros2_ws/build/mycobot_gazebo/CMakeFiles/mycobot_gazebo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mycobot_gazebo_uninstall.dir/depend
 

@@ -1,0 +1,20 @@
+[0.029s] Invoking command in '/home/jelly/ros2_ws/build/custom_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mecharm_pi:/home/jelly/ros2_ws/install/mecharm:/home/jelly/ros2_ws/install/mycobot_controller:/home/jelly/ros2_ws/install/mycobot_communication:/home/jelly/ros2_ws/install/mecharm_communication:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/custom_hardware -- -j4 -l4
+[0.088s] Invoked command in '/home/jelly/ros2_ws/build/custom_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mecharm_pi:/home/jelly/ros2_ws/install/mecharm:/home/jelly/ros2_ws/install/mycobot_controller:/home/jelly/ros2_ws/install/mycobot_communication:/home/jelly/ros2_ws/install/mecharm_communication:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/custom_hardware -- -j4 -l4
+[0.147s] Invoking command in '/home/jelly/ros2_ws/build/custom_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mecharm_pi:/home/jelly/ros2_ws/install/mecharm:/home/jelly/ros2_ws/install/mycobot_controller:/home/jelly/ros2_ws/install/mycobot_communication:/home/jelly/ros2_ws/install/mecharm_communication:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/custom_hardware
+[0.229s] -- Install configuration: ""
+[0.230s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/ament_index/resource_index/package_run_dependencies/custom_hardware
+[0.230s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/ament_index/resource_index/parent_prefix_path/custom_hardware
+[0.230s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/environment/ament_prefix_path.sh
+[0.230s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/environment/ament_prefix_path.dsv
+[0.230s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/environment/path.sh
+[0.231s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/environment/path.dsv
+[0.232s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/local_setup.bash
+[0.232s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/local_setup.sh
+[0.233s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/local_setup.zsh
+[0.234s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/local_setup.dsv
+[0.234s] -- Installing: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/package.dsv
+[0.234s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/ament_index/resource_index/packages/custom_hardware
+[0.235s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/cmake/custom_hardwareConfig.cmake
+[0.235s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/cmake/custom_hardwareConfig-version.cmake
+[0.235s] -- Up-to-date: /home/jelly/ros2_ws/install/custom_hardware/share/custom_hardware/package.xml
+[0.427s] Invoked command in '/home/jelly/ros2_ws/build/custom_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mecharm_pi:/home/jelly/ros2_ws/install/mecharm:/home/jelly/ros2_ws/install/mycobot_controller:/home/jelly/ros2_ws/install/mycobot_communication:/home/jelly/ros2_ws/install/mecharm_communication:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/custom_hardware

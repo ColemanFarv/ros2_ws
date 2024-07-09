@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_ros2
+CMAKE_SOURCE_DIR = /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coleman/ros2_ws/build/mycobot_ros2
+CMAKE_BINARY_DIR = /home/jelly/ros2_ws/build/mycobot_ros2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/coleman/ros2_ws/build/mycobot_ros2/CMakeFiles /home/coleman/ros2_ws/build/mycobot_ros2//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jelly/ros2_ws/build/mycobot_ros2/CMakeFiles /home/jelly/ros2_ws/build/mycobot_ros2//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/coleman/ros2_ws/build/mycobot_ros2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jelly/ros2_ws/build/mycobot_ros2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

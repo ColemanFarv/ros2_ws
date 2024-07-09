@@ -1,0 +1,4 @@
+Invoking command in '/home/jelly/ros2_ws/build/custom_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/custom_hardware -- -j4 -l4
+Invoked command in '/home/jelly/ros2_ws/build/custom_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/custom_hardware -- -j4 -l4
+Invoking command in '/home/jelly/ros2_ws/build/custom_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/custom_hardware
+Invoked command in '/home/jelly/ros2_ws/build/custom_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/custom_hardware

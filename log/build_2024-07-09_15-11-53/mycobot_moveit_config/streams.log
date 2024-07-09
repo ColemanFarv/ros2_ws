@@ -1,0 +1,62 @@
+[0.015s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/ros2_control_demo_example_7:/home/jelly/ros2_ws/install/ros2_control_demo_description:/home/jelly/ros2_ws/install/hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_moveit_config
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.224s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.378s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.380s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.383s] -- Detecting CXX compiler ABI info
+[0.510s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.526s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.744s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.985s] -- Configuring done
+[0.988s] -- Generating done
+[0.988s] -- Build files have been written to: /home/jelly/ros2_ws/build/mycobot_moveit_config
+[0.990s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/ros2_control_demo_example_7:/home/jelly/ros2_ws/install/ros2_control_demo_description:/home/jelly/ros2_ws/install/hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_moveit_config
+[0.993s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/ros2_control_demo_example_7:/home/jelly/ros2_ws/install/ros2_control_demo_description:/home/jelly/ros2_ws/install/hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_moveit_config -- -j4 -l4
+[1.068s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/ros2_control_demo_example_7:/home/jelly/ros2_ws/install/ros2_control_demo_description:/home/jelly/ros2_ws/install/hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_moveit_config -- -j4 -l4
+[1.118s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/ros2_control_demo_example_7:/home/jelly/ros2_ws/install/ros2_control_demo_description:/home/jelly/ros2_ws/install/hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_moveit_config
+[1.131s] -- Install configuration: ""
+[1.132s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_config
+[1.133s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_config
+[1.134s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.sh
+[1.135s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.dsv
+[1.135s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.sh
+[1.136s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.dsv
+[1.136s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.bash
+[1.137s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.sh
+[1.138s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.zsh
+[1.139s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.dsv
+[1.139s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.dsv
+[1.140s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/packages/mycobot_moveit_config
+[1.141s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig.cmake
+[1.142s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig-version.cmake
+[1.144s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.xml
+[1.145s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch
+[1.147s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/rsp.launch.py
+[1.152s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/spawn_controllers.launch.py
+[1.154s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/warehouse_db.launch.py
+[1.157s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/demo.launch.py
+[1.160s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/move_group.launch.py
+[1.161s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/setup_assistant.launch.py
+[1.162s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/moveit_rviz.launch.py
+[1.162s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.163s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config
+[1.163s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/kinematics.yaml
+[1.164s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/sensors_3d.yaml
+[1.165s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/ros2_controllers.yaml
+[1.165s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/ompl_planning.yaml
+[1.166s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280.ros2_control.xacro
+[1.167s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280.urdf.xacro
+[1.168s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/moveit_controllers.yaml
+[1.168s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/pilz_cartesian_limits.yaml
+[1.169s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/joint_limits.yaml
+[1.170s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280.srdf
+[1.170s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/moveit.rviz
+[1.171s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/initial_positions.yaml
+[1.171s] -- Installing: /home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/.setup_assistant
+[1.172s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/ros2_control_demo_example_7:/home/jelly/ros2_ws/install/ros2_control_demo_description:/home/jelly/ros2_ws/install/hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_moveit_config

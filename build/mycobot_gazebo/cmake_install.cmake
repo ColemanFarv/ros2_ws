@@ -1,8 +1,8 @@
-# Install script for directory: /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo
+# Install script for directory: /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/coleman/ros2_ws/install/mycobot_gazebo")
+  set(CMAKE_INSTALL_PREFIX "/home/jelly/ros2_ws/install/mycobot_gazebo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,26 +44,26 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE DIRECTORY FILES
-    "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/config"
-    "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/launch"
-    "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/models"
-    "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/scripts"
-    "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/src"
-    "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/urdf"
-    "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/worlds"
+    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/config"
+    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/launch"
+    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/models"
+    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/scripts"
+    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/src"
+    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/urdf"
+    "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/worlds"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mycobot_gazebo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mycobot_gazebo")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mycobot_gazebo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mycobot_gazebo")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,7 +71,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo/environment" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo/environment" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,42 +79,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo/environment" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo/environment" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_index/share/ament_index/resource_index/packages/mycobot_gazebo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_index/share/ament_index/resource_index/packages/mycobot_gazebo")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo/cmake" TYPE FILE FILES
-    "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_core/mycobot_gazeboConfig.cmake"
-    "/home/coleman/ros2_ws/build/mycobot_gazebo/ament_cmake_core/mycobot_gazeboConfig-version.cmake"
+    "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_core/mycobot_gazeboConfig.cmake"
+    "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_core/mycobot_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mycobot_gazebo" TYPE FILE FILES "/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -125,5 +125,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/coleman/ros2_ws/build/mycobot_gazebo/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jelly/ros2_ws/build/mycobot_gazebo/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

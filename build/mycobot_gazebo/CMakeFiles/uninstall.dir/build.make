@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo
+CMAKE_SOURCE_DIR = /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coleman/ros2_ws/build/mycobot_gazebo
+CMAKE_BINARY_DIR = /home/jelly/ros2_ws/build/mycobot_gazebo
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/coleman/ros2_ws/build/mycobot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_gazebo /home/coleman/ros2_ws/build/mycobot_gazebo /home/coleman/ros2_ws/build/mycobot_gazebo /home/coleman/ros2_ws/build/mycobot_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jelly/ros2_ws/build/mycobot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo /home/jelly/ros2_ws/build/mycobot_gazebo /home/jelly/ros2_ws/build/mycobot_gazebo /home/jelly/ros2_ws/build/mycobot_gazebo/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

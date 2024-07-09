@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_ros2
+CMAKE_SOURCE_DIR = /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/coleman/ros2_ws/build/mycobot_ros2
+CMAKE_BINARY_DIR = /home/jelly/ros2_ws/build/mycobot_ros2
 
 # Utility rule file for mycobot_ros2_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/mycobot_ros2_uninstall.dir/compiler_depend.make
 include CMakeFiles/mycobot_ros2_uninstall.dir/progress.make
 
 CMakeFiles/mycobot_ros2_uninstall:
-	/usr/bin/cmake -P /home/coleman/ros2_ws/build/mycobot_ros2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/jelly/ros2_ws/build/mycobot_ros2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 mycobot_ros2_uninstall: CMakeFiles/mycobot_ros2_uninstall
 mycobot_ros2_uninstall: CMakeFiles/mycobot_ros2_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/mycobot_ros2_uninstall.dir/clean:
 .PHONY : CMakeFiles/mycobot_ros2_uninstall.dir/clean
 
 CMakeFiles/mycobot_ros2_uninstall.dir/depend:
-	cd /home/coleman/ros2_ws/build/mycobot_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_ros2 /home/coleman/ros2_ws/src/mycobot_ros2/mycobot_ros2 /home/coleman/ros2_ws/build/mycobot_ros2 /home/coleman/ros2_ws/build/mycobot_ros2 /home/coleman/ros2_ws/build/mycobot_ros2/CMakeFiles/mycobot_ros2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jelly/ros2_ws/build/mycobot_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2 /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2 /home/jelly/ros2_ws/build/mycobot_ros2 /home/jelly/ros2_ws/build/mycobot_ros2 /home/jelly/ros2_ws/build/mycobot_ros2/CMakeFiles/mycobot_ros2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mycobot_ros2_uninstall.dir/depend
 

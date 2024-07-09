@@ -1,0 +1,3 @@
+[console_scripts]
+mycobot_joint_state_node = mycobot_controller.mycobot_joint_state_node:main
+
