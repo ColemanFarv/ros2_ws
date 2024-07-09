@@ -30,6 +30,13 @@ class SliderSubscriber(Node):
             self.listener_callback,
             10
         )
+
+        # Publisher for current joint states
+        self.publisher = self.create_publisher(
+            JointState,
+            "/current_joint_states",
+            10
+        )
         
         # Initialize desired angles with default values
         self.desired_angles = [0, 0, 0, 0, 0, 0]
@@ -38,6 +45,13 @@ class SliderSubscriber(Node):
         # Print actual angles from robot
         current_angles = self.mc.get_angles()
         self.get_logger().info('Actual angles: {}'.format(current_angles))
+
+        # Publish current angles
+        current_joint_state = JointState()
+        current_joint_state.header.stamp = self.get_clock().now().to_msg()
+        current_joint_state.position = [math.radians(angle) for angle in current_angles]
+        self.publisher.publish(current_joint_state)
+        
         
         # Process desired angles received from GUI
         data_list = []
