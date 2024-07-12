@@ -1,0 +1,174 @@
+[0.051s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/moveit2_scripts -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/moveit2_scripts
+[0.355s] -- The C compiler identification is GNU 11.4.0
+[0.569s] -- The CXX compiler identification is GNU 11.4.0
+[0.600s] -- Detecting C compiler ABI info
+[0.872s] -- Detecting C compiler ABI info - done
+[0.877s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.877s] -- Detecting C compile features
+[0.878s] -- Detecting C compile features - done
+[0.890s] -- Detecting CXX compiler ABI info
+[1.128s] -- Detecting CXX compiler ABI info - done
+[1.155s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.156s] -- Detecting CXX compile features
+[1.156s] -- Detecting CXX compile features - done
+[1.165s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.641s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.964s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.172s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.183s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.201s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.532s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.547s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.785s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.827s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.927s] -- Looking for pthread.h
+[3.120s] -- Looking for pthread.h - found
+[3.120s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.317s] -- Found Threads: TRUE  
+[3.582s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.777s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[3.853s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.891s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.940s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.026s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.291s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.856s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.857s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.561s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[6.570s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[7.282s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[7.289s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[7.598s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[7.990s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[8.687s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[8.709s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[9.052s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.173s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.174s] -- Configured cppcheck include dirs: 
+[9.174s] -- Configured cppcheck exclude dirs and/or files: 
+[9.174s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.177s] -- Added test 'lint_cmake' to check CMake code style
+[9.178s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.179s] -- Added test 'uncrustify' to check C / C++ code style
+[9.180s] -- Configured uncrustify additional arguments: 
+[9.180s] -- Added test 'xmllint' to check XML markup files
+[9.200s] -- Configuring done
+[9.325s] -- Generating done
+[9.329s] -- Build files have been written to: /home/jelly/ros2_ws/build/moveit2_scripts
+[9.351s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/moveit2_scripts -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/moveit2_scripts
+[9.352s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[9.394s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.585s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[9.631s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.636s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.646s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.662s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.774s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.776s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.950s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.183s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[10.318s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[10.340s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[10.351s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[10.369s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[10.433s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[10.555s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[11.042s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.582s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[12.590s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[13.287s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[13.302s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[13.631s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[14.031s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[14.779s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[14.797s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[15.126s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.222s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.222s] -- Configured cppcheck include dirs: 
+[15.222s] -- Configured cppcheck exclude dirs and/or files: 
+[15.222s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.223s] -- Added test 'lint_cmake' to check CMake code style
+[15.223s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.224s] -- Added test 'uncrustify' to check C / C++ code style
+[15.224s] -- Configured uncrustify additional arguments: 
+[15.225s] -- Added test 'xmllint' to check XML markup files
+[15.242s] -- Configuring done
+[15.333s] -- Generating done
+[15.337s] -- Build files have been written to: /home/jelly/ros2_ws/build/moveit2_scripts
+[15.389s] gmake[2]: Warning: File '/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp' has modification time 14277 s in the future
+[15.390s] gmake[2]: Warning: File '/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp' has modification time 14277 s in the future
+[15.391s] gmake[2]: Warning: File '/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp' has modification time 14277 s in the future
+[15.392s] gmake[2]: Warning: File '/home/jelly/ros2_ws/src/moveit2_scripts/src/cartesian_path.cpp' has modification time 14277 s in the future
+[15.403s] [ 12%] [32mBuilding CXX object CMakeFiles/test_trajectory3.dir/src/test_trajectory3.cpp.o[0m
+[15.405s] [ 25%] [32mBuilding CXX object CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.o[0m
+[15.406s] [ 37%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[15.410s] [ 50%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[26.036s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[26.036s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[26.037s]    25 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[26.037s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[26.037s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[26.038s]    51 |   bool [01;35m[Ksuccess[m[K =
+[26.038s]       |        [01;35m[K^~~~~~~[m[K
+[26.042s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[26.042s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory3.cpp:54:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksuccess[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[26.043s]    54 |   bool [01;35m[Ksuccess[m[K =
+[26.043s]       |        [01;35m[K^~~~~~~[m[K
+[26.136s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/cartesian_path.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[26.137s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/cartesian_path.cpp:54:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess_arm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[26.137s]    54 |   bool [01;35m[Ksuccess_arm[m[K = (move_group_arm.plan(my_plan_arm) ==
+[26.137s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[26.137s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/cartesian_path.cpp:83:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfraction[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[26.138s]    83 |   double [01;35m[Kfraction[m[K = move_group_arm.computeCartesianPath(
+[26.138s]       |          [01;35m[K^~~~~~~~[m[K
+[31.543s] [ 62%] [32m[1mLinking CXX executable test_trajectory3[0m
+[31.574s] [ 75%] [32m[1mLinking CXX executable test_trajectory2[0m
+[31.832s] [ 87%] [32m[1mLinking CXX executable test_trajectory[0m
+[31.854s] [100%] [32m[1mLinking CXX executable cartesian_path[0m
+[32.105s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[32.115s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[32.120s] [100%] Built target test_trajectory2
+[32.128s] [100%] Built target test_trajectory3
+[32.267s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[32.277s] [100%] Built target test_trajectory
+[32.291s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[32.304s] [100%] Built target cartesian_path
+[32.322s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[32.390s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/moveit2_scripts
+[32.401s] -- Install configuration: ""
+[32.401s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+[32.401s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+[32.402s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+[32.402s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+[32.402s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+[32.402s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+[32.403s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+[32.403s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+[32.403s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+[32.404s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+[32.404s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+[32.404s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+[32.405s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+[32.405s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+[32.405s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+[32.406s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[32.406s] -- Set runtime path of "/home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory" to ""
+[32.406s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch
+[32.406s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+[32.407s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory3.launch.py
+[32.407s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+[32.407s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/cartesian_path.launch.py
+[32.407s] -- Up-to-date: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[32.408s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2
+[32.408s] -- Set runtime path of "/home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2" to ""
+[32.408s] -- Up-to-date: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[32.408s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3
+[32.409s] -- Set runtime path of "/home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory3" to ""
+[32.409s] -- Installing: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/cartesian_path
+[32.409s] -- Set runtime path of "/home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/cartesian_path" to ""
+[32.411s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/moveit2_scripts

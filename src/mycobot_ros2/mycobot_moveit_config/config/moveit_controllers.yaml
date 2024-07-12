@@ -3,8 +3,9 @@
 moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
 
 controller_names:
-  - arm_controller
-arm_controller:
+  - mycobot_controller
+
+mycobot_controller:
   action_ns: follow_joint_trajectory
   type: FollowJointTrajectory
   default: true

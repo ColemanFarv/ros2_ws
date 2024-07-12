@@ -1,0 +1,40 @@
+[0.145s] Invoking command in '/home/jelly/ros2_ws/build/mycobot': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mecharm_pi:/home/jelly/ros2_ws/install/mecharm:/home/jelly/ros2_ws/install/mycobot_controller:/home/jelly/ros2_ws/install/mycobot_communication:/home/jelly/ros2_ws/install/mecharm_communication:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot -- -j4 -l4
+[0.349s] [ 50%] Built target mycobot
+[0.451s] [ 83%] Built target test_mycobot
+[0.470s] [100%] Built target wiggle
+[0.497s] Invoked command in '/home/jelly/ros2_ws/build/mycobot' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mecharm_pi:/home/jelly/ros2_ws/install/mecharm:/home/jelly/ros2_ws/install/mycobot_controller:/home/jelly/ros2_ws/install/mycobot_communication:/home/jelly/ros2_ws/install/mecharm_communication:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot -- -j4 -l4
+[1.001s] Invoking command in '/home/jelly/ros2_ws/build/mycobot': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mecharm_pi:/home/jelly/ros2_ws/install/mecharm:/home/jelly/ros2_ws/install/mycobot_controller:/home/jelly/ros2_ws/install/mycobot_communication:/home/jelly/ros2_ws/install/mecharm_communication:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot
+[1.023s] -- Install configuration: ""
+[1.023s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include
+[1.023s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/protocol_code.hpp
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/serialize.hpp
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/process_received.hpp
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/detect.hpp
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/command.hpp
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/mycobot.hpp
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/lib/libmycobot.a
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/bin/wiggle
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/library_path.sh
+[1.027s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/library_path.dsv
+[1.030s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/package_run_dependencies/mycobot
+[1.030s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/parent_prefix_path/mycobot
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/ament_prefix_path.sh
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/ament_prefix_path.dsv
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/path.sh
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/path.dsv
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.bash
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.sh
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.zsh
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.dsv
+[1.031s] -- Installing: /home/jelly/ros2_ws/install/mycobot/share/mycobot/package.dsv
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/packages/mycobot
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/export_mycobotExport.cmake
+[1.031s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/export_mycobotExport-noconfig.cmake
+[1.032s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.032s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_libraries-extras.cmake
+[1.044s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_targets-extras.cmake
+[1.045s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/mycobotConfig.cmake
+[1.045s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/mycobotConfig-version.cmake
+[1.045s] -- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/package.xml
+[1.066s] Invoked command in '/home/jelly/ros2_ws/build/mycobot' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/custom_hardware:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mecharm_pi:/home/jelly/ros2_ws/install/mecharm:/home/jelly/ros2_ws/install/mycobot_controller:/home/jelly/ros2_ws/install/mycobot_communication:/home/jelly/ros2_ws/install/mecharm_communication:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot

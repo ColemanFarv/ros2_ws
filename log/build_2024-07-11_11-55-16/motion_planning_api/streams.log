@@ -1,0 +1,43 @@
+[0.024s] Invoking command in '/home/jelly/ros2_ws/build/motion_planning_api': /usr/bin/cmake /home/jelly/ros2_ws/src/motion_planning_api -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/motion_planning_api
+[0.037s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.037s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.037s]   contain a literal, direct call to the project() command.  Add a line of
+[0.037s]   code such as
+[0.037s] 
+[0.038s]     project(ProjectName)
+[0.038s] 
+[0.038s]   near the top of the file, but after cmake_minimum_required().
+[0.038s] 
+[0.038s]   CMake is pretending there is a "project(Project)" command on the first
+[0.038s]   line.
+[0.038s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.038s] [0m
+[0.442s] -- The C compiler identification is GNU 11.4.0
+[0.523s] -- The CXX compiler identification is GNU 11.4.0
+[0.554s] -- Detecting C compiler ABI info
+[0.807s] -- Detecting C compiler ABI info - done
+[0.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.828s] -- Detecting C compile features
+[0.829s] -- Detecting C compile features - done
+[0.835s] -- Detecting CXX compiler ABI info
+[1.031s] -- Detecting CXX compiler ABI info - done
+[1.046s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.046s] -- Detecting CXX compile features
+[1.047s] -- Detecting CXX compile features - done
+[1.048s] [31mCMake Error at CMakeLists.txt:5 (ament_target_dependencies):
+[1.048s]   Unknown CMake command "ament_target_dependencies".
+[1.049s] 
+[1.049s] [0m
+[1.049s] -- Configuring incomplete, errors occurred!
+[1.049s] See also "/home/jelly/ros2_ws/build/motion_planning_api/CMakeFiles/CMakeOutput.log".
+[1.050s] [33mCMake Warning (dev) in CMakeLists.txt:
+[1.050s]   No cmake_minimum_required command is present.  A line of code such as
+[1.050s] 
+[1.050s]     cmake_minimum_required(VERSION 3.22)
+[1.050s] 
+[1.050s]   should be added at the top of the file.  The version specified may be lower
+[1.050s]   if you wish to support older CMake versions for this project.  For more
+[1.050s]   information run "cmake --help-policy CMP0000".
+[1.050s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.050s] [0m
+[1.054s] Invoked command in '/home/jelly/ros2_ws/build/motion_planning_api' returned '1': /usr/bin/cmake /home/jelly/ros2_ws/src/motion_planning_api -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/motion_planning_api

@@ -1,0 +1,8 @@
+-- Install configuration: ""
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/lib/Project/motion_planning_python_api_tutorial.py
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/lib/Project/motion_planning_python_api_planning_scene.py
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/Project/config
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/Project/config/motion_planning_python_api_tutorial.yaml
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/Project/config/motion_planning_python_api_tutorial.rviz
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/Project/launch
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/Project/launch/motion_planning_python_api_tutorial.launch.py

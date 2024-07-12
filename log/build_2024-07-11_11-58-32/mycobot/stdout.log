@@ -1,0 +1,36 @@
+[ 50%] Built target mycobot
+[ 66%] Built target wiggle
+[100%] Built target test_mycobot
+-- Install configuration: ""
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/protocol_code.hpp
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/serialize.hpp
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/process_received.hpp
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/detect.hpp
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/command.hpp
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/include/mycobot/mycobot.hpp
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/lib/libmycobot.a
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/bin/wiggle
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/library_path.sh
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/library_path.dsv
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/package_run_dependencies/mycobot
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/parent_prefix_path/mycobot
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/path.sh
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/path.dsv
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.bash
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.sh
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.zsh
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.dsv
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/package.dsv
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/packages/mycobot
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/export_mycobotExport.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/export_mycobotExport-noconfig.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/mycobotConfig.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/mycobotConfig-version.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/mycobot/share/mycobot/package.xml
