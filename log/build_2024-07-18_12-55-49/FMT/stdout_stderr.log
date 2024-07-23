@@ -1,0 +1,88 @@
+-- CMake version: 3.22.1
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- {fmt} version: 11.0.1
+-- Build type: Release
+-- Target 'doc' disabled because doxygen not found
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Looking for strptime
+-- Looking for strptime - found
+-- FMT_PEDANTIC: OFF
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jelly/ros2_ws/build/FMT
+[35m[1mConsolidate compiler generated dependencies of target fmt[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  2%] Built target gtest
+[  7%] Built target fmt
+[35m[1mConsolidate compiler generated dependencies of target compile-fp-test[0m
+[35m[1mConsolidate compiler generated dependencies of target scan-test[0m
+[35m[1mConsolidate compiler generated dependencies of target format-impl-test[0m
+[ 15%] Built target compile-fp-test
+[35m[1mConsolidate compiler generated dependencies of target unicode-test[0m
+[ 23%] Built target scan-test
+[35m[1mConsolidate compiler generated dependencies of target posix-mock-test[0m
+[ 32%] Built target unicode-test
+[35m[1mConsolidate compiler generated dependencies of target test-main[0m
+[ 42%] Built target format-impl-test
+[ 50%] Built target posix-mock-test
+[ 56%] Built target test-main
+[35m[1mConsolidate compiler generated dependencies of target args-test[0m
+[35m[1mConsolidate compiler generated dependencies of target assert-test[0m
+[35m[1mConsolidate compiler generated dependencies of target base-test[0m
+[ 59%] Built target args-test
+[35m[1mConsolidate compiler generated dependencies of target chrono-test[0m
+[ 61%] Built target base-test
+[35m[1mConsolidate compiler generated dependencies of target color-test[0m
+[ 64%] Built target assert-test
+[35m[1mConsolidate compiler generated dependencies of target gtest-extra-test[0m
+[35m[1mConsolidate compiler generated dependencies of target format-test[0m
+[ 67%] Built target color-test
+[ 70%] Built target chrono-test
+[ 73%] Built target gtest-extra-test
+[ 76%] Built target format-test
+[35m[1mConsolidate compiler generated dependencies of target ostream-test[0m
+[35m[1mConsolidate compiler generated dependencies of target compile-test[0m
+[35m[1mConsolidate compiler generated dependencies of target printf-test[0m
+[35m[1mConsolidate compiler generated dependencies of target ranges-test[0m
+[ 78%] Built target compile-test
+[ 81%] Built target ostream-test
+[ 84%] Built target printf-test
+[ 88%] Built target ranges-test
+[35m[1mConsolidate compiler generated dependencies of target xchar-test[0m
+[35m[1mConsolidate compiler generated dependencies of target std-test[0m
+[35m[1mConsolidate compiler generated dependencies of target os-test[0m
+[35m[1mConsolidate compiler generated dependencies of target enforce-checks-test[0m
+[ 91%] Built target std-test
+[ 94%] Built target xchar-test
+[ 97%] Built target enforce-checks-test
+[100%] Built target os-test
+-- Install configuration: "Release"
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/libfmt.a
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/args.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/base.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/chrono.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/color.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/compile.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/core.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/format.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/format-inl.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/os.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/ostream.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/printf.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/ranges.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/std.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/xchar.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config-version.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets-release.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/pkgconfig/fmt.pc

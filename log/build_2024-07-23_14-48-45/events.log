@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000236] (-) JobUnselected: {'identifier': 'FMT'}
+[0.000306] (-) JobUnselected: {'identifier': 'catch2'}
+[0.000369] (-) JobUnselected: {'identifier': 'fp'}
+[0.000428] (-) JobUnselected: {'identifier': 'mycobot'}
+[0.000486] (-) JobUnselected: {'identifier': 'mycobot_280_description'}
+[0.000546] (-) JobUnselected: {'identifier': 'mycobot_description'}
+[0.000605] (-) JobUnselected: {'identifier': 'mycobot_gazebo'}
+[0.000664] (-) JobUnselected: {'identifier': 'mycobot_hardware_interface'}
+[0.000722] (-) JobUnselected: {'identifier': 'mycobot_moveit_config'}
+[0.000781] (-) JobUnselected: {'identifier': 'mycobot_ros2'}
+[0.000808] (-) JobUnselected: {'identifier': 'serial'}
+[0.000864] (moveit2_scripts) JobQueued: {'identifier': 'moveit2_scripts', 'dependencies': OrderedDict()}
+[0.002368] (moveit2_scripts) JobStarted: {'identifier': 'moveit2_scripts'}
+[0.016749] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'cmake'}
+[0.017960] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'build'}
+[0.019126] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jelly/ros2_ws/build/moveit2_scripts', '--', '-j4', '-l4'], 'cwd': '/home/jelly/ros2_ws/build/moveit2_scripts', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1019'), ('SYSTEMD_EXEC_PID', '1302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '110885'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:33760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1279,unix/jelly-virtual-machine:/tmp/.ICE-unix/1279'), ('INVOCATION_ID', '07a86a646182420cbe0dcc029b1f4494'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7NRQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:91813e68-78e9-4442-87c1-bb2f12feea6f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/moveit2_scripts'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages:/home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:/home/jelly/ros2_ws/install/my_moveit2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble')]), 'shell': False}
+[0.099617] (-) TimerEvent: {}
+[0.117148] (moveit2_scripts) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_trajectory2\x1b[0m\n'}
+[0.137412] (moveit2_scripts) StdoutLine: {'line': b'[ 33%] Built target position_publisher\n'}
+[0.144923] (moveit2_scripts) StdoutLine: {'line': b'[ 66%] Built target test_trajectory\n'}
+[0.161220] (moveit2_scripts) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o\x1b[0m\n'}
+[0.201614] (-) TimerEvent: {}
+[0.302116] (-) TimerEvent: {}
+[0.402549] (-) TimerEvent: {}
+[0.503038] (-) TimerEvent: {}
+[0.603483] (-) TimerEvent: {}
+[0.703949] (-) TimerEvent: {}
+[0.804358] (-) TimerEvent: {}
+[0.904801] (-) TimerEvent: {}
+[1.005205] (-) TimerEvent: {}
+[1.105679] (-) TimerEvent: {}
+[1.206067] (-) TimerEvent: {}
+[1.306460] (-) TimerEvent: {}
+[1.406844] (-) TimerEvent: {}
+[1.507239] (-) TimerEvent: {}
+[1.607824] (-) TimerEvent: {}
+[1.708331] (-) TimerEvent: {}
+[1.808724] (-) TimerEvent: {}
+[1.909148] (-) TimerEvent: {}
+[2.009582] (-) TimerEvent: {}
+[2.111673] (-) TimerEvent: {}
+[2.212164] (-) TimerEvent: {}
+[2.312721] (-) TimerEvent: {}
+[2.413158] (-) TimerEvent: {}
+[2.513610] (-) TimerEvent: {}
+[2.614088] (-) TimerEvent: {}
+[2.714514] (-) TimerEvent: {}
+[2.814960] (-) TimerEvent: {}
+[2.915512] (-) TimerEvent: {}
+[3.015941] (-) TimerEvent: {}
+[3.116366] (-) TimerEvent: {}
+[3.216750] (-) TimerEvent: {}
+[3.317163] (-) TimerEvent: {}
+[3.417632] (-) TimerEvent: {}
+[3.519491] (-) TimerEvent: {}
+[3.619894] (-) TimerEvent: {}
+[3.720286] (-) TimerEvent: {}
+[3.820878] (-) TimerEvent: {}
+[3.921252] (-) TimerEvent: {}
+[4.021751] (-) TimerEvent: {}
+[4.122168] (-) TimerEvent: {}
+[4.222599] (-) TimerEvent: {}
+[4.323000] (-) TimerEvent: {}
+[4.423447] (-) TimerEvent: {}
+[4.523948] (-) TimerEvent: {}
+[4.624368] (-) TimerEvent: {}
+[4.724760] (-) TimerEvent: {}
+[4.825235] (-) TimerEvent: {}
+[4.925746] (-) TimerEvent: {}
+[5.026384] (-) TimerEvent: {}
+[5.126900] (-) TimerEvent: {}
+[5.227422] (-) TimerEvent: {}
+[5.327850] (-) TimerEvent: {}
+[5.428303] (-) TimerEvent: {}
+[5.528788] (-) TimerEvent: {}
+[5.629230] (-) TimerEvent: {}
+[5.729667] (-) TimerEvent: {}
+[5.830117] (-) TimerEvent: {}
+[5.930655] (-) TimerEvent: {}
+[6.031016] (-) TimerEvent: {}
+[6.131454] (-) TimerEvent: {}
+[6.231838] (-) TimerEvent: {}
+[6.332222] (-) TimerEvent: {}
+[6.432602] (-) TimerEvent: {}
+[6.534604] (-) TimerEvent: {}
+[6.635035] (-) TimerEvent: {}
+[6.735419] (-) TimerEvent: {}
+[6.835821] (-) TimerEvent: {}
+[6.936203] (-) TimerEvent: {}
+[7.036604] (-) TimerEvent: {}
+[7.136999] (-) TimerEvent: {}
+[7.237429] (-) TimerEvent: {}
+[7.337908] (-) TimerEvent: {}
+[7.438333] (-) TimerEvent: {}
+[7.538815] (-) TimerEvent: {}
+[7.639239] (-) TimerEvent: {}
+[7.739724] (-) TimerEvent: {}
+[7.840140] (-) TimerEvent: {}
+[7.940559] (-) TimerEvent: {}
+[8.041036] (-) TimerEvent: {}
+[8.141457] (-) TimerEvent: {}
+[8.241908] (-) TimerEvent: {}
+[8.342473] (-) TimerEvent: {}
+[8.443084] (-) TimerEvent: {}
+[8.543556] (-) TimerEvent: {}
+[8.644026] (-) TimerEvent: {}
+[8.744440] (-) TimerEvent: {}
+[8.844835] (-) TimerEvent: {}
+[8.945203] (-) TimerEvent: {}
+[9.045562] (-) TimerEvent: {}
+[9.145971] (-) TimerEvent: {}
+[9.246392] (-) TimerEvent: {}
+[9.346843] (-) TimerEvent: {}
+[9.447270] (-) TimerEvent: {}
+[9.547883] (-) TimerEvent: {}
+[9.648283] (-) TimerEvent: {}
+[9.748657] (-) TimerEvent: {}
+[9.849082] (-) TimerEvent: {}
+[9.949478] (-) TimerEvent: {}
+[10.049930] (-) TimerEvent: {}
+[10.150311] (-) TimerEvent: {}
+[10.250721] (-) TimerEvent: {}
+[10.351153] (-) TimerEvent: {}
+[10.451614] (-) TimerEvent: {}
+[10.552065] (-) TimerEvent: {}
+[10.652490] (-) TimerEvent: {}
+[10.752914] (-) TimerEvent: {}
+[10.853281] (-) TimerEvent: {}
+[10.953746] (-) TimerEvent: {}
+[11.054072] (-) TimerEvent: {}
+[11.154526] (-) TimerEvent: {}
+[11.254939] (-) TimerEvent: {}
+[11.355312] (-) TimerEvent: {}
+[11.455861] (-) TimerEvent: {}
+[11.556247] (-) TimerEvent: {}
+[11.656772] (-) TimerEvent: {}
+[11.757369] (-) TimerEvent: {}
+[11.857743] (-) TimerEvent: {}
+[11.958167] (-) TimerEvent: {}
+[12.058581] (-) TimerEvent: {}
+[12.159019] (-) TimerEvent: {}
+[12.259465] (-) TimerEvent: {}
+[12.359857] (-) TimerEvent: {}
+[12.460298] (-) TimerEvent: {}
+[12.560752] (-) TimerEvent: {}
+[12.661175] (-) TimerEvent: {}
+[12.761678] (-) TimerEvent: {}
+[12.862016] (-) TimerEvent: {}
+[12.962442] (-) TimerEvent: {}
+[13.062930] (-) TimerEvent: {}
+[13.163362] (-) TimerEvent: {}
+[13.263855] (-) TimerEvent: {}
+[13.364229] (-) TimerEvent: {}
+[13.464631] (-) TimerEvent: {}
+[13.565121] (-) TimerEvent: {}
+[13.665581] (-) TimerEvent: {}
+[13.765990] (-) TimerEvent: {}
+[13.866423] (-) TimerEvent: {}
+[13.966765] (-) TimerEvent: {}
+[14.067177] (-) TimerEvent: {}
+[14.167627] (-) TimerEvent: {}
+[14.268101] (-) TimerEvent: {}
+[14.368526] (-) TimerEvent: {}
+[14.469039] (-) TimerEvent: {}
+[14.569455] (-) TimerEvent: {}
+[14.669816] (-) TimerEvent: {}
+[14.770229] (-) TimerEvent: {}
+[14.870664] (-) TimerEvent: {}
+[14.971091] (-) TimerEvent: {}
+[15.071520] (-) TimerEvent: {}
+[15.172088] (-) TimerEvent: {}
+[15.272490] (-) TimerEvent: {}
+[15.372891] (-) TimerEvent: {}
+[15.473260] (-) TimerEvent: {}
+[15.573695] (-) TimerEvent: {}
+[15.674170] (-) TimerEvent: {}
+[15.774558] (-) TimerEvent: {}
+[15.874960] (-) TimerEvent: {}
+[15.975427] (-) TimerEvent: {}
+[16.075809] (-) TimerEvent: {}
+[16.176203] (-) TimerEvent: {}
+[16.276576] (-) TimerEvent: {}
+[16.377036] (-) TimerEvent: {}
+[16.477468] (-) TimerEvent: {}
+[16.577888] (-) TimerEvent: {}
+[16.678423] (-) TimerEvent: {}
+[16.778821] (-) TimerEvent: {}
+[16.879225] (-) TimerEvent: {}
+[16.980645] (-) TimerEvent: {}
+[17.081096] (-) TimerEvent: {}
+[17.181541] (-) TimerEvent: {}
+[17.281892] (-) TimerEvent: {}
+[17.382300] (-) TimerEvent: {}
+[17.482705] (-) TimerEvent: {}
+[17.583797] (-) TimerEvent: {}
+[17.684252] (-) TimerEvent: {}
+[17.784663] (-) TimerEvent: {}
+[17.885087] (-) TimerEvent: {}
+[17.985655] (-) TimerEvent: {}
+[18.086090] (-) TimerEvent: {}
+[18.186548] (-) TimerEvent: {}
+[18.286929] (-) TimerEvent: {}
+[18.387412] (-) TimerEvent: {}
+[18.487769] (-) TimerEvent: {}
+[18.588193] (-) TimerEvent: {}
+[18.688610] (-) TimerEvent: {}
+[18.788995] (-) TimerEvent: {}
+[18.889460] (-) TimerEvent: {}
+[18.989889] (-) TimerEvent: {}
+[19.090270] (-) TimerEvent: {}
+[19.190716] (-) TimerEvent: {}
+[19.291170] (-) TimerEvent: {}
+[19.342912] (moveit2_scripts) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_trajectory2\x1b[0m\n'}
+[19.391365] (-) TimerEvent: {}
+[19.492110] (-) TimerEvent: {}
+[19.592559] (-) TimerEvent: {}
+[19.693397] (-) TimerEvent: {}
+[19.793946] (-) TimerEvent: {}
+[19.894475] (-) TimerEvent: {}
+[19.994884] (-) TimerEvent: {}
+[20.095311] (-) TimerEvent: {}
+[20.198351] (-) TimerEvent: {}
+[20.298911] (-) TimerEvent: {}
+[20.301539] (moveit2_scripts) StdoutLine: {'line': b'[100%] Built target test_trajectory2\n'}
+[20.326127] (moveit2_scripts) CommandEnded: {'returncode': 0}
+[20.399126] (-) TimerEvent: {}
+[20.413397] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'install'}
+[20.432528] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jelly/ros2_ws/build/moveit2_scripts'], 'cwd': '/home/jelly/ros2_ws/build/moveit2_scripts', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1019'), ('SYSTEMD_EXEC_PID', '1302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '110885'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:33760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1279,unix/jelly-virtual-machine:/tmp/.ICE-unix/1279'), ('INVOCATION_ID', '07a86a646182420cbe0dcc029b1f4494'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7NRQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:91813e68-78e9-4442-87c1-bb2f12feea6f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/moveit2_scripts'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages:/home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:/home/jelly/ros2_ws/install/my_moveit2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble')]), 'shell': False}
+[20.448610] (moveit2_scripts) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.449513] (moveit2_scripts) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.450117] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts\n'}
+[20.452357] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts\n'}
+[20.452527] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh\n'}
+[20.452628] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv\n'}
+[20.452716] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh\n'}
+[20.452802] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv\n'}
+[20.453235] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash\n'}
+[20.453881] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh\n'}
+[20.454327] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh\n'}
+[20.457804] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv\n'}
+[20.458858] (moveit2_scripts) StdoutLine: {'line': b'-- Symlinking: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv\n'}
+[20.478812] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts\n'}
+[20.479301] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake\n'}
+[20.479768] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake\n'}
+[20.480181] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml\n'}
+[20.480874] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/position_publisher.launch.py\n'}
+[20.481266] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py\n'}
+[20.481638] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py\n'}
+[20.482163] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory\n'}
+[20.482587] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2\n'}
+[20.483011] (moveit2_scripts) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/position_publisher\n'}
+[20.491433] (moveit2_scripts) CommandEnded: {'returncode': 0}
+[20.500532] (-) TimerEvent: {}
+[20.601017] (-) TimerEvent: {}
+[20.613979] (moveit2_scripts) JobEnded: {'identifier': 'moveit2_scripts', 'rc': 0}
+[20.614599] (-) EventReactorShutdown: {}

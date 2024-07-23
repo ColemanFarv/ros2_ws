@@ -1,0 +1,176 @@
+[0.028s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.230s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[0.292s] [ 33%] Built target position_publisher
+[0.331s] [ 50%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[0.362s] [ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[6.165s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In member function ‘[01m[Kvoid PositionListener::positionCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[6.165s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[6.166s]    23 |   [01;31m[Kgeometry_msgs[m[K::msg::Pose target_pose;
+[6.166s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[6.177s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose1[m[K’ was not declared in this scope
+[6.178s]    24 |   [01;31m[Ktarget_pose1[m[K.orientation.x = -0.2128;
+[6.178s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[6.189s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+[6.190s]    31 |   [01;31m[Kmove_group[m[K.setPoseTarget(target_pose1);
+[6.190s]       |   [01;31m[K^~~~~~~~~~[m[K
+[6.190s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ has not been declared
+[6.190s]    33 |   [01;31m[Kmoveit[m[K::planning_interface::MoveGroupInterface::Plan my_plan;
+[6.190s]       |   [01;31m[K^~~~~~[m[K
+[6.200s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan[m[K’ was not declared in this scope
+[6.200s]    36 |       (move_group.plan([01;31m[Kmy_plan[m[K) == moveit::core::MoveItErrorCode::SUCCESS);
+[6.201s]       |                        [01;31m[K^~~~~~~[m[K
+[6.201s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:36:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ has not been declared
+[6.201s]    36 |       (move_group.plan(my_plan) == [01;31m[Kmoveit[m[K::core::MoveItErrorCode::SUCCESS);
+[6.201s]       |                                    [01;31m[K^~~~~~[m[K
+[6.209s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.209s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.209s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.209s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.209s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.210s]                  from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[6.210s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:38:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[6.210s]    38 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Going to Position 2");
+[6.210s]       |               [01;31m[K^~~~~~[m[K
+[6.210s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.211s]    38 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+[6.211s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.211s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.211s]    38 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+[6.211s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.211s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.211s]    38 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+[6.211s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.212s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:35:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.212s]    35 |   bool [01;35m[Ksuccess[m[K =
+[6.212s]       |        [01;35m[K^~~~~~~[m[K
+[6.220s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.221s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:82:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ has not been declared
+[6.221s]    82 |   [01;31m[Kmoveit[m[K::planning_interface::MoveGroupInterface move_group(move_group_node,
+[6.221s]       |   [01;31m[K^~~~~~[m[K
+[6.222s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ does not name a type; did you mean ‘[01m[Kmode_t[m[K’?
+[6.223s]    85 |   const [01;31m[Kmoveit[m[K::core::JointModelGroup *joint_model_group =
+[6.223s]       |         [01;31m[K^~~~~~[m[K
+[6.223s]       |         [32m[Kmode_t[m[K
+[6.228s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.229s]                  from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[6.229s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:88:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[6.229s]    88 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Planning frame: %s",
+[6.229s]       |               [01;31m[K^~~~~~[m[K
+[6.229s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:88:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.230s]    88 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Planning frame: %s",
+[6.230s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.230s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:88:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.230s]    88 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Planning frame: %s",
+[6.230s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.230s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:88:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.230s]    88 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Planning frame: %s",
+[6.230s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.237s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.238s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.238s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.238s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.238s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.238s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.238s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.238s]                  from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[6.238s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:89:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_node[m[K’?
+[6.238s]    89 |               [01;31m[Kmove_group[m[K.getPlanningFrame().c_str());
+[6.238s]       |               [01;31m[K^~~~~~~~~~[m[K
+[6.244s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.245s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.245s]                  from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[6.245s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:91:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[6.245s]    91 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "End effector link: %s",
+[6.245s]       |               [01;31m[K^~~~~~[m[K
+[6.245s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:91:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.245s]    91 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "End effector link: %s",
+[6.245s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.245s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:91:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.245s]    91 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "End effector link: %s",
+[6.245s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.245s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:91:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.246s]    91 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "End effector link: %s",
+[6.246s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.253s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.254s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.255s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.255s]                  from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[6.255s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:92:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_node[m[K’?
+[6.255s]    92 |               [01;31m[Kmove_group[m[K.getEndEffectorLink().c_str());
+[6.255s]       |               [01;31m[K^~~~~~~~~~[m[K
+[6.260s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.260s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.261s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.261s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.261s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.261s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.261s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.261s]                  from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[6.261s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:94:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[6.261s]    94 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Available Planning Groups:");
+[6.261s]       |               [01;31m[K^~~~~~[m[K
+[6.261s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:94:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.261s]    94 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Available Planning Groups:");
+[6.261s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.262s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:94:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.262s]    94 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Available Planning Groups:");
+[6.262s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.262s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:94:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.262s]    94 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Available Planning Groups:");
+[6.262s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[6.273s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:95:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_node[m[K’?
+[6.274s]    95 |   std::copy([01;31m[Kmove_group[m[K.getJointModelGroupNames().begin(),
+[6.274s]       |             [01;31m[K^~~~~~~~~~[m[K
+[6.274s]       |             [32m[Kmove_group_node[m[K
+[10.256s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.256s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.256s]    25 | it::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[10.257s]       |                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[10.257s] 
+[10.257s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.257s]    51 |   bool [01;35m[Ksuccess[m[K =
+[10.257s]       |        [01;35m[K^~~~~~~[m[K
+[10.274s] gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+[10.274s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+[10.274s] gmake[1]: *** Waiting for unfinished jobs....
+[14.625s] [ 83%] [32m[1mLinking CXX executable test_trajectory[0m
+[15.089s] [ 83%] Built target test_trajectory
+[15.090s] gmake: *** [Makefile:146: all] Error 2
+[15.093s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4

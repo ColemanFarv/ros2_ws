@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[0.135s] [ 33%] Built target position_publisher
+[0.136s] [ 66%] Built target test_trajectory
+[0.146s] [ 83%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[7.169s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In member function ‘[01m[Kvoid RobotController::moveToPosition(const std::vector<float>&)[m[K’:
+[7.169s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:69:95:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[7.169s]    69 |     bool success = (move_group->plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[7.170s]       |                                                                                               [01;35m[K^~~~~~~[m[K
+[7.170s] In file included from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:6[m[K:
+[7.170s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.170s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[7.170s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[18.705s] [100%] [32m[1mLinking CXX executable test_trajectory2[0m
+[19.625s] [100%] Built target test_trajectory2
+[19.645s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[19.732s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/moveit2_scripts
+[19.744s] -- Install configuration: ""
+[19.745s] -- Execute custom install script
+[19.746s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+[19.746s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+[19.747s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+[19.747s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+[19.747s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+[19.747s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+[19.747s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+[19.747s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+[19.748s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+[19.748s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+[19.748s] -- Symlinking: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+[19.762s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+[19.763s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+[19.763s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+[19.763s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+[19.764s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/position_publisher.launch.py
+[19.764s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+[19.764s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+[19.764s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[19.765s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2
+[19.765s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/position_publisher
+[19.768s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/moveit2_scripts

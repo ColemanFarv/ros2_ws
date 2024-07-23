@@ -20,7 +20,7 @@
 	
 	<!-- ********** LINKS ********** -->
 
-  <link name="base_link">
+  <link name="joint1">
     <visual>
       <geometry>
 	     <!--- 0.0 0 -0.04  1.5708 3.14159-->
@@ -271,23 +271,23 @@
 <!-- Attach the robot base to the world frame with no initial offset or rotation. -->
 	<joint name="virtual_joint" type="fixed">
 		<parent link="world"/>
-		<child link="base_link"/>
+		<child link="joint1"/>
 		<origin xyz= "0 0 0" rpy = "0 0 0"/>  
 	</joint>
 	
 	<!-- Define the joint name and its type as "fixed". A fixed joint 
 	means the two connected links cannot move relative to each other. -->
 
-		<joint name="base_link_to_link1" type="revolute">
+		<joint name="joint1" type="revolute">
 		<axis xyz="0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
-		<parent link="base_link"/>
+		<parent link="joint1"/>
 		<child link="link1"/>
 	    <origin xyz= "0 0 0.13156" rpy = "0 0 ${pi/2}"/>  
         <dynamics damping="0.05" friction="0.05"/>
 	</joint>
 
-	<joint name="link1_to_link2" type="revolute">
+	<joint name="joint2" type="revolute">
 		<axis xyz="0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
 		<parent link="link1"/>
@@ -296,7 +296,7 @@
         <dynamics damping="0.205" friction="0.15"/>
 	</joint>
 
-	<joint name="link2_to_link3" type="revolute">
+	<joint name="joint3" type="revolute">
 		<axis xyz=" 0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
 		<parent link="link2"/>
@@ -307,7 +307,7 @@
 
 	
 
-	<joint name="link3_to_link4" type="revolute">
+	<joint name="joint4" type="revolute">
 		<axis xyz=" 0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
 		<parent link="link3"/>
@@ -317,7 +317,7 @@
 	</joint>
 		
 
-	<joint name="link4_to_link5" type="revolute">
+	<joint name="joint5" type="revolute">
 		<axis xyz=" 0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
 		<parent link="link4"/>
@@ -326,7 +326,7 @@
         <dynamics damping="0.01" friction="0.005"/>
 	</joint>
 
-	<joint name="link5_to_link5_flange" type="revolute">
+	<joint name="joint6" type="revolute">
 		<axis xyz=" 0 0 1"/>
 		<limit effort = "${effort}" lower = "-3.05" upper = "3.05" velocity = "${velocity}"/>
 		<parent link="link5"/>

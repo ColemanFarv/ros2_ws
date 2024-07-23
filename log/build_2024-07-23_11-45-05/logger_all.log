@@ -1,0 +1,865 @@
+[0.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.166s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7eded23f13c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eded23f0e80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eded23f0e80>>)
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.230s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jelly/ros2_ws'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/catch2_ros) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/catch2_ros' with type 'ros.ament_cmake' and name 'catch2'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/fmt) by extension 'python'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fmt' with type 'cmake' and name 'FMT'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/fp) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fp' with type 'ros.ament_cmake' and name 'fp'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_scripts) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit2_scripts' with type 'ros.ament_cmake' and name 'moveit2_scripts'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/build) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/build) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/build) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/install) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/install) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/install) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/log) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/log) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/log) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot-ros2-fix/mycobot' with type 'ros.ament_cmake' and name 'mycobot'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_280_description) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot-ros2-fix/mycobot_280_description' with type 'ros.ament_cmake' and name 'mycobot_280_description'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot-ros2-fix/mycobot_hardware_interface) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot-ros2-fix/mycobot_hardware_interface' with type 'ros.ament_cmake' and name 'mycobot_hardware_interface'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_description) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_description' with type 'ros.ament_cmake' and name 'mycobot_description'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_gazebo) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_gazebo' with type 'ros.ament_cmake' and name 'mycobot_gazebo'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extensions ['colcon_pkg']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extension 'colcon_pkg'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extensions ['colcon_meta']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extension 'colcon_meta'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_moveit_config) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_moveit_config' with type 'ros.ament_cmake' and name 'mycobot_moveit_config'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycobot_ros2/mycobot_ros2) by extension 'ros'
+[0.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycobot_ros2/mycobot_ros2' with type 'ros.ament_cmake' and name 'mycobot_ros2'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.324s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.328s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/jelly/ros2_ws/install
+[0.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.404s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'mycobot_description' is in: /home/jelly/ros2_ws/install/mycobot_description
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding mycobot_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'FMT' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'FMT' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/FMT', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/FMT', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/fmt', 'symlink_install': False, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'catch2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'catch2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/catch2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/catch2', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/catch2_ros', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'fp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'fp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/fp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/fp', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/fp', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'moveit2_scripts' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'moveit2_scripts' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/moveit2_scripts', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/moveit2_scripts', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/moveit2_scripts', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'mycobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/mycobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/mycobot_description', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'mycobot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/mycobot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/mycobot_gazebo', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/serial', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/serial', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'mycobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/mycobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/mycobot', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot', 'symlink_install': False, 'test_result_base': None}
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'mycobot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.413s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/mycobot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/mycobot_moveit_config', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'mycobot_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/mycobot_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/mycobot_ros2', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'mycobot_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.415s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/mycobot_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/mycobot_hardware_interface', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'mycobot_280_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'mycobot_280_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jelly/ros2_ws/build/mycobot_280_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jelly/ros2_ws/install/mycobot_280_description', 'merge_install': False, 'path': '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_280_description', 'symlink_install': False, 'test_result_base': None}
+[0.416s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.418s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/catch2_ros' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/catch2_ros'
+[0.426s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.433s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/fp' with build type 'ament_cmake'
+[0.433s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/fp'
+[0.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/serial' with build type 'ament_cmake'
+[0.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/serial'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description' with build type 'ament_cmake'
+[0.457s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description'
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/catch2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/catch2 -- -j4 -l4
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/serial -- -j4 -l4
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_description -- -j4 -l4
+[0.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/catch2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/catch2 -- -j4 -l4
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_description -- -j4 -l4
+[0.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/serial -- -j4 -l4
+[0.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/catch2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/catch2
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_description
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/serial
+[0.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_description)
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description' for CMake module files
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description' for CMake config files
+[0.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_description', 'cmake_prefix_path')
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/hook/cmake_prefix_path.ps1'
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_description
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/hook/cmake_prefix_path.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/hook/cmake_prefix_path.sh'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description/bin'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description/lib/pkgconfig/mycobot_description.pc'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description/lib/python3.10/site-packages'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description/bin'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.sh'
+[0.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.bash'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.zsh'
+[0.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_description/share/colcon-core/packages/mycobot_description)
+[0.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial' for CMake module files
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/serial
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial' for CMake config files
+[0.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/lib'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/bin'
+[0.835s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/lib/pkgconfig/serial.pc'
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/lib/python3.10/site-packages'
+[0.836s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/bin'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/serial/share/serial/package.ps1'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/serial/share/serial/package.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/serial/share/serial/package.sh'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/serial/share/serial/package.bash'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/serial/share/serial/package.zsh'
+[0.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/serial/share/colcon-core/packages/serial)
+[0.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(catch2)
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2' for CMake module files
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/catch2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/catch2
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2' for CMake config files
+[0.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('catch2', 'cmake_prefix_path')
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/catch2/share/catch2/hook/cmake_prefix_path.ps1'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/catch2/share/catch2/hook/cmake_prefix_path.dsv'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/catch2/share/catch2/hook/cmake_prefix_path.sh'
+[0.856s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2/bin'
+[0.856s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2/lib/pkgconfig/catch2.pc'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2/lib/python3.10/site-packages'
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2/bin'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/catch2/share/catch2/package.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/catch2/share/catch2/package.dsv'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/catch2/share/catch2/package.sh'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/catch2/share/catch2/package.bash'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/catch2/share/catch2/package.zsh'
+[0.861s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/catch2/share/colcon-core/packages/catch2)
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_description)
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description' for CMake module files
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description' for CMake config files
+[0.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_description', 'cmake_prefix_path')
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/hook/cmake_prefix_path.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/hook/cmake_prefix_path.dsv'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/hook/cmake_prefix_path.sh'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description/bin'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description/lib/pkgconfig/mycobot_description.pc'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description/lib/python3.10/site-packages'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_description/bin'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.sh'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.bash'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.zsh'
+[0.888s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_description/share/colcon-core/packages/mycobot_description)
+[0.889s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo' with build type 'ament_cmake'
+[0.889s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo'
+[0.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_gazebo -- -j4 -l4
+[0.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.940s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial' for CMake module files
+[0.941s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial' for CMake config files
+[0.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/lib'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/bin'
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/lib/pkgconfig/serial.pc'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/lib/python3.10/site-packages'
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/serial/bin'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/serial/share/serial/package.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/serial/share/serial/package.dsv'
+[0.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/serial/share/serial/package.sh'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/serial/share/serial/package.bash'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/serial/share/serial/package.zsh'
+[0.950s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/serial/share/colcon-core/packages/serial)
+[0.951s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/fmt'
+[0.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(catch2)
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2' for CMake module files
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2' for CMake config files
+[0.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('catch2', 'cmake_prefix_path')
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/catch2/share/catch2/hook/cmake_prefix_path.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/catch2/share/catch2/hook/cmake_prefix_path.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/catch2/share/catch2/hook/cmake_prefix_path.sh'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2/bin'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2/lib/pkgconfig/catch2.pc'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2/lib/python3.10/site-packages'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/catch2/bin'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/catch2/share/catch2/package.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/catch2/share/catch2/package.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/catch2/share/catch2/package.sh'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/catch2/share/catch2/package.bash'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/catch2/share/catch2/package.zsh'
+[0.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/catch2/share/colcon-core/packages/catch2)
+[0.973s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/moveit2_scripts' with build type 'ament_cmake'
+[0.974s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/moveit2_scripts'
+[0.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp
+[0.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake --build /home/jelly/ros2_ws/build/FMT -- -j4 -l4
+[1.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_gazebo -- -j4 -l4
+[1.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fp)
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp' for CMake module files
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp' for CMake config files
+[1.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('fp', 'cmake_prefix_path')
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/fp/share/fp/hook/cmake_prefix_path.ps1'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/fp/share/fp/hook/cmake_prefix_path.dsv'
+[1.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/fp/share/fp/hook/cmake_prefix_path.sh'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp/bin'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp/lib/pkgconfig/fp.pc'
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp/lib/python3.10/site-packages'
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp/bin'
+[1.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/fp/share/fp/package.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/fp/share/fp/package.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/fp/share/fp/package.sh'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/fp/share/fp/package.bash'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/fp/share/fp/package.zsh'
+[1.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/fp/share/colcon-core/packages/fp)
+[1.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_gazebo
+[1.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fp)
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp' for CMake module files
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp' for CMake config files
+[1.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('fp', 'cmake_prefix_path')
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/fp/share/fp/hook/cmake_prefix_path.ps1'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/fp/share/fp/hook/cmake_prefix_path.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/fp/share/fp/hook/cmake_prefix_path.sh'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp/bin'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp/lib/pkgconfig/fp.pc'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp/lib/python3.10/site-packages'
+[1.289s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/fp/bin'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/fp/share/fp/package.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/fp/share/fp/package.dsv'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/fp/share/fp/package.sh'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/fp/share/fp/package.bash'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/fp/share/fp/package.zsh'
+[1.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/fp/share/colcon-core/packages/fp)
+[1.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot' with build type 'ament_cmake'
+[1.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot'
+[1.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot -- -j4 -l4
+[1.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_gazebo)
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo' for CMake module files
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_gazebo
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo' for CMake config files
+[1.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_gazebo', 'cmake_prefix_path')
+[1.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/hook/cmake_prefix_path.ps1'
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/hook/cmake_prefix_path.dsv'
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/hook/cmake_prefix_path.sh'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo/bin'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo/lib/pkgconfig/mycobot_gazebo.pc'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo/lib/python3.10/site-packages'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo/bin'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.ps1'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.dsv'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.sh'
+[1.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.bash'
+[1.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.zsh'
+[1.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_gazebo/share/colcon-core/packages/mycobot_gazebo)
+[1.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot -- -j4 -l4
+[1.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_gazebo)
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo' for CMake module files
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo' for CMake config files
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_gazebo', 'cmake_prefix_path')
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/hook/cmake_prefix_path.ps1'
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/hook/cmake_prefix_path.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/hook/cmake_prefix_path.sh'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo/bin'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo/lib/pkgconfig/mycobot_gazebo.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo/lib/python3.10/site-packages'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_gazebo/bin'
+[1.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.dsv'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.sh'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.bash'
+[1.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/package.zsh'
+[1.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_gazebo/share/colcon-core/packages/mycobot_gazebo)
+[1.874s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_moveit_config' with build type 'ament_cmake'
+[1.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_moveit_config'
+[1.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_moveit_config -- -j4 -l4
+[1.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/FMT' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/FMT -- -j4 -l4
+[2.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_moveit_config -- -j4 -l4
+[2.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot
+[2.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_moveit_config
+[2.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot)
+[2.213s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot' for CMake module files
+[2.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot' for CMake config files
+[2.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot', 'cmake_prefix_path')
+[2.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/cmake_prefix_path.ps1'
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/cmake_prefix_path.dsv'
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/cmake_prefix_path.sh'
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/lib'
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/bin'
+[2.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot', 'path')
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/path.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/path.dsv'
+[2.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/path.sh'
+[2.226s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/lib/pkgconfig/mycobot.pc'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/lib/python3.10/site-packages'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/bin'
+[2.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot', 'pythonscriptspath')
+[2.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/pythonscriptspath.ps1'
+[2.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/pythonscriptspath.dsv'
+[2.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/pythonscriptspath.sh'
+[2.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.ps1'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.dsv'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.sh'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.bash'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.zsh'
+[2.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot/share/colcon-core/packages/mycobot)
+[2.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_moveit_config)
+[2.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_moveit_config
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config' for CMake module files
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config' for CMake config files
+[2.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_moveit_config', 'cmake_prefix_path')
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/hook/cmake_prefix_path.sh'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config/bin'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config/lib/pkgconfig/mycobot_moveit_config.pc'
+[2.281s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config/lib/python3.10/site-packages'
+[2.281s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config/bin'
+[2.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.ps1'
+[2.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.dsv'
+[2.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.sh'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.bash'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.zsh'
+[2.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_moveit_config/share/colcon-core/packages/mycobot_moveit_config)
+[2.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake --install /home/jelly/ros2_ws/build/FMT
+[2.342s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(FMT)
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/FMT' for CMake module files
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/FMT' for CMake config files
+[2.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('FMT', 'cmake_prefix_path')
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/FMT/share/FMT/hook/cmake_prefix_path.ps1'
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/FMT/share/FMT/hook/cmake_prefix_path.dsv'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/FMT/share/FMT/hook/cmake_prefix_path.sh'
+[2.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/FMT' returned '0': /usr/bin/cmake --install /home/jelly/ros2_ws/build/FMT
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/FMT/lib'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/FMT/bin'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/FMT/lib/pkgconfig/FMT.pc'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/FMT/lib/python3.10/site-packages'
+[2.348s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/FMT/bin'
+[2.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/FMT/share/FMT/package.ps1'
+[2.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/FMT/share/FMT/package.dsv'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/FMT/share/FMT/package.sh'
+[2.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/FMT/share/FMT/package.bash'
+[2.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/FMT/share/FMT/package.zsh'
+[2.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/FMT/share/colcon-core/packages/FMT)
+[2.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2' with build type 'ament_cmake'
+[2.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2'
+[2.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_moveit_config)
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config' for CMake module files
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config' for CMake config files
+[2.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_moveit_config', 'cmake_prefix_path')
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/hook/cmake_prefix_path.sh'
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config/bin'
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config/lib/pkgconfig/mycobot_moveit_config.pc'
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config/lib/python3.10/site-packages'
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_moveit_config/bin'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.dsv'
+[2.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.sh'
+[2.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.bash'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.zsh'
+[2.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_moveit_config/share/colcon-core/packages/mycobot_moveit_config)
+[2.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_ros2': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_ros2 -- -j4 -l4
+[2.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot)
+[2.487s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot' for CMake module files
+[2.488s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot' for CMake config files
+[2.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot', 'cmake_prefix_path')
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/cmake_prefix_path.ps1'
+[2.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/cmake_prefix_path.dsv'
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/cmake_prefix_path.sh'
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/lib'
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/bin'
+[2.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot', 'path')
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/path.ps1'
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/path.dsv'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/path.sh'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/lib/pkgconfig/mycobot.pc'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/lib/python3.10/site-packages'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot/bin'
+[2.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot', 'pythonscriptspath')
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/pythonscriptspath.ps1'
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/pythonscriptspath.dsv'
+[2.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot/share/mycobot/hook/pythonscriptspath.sh'
+[2.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.ps1'
+[2.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.dsv'
+[2.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.sh'
+[2.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.bash'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot/share/mycobot/package.zsh'
+[2.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot/share/colcon-core/packages/mycobot)
+[2.510s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface' with build type 'ament_cmake'
+[2.511s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface'
+[2.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_ros2 -- -j4 -l4
+[2.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_hardware_interface -- -j4 -l4
+[2.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_ros2': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_ros2
+[2.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_ros2)
+[2.673s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2' for CMake module files
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2' for CMake config files
+[2.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_ros2', 'cmake_prefix_path')
+[2.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/hook/cmake_prefix_path.ps1'
+[2.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_ros2' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_ros2
+[2.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/hook/cmake_prefix_path.dsv'
+[2.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/hook/cmake_prefix_path.sh'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2/bin'
+[2.678s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2/lib/pkgconfig/mycobot_ros2.pc'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2/lib/python3.10/site-packages'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2/bin'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.ps1'
+[2.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.dsv'
+[2.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.sh'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.bash'
+[2.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.zsh'
+[2.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_ros2/share/colcon-core/packages/mycobot_ros2)
+[2.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_hardware_interface -- -j4 -l4
+[2.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_ros2)
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2' for CMake module files
+[2.776s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2' for CMake config files
+[2.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_ros2', 'cmake_prefix_path')
+[2.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/hook/cmake_prefix_path.ps1'
+[2.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/hook/cmake_prefix_path.dsv'
+[2.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/hook/cmake_prefix_path.sh'
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2/bin'
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2/lib/pkgconfig/mycobot_ros2.pc'
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2/lib/python3.10/site-packages'
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_ros2/bin'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.ps1'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.dsv'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.sh'
+[2.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.bash'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.zsh'
+[2.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_ros2/share/colcon-core/packages/mycobot_ros2)
+[2.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_hardware_interface
+[2.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_hardware_interface)
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface' for CMake module files
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface' for CMake config files
+[2.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_hardware_interface', 'cmake_prefix_path')
+[2.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/cmake_prefix_path.ps1'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/cmake_prefix_path.dsv'
+[2.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/cmake_prefix_path.sh'
+[2.865s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib'
+[2.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_hardware_interface', 'ld_library_path_lib')
+[2.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/ld_library_path_lib.ps1'
+[2.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_hardware_interface
+[2.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/ld_library_path_lib.dsv'
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/ld_library_path_lib.sh'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/bin'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib/pkgconfig/mycobot_hardware_interface.pc'
+[2.871s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib/python3.10/site-packages'
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/bin'
+[2.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.ps1'
+[2.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.sh'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.bash'
+[2.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.zsh'
+[2.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/colcon-core/packages/mycobot_hardware_interface)
+[2.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_hardware_interface)
+[2.954s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface' for CMake module files
+[2.954s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface' for CMake config files
+[2.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_hardware_interface', 'cmake_prefix_path')
+[2.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/cmake_prefix_path.ps1'
+[2.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/cmake_prefix_path.dsv'
+[2.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/cmake_prefix_path.sh'
+[2.958s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib'
+[2.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_hardware_interface', 'ld_library_path_lib')
+[2.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/ld_library_path_lib.ps1'
+[2.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/ld_library_path_lib.dsv'
+[2.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/hook/ld_library_path_lib.sh'
+[2.961s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/bin'
+[2.961s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib/pkgconfig/mycobot_hardware_interface.pc'
+[2.962s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib/python3.10/site-packages'
+[2.962s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_hardware_interface/bin'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.ps1'
+[2.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.dsv'
+[2.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.sh'
+[2.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.bash'
+[2.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.zsh'
+[2.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_hardware_interface/share/colcon-core/packages/mycobot_hardware_interface)
+[2.966s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_280_description' with build type 'ament_cmake'
+[2.967s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_280_description'
+[2.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_280_description': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_280_description -- -j4 -l4
+[3.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_280_description' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_280_description -- -j4 -l4
+[3.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jelly/ros2_ws/build/mycobot_280_description': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_280_description
+[3.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_280_description)
+[3.231s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description' for CMake module files
+[3.232s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description' for CMake config files
+[3.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_280_description', 'cmake_prefix_path')
+[3.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/hook/cmake_prefix_path.ps1'
+[3.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/hook/cmake_prefix_path.dsv'
+[3.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/hook/cmake_prefix_path.sh'
+[3.236s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description/bin'
+[3.236s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description/lib/pkgconfig/mycobot_280_description.pc'
+[3.236s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description/lib/python3.10/site-packages'
+[3.237s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description/bin'
+[3.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.ps1'
+[3.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.dsv'
+[3.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.sh'
+[3.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.bash'
+[3.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/mycobot_280_description' returned '0': CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_280_description
+[3.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.zsh'
+[3.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_280_description/share/colcon-core/packages/mycobot_280_description)
+[3.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycobot_280_description)
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description' for CMake module files
+[3.317s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description' for CMake config files
+[3.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycobot_280_description', 'cmake_prefix_path')
+[3.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/hook/cmake_prefix_path.ps1'
+[3.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/hook/cmake_prefix_path.dsv'
+[3.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/hook/cmake_prefix_path.sh'
+[3.326s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description/bin'
+[3.327s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description/lib/pkgconfig/mycobot_280_description.pc'
+[3.327s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description/lib/python3.10/site-packages'
+[3.327s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/mycobot_280_description/bin'
+[3.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.ps1'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.dsv'
+[3.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.sh'
+[3.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.bash'
+[3.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.zsh'
+[3.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/mycobot_280_description/share/colcon-core/packages/mycobot_280_description)
+[14.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[14.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_scripts)
+[14.226s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/moveit2_scripts' for CMake module files
+[14.227s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/moveit2_scripts' for CMake config files
+[14.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_scripts', 'cmake_prefix_path')
+[14.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.ps1'
+[14.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.dsv'
+[14.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/hook/cmake_prefix_path.sh'
+[14.230s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/moveit2_scripts/lib'
+[14.230s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/moveit2_scripts/bin'
+[14.230s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/moveit2_scripts/lib/pkgconfig/moveit2_scripts.pc'
+[14.231s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/moveit2_scripts/lib/python3.10/site-packages'
+[14.231s] Level 1:colcon.colcon_core.environment:checking '/home/jelly/ros2_ws/install/moveit2_scripts/bin'
+[14.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.ps1'
+[14.232s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv'
+[14.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.sh'
+[14.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.bash'
+[14.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.zsh'
+[14.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jelly/ros2_ws/install/moveit2_scripts/share/colcon-core/packages/moveit2_scripts)
+[14.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[14.246s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.255s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.275s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.276s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jelly/ros2_ws/install/local_setup.ps1'
+[14.277s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jelly/ros2_ws/install/_local_setup_util_ps1.py'
+[14.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jelly/ros2_ws/install/setup.ps1'
+[14.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jelly/ros2_ws/install/local_setup.sh'
+[14.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jelly/ros2_ws/install/_local_setup_util_sh.py'
+[14.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jelly/ros2_ws/install/setup.sh'
+[14.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jelly/ros2_ws/install/local_setup.bash'
+[14.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jelly/ros2_ws/install/setup.bash'
+[14.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jelly/ros2_ws/install/local_setup.zsh'
+[14.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jelly/ros2_ws/install/setup.zsh'

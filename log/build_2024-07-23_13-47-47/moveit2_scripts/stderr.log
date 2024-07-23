@@ -1,0 +1,168 @@
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In member function ‘[01m[Kvoid PositionListener::positionCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:23:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+   23 |   [01;31m[Kgeometry_msgs[m[K::msg::Pose target_pose;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose1[m[K’ was not declared in this scope
+   24 |   [01;31m[Ktarget_pose1[m[K.orientation.x = -0.2128;
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:31:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   31 |   [01;31m[Kmove_group[m[K.setPoseTarget(target_pose1);
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:33:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ has not been declared
+   33 |   [01;31m[Kmoveit[m[K::planning_interface::MoveGroupInterface::Plan my_plan;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_plan[m[K’ was not declared in this scope
+   36 |       (move_group.plan([01;31m[Kmy_plan[m[K) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:36:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ has not been declared
+   36 |       (move_group.plan(my_plan) == [01;31m[Kmoveit[m[K::core::MoveItErrorCode::SUCCESS);
+      |                                    [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:38:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   38 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Going to Position 2");
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:38:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:35:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   35 |   bool [01;35m[Ksuccess[m[K =
+      |        [01;35m[K^~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:82:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ has not been declared
+   82 |   [01;31m[Kmoveit[m[K::planning_interface::MoveGroupInterface move_group(move_group_node,
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ does not name a type; did you mean ‘[01m[Kmode_t[m[K’?
+   85 |   const [01;31m[Kmoveit[m[K::core::JointModelGroup *joint_model_group =
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kmode_t[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:88:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   88 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Planning frame: %s",
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:88:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   88 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Planning frame: %s",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:88:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   88 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Planning frame: %s",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:88:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   88 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Planning frame: %s",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:89:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_node[m[K’?
+   89 |               [01;31m[Kmove_group[m[K.getPlanningFrame().c_str());
+      |               [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:91:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   91 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "End effector link: %s",
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:91:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   91 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "End effector link: %s",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:91:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   91 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "End effector link: %s",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:91:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   91 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "End effector link: %s",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:92:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_node[m[K’?
+   92 |               [01;31m[Kmove_group[m[K.getEndEffectorLink().c_str());
+      |               [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:94:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+   94 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Available Planning Groups:");
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:94:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   94 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Available Planning Groups:");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:94:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   94 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Available Planning Groups:");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:94:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   94 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Available Planning Groups:");
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:95:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope; did you mean ‘[01m[Kmove_group_node[m[K’?
+   95 |   std::copy([01;31m[Kmove_group[m[K.getJointModelGroupNames().begin(),
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kmove_group_node[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   25 | it::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+      |                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |   bool [01;35m[Ksuccess[m[K =
+      |        [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

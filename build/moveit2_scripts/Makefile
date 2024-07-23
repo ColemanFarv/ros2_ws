@@ -224,54 +224,41 @@ test_trajectory2/fast:
 .PHONY : test_trajectory2/fast
 
 #=============================================================================
-# Target rules for targets named test_trajectory3
+# Target rules for targets named position_publisher
 
 # Build rule for target.
-test_trajectory3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_trajectory3
-.PHONY : test_trajectory3
+position_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 position_publisher
+.PHONY : position_publisher
 
 # fast build rule for target.
-test_trajectory3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory3.dir/build.make CMakeFiles/test_trajectory3.dir/build
-.PHONY : test_trajectory3/fast
+position_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/build
+.PHONY : position_publisher/fast
 
-#=============================================================================
-# Target rules for targets named cartesian_path
-
-# Build rule for target.
-cartesian_path: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cartesian_path
-.PHONY : cartesian_path
-
-# fast build rule for target.
-cartesian_path/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cartesian_path.dir/build.make CMakeFiles/cartesian_path.dir/build
-.PHONY : cartesian_path/fast
-
-src/cartesian_path.o: src/cartesian_path.cpp.o
-.PHONY : src/cartesian_path.o
+src/position_publisher.o: src/position_publisher.cpp.o
+.PHONY : src/position_publisher.o
 
 # target to build an object file
-src/cartesian_path.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cartesian_path.dir/build.make CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.o
-.PHONY : src/cartesian_path.cpp.o
+src/position_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o
+.PHONY : src/position_publisher.cpp.o
 
-src/cartesian_path.i: src/cartesian_path.cpp.i
-.PHONY : src/cartesian_path.i
+src/position_publisher.i: src/position_publisher.cpp.i
+.PHONY : src/position_publisher.i
 
 # target to preprocess a source file
-src/cartesian_path.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cartesian_path.dir/build.make CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.i
-.PHONY : src/cartesian_path.cpp.i
+src/position_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/src/position_publisher.cpp.i
+.PHONY : src/position_publisher.cpp.i
 
-src/cartesian_path.s: src/cartesian_path.cpp.s
-.PHONY : src/cartesian_path.s
+src/position_publisher.s: src/position_publisher.cpp.s
+.PHONY : src/position_publisher.s
 
 # target to generate assembly for a file
-src/cartesian_path.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cartesian_path.dir/build.make CMakeFiles/cartesian_path.dir/src/cartesian_path.cpp.s
-.PHONY : src/cartesian_path.cpp.s
+src/position_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/src/position_publisher.cpp.s
+.PHONY : src/position_publisher.cpp.s
 
 src/test_trajectory.o: src/test_trajectory.cpp.o
 .PHONY : src/test_trajectory.o
@@ -321,30 +308,6 @@ src/test_trajectory2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory2.dir/build.make CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.s
 .PHONY : src/test_trajectory2.cpp.s
 
-src/test_trajectory3.o: src/test_trajectory3.cpp.o
-.PHONY : src/test_trajectory3.o
-
-# target to build an object file
-src/test_trajectory3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory3.dir/build.make CMakeFiles/test_trajectory3.dir/src/test_trajectory3.cpp.o
-.PHONY : src/test_trajectory3.cpp.o
-
-src/test_trajectory3.i: src/test_trajectory3.cpp.i
-.PHONY : src/test_trajectory3.i
-
-# target to preprocess a source file
-src/test_trajectory3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory3.dir/build.make CMakeFiles/test_trajectory3.dir/src/test_trajectory3.cpp.i
-.PHONY : src/test_trajectory3.cpp.i
-
-src/test_trajectory3.s: src/test_trajectory3.cpp.s
-.PHONY : src/test_trajectory3.s
-
-# target to generate assembly for a file
-src/test_trajectory3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory3.dir/build.make CMakeFiles/test_trajectory3.dir/src/test_trajectory3.cpp.s
-.PHONY : src/test_trajectory3.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -360,22 +323,18 @@ help:
 	@echo "... test"
 	@echo "... moveit2_scripts_uninstall"
 	@echo "... uninstall"
-	@echo "... cartesian_path"
+	@echo "... position_publisher"
 	@echo "... test_trajectory"
 	@echo "... test_trajectory2"
-	@echo "... test_trajectory3"
-	@echo "... src/cartesian_path.o"
-	@echo "... src/cartesian_path.i"
-	@echo "... src/cartesian_path.s"
+	@echo "... src/position_publisher.o"
+	@echo "... src/position_publisher.i"
+	@echo "... src/position_publisher.s"
 	@echo "... src/test_trajectory.o"
 	@echo "... src/test_trajectory.i"
 	@echo "... src/test_trajectory.s"
 	@echo "... src/test_trajectory2.o"
 	@echo "... src/test_trajectory2.i"
 	@echo "... src/test_trajectory2.s"
-	@echo "... src/test_trajectory3.o"
-	@echo "... src/test_trajectory3.i"
-	@echo "... src/test_trajectory3.s"
 .PHONY : help
 
 

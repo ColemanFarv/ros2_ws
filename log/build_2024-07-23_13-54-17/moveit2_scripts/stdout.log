@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[ 50%] Built target position_publisher
+[ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable test_trajectory[0m
+[ 83%] Built target test_trajectory

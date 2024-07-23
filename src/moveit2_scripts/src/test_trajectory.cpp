@@ -1,13 +1,15 @@
+#include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+#include <vector>
+#include <string>
+#include <sstream>
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/planning_scene_interface/planning_scene_interface.h>
 
 #include <moveit_msgs/msg/display_robot_state.hpp>
 #include <moveit_msgs/msg/display_trajectory.hpp>
-// ... other includes
-
 
 static const rclcpp::Logger LOGGER = rclcpp::get_logger("move_group_demo");
-static const std::string PLANNING_GROUP = "mycobot";
 
 int main(int argc, char **argv) {
   rclcpp::init(argc, argv);
@@ -19,6 +21,8 @@ int main(int argc, char **argv) {
   rclcpp::executors::SingleThreadedExecutor executor;
   executor.add_node(move_group_node);
   std::thread([&executor]() { executor.spin(); }).detach();
+
+  static const std::string PLANNING_GROUP = "arm_group";
 
   moveit::planning_interface::MoveGroupInterface move_group(move_group_node,
                                                             PLANNING_GROUP);
@@ -37,40 +41,24 @@ int main(int argc, char **argv) {
             move_group.getJointModelGroupNames().end(),
             std::ostream_iterator<std::string>(std::cout, ", "));
 
-  moveit::core::RobotStatePtr current_state = move_group.getCurrentState(10);
-
-  std::vector<double> joint_group_positions;
-  current_state->copyJointGroupPositions(joint_model_group,
-                                         joint_group_positions);
-
-  // joint_group_positions[0] = 0.00;  // Shoulder Pan
-  joint_group_positions[1] = -2.50; // Shoulder Lift
-  joint_group_positions[2] = 1.50;  // Elbow
-  joint_group_positions[3] = -1.50; // Wrist 1
-  joint_group_positions[4] = -1.55; // Wrist 2
-  // joint_group_positions[5] = 0.00;  // Wrist 3
-  move_group.setJointValueTarget(joint_group_positions);
+  geometry_msgs::msg::Pose target_pose1;
+  target_pose1.orientation.x = -0.2128;
+  target_pose1.orientation.y = 0.976;
+  target_pose1.orientation.z = -0.04276;
+  target_pose1.orientation.w = 0;
+  target_pose1.position.x = 0.1133;
+  target_pose1.position.y = -0.10496;
+  target_pose1.position.z = 0.25579;
+  move_group.setPoseTarget(target_pose1);
 
   moveit::planning_interface::MoveGroupInterface::Plan my_plan;
-// ... (your current code to set up MoveGroup and target)
 
-bool success = (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+  bool success =
+      (move_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
 
-if (success) {
-  // (Optional) You can publish the planned trajectory here
-} else {
-  //
-}
-
-// ... (rest of your code)
-
-move_group.execute(my_plan);
+  RCLCPP_INFO(LOGGER, "Going to Position 2");
+  move_group.execute(my_plan);
 
   rclcpp::shutdown();
   return 0;
 }
-
- 
-
-
-    

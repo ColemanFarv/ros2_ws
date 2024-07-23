@@ -2,8 +2,7 @@
 /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/moveit2_scripts_uninstall.dir
 /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/test_trajectory.dir
 /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/test_trajectory2.dir
-/home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/test_trajectory3.dir
-/home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/cartesian_path.dir
+/home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/position_publisher.dir
 /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/test.dir
 /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/edit_cache.dir
 /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles/rebuild_cache.dir

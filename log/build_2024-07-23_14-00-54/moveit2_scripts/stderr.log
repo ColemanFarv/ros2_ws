@@ -1,0 +1,8 @@
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kvoid positionCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:18:35:[m[K [01;31m[Kerror: [m[K‘[01m[KparsePosition[m[K’ was not declared in this scope; did you mean ‘[01m[Kposition[m[K’?
+   18 |     std::vector<float> position = [01;31m[KparsePosition[m[K(msg->data);
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                   [32m[Kposition[m[K
+gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

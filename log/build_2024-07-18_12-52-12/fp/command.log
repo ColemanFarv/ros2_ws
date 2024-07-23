@@ -1,0 +1,4 @@
+Invoking command in '/home/jelly/ros2_ws/build/fp': /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+Invoking command in '/home/jelly/ros2_ws/build/fp': /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp
+Invoked command in '/home/jelly/ros2_ws/build/fp' returned '1': /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp

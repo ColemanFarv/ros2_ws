@@ -1,0 +1,5 @@
+[0.029s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.241s] [ 25%] Built target cartesian_path
+[0.253s] [ 50%] Built target test_trajectory
+[0.256s] [ 75%] Built target test_trajectory2
+[0.270s] [100%] Built target test_trajectory3

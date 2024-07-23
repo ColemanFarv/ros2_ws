@@ -788,7 +788,7 @@ CMakeFiles/mycobot.dir/src/detect.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2-fi
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /home/jelly/ros2_ws/install/serial/include/serial/serial.h \
+  /home/jelly/ros2_ws/src/serial/include/serial/serial.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
@@ -818,8 +818,8 @@ CMakeFiles/mycobot.dir/src/detect.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2-fi
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
-  /home/jelly/ros2_ws/install/serial/include/serial/v8stdint.h \
-  /home/jelly/ros2_ws/install/fp/include/fp/all.hpp \
+  /home/jelly/ros2_ws/src/serial/include/serial/v8stdint.h \
+  /home/jelly/ros2_ws/src/fp/include/fp/all.hpp \
   /usr/include/fmt/chrono.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/ranges_algo.h \
@@ -1229,20 +1229,20 @@ CMakeFiles/mycobot.dir/src/detect.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2-fi
   /usr/include/range/v3/view/trim.hpp \
   /usr/include/range/v3/view/unbounded.hpp \
   /usr/include/range/v3/view/unique.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/_external/expected.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/macros.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/monad.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/no_discard.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/result.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/_external/expected.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/macros.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/monad.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/no_discard.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/result.hpp \
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/c++/11/iostream \
-  /home/jelly/ros2_ws/install/fp/include/fp/validate.hpp
+  /home/jelly/ros2_ws/src/fp/include/fp/validate.hpp
 
 CMakeFiles/mycobot.dir/src/mycobot.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/src/mycobot.cpp \
   /usr/include/stdc-predef.h \
   /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/include/mycobot/mycobot.hpp \
-  /home/jelly/ros2_ws/install/serial/include/serial/serial.h \
+  /home/jelly/ros2_ws/src/serial/include/serial/serial.h \
   /usr/include/c++/11/limits \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -1443,11 +1443,11 @@ CMakeFiles/mycobot.dir/src/mycobot.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2-f
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/sstream.tcc \
-  /home/jelly/ros2_ws/install/serial/include/serial/v8stdint.h \
+  /home/jelly/ros2_ws/src/serial/include/serial/v8stdint.h \
   /usr/include/c++/11/array \
   /usr/include/c++/11/utility \
   /usr/include/c++/11/bits/stl_relops.h \
-  /home/jelly/ros2_ws/install/fp/include/fp/all.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/all.hpp \
   /usr/include/fmt/chrono.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/ranges_algo.h \
@@ -1857,16 +1857,16 @@ CMakeFiles/mycobot.dir/src/mycobot.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2-f
   /usr/include/range/v3/view/trim.hpp \
   /usr/include/range/v3/view/unbounded.hpp \
   /usr/include/range/v3/view/unique.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/_external/expected.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/macros.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/_external/expected.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/macros.hpp \
   /usr/include/c++/11/optional \
-  /home/jelly/ros2_ws/install/fp/include/fp/monad.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/no_discard.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/result.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/monad.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/no_discard.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/result.hpp \
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/c++/11/iostream \
-  /home/jelly/ros2_ws/install/fp/include/fp/validate.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/validate.hpp \
   /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/include/mycobot/command.hpp \
   /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/include/mycobot/protocol_code.hpp \
   /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/include/mycobot/process_received.hpp \
@@ -1986,7 +1986,7 @@ CMakeFiles/mycobot.dir/src/process_received.cpp.o: /home/jelly/ros2_ws/src/mycob
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /home/jelly/ros2_ws/install/fp/include/fp/all.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/all.hpp \
   /usr/include/fmt/chrono.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -2500,16 +2500,16 @@ CMakeFiles/mycobot.dir/src/process_received.cpp.o: /home/jelly/ros2_ws/src/mycob
   /usr/include/range/v3/view/trim.hpp \
   /usr/include/range/v3/view/unbounded.hpp \
   /usr/include/range/v3/view/unique.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/_external/expected.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/macros.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/_external/expected.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/macros.hpp \
   /usr/include/c++/11/optional \
-  /home/jelly/ros2_ws/install/fp/include/fp/monad.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/no_discard.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/result.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/monad.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/no_discard.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/result.hpp \
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/c++/11/iostream \
-  /home/jelly/ros2_ws/install/fp/include/fp/validate.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/validate.hpp \
   /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/include/mycobot/protocol_code.hpp \
   /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/include/mycobot/serialize.hpp
 
@@ -2702,7 +2702,7 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /home/jelly/ros2_ws/install/fp/include/fp/all.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/all.hpp \
   /usr/include/fmt/chrono.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/utility \
@@ -3129,16 +3129,16 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
   /usr/include/range/v3/view/trim.hpp \
   /usr/include/range/v3/view/unbounded.hpp \
   /usr/include/range/v3/view/unique.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/_external/expected.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/macros.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/_external/expected.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/macros.hpp \
   /usr/include/c++/11/optional \
-  /home/jelly/ros2_ws/install/fp/include/fp/monad.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/no_discard.hpp \
-  /home/jelly/ros2_ws/install/fp/include/fp/result.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/monad.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/no_discard.hpp \
+  /home/jelly/ros2_ws/src/fp/include/fp/result.hpp \
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/c++/11/iostream \
-  /home/jelly/ros2_ws/install/fp/include/fp/validate.hpp
+  /home/jelly/ros2_ws/src/fp/include/fp/validate.hpp
 
 
 /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/src/process_received.cpp:
@@ -3161,7 +3161,13 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
-/home/jelly/ros2_ws/install/fp/include/fp/_external/expected.hpp:
+/home/jelly/ros2_ws/src/fp/include/fp/result.hpp:
+
+/home/jelly/ros2_ws/src/fp/include/fp/no_discard.hpp:
+
+/home/jelly/ros2_ws/src/fp/include/fp/macros.hpp:
+
+/home/jelly/ros2_ws/src/fp/include/fp/_external/expected.hpp:
 
 /usr/include/fmt/ranges.h:
 
@@ -3173,9 +3179,9 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 
 /usr/include/fmt/chrono.h:
 
-/home/jelly/ros2_ws/install/serial/include/serial/v8stdint.h:
+/home/jelly/ros2_ws/src/serial/include/serial/v8stdint.h:
 
-/home/jelly/ros2_ws/install/serial/include/serial/serial.h:
+/home/jelly/ros2_ws/src/serial/include/serial/serial.h:
 
 /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot/include/mycobot/detect.hpp:
 
@@ -3186,8 +3192,6 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 /usr/include/c++/11/bits/regex.h:
 
 /usr/include/c++/11/bits/regex_compiler.h:
-
-/home/jelly/ros2_ws/install/fp/include/fp/result.hpp:
 
 /usr/include/c++/11/bits/regex_automaton.h:
 
@@ -3240,6 +3244,8 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 /usr/include/range/v3/view/tail.hpp:
 
 /usr/include/range/v3/view/stride.hpp:
+
+/home/jelly/ros2_ws/src/fp/include/fp/validate.hpp:
 
 /usr/include/range/v3/view/trim.hpp:
 
@@ -3384,8 +3390,6 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 /usr/include/range/v3/range_fwd.hpp:
 
 /usr/include/range/v3/numeric/accumulate.hpp:
-
-/home/jelly/ros2_ws/install/fp/include/fp/no_discard.hpp:
 
 /usr/include/concepts/concepts.hpp:
 
@@ -3568,8 +3572,6 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/c++/11/bits/predefined_ops.h:
-
-/home/jelly/ros2_ws/install/fp/include/fp/validate.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
@@ -3866,8 +3868,6 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
 /usr/include/c++/11/bits/basic_ios.h:
-
-/home/jelly/ros2_ws/install/fp/include/fp/monad.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -4191,6 +4191,8 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 
 /usr/include/range/v3/numeric/partial_sum.hpp:
 
+/home/jelly/ros2_ws/src/fp/include/fp/all.hpp:
+
 /usr/include/range/v3/detail/satisfy_boost_range.hpp:
 
 /usr/include/range/v3/algorithm/min.hpp:
@@ -4212,6 +4214,8 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 /usr/include/range/v3/algorithm/aux_/lower_bound_n.hpp:
 
 /usr/include/range/v3/view/adaptor.hpp:
+
+/home/jelly/ros2_ws/src/fp/include/fp/monad.hpp:
 
 /usr/include/range/v3/utility/compressed_pair.hpp:
 
@@ -4275,13 +4279,9 @@ CMakeFiles/mycobot.dir/src/serialize.cpp.o: /home/jelly/ros2_ws/src/mycobot-ros2
 
 /usr/include/range/v3/algorithm/stable_partition.hpp:
 
-/home/jelly/ros2_ws/install/fp/include/fp/all.hpp:
-
 /usr/include/range/v3/algorithm/find.hpp:
 
 /usr/include/range/v3/algorithm/ends_with.hpp:
-
-/home/jelly/ros2_ws/install/fp/include/fp/macros.hpp:
 
 /usr/include/range/v3/algorithm/copy_if.hpp:
 

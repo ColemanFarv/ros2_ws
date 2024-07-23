@@ -1,0 +1,48 @@
+[0.032s] Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake --build /home/jelly/ros2_ws/build/FMT -- -j4 -l4
+[0.140s] [  2%] Built target gtest
+[0.178s] [  7%] Built target fmt
+[0.228s] [ 15%] Built target scan-test
+[0.231s] [ 23%] Built target compile-fp-test
+[0.249s] [ 33%] Built target format-impl-test
+[0.257s] [ 42%] Built target unicode-test
+[0.297s] [ 50%] Built target posix-mock-test
+[0.310s] [ 56%] Built target test-main
+[0.485s] [ 59%] Built target assert-test
+[0.499s] [ 61%] Built target base-test
+[0.502s] [ 64%] Built target chrono-test
+[0.502s] [ 67%] Built target args-test
+[0.572s] [ 70%] Built target color-test
+[0.572s] [ 73%] Built target ostream-test
+[0.573s] [ 76%] Built target gtest-extra-test
+[0.573s] [ 78%] Built target format-test
+[0.614s] [ 81%] Built target compile-test
+[0.617s] [ 84%] Built target printf-test
+[0.641s] [ 88%] Built target ranges-test
+[0.643s] [ 91%] Built target std-test
+[0.694s] [ 94%] Built target enforce-checks-test
+[0.712s] [ 97%] Built target os-test
+[0.712s] [100%] Built target xchar-test
+[0.742s] Invoked command in '/home/jelly/ros2_ws/build/FMT' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/FMT -- -j4 -l4
+[0.941s] Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake --install /home/jelly/ros2_ws/build/FMT
+[0.960s] -- Install configuration: "Release"
+[0.961s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/libfmt.a
+[0.961s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/args.h
+[0.961s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/base.h
+[0.962s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/chrono.h
+[0.963s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/color.h
+[0.963s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/compile.h
+[0.964s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/core.h
+[0.964s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/format.h
+[0.965s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/format-inl.h
+[0.965s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/os.h
+[0.965s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/ostream.h
+[0.966s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/printf.h
+[0.966s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/ranges.h
+[0.966s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/std.h
+[0.969s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/xchar.h
+[0.969s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config.cmake
+[0.969s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config-version.cmake
+[0.969s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets.cmake
+[0.969s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets-release.cmake
+[0.970s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/pkgconfig/fmt.pc
+[0.979s] Invoked command in '/home/jelly/ros2_ws/build/FMT' returned '0': /usr/bin/cmake --install /home/jelly/ros2_ws/build/FMT

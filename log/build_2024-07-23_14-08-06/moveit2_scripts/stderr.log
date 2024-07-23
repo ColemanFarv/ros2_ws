@@ -1,0 +1,30 @@
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:72:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_node[m[K’ has not been declared
+   72 |   moveit::planning_interface::MoveGroupInterface move_group([01;31m[Kmove_group_node[m[K,
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:73:61:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+   73 |                                                             [01;31m[K"arm_group"[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:73:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:15:49:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotController[m[K’ does not have any field named ‘[01m[Kmove_group[m[K’
+   15 |   RobotController() : Node("robot_controller"), [01;31m[Kmove_group[m[K("arm_group") {
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In member function ‘[01m[Kvoid RobotController::moveToPosition(const std::vector<float>&) const[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:58:5:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface RobotController::move_group(int, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   58 |     [01;31m[Kmove_group[m[K.setPoseTarget(target_pose);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:61:21:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface RobotController::move_group(int, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   61 |     bool success = ([01;31m[Kmove_group[m[K.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:61:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kplan[m[K’
+   61 |     bool success = (move_group.[01;31m[Kplan[m[K(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:61:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   61 |     bool success = [01;36m[K([m[Kmove_group.plan(my_plan) == moveit::core::MoveItErrorCode::SUCCESS);
+      |                    [01;36m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:64:7:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface RobotController::move_group(int, int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   64 |       [01;31m[Kmove_group[m[K.execute(my_plan);
+      |       [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

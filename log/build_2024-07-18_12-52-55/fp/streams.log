@@ -1,0 +1,21 @@
+[0.035s] Invoking command in '/home/jelly/ros2_ws/build/fp': /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.189s] [ 10%] Built target result
+[0.199s] [ 30%] Built target no_discard
+[0.201s] [ 30%] Built target validate_in
+[0.213s] [ 40%] Built target maybe_error
+[0.258s] [ 50%] Built target gtest_main
+[0.279s] [ 60%] Built target gtest
+[0.288s] [ 70%] Built target validate_range
+[0.370s] [ 80%] Built target mbind_tests
+[0.381s] [ 90%] Built target validate_tests
+[0.393s] [100%] Built target result_tests
+[0.438s] Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.538s] Invoking command in '/home/jelly/ros2_ws/build/fp': /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp
+[0.570s] -- Install configuration: ""
+[0.570s] -- Up-to-date: /usr/local/include/
+[0.570s] [31mCMake Error at cmake_install.cmake:51 (file):
+[0.570s]   file INSTALL cannot set permissions on "/usr/local/include/": Operation not
+[0.570s]   permitted.
+[0.570s] 
+[0.571s] [0m
+[0.587s] Invoked command in '/home/jelly/ros2_ws/build/fp' returned '1': /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp

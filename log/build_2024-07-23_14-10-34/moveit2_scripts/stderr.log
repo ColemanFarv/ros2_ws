@@ -1,0 +1,34 @@
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:66:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   66 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:13:45:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   13 | class RobotController : public rclcpp::Node [01;36m[K{[m[K
+      |                                             [01;36m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:15:49:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotController[m[K’ does not have any field named ‘[01m[Kmove_group[m[K’
+   15 |   RobotController() : Node("robot_controller"), [01;31m[Kmove_group[m[K("arm_group") {
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   16 |     [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In member function ‘[01m[Kvoid RobotController::moveToPosition(const std::vector<float>&) const[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group[m[K’ was not declared in this scope
+   58 |     [01;31m[Kmove_group[m[K.setPoseTarget(target_pose);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:60:34:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   60 | int main(int argc, char* argv[]) [01;31m[K{[m[K
+      |                                  [01;31m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:66:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   66 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:51:65:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   51 |   void moveToPosition(const std::vector<float>& position) const [01;36m[K{[m[K
+      |                                                                 [01;36m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K At global scope:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:66:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   66 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

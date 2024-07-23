@@ -1,0 +1,67 @@
+[0.036s] Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/fp -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/fp
+[0.064s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.244s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.340s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.358s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.363s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.363s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jelly/ros2_ws/src/fp/include>
+[0.363s] -- Configured cppcheck exclude dirs and/or files: 
+[0.365s] -- Added test 'lint_cmake' to check CMake code style
+[0.366s] -- Added test 'xmllint' to check XML markup files
+[0.369s] -- Configuring done
+[0.401s] -- Generating done
+[0.406s] -- Build files have been written to: /home/jelly/ros2_ws/build/fp
+[0.411s] Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/fp -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/fp
+[0.420s] Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.511s] [35m[1mConsolidate compiler generated dependencies of target result[0m
+[0.526s] [35m[1mConsolidate compiler generated dependencies of target maybe_error[0m
+[0.552s] [35m[1mConsolidate compiler generated dependencies of target no_discard[0m
+[0.552s] [35m[1mConsolidate compiler generated dependencies of target validate_in[0m
+[0.570s] [ 10%] Built target result
+[0.586s] [ 20%] Built target validate_in
+[0.591s] [35m[1mConsolidate compiler generated dependencies of target validate_range[0m
+[0.601s] [ 30%] Built target no_discard
+[0.611s] [ 40%] Built target maybe_error
+[0.617s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.636s] [ 50%] Built target validate_range
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.658s] [ 60%] Built target gtest_main
+[0.685s] [ 70%] Built target gtest
+[0.728s] [35m[1mConsolidate compiler generated dependencies of target result_tests[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target validate_tests[0m
+[0.751s] [35m[1mConsolidate compiler generated dependencies of target mbind_tests[0m
+[0.771s] [ 80%] Built target validate_tests
+[0.791s] [ 90%] Built target result_tests
+[0.792s] [100%] Built target mbind_tests
+[0.823s] Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.911s] Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp
+[0.927s] -- Install configuration: ""
+[0.928s] -- Execute custom install script
+[0.929s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/_external/expected.hpp
+[0.929s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/all.hpp
+[0.929s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/macros.hpp
+[0.930s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/monad.hpp
+[0.930s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/no_discard.hpp
+[0.931s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/result.hpp
+[0.931s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/validate.hpp
+[0.932s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/package_run_dependencies/fp
+[0.932s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/parent_prefix_path/fp
+[0.933s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.sh
+[0.934s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.dsv
+[0.934s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.sh
+[0.935s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.dsv
+[0.935s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.bash
+[0.936s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.sh
+[0.936s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.zsh
+[0.936s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.dsv
+[0.937s] -- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/package.dsv
+[0.954s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/packages/fp
+[0.955s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.955s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_targets-extras.cmake
+[0.956s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.956s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig.cmake
+[0.957s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig-version.cmake
+[0.960s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/package.xml
+[0.960s] -- Up-to-date: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpTargetsExport.cmake
+[0.996s] Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp

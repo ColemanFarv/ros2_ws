@@ -1,0 +1,6 @@
+Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': /usr/bin/cmake /home/jelly/ros2_ws/src/moveit2_scripts -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/moveit2_scripts
+Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': /usr/bin/cmake /home/jelly/ros2_ws/src/moveit2_scripts -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/moveit2_scripts
+Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': /usr/bin/cmake --install /home/jelly/ros2_ws/build/moveit2_scripts
+Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': /usr/bin/cmake --install /home/jelly/ros2_ws/build/moveit2_scripts

@@ -1,0 +1,2048 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (FMT) JobQueued: {'identifier': 'FMT', 'dependencies': OrderedDict()}
+[0.000338] (catch2) JobQueued: {'identifier': 'catch2', 'dependencies': OrderedDict()}
+[0.000369] (fp) JobQueued: {'identifier': 'fp', 'dependencies': OrderedDict()}
+[0.000427] (motion_planning_python_api) JobQueued: {'identifier': 'motion_planning_python_api', 'dependencies': OrderedDict()}
+[0.000659] (moveit2_scripts) JobQueued: {'identifier': 'moveit2_scripts', 'dependencies': OrderedDict()}
+[0.000739] (mycobot_description) JobQueued: {'identifier': 'mycobot_description', 'dependencies': OrderedDict()}
+[0.000804] (mycobot_gazebo) JobQueued: {'identifier': 'mycobot_gazebo', 'dependencies': OrderedDict()}
+[0.000865] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.000895] (mycobot) JobQueued: {'identifier': 'mycobot', 'dependencies': OrderedDict([('catch2', '/home/jelly/ros2_ws/install/catch2'), ('fp', '/home/jelly/ros2_ws/install/fp'), ('serial', '/home/jelly/ros2_ws/install/serial')])}
+[0.001004] (mycobot_280) JobQueued: {'identifier': 'mycobot_280', 'dependencies': OrderedDict([('mycobot_description', '/home/jelly/ros2_ws/install/mycobot_description')])}
+[0.001039] (mycobot_moveit_config) JobQueued: {'identifier': 'mycobot_moveit_config', 'dependencies': OrderedDict([('mycobot_gazebo', '/home/jelly/ros2_ws/install/mycobot_gazebo')])}
+[0.001100] (mycobot_ros2) JobQueued: {'identifier': 'mycobot_ros2', 'dependencies': OrderedDict([('mycobot_description', '/home/jelly/ros2_ws/install/mycobot_description')])}
+[0.001163] (mycobot_hardware_interface) JobQueued: {'identifier': 'mycobot_hardware_interface', 'dependencies': OrderedDict([('catch2', '/home/jelly/ros2_ws/install/catch2'), ('fp', '/home/jelly/ros2_ws/install/fp'), ('serial', '/home/jelly/ros2_ws/install/serial'), ('mycobot', '/home/jelly/ros2_ws/install/mycobot')])}
+[0.001199] (mycobot_280_description) JobQueued: {'identifier': 'mycobot_280_description', 'dependencies': OrderedDict([('catch2', '/home/jelly/ros2_ws/install/catch2'), ('fp', '/home/jelly/ros2_ws/install/fp'), ('serial', '/home/jelly/ros2_ws/install/serial'), ('mycobot', '/home/jelly/ros2_ws/install/mycobot'), ('mycobot_hardware_interface', '/home/jelly/ros2_ws/install/mycobot_hardware_interface')])}
+[0.001769] (catch2) JobStarted: {'identifier': 'catch2'}
+[0.007824] (fp) JobStarted: {'identifier': 'fp'}
+[0.018589] (serial) JobStarted: {'identifier': 'serial'}
+[0.026963] (mycobot_description) JobStarted: {'identifier': 'mycobot_description'}
+[0.032007] (catch2) JobProgress: {'identifier': 'catch2', 'progress': 'cmake'}
+[0.032775] (catch2) Command: {'cmd': ['/usr/bin/cmake', '/home/jelly/ros2_ws/src/catch2_ros', '-DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/catch2'], 'cwd': '/home/jelly/ros2_ws/build/catch2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/catch2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.038016] (fp) JobProgress: {'identifier': 'fp', 'progress': 'cmake'}
+[0.045752] (fp) JobProgress: {'identifier': 'fp', 'progress': 'build'}
+[0.045846] (fp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jelly/ros2_ws/build/fp', '--', '-j4', '-l4'], 'cwd': '/home/jelly/ros2_ws/build/fp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/fp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.049360] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.050394] (serial) Command: {'cmd': ['/usr/bin/cmake', '/home/jelly/ros2_ws/src/serial', '-DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/serial'], 'cwd': '/home/jelly/ros2_ws/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.072014] (mycobot_description) JobProgress: {'identifier': 'mycobot_description', 'progress': 'cmake'}
+[0.073485] (mycobot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description', '-DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_description'], 'cwd': '/home/jelly/ros2_ws/build/mycobot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/mycobot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.104417] (-) TimerEvent: {}
+[0.140913] (catch2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.179276] (fp) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object examples/CMakeFiles/maybe_error.dir/maybe_error.cpp.o\x1b[0m\n'}
+[0.191132] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198352] (fp) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object examples/CMakeFiles/no_discard.dir/no_discard.cpp.o\x1b[0m\n'}
+[0.204621] (-) TimerEvent: {}
+[0.208647] (fp) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object examples/CMakeFiles/validate_in.dir/validate_in.cpp.o\x1b[0m\n'}
+[0.214889] (fp) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object examples/CMakeFiles/result.dir/result.cpp.o\x1b[0m\n'}
+[0.215987] (mycobot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.292221] (catch2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.304859] (-) TimerEvent: {}
+[0.310451] (catch2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.379389] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.405056] (-) TimerEvent: {}
+[0.407728] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.506111] (-) TimerEvent: {}
+[0.556418] (mycobot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.572603] (mycobot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.607150] (-) TimerEvent: {}
+[0.708027] (-) TimerEvent: {}
+[0.808835] (-) TimerEvent: {}
+[0.881953] (catch2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.897147] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.907604] (catch2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.908043] (catch2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.910391] (-) TimerEvent: {}
+[0.910668] (catch2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.913484] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.913776] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.915169] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.918752] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.927194] (catch2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.999071] (mycobot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.010815] (-) TimerEvent: {}
+[1.011582] (mycobot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.018485] (mycobot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.018696] (mycobot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.039178] (mycobot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.111304] (-) TimerEvent: {}
+[1.212307] (-) TimerEvent: {}
+[1.304910] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.312471] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.312675] (-) TimerEvent: {}
+[1.329555] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.329775] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.329879] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.382569] (catch2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.412833] (catch2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.413039] (-) TimerEvent: {}
+[1.414551] (catch2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.414759] (catch2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.424079] (catch2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.502512] (mycobot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.511500] (mycobot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.512239] (mycobot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.513311] (-) TimerEvent: {}
+[1.517998] (mycobot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.518183] (mycobot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.613652] (-) TimerEvent: {}
+[1.714336] (-) TimerEvent: {}
+[1.815174] (-) TimerEvent: {}
+[1.916054] (-) TimerEvent: {}
+[1.969298] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.016732] (-) TimerEvent: {}
+[2.117096] (mycobot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.117304] (-) TimerEvent: {}
+[2.189718] (catch2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.217614] (-) TimerEvent: {}
+[2.318603] (-) TimerEvent: {}
+[2.419339] (-) TimerEvent: {}
+[2.492440] (mycobot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.519848] (-) TimerEvent: {}
+[2.565766] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.589732] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[2.605591] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/jelly/ros2_ws/build/serial\n'}
+[2.622416] (serial) CommandEnded: {'returncode': 0}
+[2.622900] (-) TimerEvent: {}
+[2.623176] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[2.623231] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jelly/ros2_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/jelly/ros2_ws/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.723334] (-) TimerEvent: {}
+[2.823899] (-) TimerEvent: {}
+[2.848817] (mycobot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.851095] (mycobot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.859972] (mycobot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.868691] (mycobot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.881538] (mycobot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/jelly/ros2_ws/build/mycobot_description\n'}
+[2.909174] (mycobot_description) CommandEnded: {'returncode': 0}
+[2.909773] (mycobot_description) JobProgress: {'identifier': 'mycobot_description', 'progress': 'build'}
+[2.909814] (mycobot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jelly/ros2_ws/build/mycobot_description', '--', '-j4', '-l4'], 'cwd': '/home/jelly/ros2_ws/build/mycobot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/mycobot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[2.910230] (serial) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[2.924448] (-) TimerEvent: {}
+[2.935485] (serial) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[2.936497] (catch2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.936726] (catch2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.942329] (catch2) StdoutLine: {'line': b'-- Build files have been written to: /home/jelly/ros2_ws/build/catch2\n'}
+[2.943469] (serial) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[2.975840] (catch2) CommandEnded: {'returncode': 0}
+[2.976660] (catch2) JobProgress: {'identifier': 'catch2', 'progress': 'build'}
+[2.976705] (catch2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jelly/ros2_ws/build/catch2', '--', '-j4', '-l4'], 'cwd': '/home/jelly/ros2_ws/build/catch2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/catch2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[3.025511] (-) TimerEvent: {}
+[3.126654] (-) TimerEvent: {}
+[3.136917] (mycobot_description) CommandEnded: {'returncode': 0}
+[3.197006] (catch2) CommandEnded: {'returncode': 0}
+[3.228520] (-) TimerEvent: {}
+[3.329304] (-) TimerEvent: {}
+[3.429879] (-) TimerEvent: {}
+[3.512621] (mycobot_description) JobProgress: {'identifier': 'mycobot_description', 'progress': 'install'}
+[3.530318] (-) TimerEvent: {}
+[3.590314] (mycobot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jelly/ros2_ws/build/mycobot_description'], 'cwd': '/home/jelly/ros2_ws/build/mycobot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/mycobot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[3.608508] (catch2) JobProgress: {'identifier': 'catch2', 'progress': 'install'}
+[3.609053] (catch2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jelly/ros2_ws/build/catch2'], 'cwd': '/home/jelly/ros2_ws/build/catch2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/catch2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[3.630678] (-) TimerEvent: {}
+[3.633740] (mycobot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.641103] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes\n'}
+[3.641622] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280\n'}
+[3.641752] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.stl\n'}
+[3.643827] (catch2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.644221] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/include/\n'}
+[3.645141] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/include//catch2\n'}
+[3.645673] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/spectrometer.stl\n'}
+[3.646061] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.stl\n'}
+[3.646821] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/include//catch2/.clang-format\n'}
+[3.648156] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/include//catch2/catch.hpp\n'}
+[3.649268] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/holder.stl\n'}
+[3.653244] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.stl\n'}
+[3.654651] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.stl\n'}
+[3.654802] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/include//catch2/fakeit.hpp\n'}
+[3.662235] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.stl\n'}
+[3.665805] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/ament_index/resource_index/package_run_dependencies/catch2\n'}
+[3.666302] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/ament_index/resource_index/parent_prefix_path/catch2\n'}
+[3.666668] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.stl\n'}
+[3.667908] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.stl\n'}
+[3.668221] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/environment/ament_prefix_path.sh\n'}
+[3.670007] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/environment/ament_prefix_path.dsv\n'}
+[3.670789] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/urdf\n'}
+[3.673576] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_urdf.xacro\n'}
+[3.674099] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description\n'}
+[3.675563] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/environment/path.sh\n'}
+[3.677555] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description\n'}
+[3.677743] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh\n'}
+[3.677862] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv\n'}
+[3.677954] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh\n'}
+[3.678039] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv\n'}
+[3.678122] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash\n'}
+[3.679600] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/environment/path.dsv\n'}
+[3.680099] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh\n'}
+[3.680816] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh\n'}
+[3.681974] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/local_setup.bash\n'}
+[3.682491] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv\n'}
+[3.682924] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv\n'}
+[3.683331] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description\n'}
+[3.684443] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/local_setup.sh\n'}
+[3.690008] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/local_setup.zsh\n'}
+[3.690490] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake\n'}
+[3.690945] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake\n'}
+[3.691429] (mycobot_description) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml\n'}
+[3.692339] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/local_setup.dsv\n'}
+[3.694865] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/package.dsv\n'}
+[3.696308] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/ament_index/resource_index/packages/catch2\n'}
+[3.697091] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/catch2_TargetsExport.cmake\n'}
+[3.698715] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.700905] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.702494] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/catch2Config.cmake\n'}
+[3.703696] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/catch2Config-version.cmake\n'}
+[3.709833] (catch2) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/catch2/share/catch2/package.xml\n'}
+[3.710113] (mycobot_description) CommandEnded: {'returncode': 0}
+[3.731000] (-) TimerEvent: {}
+[3.756382] (catch2) CommandEnded: {'returncode': 0}
+[3.831445] (-) TimerEvent: {}
+[3.923209] (mycobot_description) JobEnded: {'identifier': 'mycobot_description', 'rc': 0}
+[3.924599] (mycobot_gazebo) JobStarted: {'identifier': 'mycobot_gazebo'}
+[3.931958] (-) TimerEvent: {}
+[3.974175] (mycobot_gazebo) JobProgress: {'identifier': 'mycobot_gazebo', 'progress': 'cmake'}
+[3.981914] (mycobot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_gazebo'], 'cwd': '/home/jelly/ros2_ws/build/mycobot_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/mycobot_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[4.032577] (-) TimerEvent: {}
+[4.080882] (catch2) JobEnded: {'identifier': 'catch2', 'rc': 0}
+[4.086816] (FMT) JobStarted: {'identifier': 'FMT'}
+[4.132770] (-) TimerEvent: {}
+[4.146806] (FMT) JobProgress: {'identifier': 'FMT', 'progress': 'cmake'}
+[4.146886] (FMT) Command: {'cmd': ['/usr/bin/cmake', '/home/jelly/ros2_ws/src/fmt', '-DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/FMT'], 'cwd': '/home/jelly/ros2_ws/build/FMT', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/FMT'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[4.195138] (FMT) StdoutLine: {'line': b'-- CMake version: 3.22.1\n'}
+[4.233000] (-) TimerEvent: {}
+[4.333721] (-) TimerEvent: {}
+[4.424095] (mycobot_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.434269] (-) TimerEvent: {}
+[4.520837] (FMT) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.534585] (-) TimerEvent: {}
+[4.550655] (FMT) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.635030] (-) TimerEvent: {}
+[4.736202] (-) TimerEvent: {}
+[4.836907] (-) TimerEvent: {}
+[4.856798] (mycobot_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.872885] (mycobot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.937126] (-) TimerEvent: {}
+[5.008650] (FMT) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.020130] (FMT) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.027783] (FMT) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.031625] (FMT) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.037416] (-) TimerEvent: {}
+[5.046514] (FMT) StdoutLine: {'line': b'-- {fmt} version: 11.0.1\n'}
+[5.046731] (FMT) StdoutLine: {'line': b'-- Build type: Release\n'}
+[5.049759] (FMT) StdoutLine: {'line': b"-- Target 'doc' disabled because doxygen not found\n"}
+[5.067414] (FMT) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[5.137665] (-) TimerEvent: {}
+[5.238395] (-) TimerEvent: {}
+[5.318552] (mycobot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.338656] (-) TimerEvent: {}
+[5.339427] (mycobot_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.340119] (mycobot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.340982] (mycobot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.360531] (mycobot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.444911] (-) TimerEvent: {}
+[5.491283] (FMT) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[5.491497] (FMT) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.545208] (-) TimerEvent: {}
+[5.645806] (-) TimerEvent: {}
+[5.669864] (FMT) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.670169] (FMT) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.670488] (FMT) StdoutLine: {'line': b'-- Looking for strptime\n'}
+[5.722779] (mycobot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.738472] (mycobot_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.745368] (mycobot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.745962] (-) TimerEvent: {}
+[5.748047] (mycobot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.752605] (mycobot_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.837188] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[5.846335] (-) TimerEvent: {}
+[5.948470] (-) TimerEvent: {}
+[6.033008] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[6.048705] (-) TimerEvent: {}
+[6.077375] (serial) CommandEnded: {'returncode': 0}
+[6.148937] (-) TimerEvent: {}
+[6.193418] (FMT) StdoutLine: {'line': b'-- Looking for strptime - found\n'}
+[6.249225] (-) TimerEvent: {}
+[6.294531] (mycobot_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.349540] (-) TimerEvent: {}
+[6.432728] (FMT) StdoutLine: {'line': b'-- FMT_PEDANTIC: OFF\n'}
+[6.439374] (FMT) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.449712] (-) TimerEvent: {}
+[6.493464] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[6.493547] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jelly/ros2_ws/build/serial'], 'cwd': '/home/jelly/ros2_ws/build/serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[6.550091] (-) TimerEvent: {}
+[6.561450] (FMT) StdoutLine: {'line': b'-- Generating done\n'}
+[6.565475] (FMT) StdoutLine: {'line': b'-- Build files have been written to: /home/jelly/ros2_ws/build/FMT\n'}
+[6.568655] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.569016] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/lib/libserial.a\n'}
+[6.569790] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/include\n'}
+[6.569988] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/include/serial\n'}
+[6.570172] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/include/serial/impl\n'}
+[6.570391] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/include/serial/impl/win.h\n'}
+[6.570655] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/include/serial/impl/unix.h\n'}
+[6.570888] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/include/serial/v8stdint.h\n'}
+[6.571119] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/include/serial/serial.h\n'}
+[6.571511] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[6.571779] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[6.572322] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[6.572826] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[6.573540] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[6.573819] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[6.574097] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/environment/path.sh\n'}
+[6.574357] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/environment/path.dsv\n'}
+[6.574627] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/local_setup.bash\n'}
+[6.574884] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/local_setup.sh\n'}
+[6.575149] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/local_setup.zsh\n'}
+[6.575400] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/local_setup.dsv\n'}
+[6.580556] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/package.dsv\n'}
+[6.581802] (FMT) CommandEnded: {'returncode': 0}
+[6.582404] (FMT) JobProgress: {'identifier': 'FMT', 'progress': 'build'}
+[6.582451] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[6.585764] (FMT) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jelly/ros2_ws/build/FMT', '--', '-j4', '-l4'], 'cwd': '/home/jelly/ros2_ws/build/FMT', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('OLDPWD', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1109'), ('SYSTEMD_EXEC_PID', '1309'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14293'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:34732'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1283,unix/jelly-virtual-machine:/tmp/.ICE-unix/1283'), ('INVOCATION_ID', '64c7946e8119472b896e865d65c644f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZDD0Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:d27f2dda-bce0-4e0e-81f3-fe4cf0d48838'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/FMT'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/my_robot_motion/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[6.587634] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/cmake/export_serialExport.cmake\n'}
+[6.587798] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake\n'}
+[6.587899] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.588021] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.589549] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.595128] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[6.595331] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[6.597346] (serial) StdoutLine: {'line': b'-- Installing: /home/jelly/ros2_ws/install/serial/share/serial/package.xml\n'}
+[6.606586] (serial) CommandEnded: {'returncode': 0}
+[6.648247] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.650771] (-) TimerEvent: {}
+[6.753153] (-) TimerEvent: {}
+[6.797605] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.814582] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.852452] (mycobot_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.853238] (-) TimerEvent: {}
+[6.892846] (mycobot_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake:35 (message):\n'}
+[6.893087] (mycobot_gazebo) StderrLine: {'line': b"  No 'rosidl_typesupport_c' found\n"}
+[6.893219] (mycobot_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.893314] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:8 (get_used_typesupports)\n'}
+[6.893401] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)\n'}
+[6.893484] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.893564] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[6.893644] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.893723] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)\n'}
+[6.893802] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[6.893881] (mycobot_gazebo) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[6.893959] (mycobot_gazebo) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[6.894038] (mycobot_gazebo) StderrLine: {'line': b'\n'}
+[6.894118] (mycobot_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[6.896465] (mycobot_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.896637] (mycobot_gazebo) StdoutLine: {'line': b'See also "/home/jelly/ros2_ws/build/mycobot_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[6.913345] (mycobot_gazebo) CommandEnded: {'returncode': 1}
+[6.913917] (FMT) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/fmt.dir/src/format.cc.o\x1b[0m\n'}
+[6.914701] (FMT) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/fmt.dir/src/os.cc.o\x1b[0m\n'}
+[6.953503] (-) TimerEvent: {}
+[6.959242] (mycobot_gazebo) JobEnded: {'identifier': 'mycobot_gazebo', 'rc': 1}
+[6.996875] (FMT) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object test/gtest/CMakeFiles/gtest.dir/gmock-gtest-all.cc.o\x1b[0m\n'}
+[7.022814] (serial) JobEnded: {'identifier': 'serial', 'rc': 'SIGINT'}
+[7.053706] (-) TimerEvent: {}
+[7.154483] (-) TimerEvent: {}
+[7.254921] (-) TimerEvent: {}
+[7.355770] (-) TimerEvent: {}
+[7.456700] (-) TimerEvent: {}
+[7.557206] (-) TimerEvent: {}
+[7.657673] (-) TimerEvent: {}
+[7.768365] (-) TimerEvent: {}
+[7.868927] (-) TimerEvent: {}
+[7.969420] (-) TimerEvent: {}
+[8.070117] (-) TimerEvent: {}
+[8.170796] (-) TimerEvent: {}
+[8.271519] (-) TimerEvent: {}
+[8.372086] (-) TimerEvent: {}
+[8.472703] (-) TimerEvent: {}
+[8.573304] (-) TimerEvent: {}
+[8.674025] (-) TimerEvent: {}
+[8.774569] (-) TimerEvent: {}
+[8.875145] (-) TimerEvent: {}
+[8.975678] (-) TimerEvent: {}
+[9.076552] (-) TimerEvent: {}
+[9.177039] (-) TimerEvent: {}
+[9.277615] (-) TimerEvent: {}
+[9.378357] (-) TimerEvent: {}
+[9.479314] (-) TimerEvent: {}
+[9.580218] (-) TimerEvent: {}
+[9.636978] (fp) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable validate_in\x1b[0m\n'}
+[9.680582] (-) TimerEvent: {}
+[9.778346] (fp) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX executable maybe_error\x1b[0m\n'}
+[9.780753] (-) TimerEvent: {}
+[9.881506] (-) TimerEvent: {}
+[9.982227] (-) TimerEvent: {}
+[10.032903] (fp) StdoutLine: {'line': b'[ 30%] Built target maybe_error\n'}
+[10.049000] (fp) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX executable no_discard\x1b[0m\n'}
+[10.082636] (-) TimerEvent: {}
+[10.085069] (fp) StdoutLine: {'line': b'[ 35%] Built target validate_in\n'}
+[10.129819] (fp) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object examples/CMakeFiles/validate_range.dir/validate_range.cpp.o\x1b[0m\n'}
+[10.183060] (-) TimerEvent: {}
+[10.187349] (fp) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[10.283607] (-) TimerEvent: {}
+[10.384351] (-) TimerEvent: {}
+[10.415866] (fp) StdoutLine: {'line': b'[ 45%] Built target no_discard\n'}
+[10.484673] (-) TimerEvent: {}
+[10.545931] (fp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[10.584835] (-) TimerEvent: {}
+[10.685452] (-) TimerEvent: {}
+[10.786158] (-) TimerEvent: {}
+[10.886704] (-) TimerEvent: {}
+[10.987577] (-) TimerEvent: {}
+[11.088546] (-) TimerEvent: {}
+[11.189112] (-) TimerEvent: {}
+[11.289742] (-) TimerEvent: {}
+[11.390551] (-) TimerEvent: {}
+[11.491365] (-) TimerEvent: {}
+[11.591825] (-) TimerEvent: {}
+[11.692313] (-) TimerEvent: {}
+[11.792819] (-) TimerEvent: {}
+[11.893331] (-) TimerEvent: {}
+[11.994166] (-) TimerEvent: {}
+[12.095856] (-) TimerEvent: {}
+[12.196903] (-) TimerEvent: {}
+[12.297351] (-) TimerEvent: {}
+[12.398735] (-) TimerEvent: {}
+[12.500298] (-) TimerEvent: {}
+[12.600693] (-) TimerEvent: {}
+[12.701787] (-) TimerEvent: {}
+[12.790300] (fp) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable result\x1b[0m\n'}
+[12.802562] (-) TimerEvent: {}
+[12.849129] (fp) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[12.902959] (-) TimerEvent: {}
+[13.003857] (-) TimerEvent: {}
+[13.056944] (fp) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[13.104512] (-) TimerEvent: {}
+[13.133892] (fp) StdoutLine: {'line': b'[ 60%] Built target result\n'}
+[13.204948] (-) TimerEvent: {}
+[13.306322] (-) TimerEvent: {}
+[13.406907] (-) TimerEvent: {}
+[13.508350] (-) TimerEvent: {}
+[13.608752] (-) TimerEvent: {}
+[13.709282] (-) TimerEvent: {}
+[13.809924] (-) TimerEvent: {}
+[13.910545] (-) TimerEvent: {}
+[14.017435] (-) TimerEvent: {}
+[14.118081] (-) TimerEvent: {}
+[14.218913] (-) TimerEvent: {}
+[14.319803] (-) TimerEvent: {}
+[14.420735] (-) TimerEvent: {}
+[14.521310] (-) TimerEvent: {}
+[14.621964] (-) TimerEvent: {}
+[14.722726] (-) TimerEvent: {}
+[14.823592] (-) TimerEvent: {}
+[14.924554] (-) TimerEvent: {}
+[15.025171] (-) TimerEvent: {}
+[15.125868] (-) TimerEvent: {}
+[15.226401] (-) TimerEvent: {}
+[15.326971] (-) TimerEvent: {}
+[15.427852] (-) TimerEvent: {}
+[15.528805] (-) TimerEvent: {}
+[15.629419] (-) TimerEvent: {}
+[15.730075] (-) TimerEvent: {}
+[15.830773] (-) TimerEvent: {}
+[15.931625] (-) TimerEvent: {}
+[16.032625] (-) TimerEvent: {}
+[16.133186] (-) TimerEvent: {}
+[16.238675] (-) TimerEvent: {}
+[16.339545] (-) TimerEvent: {}
+[16.440612] (-) TimerEvent: {}
+[16.541262] (-) TimerEvent: {}
+[16.641915] (-) TimerEvent: {}
+[16.743412] (-) TimerEvent: {}
+[16.843973] (-) TimerEvent: {}
+[16.945186] (-) TimerEvent: {}
+[17.045862] (-) TimerEvent: {}
+[17.146508] (-) TimerEvent: {}
+[17.247273] (-) TimerEvent: {}
+[17.348211] (-) TimerEvent: {}
+[17.448700] (-) TimerEvent: {}
+[17.552622] (-) TimerEvent: {}
+[17.653181] (-) TimerEvent: {}
+[17.754731] (-) TimerEvent: {}
+[17.855428] (-) TimerEvent: {}
+[17.956260] (-) TimerEvent: {}
+[18.060694] (-) TimerEvent: {}
+[18.164627] (-) TimerEvent: {}
+[18.268693] (-) TimerEvent: {}
+[18.372362] (-) TimerEvent: {}
+[18.473149] (-) TimerEvent: {}
+[18.574871] (-) TimerEvent: {}
+[18.604793] (FMT) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX static library libfmt.a\x1b[0m\n'}
+[18.675309] (-) TimerEvent: {}
+[18.715335] (fp) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable validate_range\x1b[0m\n'}
+[18.738725] (FMT) StdoutLine: {'line': b'[  5%] Built target fmt\n'}
+[18.775597] (-) TimerEvent: {}
+[18.876626] (-) TimerEvent: {}
+[18.957128] (fp) StdoutLine: {'line': b'[ 65%] Built target validate_range\n'}
+[18.976871] (-) TimerEvent: {}
+[19.077499] (-) TimerEvent: {}
+[19.178095] (-) TimerEvent: {}
+[19.281213] (-) TimerEvent: {}
+[19.383356] (-) TimerEvent: {}
+[19.386042] (fp) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[19.484282] (-) TimerEvent: {}
+[19.491556] (fp) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[19.530577] (fp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object test/CMakeFiles/mbind_tests.dir/mbind_tests.cpp.o\x1b[0m\n'}
+[19.541936] (fp) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object test/CMakeFiles/result_tests.dir/result_tests.cpp.o\x1b[0m\n'}
+[19.555896] (fp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object test/CMakeFiles/validate_tests.dir/validate_tests.cpp.o\x1b[0m\n'}
+[19.584483] (-) TimerEvent: {}
+[19.688208] (-) TimerEvent: {}
+[19.794040] (-) TimerEvent: {}
+[19.894605] (-) TimerEvent: {}
+[19.995211] (-) TimerEvent: {}
+[20.095992] (-) TimerEvent: {}
+[20.196785] (-) TimerEvent: {}
+[20.299908] (-) TimerEvent: {}
+[20.400443] (-) TimerEvent: {}
+[20.500926] (-) TimerEvent: {}
+[20.616477] (-) TimerEvent: {}
+[20.716958] (-) TimerEvent: {}
+[20.818942] (-) TimerEvent: {}
+[20.919734] (-) TimerEvent: {}
+[21.020609] (-) TimerEvent: {}
+[21.121050] (-) TimerEvent: {}
+[21.221587] (-) TimerEvent: {}
+[21.323051] (-) TimerEvent: {}
+[21.423720] (-) TimerEvent: {}
+[21.524246] (-) TimerEvent: {}
+[21.624686] (-) TimerEvent: {}
+[21.725147] (-) TimerEvent: {}
+[21.825616] (-) TimerEvent: {}
+[21.926140] (-) TimerEvent: {}
+[22.026738] (-) TimerEvent: {}
+[22.127911] (-) TimerEvent: {}
+[22.228794] (-) TimerEvent: {}
+[22.331388] (-) TimerEvent: {}
+[22.432223] (-) TimerEvent: {}
+[22.532772] (-) TimerEvent: {}
+[22.633349] (-) TimerEvent: {}
+[22.733822] (-) TimerEvent: {}
+[22.840466] (-) TimerEvent: {}
+[22.941045] (-) TimerEvent: {}
+[23.041729] (-) TimerEvent: {}
+[23.142416] (-) TimerEvent: {}
+[23.243004] (-) TimerEvent: {}
+[23.344250] (-) TimerEvent: {}
+[23.444862] (-) TimerEvent: {}
+[23.545337] (-) TimerEvent: {}
+[23.645923] (-) TimerEvent: {}
+[23.760685] (-) TimerEvent: {}
+[23.864625] (-) TimerEvent: {}
+[23.968667] (-) TimerEvent: {}
+[24.069412] (-) TimerEvent: {}
+[24.169870] (-) TimerEvent: {}
+[24.270513] (-) TimerEvent: {}
+[24.371251] (-) TimerEvent: {}
+[24.469115] (fp) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable mbind_tests\x1b[0m\n'}
+[24.473547] (-) TimerEvent: {}
+[24.574298] (-) TimerEvent: {}
+[24.674967] (-) TimerEvent: {}
+[24.746342] (fp) StdoutLine: {'line': b'[ 90%] Built target mbind_tests\n'}
+[24.775342] (-) TimerEvent: {}
+[24.875792] (-) TimerEvent: {}
+[24.976575] (-) TimerEvent: {}
+[25.077038] (-) TimerEvent: {}
+[25.177646] (-) TimerEvent: {}
+[25.278276] (-) TimerEvent: {}
+[25.378954] (-) TimerEvent: {}
+[25.479403] (-) TimerEvent: {}
+[25.579966] (-) TimerEvent: {}
+[25.680536] (-) TimerEvent: {}
+[25.780930] (-) TimerEvent: {}
+[25.881441] (-) TimerEvent: {}
+[25.982070] (-) TimerEvent: {}
+[26.082677] (-) TimerEvent: {}
+[26.183160] (-) TimerEvent: {}
+[26.283732] (-) TimerEvent: {}
+[26.384713] (-) TimerEvent: {}
+[26.485205] (-) TimerEvent: {}
+[26.585761] (-) TimerEvent: {}
+[26.686229] (-) TimerEvent: {}
+[26.786703] (-) TimerEvent: {}
+[26.887323] (-) TimerEvent: {}
+[26.953727] (fp) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable validate_tests\x1b[0m\n'}
+[26.987723] (-) TimerEvent: {}
+[27.088529] (-) TimerEvent: {}
+[27.136758] (fp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable result_tests\x1b[0m\n'}
+[27.188714] (-) TimerEvent: {}
+[27.208786] (fp) StdoutLine: {'line': b'[100%] Built target validate_tests\n'}
+[27.288944] (-) TimerEvent: {}
+[27.372887] (fp) StdoutLine: {'line': b'[100%] Built target result_tests\n'}
+[27.389158] (-) TimerEvent: {}
+[27.392045] (fp) JobEnded: {'identifier': 'fp', 'rc': 'SIGINT'}
+[27.489315] (-) TimerEvent: {}
+[27.589759] (-) TimerEvent: {}
+[27.690407] (-) TimerEvent: {}
+[27.790853] (-) TimerEvent: {}
+[27.891293] (-) TimerEvent: {}
+[27.991787] (-) TimerEvent: {}
+[28.092282] (-) TimerEvent: {}
+[28.192723] (-) TimerEvent: {}
+[28.293205] (-) TimerEvent: {}
+[28.393757] (-) TimerEvent: {}
+[28.494361] (-) TimerEvent: {}
+[28.595016] (-) TimerEvent: {}
+[28.695648] (-) TimerEvent: {}
+[28.796422] (-) TimerEvent: {}
+[28.896887] (-) TimerEvent: {}
+[28.997369] (-) TimerEvent: {}
+[29.097833] (-) TimerEvent: {}
+[29.198450] (-) TimerEvent: {}
+[29.299167] (-) TimerEvent: {}
+[29.399987] (-) TimerEvent: {}
+[29.500768] (-) TimerEvent: {}
+[29.601299] (-) TimerEvent: {}
+[29.701850] (-) TimerEvent: {}
+[29.802504] (-) TimerEvent: {}
+[29.903203] (-) TimerEvent: {}
+[30.003929] (-) TimerEvent: {}
+[30.104763] (-) TimerEvent: {}
+[30.205246] (-) TimerEvent: {}
+[30.305752] (-) TimerEvent: {}
+[30.406386] (-) TimerEvent: {}
+[30.507048] (-) TimerEvent: {}
+[30.607658] (-) TimerEvent: {}
+[30.708046] (-) TimerEvent: {}
+[30.808531] (-) TimerEvent: {}
+[30.908991] (-) TimerEvent: {}
+[31.009457] (-) TimerEvent: {}
+[31.110022] (-) TimerEvent: {}
+[31.210590] (-) TimerEvent: {}
+[31.311239] (-) TimerEvent: {}
+[31.355943] (FMT) StdoutLine: {'line': b'[  7%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[31.411745] (-) TimerEvent: {}
+[31.414781] (FMT) StdoutLine: {'line': b'[  7%] Built target gtest\n'}
+[31.452548] (FMT) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object test/CMakeFiles/test-main.dir/test-main.cc.o\x1b[0m\n'}
+[31.468908] (FMT) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object test/CMakeFiles/format-impl-test.dir/format-impl-test.cc.o\x1b[0m\n'}
+[31.475801] (FMT) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object test/CMakeFiles/compile-fp-test.dir/compile-fp-test.cc.o\x1b[0m\n'}
+[31.476796] (FMT) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object test/CMakeFiles/scan-test.dir/scan-test.cc.o\x1b[0m\n'}
+[31.511927] (-) TimerEvent: {}
+[31.612807] (-) TimerEvent: {}
+[31.713248] (-) TimerEvent: {}
+[31.818002] (-) TimerEvent: {}
+[31.922436] (-) TimerEvent: {}
+[32.023293] (-) TimerEvent: {}
+[32.124217] (-) TimerEvent: {}
+[32.224707] (-) TimerEvent: {}
+[32.325289] (-) TimerEvent: {}
+[32.425969] (-) TimerEvent: {}
+[32.526721] (-) TimerEvent: {}
+[32.627243] (-) TimerEvent: {}
+[32.728182] (-) TimerEvent: {}
+[32.828750] (-) TimerEvent: {}
+[32.929284] (-) TimerEvent: {}
+[33.029861] (-) TimerEvent: {}
+[33.130449] (-) TimerEvent: {}
+[33.231160] (-) TimerEvent: {}
+[33.332101] (-) TimerEvent: {}
+[33.347635] (FMT) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object test/CMakeFiles/test-main.dir/gtest-extra.cc.o\x1b[0m\n'}
+[33.432817] (-) TimerEvent: {}
+[33.533416] (-) TimerEvent: {}
+[33.634628] (-) TimerEvent: {}
+[33.735149] (-) TimerEvent: {}
+[33.835621] (-) TimerEvent: {}
+[33.936255] (-) TimerEvent: {}
+[34.036739] (-) TimerEvent: {}
+[34.144665] (-) TimerEvent: {}
+[34.236214] (FMT) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object test/CMakeFiles/compile-fp-test.dir/test-main.cc.o\x1b[0m\n'}
+[34.252224] (-) TimerEvent: {}
+[34.353913] (-) TimerEvent: {}
+[34.460265] (-) TimerEvent: {}
+[34.564229] (-) TimerEvent: {}
+[34.665619] (-) TimerEvent: {}
+[34.770307] (-) TimerEvent: {}
+[34.870802] (-) TimerEvent: {}
+[34.972998] (-) TimerEvent: {}
+[35.076689] (-) TimerEvent: {}
+[35.180332] (-) TimerEvent: {}
+[35.288266] (-) TimerEvent: {}
+[35.392691] (-) TimerEvent: {}
+[35.496632] (-) TimerEvent: {}
+[35.600441] (-) TimerEvent: {}
+[35.704747] (-) TimerEvent: {}
+[35.806726] (-) TimerEvent: {}
+[35.862843] (FMT) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object test/CMakeFiles/test-main.dir/util.cc.o\x1b[0m\n'}
+[35.906448] (-) TimerEvent: {}
+[36.007459] (-) TimerEvent: {}
+[36.108105] (-) TimerEvent: {}
+[36.144029] (FMT) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object test/CMakeFiles/compile-fp-test.dir/gtest-extra.cc.o\x1b[0m\n'}
+[36.208439] (-) TimerEvent: {}
+[36.308872] (-) TimerEvent: {}
+[36.409297] (-) TimerEvent: {}
+[36.509871] (-) TimerEvent: {}
+[36.610543] (-) TimerEvent: {}
+[36.711280] (-) TimerEvent: {}
+[36.811831] (-) TimerEvent: {}
+[36.882200] (FMT) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX static library libtest-main.a\x1b[0m\n'}
+[36.912531] (-) TimerEvent: {}
+[37.012969] (-) TimerEvent: {}
+[37.061412] (FMT) StdoutLine: {'line': b'[ 19%] Built target test-main\n'}
+[37.113221] (-) TimerEvent: {}
+[37.173597] (FMT) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object test/CMakeFiles/unicode-test.dir/unicode-test.cc.o\x1b[0m\n'}
+[37.213529] (-) TimerEvent: {}
+[37.314114] (-) TimerEvent: {}
+[37.414801] (-) TimerEvent: {}
+[37.515570] (-) TimerEvent: {}
+[37.616270] (-) TimerEvent: {}
+[37.716725] (-) TimerEvent: {}
+[37.817197] (-) TimerEvent: {}
+[37.917701] (-) TimerEvent: {}
+[38.018326] (-) TimerEvent: {}
+[38.118925] (-) TimerEvent: {}
+[38.219647] (-) TimerEvent: {}
+[38.320554] (-) TimerEvent: {}
+[38.420999] (-) TimerEvent: {}
+[38.521553] (-) TimerEvent: {}
+[38.622126] (-) TimerEvent: {}
+[38.722677] (-) TimerEvent: {}
+[38.823110] (-) TimerEvent: {}
+[38.923728] (-) TimerEvent: {}
+[39.024248] (-) TimerEvent: {}
+[39.124771] (-) TimerEvent: {}
+[39.225311] (-) TimerEvent: {}
+[39.325820] (-) TimerEvent: {}
+[39.426446] (-) TimerEvent: {}
+[39.527230] (-) TimerEvent: {}
+[39.627939] (-) TimerEvent: {}
+[39.728733] (-) TimerEvent: {}
+[39.829164] (-) TimerEvent: {}
+[39.929977] (-) TimerEvent: {}
+[40.030827] (-) TimerEvent: {}
+[40.131441] (-) TimerEvent: {}
+[40.232397] (-) TimerEvent: {}
+[40.332970] (-) TimerEvent: {}
+[40.433502] (-) TimerEvent: {}
+[40.534130] (-) TimerEvent: {}
+[40.634811] (-) TimerEvent: {}
+[40.735558] (-) TimerEvent: {}
+[40.836485] (-) TimerEvent: {}
+[40.936876] (-) TimerEvent: {}
+[41.037365] (-) TimerEvent: {}
+[41.137909] (-) TimerEvent: {}
+[41.238580] (-) TimerEvent: {}
+[41.339274] (-) TimerEvent: {}
+[41.440053] (-) TimerEvent: {}
+[41.540701] (-) TimerEvent: {}
+[41.641227] (-) TimerEvent: {}
+[41.741858] (-) TimerEvent: {}
+[41.842481] (-) TimerEvent: {}
+[41.943201] (-) TimerEvent: {}
+[42.043776] (-) TimerEvent: {}
+[42.144401] (-) TimerEvent: {}
+[42.244845] (-) TimerEvent: {}
+[42.345314] (-) TimerEvent: {}
+[42.418656] (FMT) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object test/CMakeFiles/scan-test.dir/test-main.cc.o\x1b[0m\n'}
+[42.445509] (-) TimerEvent: {}
+[42.546151] (-) TimerEvent: {}
+[42.646593] (-) TimerEvent: {}
+[42.747111] (-) TimerEvent: {}
+[42.847826] (-) TimerEvent: {}
+[42.948348] (-) TimerEvent: {}
+[43.048895] (-) TimerEvent: {}
+[43.149404] (-) TimerEvent: {}
+[43.249970] (-) TimerEvent: {}
+[43.350543] (-) TimerEvent: {}
+[43.451334] (-) TimerEvent: {}
+[43.552255] (-) TimerEvent: {}
+[43.652782] (-) TimerEvent: {}
+[43.753277] (-) TimerEvent: {}
+[43.853729] (-) TimerEvent: {}
+[43.954271] (-) TimerEvent: {}
+[43.972443] (FMT) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object test/CMakeFiles/compile-fp-test.dir/util.cc.o\x1b[0m\n'}
+[44.054540] (-) TimerEvent: {}
+[44.150283] (FMT) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object test/CMakeFiles/scan-test.dir/gtest-extra.cc.o\x1b[0m\n'}
+[44.155071] (-) TimerEvent: {}
+[44.257548] (-) TimerEvent: {}
+[44.358176] (-) TimerEvent: {}
+[44.372182] (FMT) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object test/CMakeFiles/format-impl-test.dir/header-only-test.cc.o\x1b[0m\n'}
+[44.458631] (-) TimerEvent: {}
+[44.559055] (-) TimerEvent: {}
+[44.659535] (-) TimerEvent: {}
+[44.760529] (-) TimerEvent: {}
+[44.860986] (-) TimerEvent: {}
+[44.962684] (-) TimerEvent: {}
+[45.063207] (-) TimerEvent: {}
+[45.163991] (-) TimerEvent: {}
+[45.264463] (-) TimerEvent: {}
+[45.364937] (-) TimerEvent: {}
+[45.465474] (-) TimerEvent: {}
+[45.566078] (-) TimerEvent: {}
+[45.666777] (-) TimerEvent: {}
+[45.767601] (-) TimerEvent: {}
+[45.868240] (-) TimerEvent: {}
+[45.968713] (-) TimerEvent: {}
+[46.069208] (-) TimerEvent: {}
+[46.169720] (-) TimerEvent: {}
+[46.270422] (-) TimerEvent: {}
+[46.371201] (-) TimerEvent: {}
+[46.472051] (-) TimerEvent: {}
+[46.572801] (-) TimerEvent: {}
+[46.673324] (-) TimerEvent: {}
+[46.773948] (-) TimerEvent: {}
+[46.875267] (-) TimerEvent: {}
+[46.975822] (-) TimerEvent: {}
+[47.076397] (-) TimerEvent: {}
+[47.177087] (-) TimerEvent: {}
+[47.188782] (FMT) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object test/CMakeFiles/unicode-test.dir/test-main.cc.o\x1b[0m\n'}
+[47.277393] (-) TimerEvent: {}
+[47.379194] (-) TimerEvent: {}
+[47.486498] (-) TimerEvent: {}
+[47.592592] (-) TimerEvent: {}
+[47.696414] (-) TimerEvent: {}
+[47.796989] (-) TimerEvent: {}
+[47.897543] (-) TimerEvent: {}
+[47.998167] (-) TimerEvent: {}
+[48.098913] (-) TimerEvent: {}
+[48.199617] (-) TimerEvent: {}
+[48.300087] (-) TimerEvent: {}
+[48.400855] (-) TimerEvent: {}
+[48.501388] (-) TimerEvent: {}
+[48.601836] (-) TimerEvent: {}
+[48.702296] (-) TimerEvent: {}
+[48.803066] (-) TimerEvent: {}
+[48.903728] (-) TimerEvent: {}
+[48.958393] (FMT) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object test/CMakeFiles/unicode-test.dir/gtest-extra.cc.o\x1b[0m\n'}
+[49.004410] (-) TimerEvent: {}
+[49.104834] (-) TimerEvent: {}
+[49.205478] (-) TimerEvent: {}
+[49.306085] (-) TimerEvent: {}
+[49.406595] (-) TimerEvent: {}
+[49.507366] (-) TimerEvent: {}
+[49.607942] (-) TimerEvent: {}
+[49.708689] (-) TimerEvent: {}
+[49.809207] (-) TimerEvent: {}
+[49.909739] (-) TimerEvent: {}
+[50.010389] (-) TimerEvent: {}
+[50.111123] (-) TimerEvent: {}
+[50.212005] (-) TimerEvent: {}
+[50.312786] (-) TimerEvent: {}
+[50.413369] (-) TimerEvent: {}
+[50.514038] (-) TimerEvent: {}
+[50.614720] (-) TimerEvent: {}
+[50.715514] (-) TimerEvent: {}
+[50.816459] (-) TimerEvent: {}
+[50.916987] (-) TimerEvent: {}
+[51.017522] (-) TimerEvent: {}
+[51.118888] (-) TimerEvent: {}
+[51.219581] (-) TimerEvent: {}
+[51.306403] (FMT) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object test/CMakeFiles/compile-fp-test.dir/__/src/os.cc.o\x1b[0m\n'}
+[51.320557] (-) TimerEvent: {}
+[51.421088] (-) TimerEvent: {}
+[51.521586] (-) TimerEvent: {}
+[51.622319] (-) TimerEvent: {}
+[51.723039] (-) TimerEvent: {}
+[51.823682] (-) TimerEvent: {}
+[51.925196] (-) TimerEvent: {}
+[52.026159] (-) TimerEvent: {}
+[52.127526] (-) TimerEvent: {}
+[52.228233] (-) TimerEvent: {}
+[52.252043] (FMT) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object test/CMakeFiles/scan-test.dir/util.cc.o\x1b[0m\n'}
+[52.328621] (-) TimerEvent: {}
+[52.429189] (-) TimerEvent: {}
+[52.466950] (FMT) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object test/CMakeFiles/format-impl-test.dir/test-main.cc.o\x1b[0m\n'}
+[52.531364] (-) TimerEvent: {}
+[52.632258] (-) TimerEvent: {}
+[52.732751] (-) TimerEvent: {}
+[52.833236] (-) TimerEvent: {}
+[52.933930] (-) TimerEvent: {}
+[53.034625] (-) TimerEvent: {}
+[53.135086] (-) TimerEvent: {}
+[53.235863] (-) TimerEvent: {}
+[53.336802] (-) TimerEvent: {}
+[53.437264] (-) TimerEvent: {}
+[53.537864] (-) TimerEvent: {}
+[53.638295] (-) TimerEvent: {}
+[53.739000] (-) TimerEvent: {}
+[53.840628] (-) TimerEvent: {}
+[53.941142] (-) TimerEvent: {}
+[54.041686] (-) TimerEvent: {}
+[54.142301] (-) TimerEvent: {}
+[54.243116] (-) TimerEvent: {}
+[54.343793] (-) TimerEvent: {}
+[54.353623] (FMT) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object test/CMakeFiles/format-impl-test.dir/gtest-extra.cc.o\x1b[0m\n'}
+[54.444305] (-) TimerEvent: {}
+[54.544759] (-) TimerEvent: {}
+[54.648833] (-) TimerEvent: {}
+[54.752617] (-) TimerEvent: {}
+[54.853696] (-) TimerEvent: {}
+[54.954096] (-) TimerEvent: {}
+[55.056216] (-) TimerEvent: {}
+[55.164727] (-) TimerEvent: {}
+[55.272727] (-) TimerEvent: {}
+[55.380770] (-) TimerEvent: {}
+[55.488783] (-) TimerEvent: {}
+[55.592614] (-) TimerEvent: {}
+[55.696252] (-) TimerEvent: {}
+[55.800496] (-) TimerEvent: {}
+[55.904397] (-) TimerEvent: {}
+[56.004779] (-) TimerEvent: {}
+[56.105235] (-) TimerEvent: {}
+[56.205786] (-) TimerEvent: {}
+[56.306456] (-) TimerEvent: {}
+[56.407261] (-) TimerEvent: {}
+[56.508055] (-) TimerEvent: {}
+[56.608600] (-) TimerEvent: {}
+[56.709126] (-) TimerEvent: {}
+[56.809773] (-) TimerEvent: {}
+[56.910365] (-) TimerEvent: {}
+[57.011116] (-) TimerEvent: {}
+[57.112038] (-) TimerEvent: {}
+[57.212722] (-) TimerEvent: {}
+[57.313212] (-) TimerEvent: {}
+[57.367222] (FMT) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object test/CMakeFiles/unicode-test.dir/util.cc.o\x1b[0m\n'}
+[57.413477] (-) TimerEvent: {}
+[57.514675] (-) TimerEvent: {}
+[57.615146] (-) TimerEvent: {}
+[57.715658] (-) TimerEvent: {}
+[57.816323] (-) TimerEvent: {}
+[57.916764] (-) TimerEvent: {}
+[58.017306] (-) TimerEvent: {}
+[58.117950] (-) TimerEvent: {}
+[58.218597] (-) TimerEvent: {}
+[58.281223] (FMT) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable ../bin/compile-fp-test\x1b[0m\n'}
+[58.319070] (-) TimerEvent: {}
+[58.419925] (-) TimerEvent: {}
+[58.520728] (-) TimerEvent: {}
+[58.540939] (FMT) StdoutLine: {'line': b'[ 38%] Built target compile-fp-test\n'}
+[58.584845] (FMT) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object test/CMakeFiles/xchar-test.dir/xchar-test.cc.o\x1b[0m\n'}
+[58.620945] (-) TimerEvent: {}
+[58.727271] (-) TimerEvent: {}
+[58.828115] (-) TimerEvent: {}
+[58.928806] (-) TimerEvent: {}
+[59.029672] (-) TimerEvent: {}
+[59.130319] (-) TimerEvent: {}
+[59.179683] (FMT) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object test/CMakeFiles/scan-test.dir/__/src/os.cc.o\x1b[0m\n'}
+[59.230644] (-) TimerEvent: {}
+[59.331467] (-) TimerEvent: {}
+[59.432410] (-) TimerEvent: {}
+[59.538519] (-) TimerEvent: {}
+[59.639233] (-) TimerEvent: {}
+[59.745087] (-) TimerEvent: {}
+[59.845628] (-) TimerEvent: {}
+[59.950082] (-) TimerEvent: {}
+[60.050854] (-) TimerEvent: {}
+[60.151403] (-) TimerEvent: {}
+[60.251847] (-) TimerEvent: {}
+[60.352963] (-) TimerEvent: {}
+[60.454929] (-) TimerEvent: {}
+[60.555931] (-) TimerEvent: {}
+[60.656610] (-) TimerEvent: {}
+[60.757057] (-) TimerEvent: {}
+[60.857615] (-) TimerEvent: {}
+[60.958276] (-) TimerEvent: {}
+[61.058990] (-) TimerEvent: {}
+[61.159833] (-) TimerEvent: {}
+[61.260750] (-) TimerEvent: {}
+[61.361247] (-) TimerEvent: {}
+[61.461826] (-) TimerEvent: {}
+[61.562632] (-) TimerEvent: {}
+[61.663413] (-) TimerEvent: {}
+[61.763970] (-) TimerEvent: {}
+[61.864731] (-) TimerEvent: {}
+[61.969571] (-) TimerEvent: {}
+[62.070231] (-) TimerEvent: {}
+[62.171690] (-) TimerEvent: {}
+[62.209954] (FMT) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object test/CMakeFiles/format-impl-test.dir/util.cc.o\x1b[0m\n'}
+[62.272194] (-) TimerEvent: {}
+[62.372655] (-) TimerEvent: {}
+[62.474143] (-) TimerEvent: {}
+[62.579080] (-) TimerEvent: {}
+[62.679911] (-) TimerEvent: {}
+[62.780732] (-) TimerEvent: {}
+[62.881228] (-) TimerEvent: {}
+[62.981822] (-) TimerEvent: {}
+[63.082461] (-) TimerEvent: {}
+[63.183194] (-) TimerEvent: {}
+[63.283726] (-) TimerEvent: {}
+[63.384634] (-) TimerEvent: {}
+[63.490430] (-) TimerEvent: {}
+[63.590906] (-) TimerEvent: {}
+[63.691695] (-) TimerEvent: {}
+[63.792607] (-) TimerEvent: {}
+[63.893053] (-) TimerEvent: {}
+[63.993555] (-) TimerEvent: {}
+[64.094019] (-) TimerEvent: {}
+[64.194541] (-) TimerEvent: {}
+[64.295084] (-) TimerEvent: {}
+[64.394178] (FMT) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object test/CMakeFiles/unicode-test.dir/__/src/os.cc.o\x1b[0m\n'}
+[64.395257] (-) TimerEvent: {}
+[64.498592] (-) TimerEvent: {}
+[64.599480] (-) TimerEvent: {}
+[64.699901] (-) TimerEvent: {}
+[64.800285] (-) TimerEvent: {}
+[64.900783] (-) TimerEvent: {}
+[65.001229] (-) TimerEvent: {}
+[65.101776] (-) TimerEvent: {}
+[65.202364] (-) TimerEvent: {}
+[65.302952] (-) TimerEvent: {}
+[65.403484] (-) TimerEvent: {}
+[65.503949] (-) TimerEvent: {}
+[65.604455] (-) TimerEvent: {}
+[65.704874] (-) TimerEvent: {}
+[65.805334] (-) TimerEvent: {}
+[65.905882] (-) TimerEvent: {}
+[66.006611] (-) TimerEvent: {}
+[66.108272] (-) TimerEvent: {}
+[66.208737] (-) TimerEvent: {}
+[66.309319] (-) TimerEvent: {}
+[66.409954] (-) TimerEvent: {}
+[66.510709] (-) TimerEvent: {}
+[66.611414] (-) TimerEvent: {}
+[66.712300] (-) TimerEvent: {}
+[66.812782] (-) TimerEvent: {}
+[66.913266] (-) TimerEvent: {}
+[66.997884] (FMT) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable ../bin/scan-test\x1b[0m\n'}
+[67.013617] (-) TimerEvent: {}
+[67.114113] (-) TimerEvent: {}
+[67.184976] (FMT) StdoutLine: {'line': b'[ 45%] Built target scan-test\n'}
+[67.214499] (-) TimerEvent: {}
+[67.220682] (FMT) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object test/CMakeFiles/enforce-checks-test.dir/enforce-checks-test.cc.o\x1b[0m\n'}
+[67.314997] (-) TimerEvent: {}
+[67.415761] (-) TimerEvent: {}
+[67.516681] (-) TimerEvent: {}
+[67.617101] (-) TimerEvent: {}
+[67.717559] (-) TimerEvent: {}
+[67.818031] (-) TimerEvent: {}
+[67.918629] (-) TimerEvent: {}
+[68.019275] (-) TimerEvent: {}
+[68.119913] (-) TimerEvent: {}
+[68.220442] (-) TimerEvent: {}
+[68.320894] (-) TimerEvent: {}
+[68.421382] (-) TimerEvent: {}
+[68.521959] (-) TimerEvent: {}
+[68.622628] (-) TimerEvent: {}
+[68.723081] (-) TimerEvent: {}
+[68.823897] (-) TimerEvent: {}
+[68.924760] (-) TimerEvent: {}
+[68.930020] (FMT) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object test/CMakeFiles/format-impl-test.dir/__/src/os.cc.o\x1b[0m\n'}
+[69.025031] (-) TimerEvent: {}
+[69.125590] (-) TimerEvent: {}
+[69.230247] (-) TimerEvent: {}
+[69.330898] (-) TimerEvent: {}
+[69.431436] (-) TimerEvent: {}
+[69.532332] (-) TimerEvent: {}
+[69.632780] (-) TimerEvent: {}
+[69.733281] (-) TimerEvent: {}
+[69.833829] (-) TimerEvent: {}
+[69.934375] (-) TimerEvent: {}
+[70.035071] (-) TimerEvent: {}
+[70.135793] (-) TimerEvent: {}
+[70.236693] (-) TimerEvent: {}
+[70.337151] (-) TimerEvent: {}
+[70.437644] (-) TimerEvent: {}
+[70.538195] (-) TimerEvent: {}
+[70.638982] (-) TimerEvent: {}
+[70.739451] (-) TimerEvent: {}
+[70.839950] (-) TimerEvent: {}
+[70.940579] (-) TimerEvent: {}
+[71.041058] (-) TimerEvent: {}
+[71.141626] (-) TimerEvent: {}
+[71.148659] (FMT) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX executable ../bin/unicode-test\x1b[0m\n'}
+[71.241894] (-) TimerEvent: {}
+[71.330848] (FMT) StdoutLine: {'line': b'[ 49%] Built target unicode-test\n'}
+[71.342324] (-) TimerEvent: {}
+[71.366385] (FMT) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object test/CMakeFiles/posix-mock-test.dir/posix-mock-test.cc.o\x1b[0m\n'}
+[71.442626] (-) TimerEvent: {}
+[71.543522] (-) TimerEvent: {}
+[71.644111] (-) TimerEvent: {}
+[71.745494] (-) TimerEvent: {}
+[71.846408] (-) TimerEvent: {}
+[71.947292] (-) TimerEvent: {}
+[72.048221] (-) TimerEvent: {}
+[72.149734] (-) TimerEvent: {}
+[72.250390] (-) TimerEvent: {}
+[72.351173] (-) TimerEvent: {}
+[72.452023] (-) TimerEvent: {}
+[72.552684] (-) TimerEvent: {}
+[72.653194] (-) TimerEvent: {}
+[72.753991] (-) TimerEvent: {}
+[72.854571] (-) TimerEvent: {}
+[72.955378] (-) TimerEvent: {}
+[73.056335] (-) TimerEvent: {}
+[73.157448] (-) TimerEvent: {}
+[73.258104] (-) TimerEvent: {}
+[73.359315] (-) TimerEvent: {}
+[73.460244] (-) TimerEvent: {}
+[73.560746] (-) TimerEvent: {}
+[73.661382] (-) TimerEvent: {}
+[73.761998] (-) TimerEvent: {}
+[73.862517] (-) TimerEvent: {}
+[73.963793] (-) TimerEvent: {}
+[74.064320] (-) TimerEvent: {}
+[74.164832] (-) TimerEvent: {}
+[74.265658] (-) TimerEvent: {}
+[74.366722] (-) TimerEvent: {}
+[74.467446] (-) TimerEvent: {}
+[74.568402] (-) TimerEvent: {}
+[74.669023] (-) TimerEvent: {}
+[74.769622] (-) TimerEvent: {}
+[74.870168] (-) TimerEvent: {}
+[74.970917] (-) TimerEvent: {}
+[75.071569] (-) TimerEvent: {}
+[75.172265] (-) TimerEvent: {}
+[75.175984] (FMT) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX executable ../bin/format-impl-test\x1b[0m\n'}
+[75.272587] (-) TimerEvent: {}
+[75.348776] (FMT) StdoutLine: {'line': b'[ 52%] Built target format-impl-test\n'}
+[75.372817] (-) TimerEvent: {}
+[75.391255] (FMT) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object test/CMakeFiles/os-test.dir/os-test.cc.o\x1b[0m\n'}
+[75.473720] (-) TimerEvent: {}
+[75.574438] (-) TimerEvent: {}
+[75.675087] (-) TimerEvent: {}
+[75.775759] (-) TimerEvent: {}
+[75.876780] (-) TimerEvent: {}
+[75.977358] (-) TimerEvent: {}
+[76.078021] (-) TimerEvent: {}
+[76.178780] (-) TimerEvent: {}
+[76.279674] (-) TimerEvent: {}
+[76.380577] (-) TimerEvent: {}
+[76.481088] (-) TimerEvent: {}
+[76.534218] (FMT) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object test/CMakeFiles/posix-mock-test.dir/__/src/format.cc.o\x1b[0m\n'}
+[76.581350] (-) TimerEvent: {}
+[76.682020] (-) TimerEvent: {}
+[76.736975] (FMT) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable ../bin/enforce-checks-test\x1b[0m\n'}
+[76.787118] (-) TimerEvent: {}
+[76.887948] (-) TimerEvent: {}
+[76.990943] (-) TimerEvent: {}
+[77.088619] (FMT) StdoutLine: {'line': b'[ 56%] Built target enforce-checks-test\n'}
+[77.091374] (-) TimerEvent: {}
+[77.197760] (-) TimerEvent: {}
+[77.298277] (-) TimerEvent: {}
+[77.400290] (-) TimerEvent: {}
+[77.500830] (-) TimerEvent: {}
+[77.601454] (-) TimerEvent: {}
+[77.702140] (-) TimerEvent: {}
+[77.802722] (-) TimerEvent: {}
+[77.903660] (-) TimerEvent: {}
+[78.004212] (-) TimerEvent: {}
+[78.104734] (-) TimerEvent: {}
+[78.205347] (-) TimerEvent: {}
+[78.305983] (-) TimerEvent: {}
+[78.406750] (-) TimerEvent: {}
+[78.507834] (-) TimerEvent: {}
+[78.608906] (-) TimerEvent: {}
+[78.709494] (-) TimerEvent: {}
+[78.810143] (-) TimerEvent: {}
+[78.910864] (-) TimerEvent: {}
+[79.011646] (-) TimerEvent: {}
+[79.112231] (-) TimerEvent: {}
+[79.212760] (-) TimerEvent: {}
+[79.313237] (-) TimerEvent: {}
+[79.413786] (-) TimerEvent: {}
+[79.514521] (-) TimerEvent: {}
+[79.615312] (-) TimerEvent: {}
+[79.716205] (-) TimerEvent: {}
+[79.816804] (-) TimerEvent: {}
+[79.917433] (-) TimerEvent: {}
+[80.017910] (-) TimerEvent: {}
+[80.118550] (-) TimerEvent: {}
+[80.219273] (-) TimerEvent: {}
+[80.320206] (-) TimerEvent: {}
+[80.420636] (-) TimerEvent: {}
+[80.521052] (-) TimerEvent: {}
+[80.619973] (FMT) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable ../bin/xchar-test\x1b[0m\n'}
+[80.621292] (-) TimerEvent: {}
+[80.721747] (-) TimerEvent: {}
+[80.806263] (FMT) StdoutLine: {'line': b'[ 57%] Built target xchar-test\n'}
+[80.814309] (FMT) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable ../bin/os-test\x1b[0m\n'}
+[80.822079] (-) TimerEvent: {}
+[80.922703] (-) TimerEvent: {}
+[80.983094] (FMT) StdoutLine: {'line': b'[ 59%] Built target os-test\n'}
+[81.022949] (-) TimerEvent: {}
+[81.123342] (-) TimerEvent: {}
+[81.224211] (-) TimerEvent: {}
+[81.324663] (-) TimerEvent: {}
+[81.425054] (-) TimerEvent: {}
+[81.525470] (-) TimerEvent: {}
+[81.626038] (-) TimerEvent: {}
+[81.726600] (-) TimerEvent: {}
+[81.827038] (-) TimerEvent: {}
+[81.927447] (-) TimerEvent: {}
+[82.027953] (-) TimerEvent: {}
+[82.128466] (-) TimerEvent: {}
+[82.228834] (-) TimerEvent: {}
+[82.329285] (-) TimerEvent: {}
+[82.429713] (-) TimerEvent: {}
+[82.530179] (-) TimerEvent: {}
+[82.592206] (FMT) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object test/CMakeFiles/posix-mock-test.dir/test-main.cc.o\x1b[0m\n'}
+[82.630401] (-) TimerEvent: {}
+[82.730944] (-) TimerEvent: {}
+[82.831453] (-) TimerEvent: {}
+[82.932103] (-) TimerEvent: {}
+[83.032579] (-) TimerEvent: {}
+[83.133032] (-) TimerEvent: {}
+[83.233559] (-) TimerEvent: {}
+[83.334147] (-) TimerEvent: {}
+[83.434818] (-) TimerEvent: {}
+[83.535541] (-) TimerEvent: {}
+[83.636061] (-) TimerEvent: {}
+[83.736647] (-) TimerEvent: {}
+[83.837038] (-) TimerEvent: {}
+[83.906359] (FMT) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object test/CMakeFiles/posix-mock-test.dir/gtest-extra.cc.o\x1b[0m\n'}
+[83.937278] (-) TimerEvent: {}
+[84.037839] (-) TimerEvent: {}
+[84.138502] (-) TimerEvent: {}
+[84.239159] (-) TimerEvent: {}
+[84.339912] (-) TimerEvent: {}
+[84.440299] (-) TimerEvent: {}
+[84.540712] (-) TimerEvent: {}
+[84.641172] (-) TimerEvent: {}
+[84.741655] (-) TimerEvent: {}
+[84.842235] (-) TimerEvent: {}
+[84.942868] (-) TimerEvent: {}
+[85.043647] (-) TimerEvent: {}
+[85.144596] (-) TimerEvent: {}
+[85.244979] (-) TimerEvent: {}
+[85.345435] (-) TimerEvent: {}
+[85.445940] (-) TimerEvent: {}
+[85.546549] (-) TimerEvent: {}
+[85.647258] (-) TimerEvent: {}
+[85.700130] (FMT) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object test/CMakeFiles/posix-mock-test.dir/util.cc.o\x1b[0m\n'}
+[85.747808] (-) TimerEvent: {}
+[85.848696] (-) TimerEvent: {}
+[85.949165] (-) TimerEvent: {}
+[86.049652] (-) TimerEvent: {}
+[86.150228] (-) TimerEvent: {}
+[86.250900] (-) TimerEvent: {}
+[86.351637] (-) TimerEvent: {}
+[86.391629] (FMT) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable ../bin/posix-mock-test\x1b[0m\n'}
+[86.452264] (-) TimerEvent: {}
+[86.548597] (FMT) StdoutLine: {'line': b'[ 64%] Built target posix-mock-test\n'}
+[86.552667] (-) TimerEvent: {}
+[86.582295] (FMT) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/CMakeFiles/assert-test.dir/assert-test.cc.o\x1b[0m\n'}
+[86.652858] (-) TimerEvent: {}
+[86.753534] (-) TimerEvent: {}
+[86.853986] (-) TimerEvent: {}
+[86.954569] (-) TimerEvent: {}
+[87.055038] (-) TimerEvent: {}
+[87.155473] (-) TimerEvent: {}
+[87.256019] (-) TimerEvent: {}
+[87.356560] (-) TimerEvent: {}
+[87.457051] (-) TimerEvent: {}
+[87.557557] (-) TimerEvent: {}
+[87.658163] (-) TimerEvent: {}
+[87.758817] (-) TimerEvent: {}
+[87.859246] (-) TimerEvent: {}
+[87.959665] (-) TimerEvent: {}
+[88.060220] (-) TimerEvent: {}
+[88.160649] (-) TimerEvent: {}
+[88.261064] (-) TimerEvent: {}
+[88.361565] (-) TimerEvent: {}
+[88.366356] (FMT) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable ../bin/assert-test\x1b[0m\n'}
+[88.462204] (-) TimerEvent: {}
+[88.509747] (FMT) StdoutLine: {'line': b'[ 67%] Built target assert-test\n'}
+[88.545601] (FMT) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object test/CMakeFiles/chrono-test.dir/chrono-test.cc.o\x1b[0m\n'}
+[88.562186] (-) TimerEvent: {}
+[88.662696] (-) TimerEvent: {}
+[88.763448] (-) TimerEvent: {}
+[88.863921] (-) TimerEvent: {}
+[88.964403] (-) TimerEvent: {}
+[89.064802] (-) TimerEvent: {}
+[89.165269] (-) TimerEvent: {}
+[89.265695] (-) TimerEvent: {}
+[89.366306] (-) TimerEvent: {}
+[89.466751] (-) TimerEvent: {}
+[89.567479] (-) TimerEvent: {}
+[89.667867] (-) TimerEvent: {}
+[89.768401] (-) TimerEvent: {}
+[89.868867] (-) TimerEvent: {}
+[89.969365] (-) TimerEvent: {}
+[90.069835] (-) TimerEvent: {}
+[90.170406] (-) TimerEvent: {}
+[90.270889] (-) TimerEvent: {}
+[90.371605] (-) TimerEvent: {}
+[90.472018] (-) TimerEvent: {}
+[90.572481] (-) TimerEvent: {}
+[90.672971] (-) TimerEvent: {}
+[90.773408] (-) TimerEvent: {}
+[90.874002] (-) TimerEvent: {}
+[90.974516] (-) TimerEvent: {}
+[91.075097] (-) TimerEvent: {}
+[91.175532] (-) TimerEvent: {}
+[91.276259] (-) TimerEvent: {}
+[91.376726] (-) TimerEvent: {}
+[91.477195] (-) TimerEvent: {}
+[91.577703] (-) TimerEvent: {}
+[91.678254] (-) TimerEvent: {}
+[91.778915] (-) TimerEvent: {}
+[91.879603] (-) TimerEvent: {}
+[91.980399] (-) TimerEvent: {}
+[92.080849] (-) TimerEvent: {}
+[92.181351] (-) TimerEvent: {}
+[92.281943] (-) TimerEvent: {}
+[92.382626] (-) TimerEvent: {}
+[92.483369] (-) TimerEvent: {}
+[92.584245] (-) TimerEvent: {}
+[92.684792] (-) TimerEvent: {}
+[92.785203] (-) TimerEvent: {}
+[92.885599] (-) TimerEvent: {}
+[92.985959] (-) TimerEvent: {}
+[93.086526] (-) TimerEvent: {}
+[93.187184] (-) TimerEvent: {}
+[93.287871] (-) TimerEvent: {}
+[93.388301] (-) TimerEvent: {}
+[93.488761] (-) TimerEvent: {}
+[93.589175] (-) TimerEvent: {}
+[93.689772] (-) TimerEvent: {}
+[93.790221] (-) TimerEvent: {}
+[93.890678] (-) TimerEvent: {}
+[93.991088] (-) TimerEvent: {}
+[94.091589] (-) TimerEvent: {}
+[94.192232] (-) TimerEvent: {}
+[94.292660] (-) TimerEvent: {}
+[94.393125] (-) TimerEvent: {}
+[94.493614] (-) TimerEvent: {}
+[94.594185] (-) TimerEvent: {}
+[94.694791] (-) TimerEvent: {}
+[94.795488] (-) TimerEvent: {}
+[94.895983] (-) TimerEvent: {}
+[94.996703] (-) TimerEvent: {}
+[95.097205] (-) TimerEvent: {}
+[95.197680] (-) TimerEvent: {}
+[95.298197] (-) TimerEvent: {}
+[95.398743] (-) TimerEvent: {}
+[95.499387] (-) TimerEvent: {}
+[95.600140] (-) TimerEvent: {}
+[95.700735] (-) TimerEvent: {}
+[95.801125] (-) TimerEvent: {}
+[95.901574] (-) TimerEvent: {}
+[96.002082] (-) TimerEvent: {}
+[96.102516] (-) TimerEvent: {}
+[96.203204] (-) TimerEvent: {}
+[96.303919] (-) TimerEvent: {}
+[96.404717] (-) TimerEvent: {}
+[96.505103] (-) TimerEvent: {}
+[96.605568] (-) TimerEvent: {}
+[96.706071] (-) TimerEvent: {}
+[96.806613] (-) TimerEvent: {}
+[96.907212] (-) TimerEvent: {}
+[97.007663] (-) TimerEvent: {}
+[97.108473] (-) TimerEvent: {}
+[97.208901] (-) TimerEvent: {}
+[97.309292] (-) TimerEvent: {}
+[97.409741] (-) TimerEvent: {}
+[97.510297] (-) TimerEvent: {}
+[97.573380] (FMT) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object test/CMakeFiles/color-test.dir/color-test.cc.o\x1b[0m\n'}
+[97.610692] (-) TimerEvent: {}
+[97.711401] (-) TimerEvent: {}
+[97.812005] (-) TimerEvent: {}
+[97.912503] (-) TimerEvent: {}
+[98.013033] (-) TimerEvent: {}
+[98.114058] (-) TimerEvent: {}
+[98.214761] (-) TimerEvent: {}
+[98.315467] (-) TimerEvent: {}
+[98.416362] (-) TimerEvent: {}
+[98.516683] (-) TimerEvent: {}
+[98.595364] (FMT) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object test/CMakeFiles/base-test.dir/base-test.cc.o\x1b[0m\n'}
+[98.616886] (-) TimerEvent: {}
+[98.717362] (-) TimerEvent: {}
+[98.817897] (-) TimerEvent: {}
+[98.918559] (-) TimerEvent: {}
+[99.019045] (-) TimerEvent: {}
+[99.119457] (-) TimerEvent: {}
+[99.220857] (-) TimerEvent: {}
+[99.321652] (-) TimerEvent: {}
+[99.422223] (-) TimerEvent: {}
+[99.522893] (-) TimerEvent: {}
+[99.623618] (-) TimerEvent: {}
+[99.691559] (FMT) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object test/CMakeFiles/args-test.dir/args-test.cc.o\x1b[0m\n'}
+[99.724216] (-) TimerEvent: {}
+[99.824766] (-) TimerEvent: {}
+[99.925223] (-) TimerEvent: {}
+[100.025695] (-) TimerEvent: {}
+[100.126121] (-) TimerEvent: {}
+[100.226550] (-) TimerEvent: {}
+[100.327326] (-) TimerEvent: {}
+[100.427765] (-) TimerEvent: {}
+[100.528692] (-) TimerEvent: {}
+[100.629168] (-) TimerEvent: {}
+[100.729696] (-) TimerEvent: {}
+[100.830668] (-) TimerEvent: {}
+[100.931166] (-) TimerEvent: {}
+[101.031645] (-) TimerEvent: {}
+[101.132332] (-) TimerEvent: {}
+[101.232772] (-) TimerEvent: {}
+[101.333264] (-) TimerEvent: {}
+[101.433864] (-) TimerEvent: {}
+[101.534316] (-) TimerEvent: {}
+[101.634874] (-) TimerEvent: {}
+[101.735427] (-) TimerEvent: {}
+[101.836245] (-) TimerEvent: {}
+[101.936681] (-) TimerEvent: {}
+[102.037629] (-) TimerEvent: {}
+[102.138325] (-) TimerEvent: {}
+[102.239066] (-) TimerEvent: {}
+[102.339930] (-) TimerEvent: {}
+[102.440429] (-) TimerEvent: {}
+[102.507554] (FMT) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable ../bin/color-test\x1b[0m\n'}
+[102.540627] (-) TimerEvent: {}
+[102.641204] (-) TimerEvent: {}
+[102.679006] (FMT) StdoutLine: {'line': b'[ 74%] Built target color-test\n'}
+[102.717248] (FMT) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object test/CMakeFiles/gtest-extra-test.dir/gtest-extra-test.cc.o\x1b[0m\n'}
+[102.741499] (-) TimerEvent: {}
+[102.842044] (-) TimerEvent: {}
+[102.942660] (-) TimerEvent: {}
+[103.043443] (-) TimerEvent: {}
+[103.144319] (-) TimerEvent: {}
+[103.244772] (-) TimerEvent: {}
+[103.345276] (-) TimerEvent: {}
+[103.445842] (-) TimerEvent: {}
+[103.546473] (-) TimerEvent: {}
+[103.647212] (-) TimerEvent: {}
+[103.747998] (-) TimerEvent: {}
+[103.786624] (FMT) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable ../bin/args-test\x1b[0m\n'}
+[103.848205] (-) TimerEvent: {}
+[103.948712] (-) TimerEvent: {}
+[104.033331] (FMT) StdoutLine: {'line': b'[ 77%] Built target args-test\n'}
+[104.048898] (-) TimerEvent: {}
+[104.090463] (FMT) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object test/CMakeFiles/format-test.dir/format-test.cc.o\x1b[0m\n'}
+[104.149124] (-) TimerEvent: {}
+[104.249706] (-) TimerEvent: {}
+[104.350333] (-) TimerEvent: {}
+[104.451029] (-) TimerEvent: {}
+[104.551823] (-) TimerEvent: {}
+[104.652547] (-) TimerEvent: {}
+[104.752968] (-) TimerEvent: {}
+[104.853410] (-) TimerEvent: {}
+[104.953965] (-) TimerEvent: {}
+[105.054528] (-) TimerEvent: {}
+[105.155261] (-) TimerEvent: {}
+[105.256186] (-) TimerEvent: {}
+[105.356750] (-) TimerEvent: {}
+[105.457265] (-) TimerEvent: {}
+[105.557839] (-) TimerEvent: {}
+[105.658560] (-) TimerEvent: {}
+[105.759268] (-) TimerEvent: {}
+[105.859981] (-) TimerEvent: {}
+[105.960582] (-) TimerEvent: {}
+[106.061080] (-) TimerEvent: {}
+[106.161605] (-) TimerEvent: {}
+[106.262214] (-) TimerEvent: {}
+[106.362697] (-) TimerEvent: {}
+[106.463797] (-) TimerEvent: {}
+[106.564544] (-) TimerEvent: {}
+[106.665043] (-) TimerEvent: {}
+[106.765668] (-) TimerEvent: {}
+[106.866305] (-) TimerEvent: {}
+[106.966986] (-) TimerEvent: {}
+[107.068648] (-) TimerEvent: {}
+[107.169180] (-) TimerEvent: {}
+[107.269764] (-) TimerEvent: {}
+[107.370390] (-) TimerEvent: {}
+[107.471213] (-) TimerEvent: {}
+[107.571644] (-) TimerEvent: {}
+[107.672227] (-) TimerEvent: {}
+[107.772690] (-) TimerEvent: {}
+[107.873202] (-) TimerEvent: {}
+[107.973691] (-) TimerEvent: {}
+[108.074233] (-) TimerEvent: {}
+[108.174845] (-) TimerEvent: {}
+[108.275460] (-) TimerEvent: {}
+[108.376098] (-) TimerEvent: {}
+[108.476617] (-) TimerEvent: {}
+[108.577109] (-) TimerEvent: {}
+[108.677685] (-) TimerEvent: {}
+[108.778382] (-) TimerEvent: {}
+[108.879095] (-) TimerEvent: {}
+[108.979789] (-) TimerEvent: {}
+[109.080316] (-) TimerEvent: {}
+[109.180788] (-) TimerEvent: {}
+[109.281339] (-) TimerEvent: {}
+[109.381796] (-) TimerEvent: {}
+[109.482310] (FMT) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable ../bin/gtest-extra-test\x1b[0m\n'}
+[109.482528] (-) TimerEvent: {}
+[109.582916] (-) TimerEvent: {}
+[109.683463] (-) TimerEvent: {}
+[109.753574] (FMT) StdoutLine: {'line': b'[ 80%] Built target gtest-extra-test\n'}
+[109.783754] (-) TimerEvent: {}
+[109.811275] (FMT) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object test/CMakeFiles/ostream-test.dir/ostream-test.cc.o\x1b[0m\n'}
+[109.884659] (-) TimerEvent: {}
+[109.985400] (-) TimerEvent: {}
+[110.085969] (-) TimerEvent: {}
+[110.186695] (-) TimerEvent: {}
+[110.287619] (-) TimerEvent: {}
+[110.388618] (-) TimerEvent: {}
+[110.489136] (-) TimerEvent: {}
+[110.589770] (-) TimerEvent: {}
+[110.690344] (-) TimerEvent: {}
+[110.791125] (-) TimerEvent: {}
+[110.891924] (-) TimerEvent: {}
+[110.992445] (-) TimerEvent: {}
+[111.092907] (-) TimerEvent: {}
+[111.193381] (-) TimerEvent: {}
+[111.293964] (-) TimerEvent: {}
+[111.394552] (-) TimerEvent: {}
+[111.495374] (-) TimerEvent: {}
+[111.595937] (-) TimerEvent: {}
+[111.696790] (-) TimerEvent: {}
+[111.797255] (-) TimerEvent: {}
+[111.897820] (-) TimerEvent: {}
+[111.998462] (-) TimerEvent: {}
+[112.098920] (-) TimerEvent: {}
+[112.199449] (-) TimerEvent: {}
+[112.300262] (-) TimerEvent: {}
+[112.400823] (-) TimerEvent: {}
+[112.501381] (-) TimerEvent: {}
+[112.602024] (-) TimerEvent: {}
+[112.702713] (-) TimerEvent: {}
+[112.803390] (-) TimerEvent: {}
+[112.904560] (-) TimerEvent: {}
+[113.005834] (-) TimerEvent: {}
+[113.106375] (-) TimerEvent: {}
+[113.207019] (-) TimerEvent: {}
+[113.308002] (-) TimerEvent: {}
+[113.408699] (-) TimerEvent: {}
+[113.509319] (-) TimerEvent: {}
+[113.609874] (-) TimerEvent: {}
+[113.710530] (-) TimerEvent: {}
+[113.811266] (-) TimerEvent: {}
+[113.912116] (-) TimerEvent: {}
+[114.012651] (-) TimerEvent: {}
+[114.113116] (-) TimerEvent: {}
+[114.213642] (-) TimerEvent: {}
+[114.314262] (-) TimerEvent: {}
+[114.414955] (-) TimerEvent: {}
+[114.515749] (-) TimerEvent: {}
+[114.616672] (-) TimerEvent: {}
+[114.717139] (-) TimerEvent: {}
+[114.817681] (-) TimerEvent: {}
+[114.918360] (-) TimerEvent: {}
+[115.019047] (-) TimerEvent: {}
+[115.119841] (-) TimerEvent: {}
+[115.220775] (-) TimerEvent: {}
+[115.321300] (-) TimerEvent: {}
+[115.421914] (-) TimerEvent: {}
+[115.522550] (-) TimerEvent: {}
+[115.623285] (-) TimerEvent: {}
+[115.723940] (-) TimerEvent: {}
+[115.824513] (-) TimerEvent: {}
+[115.924991] (-) TimerEvent: {}
+[116.025578] (-) TimerEvent: {}
+[116.126146] (-) TimerEvent: {}
+[116.226713] (-) TimerEvent: {}
+[116.327534] (-) TimerEvent: {}
+[116.428427] (-) TimerEvent: {}
+[116.528876] (-) TimerEvent: {}
+[116.633496] (-) TimerEvent: {}
+[116.734147] (-) TimerEvent: {}
+[116.834862] (-) TimerEvent: {}
+[116.935613] (-) TimerEvent: {}
+[117.036532] (-) TimerEvent: {}
+[117.136999] (-) TimerEvent: {}
+[117.237527] (-) TimerEvent: {}
+[117.338158] (-) TimerEvent: {}
+[117.438835] (-) TimerEvent: {}
+[117.511125] (FMT) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable ../bin/ostream-test\x1b[0m\n'}
+[117.539236] (-) TimerEvent: {}
+[117.639892] (-) TimerEvent: {}
+[117.720560] (FMT) StdoutLine: {'line': b'[ 83%] Built target ostream-test\n'}
+[117.740279] (-) TimerEvent: {}
+[117.792017] (FMT) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object test/CMakeFiles/compile-test.dir/compile-test.cc.o\x1b[0m\n'}
+[117.841122] (-) TimerEvent: {}
+[117.941678] (-) TimerEvent: {}
+[118.042274] (-) TimerEvent: {}
+[118.143004] (-) TimerEvent: {}
+[118.243765] (-) TimerEvent: {}
+[118.344736] (-) TimerEvent: {}
+[118.445247] (-) TimerEvent: {}
+[118.545796] (-) TimerEvent: {}
+[118.646495] (-) TimerEvent: {}
+[118.747316] (-) TimerEvent: {}
+[118.847867] (-) TimerEvent: {}
+[118.948726] (-) TimerEvent: {}
+[119.049274] (-) TimerEvent: {}
+[119.149837] (-) TimerEvent: {}
+[119.250406] (-) TimerEvent: {}
+[119.350986] (-) TimerEvent: {}
+[119.451822] (-) TimerEvent: {}
+[119.552393] (-) TimerEvent: {}
+[119.653213] (-) TimerEvent: {}
+[119.753882] (-) TimerEvent: {}
+[119.854631] (-) TimerEvent: {}
+[119.955147] (-) TimerEvent: {}
+[120.056106] (-) TimerEvent: {}
+[120.156767] (-) TimerEvent: {}
+[120.257287] (-) TimerEvent: {}
+[120.358176] (-) TimerEvent: {}
+[120.441866] (FMT) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ../bin/base-test\x1b[0m\n'}
+[120.458512] (-) TimerEvent: {}
+[120.559355] (-) TimerEvent: {}
+[120.660295] (-) TimerEvent: {}
+[120.753662] (FMT) StdoutLine: {'line': b'[ 85%] Built target base-test\n'}
+[120.760432] (-) TimerEvent: {}
+[120.794574] (FMT) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object test/CMakeFiles/printf-test.dir/printf-test.cc.o\x1b[0m\n'}
+[120.860715] (-) TimerEvent: {}
+[120.961317] (-) TimerEvent: {}
+[121.061934] (-) TimerEvent: {}
+[121.162487] (-) TimerEvent: {}
+[121.263024] (-) TimerEvent: {}
+[121.363578] (-) TimerEvent: {}
+[121.464597] (-) TimerEvent: {}
+[121.565050] (-) TimerEvent: {}
+[121.665606] (-) TimerEvent: {}
+[121.766203] (-) TimerEvent: {}
+[121.866872] (-) TimerEvent: {}
+[121.967669] (-) TimerEvent: {}
+[122.068610] (-) TimerEvent: {}
+[122.169122] (-) TimerEvent: {}
+[122.269717] (-) TimerEvent: {}
+[122.370339] (-) TimerEvent: {}
+[122.471062] (-) TimerEvent: {}
+[122.571874] (-) TimerEvent: {}
+[122.672755] (-) TimerEvent: {}
+[122.773525] (-) TimerEvent: {}
+[122.874054] (-) TimerEvent: {}
+[122.974547] (-) TimerEvent: {}
+[123.075037] (-) TimerEvent: {}
+[123.175551] (-) TimerEvent: {}
+[123.276223] (-) TimerEvent: {}
+[123.376731] (-) TimerEvent: {}
+[123.477295] (-) TimerEvent: {}
+[123.577729] (-) TimerEvent: {}
+[123.678329] (-) TimerEvent: {}
+[123.779128] (-) TimerEvent: {}
+[123.879983] (-) TimerEvent: {}
+[123.981290] (-) TimerEvent: {}
+[124.082282] (-) TimerEvent: {}
+[124.183255] (-) TimerEvent: {}
+[124.283758] (-) TimerEvent: {}
+[124.384696] (-) TimerEvent: {}
+[124.485211] (-) TimerEvent: {}
+[124.585665] (-) TimerEvent: {}
+[124.686286] (-) TimerEvent: {}
+[124.786923] (-) TimerEvent: {}
+[124.857275] (FMT) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable ../bin/chrono-test\x1b[0m\n'}
+[124.887408] (-) TimerEvent: {}
+[124.988042] (-) TimerEvent: {}
+[125.088657] (-) TimerEvent: {}
+[125.152691] (FMT) StdoutLine: {'line': b'[ 88%] Built target chrono-test\n'}
+[125.188816] (-) TimerEvent: {}
+[125.289344] (-) TimerEvent: {}
+[125.389899] (-) TimerEvent: {}
+[125.490352] (-) TimerEvent: {}
+[125.591055] (-) TimerEvent: {}
+[125.691902] (-) TimerEvent: {}
+[125.792803] (-) TimerEvent: {}
+[125.893295] (-) TimerEvent: {}
+[125.993862] (-) TimerEvent: {}
+[126.094489] (-) TimerEvent: {}
+[126.195196] (-) TimerEvent: {}
+[126.296041] (-) TimerEvent: {}
+[126.396727] (-) TimerEvent: {}
+[126.497239] (-) TimerEvent: {}
+[126.597739] (-) TimerEvent: {}
+[126.698253] (-) TimerEvent: {}
+[126.798755] (-) TimerEvent: {}
+[126.899257] (-) TimerEvent: {}
+[126.999885] (-) TimerEvent: {}
+[127.100610] (-) TimerEvent: {}
+[127.201363] (-) TimerEvent: {}
+[127.206023] (FMT) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object test/CMakeFiles/ranges-test.dir/ranges-test.cc.o\x1b[0m\n'}
+[127.301664] (-) TimerEvent: {}
+[127.402192] (-) TimerEvent: {}
+[127.506741] (-) TimerEvent: {}
+[127.607310] (-) TimerEvent: {}
+[127.708622] (-) TimerEvent: {}
+[127.809132] (-) TimerEvent: {}
+[127.909539] (-) TimerEvent: {}
+[128.010099] (-) TimerEvent: {}
+[128.110644] (-) TimerEvent: {}
+[128.211424] (-) TimerEvent: {}
+[128.312312] (-) TimerEvent: {}
+[128.412750] (-) TimerEvent: {}
+[128.513338] (-) TimerEvent: {}
+[128.613995] (-) TimerEvent: {}
+[128.714552] (-) TimerEvent: {}
+[128.815197] (-) TimerEvent: {}
+[128.915850] (-) TimerEvent: {}
+[129.016274] (-) TimerEvent: {}
+[129.116685] (-) TimerEvent: {}
+[129.217219] (-) TimerEvent: {}
+[129.317813] (-) TimerEvent: {}
+[129.418645] (-) TimerEvent: {}
+[129.519465] (-) TimerEvent: {}
+[129.620213] (-) TimerEvent: {}
+[129.720692] (-) TimerEvent: {}
+[129.821184] (-) TimerEvent: {}
+[129.921708] (-) TimerEvent: {}
+[130.022369] (-) TimerEvent: {}
+[130.123382] (-) TimerEvent: {}
+[130.224628] (-) TimerEvent: {}
+[130.325099] (-) TimerEvent: {}
+[130.425647] (-) TimerEvent: {}
+[130.526307] (-) TimerEvent: {}
+[130.626761] (-) TimerEvent: {}
+[130.727524] (-) TimerEvent: {}
+[130.828485] (-) TimerEvent: {}
+[130.928957] (-) TimerEvent: {}
+[130.997185] (FMT) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable ../bin/compile-test\x1b[0m\n'}
+[131.029245] (-) TimerEvent: {}
+[131.129824] (-) TimerEvent: {}
+[131.190702] (FMT) StdoutLine: {'line': b'[ 91%] Built target compile-test\n'}
+[131.225990] (FMT) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object test/CMakeFiles/std-test.dir/std-test.cc.o\x1b[0m\n'}
+[131.230716] (-) TimerEvent: {}
+[131.331357] (-) TimerEvent: {}
+[131.432200] (-) TimerEvent: {}
+[131.532655] (-) TimerEvent: {}
+[131.633164] (-) TimerEvent: {}
+[131.733766] (-) TimerEvent: {}
+[131.834440] (-) TimerEvent: {}
+[131.935163] (-) TimerEvent: {}
+[132.035854] (-) TimerEvent: {}
+[132.136639] (-) TimerEvent: {}
+[132.237118] (-) TimerEvent: {}
+[132.338228] (-) TimerEvent: {}
+[132.438936] (-) TimerEvent: {}
+[132.539707] (-) TimerEvent: {}
+[132.640614] (-) TimerEvent: {}
+[132.741154] (-) TimerEvent: {}
+[132.841583] (-) TimerEvent: {}
+[132.942202] (-) TimerEvent: {}
+[133.042863] (-) TimerEvent: {}
+[133.143475] (-) TimerEvent: {}
+[133.244292] (-) TimerEvent: {}
+[133.344723] (-) TimerEvent: {}
+[133.445257] (-) TimerEvent: {}
+[133.545828] (-) TimerEvent: {}
+[133.646334] (-) TimerEvent: {}
+[133.747141] (-) TimerEvent: {}
+[133.847843] (-) TimerEvent: {}
+[133.948574] (-) TimerEvent: {}
+[134.049125] (-) TimerEvent: {}
+[134.149792] (-) TimerEvent: {}
+[134.250363] (-) TimerEvent: {}
+[134.351547] (-) TimerEvent: {}
+[134.452041] (-) TimerEvent: {}
+[134.552660] (-) TimerEvent: {}
+[134.653245] (-) TimerEvent: {}
+[134.753914] (-) TimerEvent: {}
+[134.854531] (-) TimerEvent: {}
+[134.955294] (-) TimerEvent: {}
+[135.055784] (-) TimerEvent: {}
+[135.156652] (-) TimerEvent: {}
+[135.257238] (-) TimerEvent: {}
+[135.357806] (-) TimerEvent: {}
+[135.458504] (-) TimerEvent: {}
+[135.559295] (-) TimerEvent: {}
+[135.660317] (-) TimerEvent: {}
+[135.760763] (-) TimerEvent: {}
+[135.861338] (-) TimerEvent: {}
+[135.961980] (-) TimerEvent: {}
+[136.062491] (-) TimerEvent: {}
+[136.163389] (-) TimerEvent: {}
+[136.264380] (-) TimerEvent: {}
+[136.364903] (-) TimerEvent: {}
+[136.465487] (-) TimerEvent: {}
+[136.566151] (-) TimerEvent: {}
+[136.666859] (-) TimerEvent: {}
+[136.767606] (-) TimerEvent: {}
+[136.868518] (-) TimerEvent: {}
+[136.968957] (-) TimerEvent: {}
+[137.069468] (-) TimerEvent: {}
+[137.169917] (-) TimerEvent: {}
+[137.270538] (-) TimerEvent: {}
+[137.371264] (-) TimerEvent: {}
+[137.472057] (-) TimerEvent: {}
+[137.572748] (-) TimerEvent: {}
+[137.673190] (-) TimerEvent: {}
+[137.773684] (-) TimerEvent: {}
+[137.874305] (-) TimerEvent: {}
+[137.974955] (-) TimerEvent: {}
+[138.075605] (-) TimerEvent: {}
+[138.176565] (-) TimerEvent: {}
+[138.277146] (-) TimerEvent: {}
+[138.377668] (-) TimerEvent: {}
+[138.478208] (-) TimerEvent: {}
+[138.578771] (-) TimerEvent: {}
+[138.679381] (-) TimerEvent: {}
+[138.779855] (-) TimerEvent: {}
+[138.880329] (-) TimerEvent: {}
+[138.980791] (-) TimerEvent: {}
+[139.081340] (-) TimerEvent: {}
+[139.181940] (-) TimerEvent: {}
+[139.282587] (-) TimerEvent: {}
+[139.383238] (-) TimerEvent: {}
+[139.483916] (-) TimerEvent: {}
+[139.584519] (-) TimerEvent: {}
+[139.685002] (-) TimerEvent: {}
+[139.785635] (-) TimerEvent: {}
+[139.886129] (-) TimerEvent: {}
+[139.986872] (-) TimerEvent: {}
+[140.087523] (-) TimerEvent: {}
+[140.188415] (-) TimerEvent: {}
+[140.288958] (-) TimerEvent: {}
+[140.389570] (-) TimerEvent: {}
+[140.490301] (-) TimerEvent: {}
+[140.591195] (-) TimerEvent: {}
+[140.692244] (-) TimerEvent: {}
+[140.792785] (-) TimerEvent: {}
+[140.893335] (-) TimerEvent: {}
+[140.993936] (-) TimerEvent: {}
+[141.094653] (-) TimerEvent: {}
+[141.195227] (-) TimerEvent: {}
+[141.295817] (-) TimerEvent: {}
+[141.396461] (-) TimerEvent: {}
+[141.497057] (-) TimerEvent: {}
+[141.535024] (FMT) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object test/CMakeFiles/ranges-test.dir/ranges-odr-test.cc.o\x1b[0m\n'}
+[141.597326] (-) TimerEvent: {}
+[141.697915] (-) TimerEvent: {}
+[141.798562] (-) TimerEvent: {}
+[141.899258] (-) TimerEvent: {}
+[141.975972] (FMT) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable ../bin/format-test\x1b[0m\n'}
+[141.999706] (-) TimerEvent: {}
+[142.098470] (FMT) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable ../bin/std-test\x1b[0m\n'}
+[142.099996] (-) TimerEvent: {}
+[142.200977] (-) TimerEvent: {}
+[142.233527] (FMT) StdoutLine: {'line': b'[ 97%] Built target format-test\n'}
+[142.270193] (FMT) StdoutLine: {'line': b'[ 97%] Built target std-test\n'}
+[142.301229] (-) TimerEvent: {}
+[142.401905] (-) TimerEvent: {}
+[142.504520] (-) TimerEvent: {}
+[142.608445] (-) TimerEvent: {}
+[142.709251] (-) TimerEvent: {}
+[142.812896] (-) TimerEvent: {}
+[142.913336] (-) TimerEvent: {}
+[143.016545] (-) TimerEvent: {}
+[143.120585] (-) TimerEvent: {}
+[143.221067] (-) TimerEvent: {}
+[143.321599] (-) TimerEvent: {}
+[143.422195] (-) TimerEvent: {}
+[143.522921] (-) TimerEvent: {}
+[143.623714] (-) TimerEvent: {}
+[143.724678] (-) TimerEvent: {}
+[143.825162] (-) TimerEvent: {}
+[143.925589] (-) TimerEvent: {}
+[143.987035] (FMT) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable ../bin/ranges-test\x1b[0m\n'}
+[144.025966] (-) TimerEvent: {}
+[144.126746] (-) TimerEvent: {}
+[144.155092] (FMT) StdoutLine: {'line': b'[ 98%] Built target ranges-test\n'}
+[144.227032] (-) TimerEvent: {}
+[144.327826] (-) TimerEvent: {}
+[144.428411] (-) TimerEvent: {}
+[144.528768] (-) TimerEvent: {}
+[144.629244] (-) TimerEvent: {}
+[144.729792] (-) TimerEvent: {}
+[144.830330] (-) TimerEvent: {}
+[144.930961] (-) TimerEvent: {}
+[145.031700] (-) TimerEvent: {}
+[145.132362] (-) TimerEvent: {}
+[145.232825] (-) TimerEvent: {}
+[145.333275] (-) TimerEvent: {}
+[145.433769] (-) TimerEvent: {}
+[145.534432] (-) TimerEvent: {}
+[145.634912] (-) TimerEvent: {}
+[145.735312] (-) TimerEvent: {}
+[145.835699] (-) TimerEvent: {}
+[145.936450] (-) TimerEvent: {}
+[146.036910] (-) TimerEvent: {}
+[146.137299] (-) TimerEvent: {}
+[146.237693] (-) TimerEvent: {}
+[146.338121] (-) TimerEvent: {}
+[146.438574] (-) TimerEvent: {}
+[146.539083] (-) TimerEvent: {}
+[146.639659] (-) TimerEvent: {}
+[146.740092] (-) TimerEvent: {}
+[146.840559] (-) TimerEvent: {}
+[146.941000] (-) TimerEvent: {}
+[147.041488] (-) TimerEvent: {}
+[147.142101] (-) TimerEvent: {}
+[147.242825] (-) TimerEvent: {}
+[147.343457] (-) TimerEvent: {}
+[147.444286] (-) TimerEvent: {}
+[147.544721] (-) TimerEvent: {}
+[147.645311] (-) TimerEvent: {}
+[147.745961] (-) TimerEvent: {}
+[147.846646] (-) TimerEvent: {}
+[147.947401] (-) TimerEvent: {}
+[148.047944] (-) TimerEvent: {}
+[148.148780] (-) TimerEvent: {}
+[148.249269] (-) TimerEvent: {}
+[148.349863] (-) TimerEvent: {}
+[148.450478] (-) TimerEvent: {}
+[148.551219] (-) TimerEvent: {}
+[148.652182] (-) TimerEvent: {}
+[148.752707] (-) TimerEvent: {}
+[148.853235] (-) TimerEvent: {}
+[148.953859] (-) TimerEvent: {}
+[149.054579] (-) TimerEvent: {}
+[149.155416] (-) TimerEvent: {}
+[149.256377] (-) TimerEvent: {}
+[149.356933] (-) TimerEvent: {}
+[149.457505] (-) TimerEvent: {}
+[149.558135] (-) TimerEvent: {}
+[149.658858] (-) TimerEvent: {}
+[149.759690] (-) TimerEvent: {}
+[149.860679] (-) TimerEvent: {}
+[149.961243] (-) TimerEvent: {}
+[150.061849] (-) TimerEvent: {}
+[150.162572] (-) TimerEvent: {}
+[150.263359] (-) TimerEvent: {}
+[150.364056] (-) TimerEvent: {}
+[150.464693] (-) TimerEvent: {}
+[150.565201] (-) TimerEvent: {}
+[150.665736] (-) TimerEvent: {}
+[150.766390] (-) TimerEvent: {}
+[150.867060] (-) TimerEvent: {}
+[150.967554] (-) TimerEvent: {}
+[151.068449] (-) TimerEvent: {}
+[151.168971] (-) TimerEvent: {}
+[151.269510] (-) TimerEvent: {}
+[151.370153] (-) TimerEvent: {}
+[151.470849] (-) TimerEvent: {}
+[151.571624] (-) TimerEvent: {}
+[151.672426] (-) TimerEvent: {}
+[151.772884] (-) TimerEvent: {}
+[151.873408] (-) TimerEvent: {}
+[151.973955] (-) TimerEvent: {}
+[152.074655] (-) TimerEvent: {}
+[152.175381] (-) TimerEvent: {}
+[152.275897] (-) TimerEvent: {}
+[152.376754] (-) TimerEvent: {}
+[152.477342] (-) TimerEvent: {}
+[152.577949] (-) TimerEvent: {}
+[152.678578] (-) TimerEvent: {}
+[152.780712] (-) TimerEvent: {}
+[152.881155] (-) TimerEvent: {}
+[152.981586] (-) TimerEvent: {}
+[153.082131] (-) TimerEvent: {}
+[153.182774] (-) TimerEvent: {}
+[153.283545] (-) TimerEvent: {}
+[153.384390] (-) TimerEvent: {}
+[153.484837] (-) TimerEvent: {}
+[153.585308] (-) TimerEvent: {}
+[153.685814] (-) TimerEvent: {}
+[153.786370] (-) TimerEvent: {}
+[153.887057] (-) TimerEvent: {}
+[153.987788] (-) TimerEvent: {}
+[154.088642] (-) TimerEvent: {}
+[154.189173] (-) TimerEvent: {}
+[154.289723] (-) TimerEvent: {}
+[154.390317] (-) TimerEvent: {}
+[154.491041] (-) TimerEvent: {}
+[154.591811] (-) TimerEvent: {}
+[154.692215] (-) TimerEvent: {}
+[154.792635] (-) TimerEvent: {}
+[154.893108] (-) TimerEvent: {}
+[154.993643] (-) TimerEvent: {}
+[155.094208] (-) TimerEvent: {}
+[155.194877] (-) TimerEvent: {}
+[155.295583] (-) TimerEvent: {}
+[155.396308] (-) TimerEvent: {}
+[155.496735] (-) TimerEvent: {}
+[155.597182] (-) TimerEvent: {}
+[155.697743] (-) TimerEvent: {}
+[155.798281] (-) TimerEvent: {}
+[155.898942] (-) TimerEvent: {}
+[155.999675] (-) TimerEvent: {}
+[156.100446] (-) TimerEvent: {}
+[156.200856] (-) TimerEvent: {}
+[156.301357] (-) TimerEvent: {}
+[156.401966] (-) TimerEvent: {}
+[156.502540] (-) TimerEvent: {}
+[156.603145] (-) TimerEvent: {}
+[156.703930] (-) TimerEvent: {}
+[156.804755] (-) TimerEvent: {}
+[156.905317] (-) TimerEvent: {}
+[157.005857] (-) TimerEvent: {}
+[157.106462] (-) TimerEvent: {}
+[157.207103] (-) TimerEvent: {}
+[157.307904] (-) TimerEvent: {}
+[157.408698] (-) TimerEvent: {}
+[157.509170] (-) TimerEvent: {}
+[157.609678] (-) TimerEvent: {}
+[157.710275] (-) TimerEvent: {}
+[157.810912] (-) TimerEvent: {}
+[157.911345] (-) TimerEvent: {}
+[158.011884] (-) TimerEvent: {}
+[158.112547] (-) TimerEvent: {}
+[158.212983] (-) TimerEvent: {}
+[158.313424] (-) TimerEvent: {}
+[158.413892] (-) TimerEvent: {}
+[158.514391] (-) TimerEvent: {}
+[158.614918] (-) TimerEvent: {}
+[158.715529] (-) TimerEvent: {}
+[158.816115] (-) TimerEvent: {}
+[158.916698] (-) TimerEvent: {}
+[159.017279] (-) TimerEvent: {}
+[159.117847] (-) TimerEvent: {}
+[159.218472] (-) TimerEvent: {}
+[159.319204] (-) TimerEvent: {}
+[159.419880] (-) TimerEvent: {}
+[159.520652] (-) TimerEvent: {}
+[159.621134] (-) TimerEvent: {}
+[159.721699] (-) TimerEvent: {}
+[159.822327] (-) TimerEvent: {}
+[159.922959] (-) TimerEvent: {}
+[160.023740] (-) TimerEvent: {}
+[160.124519] (-) TimerEvent: {}
+[160.224944] (-) TimerEvent: {}
+[160.325359] (-) TimerEvent: {}
+[160.425841] (-) TimerEvent: {}
+[160.526336] (-) TimerEvent: {}
+[160.626867] (-) TimerEvent: {}
+[160.727500] (-) TimerEvent: {}
+[160.828261] (-) TimerEvent: {}
+[160.928682] (-) TimerEvent: {}
+[161.029173] (-) TimerEvent: {}
+[161.129559] (-) TimerEvent: {}
+[161.230059] (-) TimerEvent: {}
+[161.330503] (-) TimerEvent: {}
+[161.431106] (-) TimerEvent: {}
+[161.531668] (-) TimerEvent: {}
+[161.632403] (-) TimerEvent: {}
+[161.732745] (-) TimerEvent: {}
+[161.833174] (-) TimerEvent: {}
+[161.933786] (-) TimerEvent: {}
+[162.034377] (-) TimerEvent: {}
+[162.134808] (-) TimerEvent: {}
+[162.235526] (-) TimerEvent: {}
+[162.336003] (-) TimerEvent: {}
+[162.436705] (-) TimerEvent: {}
+[162.537237] (-) TimerEvent: {}
+[162.637766] (-) TimerEvent: {}
+[162.738422] (-) TimerEvent: {}
+[162.839145] (-) TimerEvent: {}
+[162.939884] (-) TimerEvent: {}
+[163.040702] (-) TimerEvent: {}
+[163.141206] (-) TimerEvent: {}
+[163.241660] (-) TimerEvent: {}
+[163.342276] (-) TimerEvent: {}
+[163.442950] (-) TimerEvent: {}
+[163.543583] (-) TimerEvent: {}
+[163.644384] (-) TimerEvent: {}
+[163.744811] (-) TimerEvent: {}
+[163.845235] (-) TimerEvent: {}
+[163.945768] (-) TimerEvent: {}
+[164.046370] (-) TimerEvent: {}
+[164.147062] (-) TimerEvent: {}
+[164.247521] (-) TimerEvent: {}
+[164.348001] (-) TimerEvent: {}
+[164.448708] (-) TimerEvent: {}
+[164.549227] (-) TimerEvent: {}
+[164.649767] (-) TimerEvent: {}
+[164.750379] (-) TimerEvent: {}
+[164.851094] (-) TimerEvent: {}
+[164.951565] (-) TimerEvent: {}
+[165.052382] (-) TimerEvent: {}
+[165.152853] (-) TimerEvent: {}
+[165.253288] (-) TimerEvent: {}
+[165.353860] (-) TimerEvent: {}
+[165.454458] (-) TimerEvent: {}
+[165.555016] (-) TimerEvent: {}
+[165.655807] (-) TimerEvent: {}
+[165.756473] (-) TimerEvent: {}
+[165.856849] (-) TimerEvent: {}
+[165.957346] (-) TimerEvent: {}
+[166.057916] (-) TimerEvent: {}
+[166.158530] (-) TimerEvent: {}
+[166.259228] (-) TimerEvent: {}
+[166.360009] (-) TimerEvent: {}
+[166.433937] (FMT) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../bin/printf-test\x1b[0m\n'}
+[166.460661] (-) TimerEvent: {}
+[166.561118] (-) TimerEvent: {}
+[166.605494] (FMT) StdoutLine: {'line': b'[100%] Built target printf-test\n'}
+[166.627483] (FMT) JobEnded: {'identifier': 'FMT', 'rc': 'SIGINT'}
+[166.638921] (motion_planning_python_api) JobSkipped: {'identifier': 'motion_planning_python_api'}
+[166.639011] (moveit2_scripts) JobSkipped: {'identifier': 'moveit2_scripts'}
+[166.639075] (mycobot) JobSkipped: {'identifier': 'mycobot'}
+[166.639105] (mycobot_280) JobSkipped: {'identifier': 'mycobot_280'}
+[166.639159] (mycobot_moveit_config) JobSkipped: {'identifier': 'mycobot_moveit_config'}
+[166.639217] (mycobot_ros2) JobSkipped: {'identifier': 'mycobot_ros2'}
+[166.639246] (mycobot_hardware_interface) JobSkipped: {'identifier': 'mycobot_hardware_interface'}
+[166.639269] (mycobot_280_description) JobSkipped: {'identifier': 'mycobot_280_description'}
+[166.639324] (-) EventReactorShutdown: {}

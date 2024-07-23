@@ -1,0 +1,44 @@
+[  4%] Built target fmt
+[  7%] Built target gtest
+[ 12%] Built target test-main
+[ 21%] Built target compile-fp-test
+[ 29%] Built target scan-test
+[ 39%] Built target format-impl-test
+[ 47%] Built target unicode-test
+[ 50%] Built target enforce-checks-test
+[ 53%] Built target xchar-test
+[ 61%] Built target posix-mock-test
+[ 64%] Built target os-test
+[ 67%] Built target args-test
+[ 70%] Built target assert-test
+[ 73%] Built target chrono-test
+[ 76%] Built target base-test
+[ 78%] Built target gtest-extra-test
+[ 81%] Built target format-test
+[ 84%] Built target ostream-test
+[ 87%] Built target color-test
+[ 90%] Built target compile-test
+[ 92%] Built target printf-test
+[ 95%] Built target std-test
+[100%] Built target ranges-test
+-- Install configuration: "Release"
+-- Installing: /home/jelly/ros2_ws/install/FMT/lib/libfmt.a
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/args.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/base.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/chrono.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/color.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/compile.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/core.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/format.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/format-inl.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/os.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/ostream.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/printf.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/ranges.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/std.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/include/fmt/xchar.h
+-- Installing: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config.cmake
+-- Installing: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config-version.cmake
+-- Installing: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets.cmake
+-- Installing: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets-release.cmake
+-- Installing: /home/jelly/ros2_ws/install/FMT/lib/pkgconfig/fmt.pc

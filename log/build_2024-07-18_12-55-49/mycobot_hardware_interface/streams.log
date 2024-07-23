@@ -1,0 +1,95 @@
+[0.026s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_hardware_interface
+[0.119s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.242s] -- Detecting C compiler ABI info
+[0.379s] -- Detecting C compiler ABI info - done
+[0.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.606s] -- Detecting CXX compile features
+[0.607s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.884s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.997s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.060s] -- Found fp: 0.0.1 (/home/jelly/ros2_ws/install/fp/share/fp/cmake)
+[1.071s] -- Found hardware_interface: 2.41.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.151s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.160s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.179s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.363s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.367s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.426s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.522s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.528s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.551s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.565s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.577s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.613s] -- Looking for pthread.h
+[2.735s] -- Looking for pthread.h - found
+[2.735s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.897s] -- Found Threads: TRUE  
+[3.139s] -- Found mycobot: 0.0.0 (/home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake)
+[3.144s] -- Found serial: 1.2.1 (/home/jelly/ros2_ws/install/serial/share/serial/cmake)
+[3.355s] -- Configuring done
+[3.389s] -- Generating done
+[3.391s] -- Build files have been written to: /home/jelly/ros2_ws/build/mycobot_hardware_interface
+[3.407s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_hardware_interface
+[3.407s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_hardware_interface -- -j4 -l4
+[3.496s] [ 50%] [32mBuilding CXX object CMakeFiles/mycobot_hardware_interface.dir/src/hardware_interface.cpp.o[0m
+[10.733s] [01m[K/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type mycobot::MyCobotHardwareInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[10.734s] [01m[K/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface/src/hardware_interface.cpp:109:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.734s]   109 | hardware_interface::return_type MyCobotHardwareInterface::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period) {
+[10.734s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.734s] [01m[K/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface/src/hardware_interface.cpp:109:116:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.734s]   109 | ce::return_type MyCobotHardwareInterface::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K) {
+[10.734s]       |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[10.734s] 
+[10.735s] [01m[K/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type mycobot::MyCobotHardwareInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[10.735s] [01m[K/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface/src/hardware_interface.cpp:121:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.736s]   121 | hardware_interface::return_type MyCobotHardwareInterface::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period) {
+[10.736s]       |                                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.736s] [01m[K/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_hardware_interface/src/hardware_interface.cpp:121:117:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.736s]   121 | e::return_type MyCobotHardwareInterface::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K) {
+[10.736s]       |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[10.736s] 
+[14.160s] [100%] [32m[1mLinking CXX shared library libmycobot_hardware_interface.so[0m
+[14.576s] [100%] Built target mycobot_hardware_interface
+[14.593s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_hardware_interface -- -j4 -l4
+[14.642s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_hardware_interface
+[14.652s] -- Install configuration: ""
+[14.654s] -- Execute custom install script
+[14.655s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface//hardware_interface_plugin.xml
+[14.668s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/include/mycobot_hardware_interface/hardware_interface.hpp
+[14.682s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/environment/library_path.sh
+[14.695s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/environment/library_path.dsv
+[14.708s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/mycobot_hardware_interface
+[14.722s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/mycobot_hardware_interface
+[14.734s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/environment/ament_prefix_path.sh
+[14.749s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/environment/ament_prefix_path.dsv
+[14.764s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/environment/path.sh
+[14.779s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/environment/path.dsv
+[14.793s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/local_setup.bash
+[14.806s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/local_setup.sh
+[14.820s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/local_setup.zsh
+[14.833s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/local_setup.dsv
+[14.847s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.dsv
+[14.861s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/ament_index/resource_index/packages/mycobot_hardware_interface
+[14.876s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mycobot_hardware_interface
+[14.889s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.902s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[14.915s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[14.929s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/cmake/mycobot_hardware_interfaceConfig.cmake
+[14.943s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/cmake/mycobot_hardware_interfaceConfig-version.cmake
+[14.956s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/package.xml
+[14.970s] -- Installing: /home/jelly/ros2_ws/install/mycobot_hardware_interface/lib/libmycobot_hardware_interface.so
+[14.975s] -- Set runtime path of "/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib/libmycobot_hardware_interface.so" to ""
+[14.975s] -- Installing: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/cmake/export_mycobot_hardware_interfaceExport.cmake
+[14.976s] -- Installing: /home/jelly/ros2_ws/install/mycobot_hardware_interface/share/mycobot_hardware_interface/cmake/export_mycobot_hardware_interfaceExport-noconfig.cmake
+[14.989s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_hardware_interface

@@ -1,0 +1,19 @@
+[0.061s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.318s] [ 12%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[0.330s] [ 37%] Built target cartesian_path
+[0.384s] [ 62%] Built target test_trajectory
+[0.423s] [ 87%] Built target test_trajectory3
+[2.053s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:40:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #target_pose1
+[2.053s]    40 |   #[01;31m[Ktarget_pose1[m[K.orientation.x = 0.0;
+[2.053s]       |    [01;31m[K^~~~~~~~~~~~[m[K
+[8.440s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.441s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.441s]    25 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[8.441s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[8.441s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.441s]    51 |   bool [01;35m[Ksuccess[m[K =
+[8.441s]       |        [01;35m[K^~~~~~~[m[K
+[12.199s] gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+[12.199s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/test_trajectory2.dir/all] Error 2
+[12.199s] gmake: *** [Makefile:146: all] Error 2
+[12.203s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4

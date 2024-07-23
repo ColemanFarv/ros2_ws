@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target maybe_error[0m
+[35m[1mConsolidate compiler generated dependencies of target no_discard[0m
+[35m[1mConsolidate compiler generated dependencies of target result[0m
+[35m[1mConsolidate compiler generated dependencies of target validate_in[0m
+[ 10%] Built target no_discard
+[ 20%] Built target result
+[ 30%] Built target maybe_error
+[ 40%] Built target validate_in
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target validate_range[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 50%] Built target gtest
+[ 60%] Built target gtest_main
+[ 70%] Built target validate_range
+[35m[1mConsolidate compiler generated dependencies of target validate_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target mbind_tests[0m
+[ 80%] Built target mbind_tests
+[35m[1mConsolidate compiler generated dependencies of target result_tests[0m
+[ 90%] Built target validate_tests
+[100%] Built target result_tests
+-- Install configuration: ""
+-- Up-to-date: /usr/local/include/
+[31mCMake Error at cmake_install.cmake:51 (file):
+  file INSTALL cannot set permissions on "/usr/local/include/": Operation not
+  permitted.
+
+[0m

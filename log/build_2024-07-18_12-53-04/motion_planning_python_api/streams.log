@@ -1,0 +1,2 @@
+[0.027s] Invoking command in '/home/jelly/ros2_ws/build/motion_planning_python_api': /usr/bin/cmake --build /home/jelly/ros2_ws/build/motion_planning_python_api -- -j4 -l4
+[0.163s] Invoked command in '/home/jelly/ros2_ws/build/motion_planning_python_api' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/motion_planning_python_api -- -j4 -l4

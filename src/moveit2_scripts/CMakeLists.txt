@@ -31,6 +31,12 @@ endif()
 
 ament_package()
 
+# Install the launch file
+install(DIRECTORY 
+	launch
+    DESTINATION share/${PROJECT_NAME}
+)
+
 # Generate the executable
 add_executable(test_trajectory
     src/test_trajectory.cpp)
@@ -46,17 +52,7 @@ ament_target_dependencies(test_trajectory
 	moveit_ros_planning
 	control_msgs)
 
-# Install the executable
-install(TARGETS 
-	test_trajectory
-    DESTINATION lib/${PROJECT_NAME}
-)
 
-# Install the launch file
-install(DIRECTORY 
-	launch
-    DESTINATION share/${PROJECT_NAME}
-)
 
 add_executable(test_trajectory2
     src/test_trajectory2.cpp)
@@ -72,49 +68,19 @@ ament_target_dependencies(test_trajectory2
 	moveit_ros_planning
 	control_msgs)
 
+# Generate the executable for position_publisher
+add_executable(position_publisher
+    src/position_publisher.cpp)
+target_include_directories(position_publisher
+    PUBLIC include)
+ament_target_dependencies(position_publisher
+    rclcpp
+    std_msgs)
+
 install(TARGETS 
 	test_trajectory
 	test_trajectory2
+	position_publisher
     DESTINATION lib/${PROJECT_NAME}
 )
 
-add_executable(test_trajectory3
-    src/test_trajectory3.cpp)
-target_include_directories(test_trajectory3
-    PUBLIC include)
-ament_target_dependencies(test_trajectory3
-    ament_cmake
-	rclcpp
-	rclcpp_action
-	moveit_core
-	moveit_ros_planning_interface
-	interactive_markers
-	moveit_ros_planning
-	control_msgs)
-
-install(TARGETS 
-	test_trajectory
-	test_trajectory3
-    DESTINATION lib/${PROJECT_NAME}
-)
-
-# Generate the executable
-add_executable(cartesian_path
-    src/cartesian_path.cpp)
-target_include_directories(cartesian_path
-    PUBLIC include)
-ament_target_dependencies(cartesian_path
-    ament_cmake
-	rclcpp
-	rclcpp_action
-	moveit_core
-	moveit_ros_planning_interface
-	interactive_markers
-	moveit_ros_planning
-	control_msgs)
-
-# Install the executable
-install(TARGETS 
-	cartesian_path
-    DESTINATION lib/${PROJECT_NAME}
-)

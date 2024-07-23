@@ -1,0 +1,69 @@
+[35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[ 33%] Built target position_publisher
+[ 66%] Built target test_trajectory
+[ 83%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:12:39:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   12 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr subscription_;
+      |                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:12:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |   rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:12:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:12:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:12:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:12:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   12 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:12:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   12 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                          [32m[Krmw_subscription_t[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:30:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   30 |   void positionCallback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) {
+      |                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:30:64:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   30 |   void positionCallback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:30:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   30 |   void positionCallback[34m[K([m[Kconst std_msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                        [34m[K~[m[K                                      [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                               [32m[K)[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:30:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   30 |   void positionCallback(const std_msgs::msg::String::[01;31m[KSharedPtr[m[K msg) {
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:30:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   30 |   void positionCallback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController()[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   15 |     [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:15:62:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   15 |     subscription_ = this->create_subscription<std_msgs::msg::[01;31m[KString[m[K>(
+      |                                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:15:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_subscription<<expression error> >(const char [15], int, std::_Bind_helper<false, void (RobotController::*)(...), RobotController*, const std::_Placeholder<1>&>::type)[m[K’
+   15 |     subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   16 | [01;31m[K      "position_topic", 10, std::bind(&RobotController::positionCallback, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:15:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |     subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   16 | [01;31m[K      "position_topic", 10, std::bind(&RobotController::positionCallback, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

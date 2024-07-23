@@ -411,10 +411,10 @@ CMakeFiles/mycobot_hardware_interface.dir/src/hardware_interface.cpp.o
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp
  /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h
  /home/jelly/ros2_ws/install/mycobot/include/mycobot/mycobot.hpp
- /home/jelly/ros2_ws/install/serial/include/serial/serial.h
+ /home/jelly/ros2_ws/src/serial/include/serial/serial.h
  /usr/include/c++/11/cstring
- /home/jelly/ros2_ws/install/serial/include/serial/v8stdint.h
- /home/jelly/ros2_ws/install/fp/include/fp/all.hpp
+ /home/jelly/ros2_ws/src/serial/include/serial/v8stdint.h
+ /home/jelly/ros2_ws/src/fp/include/fp/all.hpp
  /usr/include/fmt/chrono.h
  /usr/include/fmt/format.h
  /usr/include/c++/11/cmath
@@ -748,16 +748,16 @@ CMakeFiles/mycobot_hardware_interface.dir/src/hardware_interface.cpp.o
  /usr/include/range/v3/view/trim.hpp
  /usr/include/range/v3/view/unbounded.hpp
  /usr/include/range/v3/view/unique.hpp
- /home/jelly/ros2_ws/install/fp/include/fp/_external/expected.hpp
- /home/jelly/ros2_ws/install/fp/include/fp/macros.hpp
+ /home/jelly/ros2_ws/src/fp/include/fp/_external/expected.hpp
+ /home/jelly/ros2_ws/src/fp/include/fp/macros.hpp
  /usr/include/c++/11/optional
- /home/jelly/ros2_ws/install/fp/include/fp/monad.hpp
- /home/jelly/ros2_ws/install/fp/include/fp/no_discard.hpp
- /home/jelly/ros2_ws/install/fp/include/fp/result.hpp
+ /home/jelly/ros2_ws/src/fp/include/fp/monad.hpp
+ /home/jelly/ros2_ws/src/fp/include/fp/no_discard.hpp
+ /home/jelly/ros2_ws/src/fp/include/fp/result.hpp
  /usr/include/c++/11/cxxabi.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h
  /usr/include/c++/11/iostream
- /home/jelly/ros2_ws/install/fp/include/fp/validate.hpp
+ /home/jelly/ros2_ws/src/fp/include/fp/validate.hpp
  /home/jelly/ros2_ws/install/mycobot/include/mycobot/command.hpp
  /home/jelly/ros2_ws/install/mycobot/include/mycobot/protocol_code.hpp
  /home/jelly/ros2_ws/install/mycobot/include/mycobot/process_received.hpp

@@ -1,0 +1,45 @@
+[2.618s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_280': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/opt/ros/humble PYTHONPATH=/home/jelly/ros2_ws/build/mycobot_280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jelly/ros2_ws/build/mycobot_280/build --no-deps symlink_data --force
+[3.846s] running develop
+[3.857s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.858s]   warnings.warn(
+[4.576s] running egg_info
+[4.576s] writing mycobot_280.egg-info/PKG-INFO
+[4.577s] writing dependency_links to mycobot_280.egg-info/dependency_links.txt
+[4.577s] writing entry points to mycobot_280.egg-info/entry_points.txt
+[4.578s] writing requirements to mycobot_280.egg-info/requires.txt
+[4.578s] writing top-level names to mycobot_280.egg-info/top_level.txt
+[4.589s] reading manifest file 'mycobot_280.egg-info/SOURCES.txt'
+[4.590s] writing manifest file 'mycobot_280.egg-info/SOURCES.txt'
+[4.592s] running build_ext
+[4.593s] Creating /home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages/mycobot-280.egg-link (link to .)
+[4.594s] Installing camera_display script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.594s] Installing detect_marker script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.594s] Installing follow_display script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.594s] Installing following_marker script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.595s] Installing listen_real script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.595s] Installing listen_real_of_topic script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.595s] Installing opencv_camera script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.595s] Installing simple_gui script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.624s] Installing slider_control script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.624s] Installing teleop_keyboard script to /home/jelly/ros2_ws/install/mycobot_280/lib/mycobot_280
+[4.624s] 
+[4.624s] Installed /home/jelly/ros2_ws/build/mycobot_280
+[4.625s] running symlink_data
+[4.625s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/resource/mycobot_280 -> /home/jelly/ros2_ws/install/mycobot_280/share/ament_index/resource_index/packages
+[4.625s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/package.xml -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280
+[4.625s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/test.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.625s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/slider_control_pump.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.625s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/teleop_keyboard.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.625s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/test_camera_flange.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.626s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/detect_marker.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.626s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/detect_marker_with_topic.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.626s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/simple_gui_pump.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.626s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/mycobot_follow.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.626s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/slider_control_camera_flange.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.626s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/test_camera_flange_pump.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.627s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/test_pump.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.627s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/simple_gui.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.627s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/launch/slider_control.launch.py -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/launch
+[4.627s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/config/mycobot.rviz -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/config
+[4.627s] symbolically linking /home/jelly/ros2_ws/build/mycobot_280/config/mycobot_with_marker.rviz -> /home/jelly/ros2_ws/install/mycobot_280/share/mycobot_280/config
+[4.767s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_280' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/opt/ros/humble PYTHONPATH=/home/jelly/ros2_ws/build/mycobot_280/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/jelly/ros2_ws/build/mycobot_280/build --no-deps symlink_data --force

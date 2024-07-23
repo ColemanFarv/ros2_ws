@@ -1,0 +1,12 @@
+[ 10%] Built target no_discard
+[ 20%] Built target maybe_error
+[ 30%] Built target result
+[ 40%] Built target validate_in
+[ 50%] Built target gtest
+[ 60%] Built target validate_range
+[ 70%] Built target gtest_main
+[ 80%] Built target mbind_tests
+[ 90%] Built target result_tests
+[100%] Built target validate_tests
+-- Install configuration: ""
+-- Up-to-date: /usr/local/include/

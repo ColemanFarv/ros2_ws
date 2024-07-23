@@ -1,14 +1,1 @@
-controller_names:
-  - joint_trajectory_controller
-
-joint_trajectory_controller:
-  action_ns: follow_joint_trajectory
-  type: FollowJointTrajectory
-  default: true
-  joints:
-    - joint1
-    - joint2
-    - joint3
-    - joint4
-    - joint5
-    - joint6
+/home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_280_description/config/controllers.yaml

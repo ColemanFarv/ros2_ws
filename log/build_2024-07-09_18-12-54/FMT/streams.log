@@ -1,9 +1,0 @@
-[0.048s] Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake --build /home/jelly/ros2_ws/build/FMT -- -j4 -l4
-[0.177s] [  1%] [32mBuilding CXX object test/gtest/CMakeFiles/gtest.dir/gmock-gtest-all.cc.o[0m
-[0.178s] [  2%] [32mBuilding CXX object CMakeFiles/fmt.dir/src/format.cc.o[0m
-[0.186s] [  4%] [32mBuilding CXX object CMakeFiles/fmt.dir/src/os.cc.o[0m
-[9.041s] [  5%] [32m[1mLinking CXX static library libfmt.a[0m
-[9.225s] [  5%] Built target fmt
-[15.446s] gmake[2]: *** [test/gtest/CMakeFiles/gtest.dir/build.make:76: test/gtest/CMakeFiles/gtest.dir/gmock-gtest-all.cc.o] Interrupt
-[15.447s] gmake[1]: *** [CMakeFiles/Makefile2:760: test/gtest/CMakeFiles/gtest.dir/all] Interrupt
-[15.450s] gmake: *** [Makefile:166: all] Interrupt

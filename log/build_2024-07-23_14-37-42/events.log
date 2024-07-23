@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000582] (-) JobUnselected: {'identifier': 'FMT'}
+[0.001706] (-) JobUnselected: {'identifier': 'catch2'}
+[0.001780] (-) JobUnselected: {'identifier': 'fp'}
+[0.001840] (-) JobUnselected: {'identifier': 'mycobot'}
+[0.001899] (-) JobUnselected: {'identifier': 'mycobot_280_description'}
+[0.001958] (-) JobUnselected: {'identifier': 'mycobot_description'}
+[0.002016] (-) JobUnselected: {'identifier': 'mycobot_gazebo'}
+[0.002084] (-) JobUnselected: {'identifier': 'mycobot_hardware_interface'}
+[0.002143] (-) JobUnselected: {'identifier': 'mycobot_moveit_config'}
+[0.002201] (-) JobUnselected: {'identifier': 'mycobot_ros2'}
+[0.002258] (-) JobUnselected: {'identifier': 'serial'}
+[0.002326] (moveit2_scripts) JobQueued: {'identifier': 'moveit2_scripts', 'dependencies': OrderedDict()}
+[0.002392] (moveit2_scripts) JobStarted: {'identifier': 'moveit2_scripts'}
+[0.016403] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'cmake'}
+[0.018647] (moveit2_scripts) JobProgress: {'identifier': 'moveit2_scripts', 'progress': 'build'}
+[0.018735] (moveit2_scripts) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jelly/ros2_ws/build/moveit2_scripts', '--', '-j4', '-l4'], 'cwd': '/home/jelly/ros2_ws/build/moveit2_scripts', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'jelly'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jelly/ros2_ws/install/mycobot_hardware_interface/lib:/home/jelly/ros2_ws/install/mycobot/lib:/home/jelly/ros2_ws/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jelly'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1019'), ('SYSTEMD_EXEC_PID', '1302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '110885'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jelly/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jelly'), ('JOURNAL_STREAM', '8:33760'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jelly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jelly/ros2_ws/install/mycobot/bin:/opt/ros/humble/bin:/home/jelly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jelly-virtual-machine:@/tmp/.ICE-unix/1279,unix/jelly-virtual-machine:/tmp/.ICE-unix/1279'), ('INVOCATION_ID', '07a86a646182420cbe0dcc029b1f4494'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7NRQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:91813e68-78e9-4442-87c1-bb2f12feea6f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jelly/ros2_ws/build/moveit2_scripts'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages:/home/jelly/ros2_ws/install/mycobot_280/lib/python3.10/site-packages:/home/jelly/ros2_ws/install/my_moveit2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jelly/ros2_ws/install/mycobot_280_description:/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/mycobot_ros2:/home/jelly/ros2_ws/install/mycobot_moveit_config:/home/jelly/ros2_ws/install/mycobot_gazebo:/home/jelly/ros2_ws/install/mycobot_description:/home/jelly/ros2_ws/install/moveit2_scripts:/home/jelly/ros2_ws/install/motion_planning_python_api:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/home/jelly/ros2_ws/install/FMT:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble')]), 'shell': False}
+[0.100058] (-) TimerEvent: {}
+[0.108390] (moveit2_scripts) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_trajectory2\x1b[0m\n'}
+[0.130321] (moveit2_scripts) StdoutLine: {'line': b'[ 33%] Built target position_publisher\n'}
+[0.133199] (moveit2_scripts) StdoutLine: {'line': b'[ 66%] Built target test_trajectory\n'}
+[0.152426] (moveit2_scripts) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o\x1b[0m\n'}
+[0.200293] (-) TimerEvent: {}
+[0.300730] (-) TimerEvent: {}
+[0.401140] (-) TimerEvent: {}
+[0.501672] (-) TimerEvent: {}
+[0.602133] (-) TimerEvent: {}
+[0.702567] (-) TimerEvent: {}
+[0.802950] (-) TimerEvent: {}
+[0.903313] (-) TimerEvent: {}
+[1.003748] (-) TimerEvent: {}
+[1.104131] (-) TimerEvent: {}
+[1.204597] (-) TimerEvent: {}
+[1.304984] (-) TimerEvent: {}
+[1.405544] (-) TimerEvent: {}
+[1.506024] (-) TimerEvent: {}
+[1.608596] (-) TimerEvent: {}
+[1.709026] (-) TimerEvent: {}
+[1.809512] (-) TimerEvent: {}
+[1.909929] (-) TimerEvent: {}
+[2.010347] (-) TimerEvent: {}
+[2.110804] (-) TimerEvent: {}
+[2.211231] (-) TimerEvent: {}
+[2.311701] (-) TimerEvent: {}
+[2.412183] (-) TimerEvent: {}
+[2.512638] (-) TimerEvent: {}
+[2.613438] (-) TimerEvent: {}
+[2.714169] (-) TimerEvent: {}
+[2.814659] (-) TimerEvent: {}
+[2.915088] (-) TimerEvent: {}
+[3.015465] (-) TimerEvent: {}
+[3.115899] (-) TimerEvent: {}
+[3.216349] (-) TimerEvent: {}
+[3.316922] (-) TimerEvent: {}
+[3.417327] (-) TimerEvent: {}
+[3.517752] (-) TimerEvent: {}
+[3.618078] (-) TimerEvent: {}
+[3.718567] (-) TimerEvent: {}
+[3.818993] (-) TimerEvent: {}
+[3.919345] (-) TimerEvent: {}
+[4.019758] (-) TimerEvent: {}
+[4.120324] (-) TimerEvent: {}
+[4.220685] (-) TimerEvent: {}
+[4.321089] (-) TimerEvent: {}
+[4.421631] (-) TimerEvent: {}
+[4.522122] (-) TimerEvent: {}
+[4.622549] (-) TimerEvent: {}
+[4.723005] (-) TimerEvent: {}
+[4.823411] (-) TimerEvent: {}
+[4.923783] (-) TimerEvent: {}
+[5.024212] (-) TimerEvent: {}
+[5.124603] (-) TimerEvent: {}
+[5.225088] (-) TimerEvent: {}
+[5.325590] (-) TimerEvent: {}
+[5.426061] (-) TimerEvent: {}
+[5.526481] (-) TimerEvent: {}
+[5.626888] (-) TimerEvent: {}
+[5.727297] (-) TimerEvent: {}
+[5.827693] (-) TimerEvent: {}
+[5.928127] (-) TimerEvent: {}
+[6.028707] (-) TimerEvent: {}
+[6.129096] (-) TimerEvent: {}
+[6.229626] (-) TimerEvent: {}
+[6.330124] (-) TimerEvent: {}
+[6.430576] (-) TimerEvent: {}
+[6.531059] (-) TimerEvent: {}
+[6.631459] (-) TimerEvent: {}
+[6.731922] (-) TimerEvent: {}
+[6.832357] (-) TimerEvent: {}
+[6.932844] (-) TimerEvent: {}
+[7.033277] (-) TimerEvent: {}
+[7.133682] (-) TimerEvent: {}
+[7.234110] (-) TimerEvent: {}
+[7.334525] (-) TimerEvent: {}
+[7.434930] (-) TimerEvent: {}
+[7.535413] (-) TimerEvent: {}
+[7.635901] (-) TimerEvent: {}
+[7.736350] (-) TimerEvent: {}
+[7.767492] (moveit2_scripts) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[7.768067] (moveit2_scripts) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[7.768188] (moveit2_scripts) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1\x1b[m\x1b[K:\n'}
+[7.768278] (moveit2_scripts) StderrLine: {'line': b'/usr/include/c++/11/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = moveit::planning_interface::MoveGroupInterface; _Args = {RobotController*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<moveit::planning_interface::MoveGroupInterface>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.768457] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:31:80:\x1b[m\x1b[K   required from here\n'}
+[7.768560] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:962:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(RobotController*, std::__cxx11::basic_string<char>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.768652] (moveit2_scripts) StderrLine: {'line': b'  962 |     { return unique_ptr<_Tp>(\x1b[01;31m\x1b[Knew _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K); }\n'}
+[7.768734] (moveit2_scripts) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.768815] (moveit2_scripts) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:6\x1b[m\x1b[K:\n'}
+[7.768972] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.769098] (moveit2_scripts) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(MoveGroupInterface&& other) noexcept;\n'}
+[7.769182] (moveit2_scripts) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.769376] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.769470] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.769553] (moveit2_scripts) StderrLine: {'line': b'  145 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const std::string& group,\n'}
+[7.769632] (moveit2_scripts) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.769710] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:145:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KRobotController*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.769793] (moveit2_scripts) StderrLine: {'line': b'  145 |   MoveGroupInterface(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const std::string& group,\n'}
+[7.769871] (moveit2_scripts) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[7.769949] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.770031] (moveit2_scripts) StderrLine: {'line': b'  134 |   \x1b[01;36m\x1b[KMoveGroupInterface\x1b[m\x1b[K(const rclcpp::Node::SharedPtr& node, const Options& opt,\n'}
+[7.770121] (moveit2_scripts) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.770200] (moveit2_scripts) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:134:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KRobotController*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Node>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[7.770290] (moveit2_scripts) StderrLine: {'line': b'  134 |   MoveGroupInterface(\x1b[01;36m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K, const Options& opt,\n'}
+[7.770368] (moveit2_scripts) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[7.836533] (-) TimerEvent: {}
+[7.936949] (-) TimerEvent: {}
+[8.037329] (-) TimerEvent: {}
+[8.137780] (-) TimerEvent: {}
+[8.238278] (-) TimerEvent: {}
+[8.338773] (-) TimerEvent: {}
+[8.439269] (-) TimerEvent: {}
+[8.539741] (-) TimerEvent: {}
+[8.640188] (-) TimerEvent: {}
+[8.740693] (-) TimerEvent: {}
+[8.841158] (-) TimerEvent: {}
+[8.941680] (-) TimerEvent: {}
+[9.042151] (-) TimerEvent: {}
+[9.142540] (-) TimerEvent: {}
+[9.243010] (-) TimerEvent: {}
+[9.343439] (-) TimerEvent: {}
+[9.443958] (-) TimerEvent: {}
+[9.544351] (-) TimerEvent: {}
+[9.644708] (-) TimerEvent: {}
+[9.745309] (-) TimerEvent: {}
+[9.845772] (-) TimerEvent: {}
+[9.946276] (-) TimerEvent: {}
+[10.046778] (-) TimerEvent: {}
+[10.147226] (-) TimerEvent: {}
+[10.247638] (-) TimerEvent: {}
+[10.348120] (-) TimerEvent: {}
+[10.448507] (-) TimerEvent: {}
+[10.548918] (-) TimerEvent: {}
+[10.649425] (-) TimerEvent: {}
+[10.749850] (-) TimerEvent: {}
+[10.850244] (-) TimerEvent: {}
+[10.950689] (-) TimerEvent: {}
+[11.051119] (-) TimerEvent: {}
+[11.151550] (-) TimerEvent: {}
+[11.251993] (-) TimerEvent: {}
+[11.352441] (-) TimerEvent: {}
+[11.452865] (-) TimerEvent: {}
+[11.553455] (-) TimerEvent: {}
+[11.653931] (-) TimerEvent: {}
+[11.754576] (-) TimerEvent: {}
+[11.855038] (-) TimerEvent: {}
+[11.955482] (-) TimerEvent: {}
+[12.055935] (-) TimerEvent: {}
+[12.156366] (-) TimerEvent: {}
+[12.256837] (-) TimerEvent: {}
+[12.357401] (-) TimerEvent: {}
+[12.458018] (-) TimerEvent: {}
+[12.558444] (-) TimerEvent: {}
+[12.658956] (-) TimerEvent: {}
+[12.759359] (-) TimerEvent: {}
+[12.859844] (-) TimerEvent: {}
+[12.960580] (-) TimerEvent: {}
+[13.061014] (-) TimerEvent: {}
+[13.161496] (-) TimerEvent: {}
+[13.261989] (-) TimerEvent: {}
+[13.362393] (-) TimerEvent: {}
+[13.462781] (-) TimerEvent: {}
+[13.563153] (-) TimerEvent: {}
+[13.663619] (-) TimerEvent: {}
+[13.764030] (-) TimerEvent: {}
+[13.850430] (moveit2_scripts) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1\n'}
+[13.850736] (moveit2_scripts) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2\n'}
+[13.850939] (moveit2_scripts) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.854204] (moveit2_scripts) CommandEnded: {'returncode': 2}
+[13.864213] (-) TimerEvent: {}
+[13.950259] (moveit2_scripts) JobEnded: {'identifier': 'moveit2_scripts', 'rc': 2}
+[13.962493] (-) EventReactorShutdown: {}

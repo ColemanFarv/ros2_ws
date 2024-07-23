@@ -1,0 +1,1 @@
+Invoking command in '/home/jelly/ros2_ws/build/motion_planning_python_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/motion_planning_python_api -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/motion_planning_python_api

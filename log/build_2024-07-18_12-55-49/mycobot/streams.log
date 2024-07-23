@@ -1,0 +1,75 @@
+[0.076s] Invoking command in '/home/jelly/ros2_ws/build/mycobot': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.404s] -- The CXX compiler identification is GNU 11.4.0
+[0.440s] -- Detecting C compiler ABI info
+[0.657s] -- Detecting C compiler ABI info - done
+[0.674s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.675s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.685s] -- Detecting CXX compiler ABI info
+[0.994s] -- Detecting CXX compiler ABI info - done
+[1.031s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.031s] -- Detecting CXX compile features
+[1.031s] -- Detecting CXX compile features - done
+[1.052s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.401s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.551s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.621s] -- Found fp: 0.0.1 (/home/jelly/ros2_ws/install/fp/share/fp/cmake)
+[1.629s] -- Found serial: 1.2.1 (/home/jelly/ros2_ws/install/serial/share/serial/cmake)
+[1.633s] -- Found catch2: 2.13.8 (/home/jelly/ros2_ws/install/catch2/share/catch2/cmake)
+[1.637s] -- Found ament_cmake_catch2: 1.2.1 (/opt/ros/humble/share/ament_cmake_catch2/cmake)
+[1.793s] -- Configuring done
+[1.815s] -- Generating done
+[1.819s] -- Build files have been written to: /home/jelly/ros2_ws/build/mycobot
+[1.827s] Invoked command in '/home/jelly/ros2_ws/build/mycobot' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot
+[1.830s] Invoking command in '/home/jelly/ros2_ws/build/mycobot': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot -- -j4 -l4
+[2.023s] [  8%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/detect.cpp.o[0m
+[2.023s] [ 16%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/mycobot.cpp.o[0m
+[2.045s] [ 25%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/command.cpp.o[0m
+[3.088s] [ 33%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/process_received.cpp.o[0m
+[9.529s] [ 41%] [32mBuilding CXX object CMakeFiles/mycobot.dir/src/serialize.cpp.o[0m
+[15.312s] [ 50%] [32m[1mLinking CXX static library libmycobot.a[0m
+[15.412s] [ 50%] Built target mycobot
+[15.438s] [ 58%] [32mBuilding CXX object CMakeFiles/wiggle.dir/bringup/wiggle.cpp.o[0m
+[20.563s] [ 66%] [32m[1mLinking CXX executable wiggle[0m
+[20.781s] [ 66%] Built target wiggle
+[20.822s] [ 75%] [32mBuilding CXX object CMakeFiles/test_mycobot.dir/test/main.cpp.o[0m
+[34.172s] [ 83%] [32mBuilding CXX object CMakeFiles/test_mycobot.dir/test/test_process_received.cpp.o[0m
+[34.178s] [ 91%] [32mBuilding CXX object CMakeFiles/test_mycobot.dir/test/test_serialize.cpp.o[0m
+[38.913s] [100%] [32m[1mLinking CXX executable test_mycobot[0m
+[39.672s] [100%] Built target test_mycobot
+[39.693s] Invoked command in '/home/jelly/ros2_ws/build/mycobot' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot -- -j4 -l4
+[39.816s] Invoking command in '/home/jelly/ros2_ws/build/mycobot': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot
+[39.831s] -- Install configuration: ""
+[39.832s] -- Execute custom install script
+[39.832s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/include/mycobot/command.hpp
+[39.847s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/include/mycobot/detect.hpp
+[39.861s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/include/mycobot/mycobot.hpp
+[39.875s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/include/mycobot/process_received.hpp
+[39.893s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/include/mycobot/protocol_code.hpp
+[39.913s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/include/mycobot/serialize.hpp
+[39.938s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/library_path.sh
+[39.953s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/library_path.dsv
+[39.967s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/package_run_dependencies/mycobot
+[39.983s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/parent_prefix_path/mycobot
+[39.999s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/ament_prefix_path.sh
+[40.014s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/ament_prefix_path.dsv
+[40.031s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/path.sh
+[40.047s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/environment/path.dsv
+[40.060s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.bash
+[40.076s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.sh
+[40.091s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.zsh
+[40.112s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/local_setup.dsv
+[40.127s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/package.dsv
+[40.142s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/ament_index/resource_index/packages/mycobot
+[40.158s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.171s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_libraries-extras.cmake
+[40.186s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/ament_cmake_export_targets-extras.cmake
+[40.200s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/mycobotConfig.cmake
+[40.215s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/mycobotConfig-version.cmake
+[40.231s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot/share/mycobot/package.xml
+[40.246s] -- Installing: /home/jelly/ros2_ws/install/mycobot/lib/libmycobot.a
+[40.250s] -- Installing: /home/jelly/ros2_ws/install/mycobot/bin/wiggle
+[40.257s] -- Installing: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/export_mycobotExport.cmake
+[40.258s] -- Installing: /home/jelly/ros2_ws/install/mycobot/share/mycobot/cmake/export_mycobotExport-noconfig.cmake
+[40.268s] Invoked command in '/home/jelly/ros2_ws/build/mycobot' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot

@@ -1,0 +1,82 @@
+[0.059s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[0.296s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory[0m
+[0.342s] [ 33%] Built target position_publisher
+[0.363s] [ 50%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[0.391s] [ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[0.421s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.422s]     1 | class PositionListener : public [01;31m[Krclcpp[m[K::Node {
+[0.422s]       |                                 [01;31m[K^~~~~~[m[K
+[0.422s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[0.422s]     1 | class PositionListener : public rclcpp::[01;31m[KNode[m[K {
+[0.422s]       |                                         [01;31m[K^~~~[m[K
+[0.422s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:2:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[0.422s]     2 | [01;31m[Kpublic[m[K:
+[0.422s]       | [01;31m[K^~~~~~[m[K
+[0.423s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:2:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[0.423s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1:46:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[0.423s]     1 | class PositionListener : public rclcpp::Node [01;36m[K{[m[K
+[0.423s]       |                                              [01;36m[K^[m[K
+[0.423s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:5:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KPositionListener[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.423s]     5 |     [01;31m[KPositionListener[m[K()
+[0.423s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.424s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kint PositionListener()[m[K’:
+[0.424s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:6:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[0.424s]     6 |     : [01;31m[KNode[m[K("position_listener"),
+[0.424s]       |       [01;31m[K^~~~[m[K
+[0.424s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:7:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.424s]     7 |       move_group(std::[01;31m[Kmake_shared[m[K<rclcpp::Node>(this->get_name()), "arm_group") {
+[0.424s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[0.424s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.424s]   +++ |+[32m[K#include <memory>[m[K
+[0.425s]     1 | class PositionListener : public rclcpp::Node {
+[0.425s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:7:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.425s]     7 |       move_group(std::make_shared<[01;31m[Krclcpp[m[K::Node>(this->get_name()), "arm_group") {
+[0.425s]       |                                   [01;31m[K^~~~~~[m[K
+[0.425s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:7:49:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[0.425s]     7 |       move_group(std::make_shared<rclcpp::Node>([01;31m[Kthis[m[K->get_name()), "arm_group") {
+[0.425s]       |                                                 [01;31m[K^~~~[m[K
+[0.425s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:9:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[0.425s]     9 |     [01;35m[K}[m[K
+[0.426s]       |     [01;35m[K^[m[K
+[0.426s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K At global scope:
+[0.426s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:11:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[0.426s]    11 |     void positionCallback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg) const {
+[0.426s]       |                                 [01;31m[K^~~~~~~~[m[K
+[0.426s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:11:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[0.426s]    11 |     void positionCallback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) const {
+[0.426s]       |                                              [01;31m[K^~[m[K
+[0.426s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:11:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[0.426s]    11 |     void positionCallback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg) const {
+[0.426s]       |                          [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[0.426s]       |                                              [32m[K)[m[K
+[0.427s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:11:46:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[0.427s]    11 |     void positionCallback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg) const {
+[0.427s]       |                                              [01;31m[K^~[m[K
+[0.427s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[0.427s]    22 |     std::[01;31m[Kvector[m[K<float> parsePosition(const std::string& position_str) const {
+[0.427s]       |          [01;31m[K^~~~~~[m[K
+[0.428s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[0.428s]   +++ |+[32m[K#include <vector>[m[K
+[0.429s]     1 | class PositionListener : public rclcpp::Node {
+[0.429s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:40:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[0.432s]    40 | [01;31m[Kprivate[m[K:
+[0.432s]       | [01;31m[K^~~~~~~[m[K
+[0.432s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:42:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[0.432s]    42 | [01;31m[K}[m[K;
+[0.432s]       | [01;31m[K^[m[K
+[0.433s] gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+[0.433s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+[0.433s] gmake[1]: *** Waiting for unfinished jobs....
+[7.852s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.853s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:30:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.853s]    30 | it::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[7.853s]       |                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[7.853s] 
+[7.853s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:56:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.853s]    56 |   bool [01;35m[Ksuccess[m[K =
+[7.853s]       |        [01;35m[K^~~~~~~[m[K
+[12.012s] [ 83%] [32m[1mLinking CXX executable test_trajectory[0m
+[12.457s] [ 83%] Built target test_trajectory
+[12.461s] gmake: *** [Makefile:146: all] Error 2
+[12.466s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4

@@ -1,2 +1,0 @@
-Invoking command in '/home/jelly/ros2_ws/build/your_project_name': /usr/bin/cmake /home/jelly/ros2_ws/src/motion_planning_python_api -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/your_project_name
-Invoked command in '/home/jelly/ros2_ws/build/your_project_name' returned '1': /usr/bin/cmake /home/jelly/ros2_ws/src/motion_planning_python_api -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/your_project_name

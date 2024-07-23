@@ -1,0 +1,15 @@
+[0.026s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory[0m
+[0.193s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[0.290s] [ 33%] Built target position_publisher
+[0.292s] [ 50%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[0.293s] [ 83%] Built target test_trajectory
+[8.064s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kvoid positionCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.064s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:18:35:[m[K [01;31m[Kerror: [m[K‘[01m[KparsePosition[m[K’ was not declared in this scope; did you mean ‘[01m[Kposition[m[K’?
+[8.065s]    18 |     std::vector<float> position = [01;31m[KparsePosition[m[K(msg->data);
+[8.065s]       |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[8.065s]       |                                   [32m[Kposition[m[K
+[16.586s] gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+[16.586s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+[16.586s] gmake: *** [Makefile:146: all] Error 2
+[16.590s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4

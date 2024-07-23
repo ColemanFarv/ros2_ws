@@ -1,2 +1,1 @@
-DisableFormat: true
-SortIncludes: false
+/home/jelly/ros2_ws/src/catch2_ros/include/catch2/.clang-format

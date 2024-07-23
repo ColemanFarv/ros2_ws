@@ -1,0 +1,40 @@
+[ 10%] Built target no_discard
+[ 20%] Built target maybe_error
+[ 30%] Built target result
+[ 40%] Built target validate_in
+[ 50%] Built target validate_range
+[ 60%] Built target gtest
+[ 70%] Built target gtest_main
+[ 80%] Built target result_tests
+[ 90%] Built target validate_tests
+[100%] Built target mbind_tests
+-- Install configuration: ""
+-- Up-to-date: /usr/local/include/
+-- Installing: /usr/local/include//fp
+-- Installing: /usr/local/include//fp/all.hpp
+-- Installing: /usr/local/include//fp/monad.hpp
+-- Installing: /usr/local/include//fp/result.hpp
+-- Installing: /usr/local/include//fp/_external
+-- Installing: /usr/local/include//fp/_external/expected.hpp
+-- Installing: /usr/local/include//fp/no_discard.hpp
+-- Installing: /usr/local/include//fp/macros.hpp
+-- Installing: /usr/local/include//fp/validate.hpp
+-- Installing: /usr/local/share/ament_index/resource_index/package_run_dependencies/fp
+-- Installing: /usr/local/share/ament_index/resource_index/parent_prefix_path/fp
+-- Installing: /usr/local/share/fp/environment/ament_prefix_path.sh
+-- Installing: /usr/local/share/fp/environment/ament_prefix_path.dsv
+-- Installing: /usr/local/share/fp/environment/path.sh
+-- Installing: /usr/local/share/fp/environment/path.dsv
+-- Installing: /usr/local/share/fp/local_setup.bash
+-- Installing: /usr/local/share/fp/local_setup.sh
+-- Installing: /usr/local/share/fp/local_setup.zsh
+-- Installing: /usr/local/share/fp/local_setup.dsv
+-- Installing: /usr/local/share/fp/package.dsv
+-- Installing: /usr/local/share/ament_index/resource_index/packages/fp
+-- Installing: /usr/local/share/fp/cmake/fpTargetsExport.cmake
+-- Installing: /usr/local/share/fp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /usr/local/share/fp/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /usr/local/share/fp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /usr/local/share/fp/cmake/fpConfig.cmake
+-- Installing: /usr/local/share/fp/cmake/fpConfig-version.cmake
+-- Installing: /usr/local/share/fp/package.xml

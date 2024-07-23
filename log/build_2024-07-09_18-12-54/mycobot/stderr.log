@@ -1,7 +1,0 @@
-gmake[2]: *** [CMakeFiles/test_mycobot.dir/build.make:104: CMakeFiles/test_mycobot.dir/test/test_serialize.cpp.o] Interrupt
-gmake[2]: *** [CMakeFiles/wiggle.dir/build.make:76: CMakeFiles/wiggle.dir/bringup/wiggle.cpp.o] Interrupt
-gmake[2]: *** [CMakeFiles/test_mycobot.dir/build.make:76: CMakeFiles/test_mycobot.dir/test/main.cpp.o] Interrupt
-gmake[2]: *** [CMakeFiles/test_mycobot.dir/build.make:90: CMakeFiles/test_mycobot.dir/test/test_process_received.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_mycobot.dir/all] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/wiggle.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

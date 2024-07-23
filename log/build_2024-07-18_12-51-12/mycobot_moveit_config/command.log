@@ -1,0 +1,1 @@
+Invoking command in '/home/jelly/ros2_ws/build/mycobot_moveit_config': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_gazebo /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_moveit_config

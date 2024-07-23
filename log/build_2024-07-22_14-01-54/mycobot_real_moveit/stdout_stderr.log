@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/PKG-INFO
+writing dependency_links to ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/dependency_links.txt
+writing entry points to ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/entry_points.txt
+writing requirements to ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/requires.txt
+writing top-level names to ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/top_level.txt
+reading manifest file '../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/SOURCES.txt'
+writing manifest file '../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mycobot_real_moveit/move_robot.py -> /home/jelly/ros2_ws/build/mycobot_real_moveit/build/lib/mycobot_real_moveit
+copying mycobot_real_moveit/__init__.py -> /home/jelly/ros2_ws/build/mycobot_real_moveit/build/lib/mycobot_real_moveit
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/jelly/ros2_ws/install/mycobot_real_moveit/share/mycobot_real_moveit
+copying resource/mycobot_real_moveit -> /home/jelly/ros2_ws/install/mycobot_real_moveit/share/ament_index/resource_index/packages
+creating /home/jelly/ros2_ws/install/mycobot_real_moveit/share/mycobot_real_moveit/launch
+running install_egg_info
+removing '/home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages/mycobot_real_moveit-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info to /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages/mycobot_real_moveit-0.0.1-py3.10.egg-info
+running install_scripts
+Installing move_robot script to /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/mycobot_real_moveit
+writing list of installed files to '/home/jelly/ros2_ws/build/mycobot_real_moveit/install.log'

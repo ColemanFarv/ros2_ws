@@ -1,0 +1,27 @@
+[0.024s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.195s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[0.306s] [ 12%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/src/test_trajectory.cpp.o[0m
+[0.342s] [ 25%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[0.401s] [ 50%] Built target test_trajectory3
+[0.404s] [ 75%] Built target cartesian_path
+[1.724s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:40:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #target_pose1
+[1.724s]    40 |   #[01;31m[Ktarget_pose1[m[K.orientation.x = 0.0;
+[1.724s]       |    [01;31m[K^~~~~~~~~~~~[m[K
+[7.589s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.589s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.589s]    25 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[7.589s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[7.589s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory.cpp:51:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.589s]    51 |   bool [01;35m[Ksuccess[m[K =
+[7.589s]       |        [01;35m[K^~~~~~~[m[K
+[7.709s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.709s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:25:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.709s]    25 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[7.710s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[11.512s] gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+[11.513s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/test_trajectory2.dir/all] Error 2
+[11.513s] gmake[1]: *** Waiting for unfinished jobs....
+[11.747s] [ 87%] [32m[1mLinking CXX executable test_trajectory[0m
+[12.371s] [ 87%] Built target test_trajectory
+[12.372s] gmake: *** [Makefile:146: all] Error 2
+[12.376s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4

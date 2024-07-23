@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jelly/ros2_ws/build/moveit2_scripts/test_trajectory" "/home/jelly/ros2_ws/build/moveit2_scripts/test_trajectory2" "TARGETS" "test_trajectory" "test_trajectory2" "DESTINATION" "lib/moveit2_scripts")

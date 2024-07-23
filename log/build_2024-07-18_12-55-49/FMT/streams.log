@@ -1,0 +1,94 @@
+[0.015s] Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake /home/jelly/ros2_ws/src/fmt -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/FMT
+[0.031s] -- CMake version: 3.22.1
+[0.265s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting CXX compiler ABI info
+[0.663s] -- Detecting CXX compiler ABI info - done
+[0.681s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.683s] -- Detecting CXX compile features
+[0.687s] -- Detecting CXX compile features - done
+[0.694s] -- {fmt} version: 11.0.1
+[0.694s] -- Build type: Release
+[0.697s] -- Target 'doc' disabled because doxygen not found
+[0.706s] -- Looking for C++ include pthread.h
+[1.029s] -- Looking for C++ include pthread.h - found
+[1.030s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.222s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.225s] -- Found Threads: TRUE  
+[1.233s] -- Looking for strptime
+[1.492s] -- Looking for strptime - found
+[1.617s] -- FMT_PEDANTIC: OFF
+[1.666s] -- Configuring done
+[1.745s] -- Generating done
+[1.758s] -- Build files have been written to: /home/jelly/ros2_ws/build/FMT
+[1.775s] Invoked command in '/home/jelly/ros2_ws/build/FMT' returned '0': /usr/bin/cmake /home/jelly/ros2_ws/src/fmt -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/FMT
+[1.776s] Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake --build /home/jelly/ros2_ws/build/FMT -- -j4 -l4
+[1.874s] [35m[1mConsolidate compiler generated dependencies of target fmt[0m
+[1.897s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.934s] [  2%] Built target gtest
+[1.942s] [  7%] Built target fmt
+[1.990s] [35m[1mConsolidate compiler generated dependencies of target compile-fp-test[0m
+[2.015s] [35m[1mConsolidate compiler generated dependencies of target scan-test[0m
+[2.029s] [35m[1mConsolidate compiler generated dependencies of target format-impl-test[0m
+[2.035s] [ 15%] Built target compile-fp-test
+[2.052s] [35m[1mConsolidate compiler generated dependencies of target unicode-test[0m
+[2.090s] [ 23%] Built target scan-test
+[2.100s] [35m[1mConsolidate compiler generated dependencies of target posix-mock-test[0m
+[2.126s] [ 32%] Built target unicode-test
+[2.143s] [35m[1mConsolidate compiler generated dependencies of target test-main[0m
+[2.144s] [ 42%] Built target format-impl-test
+[2.167s] [ 50%] Built target posix-mock-test
+[2.184s] [ 56%] Built target test-main
+[2.234s] [35m[1mConsolidate compiler generated dependencies of target args-test[0m
+[2.245s] [35m[1mConsolidate compiler generated dependencies of target assert-test[0m
+[2.259s] [35m[1mConsolidate compiler generated dependencies of target base-test[0m
+[2.334s] [ 59%] Built target args-test
+[2.336s] [35m[1mConsolidate compiler generated dependencies of target chrono-test[0m
+[2.344s] [ 61%] Built target base-test
+[2.363s] [35m[1mConsolidate compiler generated dependencies of target color-test[0m
+[2.385s] [ 64%] Built target assert-test
+[2.413s] [35m[1mConsolidate compiler generated dependencies of target gtest-extra-test[0m
+[2.425s] [35m[1mConsolidate compiler generated dependencies of target format-test[0m
+[2.443s] [ 67%] Built target color-test
+[2.462s] [ 70%] Built target chrono-test
+[2.510s] [ 73%] Built target gtest-extra-test
+[2.511s] [ 76%] Built target format-test
+[2.529s] [35m[1mConsolidate compiler generated dependencies of target ostream-test[0m
+[2.559s] [35m[1mConsolidate compiler generated dependencies of target compile-test[0m
+[2.563s] [35m[1mConsolidate compiler generated dependencies of target printf-test[0m
+[2.592s] [35m[1mConsolidate compiler generated dependencies of target ranges-test[0m
+[2.599s] [ 78%] Built target compile-test
+[2.604s] [ 81%] Built target ostream-test
+[2.636s] [ 84%] Built target printf-test
+[2.643s] [ 88%] Built target ranges-test
+[2.659s] [35m[1mConsolidate compiler generated dependencies of target xchar-test[0m
+[2.664s] [35m[1mConsolidate compiler generated dependencies of target std-test[0m
+[2.690s] [35m[1mConsolidate compiler generated dependencies of target os-test[0m
+[2.690s] [35m[1mConsolidate compiler generated dependencies of target enforce-checks-test[0m
+[2.723s] [ 91%] Built target std-test
+[2.736s] [ 94%] Built target xchar-test
+[2.741s] [ 97%] Built target enforce-checks-test
+[2.780s] [100%] Built target os-test
+[2.826s] Invoked command in '/home/jelly/ros2_ws/build/FMT' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/FMT -- -j4 -l4
+[3.114s] Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake --install /home/jelly/ros2_ws/build/FMT
+[3.138s] -- Install configuration: "Release"
+[3.138s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/libfmt.a
+[3.139s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/args.h
+[3.139s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/base.h
+[3.139s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/chrono.h
+[3.139s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/color.h
+[3.139s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/compile.h
+[3.140s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/core.h
+[3.140s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/format.h
+[3.140s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/format-inl.h
+[3.141s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/os.h
+[3.141s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/ostream.h
+[3.141s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/printf.h
+[3.141s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/ranges.h
+[3.142s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/std.h
+[3.142s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/xchar.h
+[3.142s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config.cmake
+[3.142s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config-version.cmake
+[3.143s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets.cmake
+[3.143s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets-release.cmake
+[3.143s] -- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/pkgconfig/fmt.pc
+[3.149s] Invoked command in '/home/jelly/ros2_ws/build/FMT' returned '0': /usr/bin/cmake --install /home/jelly/ros2_ws/build/FMT

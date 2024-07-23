@@ -1,0 +1,37 @@
+[1.609s] Invoking command in '/home/jelly/ros2_ws/src/mycobot_real_moveit': PYTHONPATH=/home/jelly/ros2_ws/build/mycobot_real_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mycobot_real_moveit build --build-base /home/jelly/ros2_ws/build/mycobot_real_moveit/build install --record /home/jelly/ros2_ws/build/mycobot_real_moveit/install.log --single-version-externally-managed install_data
+[2.109s] running egg_info
+[2.109s] creating ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info
+[2.136s] writing ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/PKG-INFO
+[2.136s] writing dependency_links to ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/dependency_links.txt
+[2.136s] writing entry points to ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/entry_points.txt
+[2.136s] writing requirements to ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/requires.txt
+[2.136s] writing top-level names to ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/top_level.txt
+[2.136s] writing manifest file '../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/SOURCES.txt'
+[2.198s] reading manifest file '../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/SOURCES.txt'
+[2.200s] writing manifest file '../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info/SOURCES.txt'
+[2.200s] running build
+[2.201s] running build_py
+[2.201s] creating /home/jelly/ros2_ws/build/mycobot_real_moveit/build
+[2.201s] creating /home/jelly/ros2_ws/build/mycobot_real_moveit/build/lib
+[2.201s] creating /home/jelly/ros2_ws/build/mycobot_real_moveit/build/lib/mycobot_real_moveit
+[2.201s] copying mycobot_real_moveit/move_robot.py -> /home/jelly/ros2_ws/build/mycobot_real_moveit/build/lib/mycobot_real_moveit
+[2.202s] copying mycobot_real_moveit/__init__.py -> /home/jelly/ros2_ws/build/mycobot_real_moveit/build/lib/mycobot_real_moveit
+[2.202s] running install
+[2.210s] running install_lib
+[2.234s] creating /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages/mycobot_real_moveit
+[2.235s] copying /home/jelly/ros2_ws/build/mycobot_real_moveit/build/lib/mycobot_real_moveit/move_robot.py -> /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages/mycobot_real_moveit
+[2.235s] copying /home/jelly/ros2_ws/build/mycobot_real_moveit/build/lib/mycobot_real_moveit/__init__.py -> /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages/mycobot_real_moveit
+[2.236s] byte-compiling /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages/mycobot_real_moveit/move_robot.py to move_robot.cpython-310.pyc
+[2.236s] byte-compiling /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages/mycobot_real_moveit/__init__.py to __init__.cpython-310.pyc
+[2.237s] running install_data
+[2.237s] copying package.xml -> /home/jelly/ros2_ws/install/mycobot_real_moveit/share/mycobot_real_moveit
+[2.237s] creating /home/jelly/ros2_ws/install/mycobot_real_moveit/share/ament_index
+[2.238s] creating /home/jelly/ros2_ws/install/mycobot_real_moveit/share/ament_index/resource_index
+[2.238s] creating /home/jelly/ros2_ws/install/mycobot_real_moveit/share/ament_index/resource_index/packages
+[2.238s] copying resource/mycobot_real_moveit -> /home/jelly/ros2_ws/install/mycobot_real_moveit/share/ament_index/resource_index/packages
+[2.238s] running install_egg_info
+[2.279s] Copying ../../build/mycobot_real_moveit/mycobot_real_moveit.egg-info to /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages/mycobot_real_moveit-0.0.1-py3.10.egg-info
+[2.279s] running install_scripts
+[2.518s] Installing move_robot script to /home/jelly/ros2_ws/install/mycobot_real_moveit/lib/mycobot_real_moveit
+[2.518s] writing list of installed files to '/home/jelly/ros2_ws/build/mycobot_real_moveit/install.log'
+[2.556s] Invoked command in '/home/jelly/ros2_ws/src/mycobot_real_moveit' returned '0': PYTHONPATH=/home/jelly/ros2_ws/build/mycobot_real_moveit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jelly/ros2_ws/install/mycobot_real_moveit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mycobot_real_moveit build --build-base /home/jelly/ros2_ws/build/mycobot_real_moveit/build install --record /home/jelly/ros2_ws/build/mycobot_real_moveit/install.log --single-version-externally-managed install_data

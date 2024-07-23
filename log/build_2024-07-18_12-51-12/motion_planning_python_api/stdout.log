@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/lib/motion_planning_python_api/motion_planning_python_api_tutorial.py
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/lib/motion_planning_python_api/motion_planning_python_api_planning_scene.py
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/config
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/config/motion_planning_python_api_tutorial.yaml
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/config/motion_planning_python_api_tutorial.rviz
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/launch
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/launch/motion_planning_python_api_tutorial.launch.py
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/ament_index/resource_index/package_run_dependencies/motion_planning_python_api
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/ament_index/resource_index/parent_prefix_path/motion_planning_python_api
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/environment/ament_prefix_path.sh
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/environment/ament_prefix_path.dsv
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/environment/path.sh
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/environment/path.dsv
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/local_setup.bash
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/local_setup.sh
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/local_setup.zsh
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/local_setup.dsv
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/package.dsv
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/ament_index/resource_index/packages/motion_planning_python_api
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/cmake/motion_planning_python_apiConfig.cmake
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/cmake/motion_planning_python_apiConfig-version.cmake
+-- Installing: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/package.xml

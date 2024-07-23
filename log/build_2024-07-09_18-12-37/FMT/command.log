@@ -1,1 +1,0 @@
-Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake /home/jelly/ros2_ws/src/fmt -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/FMT

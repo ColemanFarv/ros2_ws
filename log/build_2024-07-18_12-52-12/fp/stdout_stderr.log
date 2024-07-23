@@ -1,0 +1,17 @@
+[ 10%] Built target maybe_error
+[ 20%] Built target no_discard
+[ 30%] Built target validate_in
+[ 40%] Built target result
+[ 50%] Built target validate_range
+[ 60%] Built target gtest_main
+[ 70%] Built target gtest
+[ 80%] Built target result_tests
+[ 90%] Built target mbind_tests
+[100%] Built target validate_tests
+[31mCMake Error at cmake_install.cmake:51 (file):
+  file INSTALL cannot set permissions on "/usr/local/include/": Operation not
+  permitted.
+
+[0m
+-- Install configuration: ""
+-- Up-to-date: /usr/local/include/

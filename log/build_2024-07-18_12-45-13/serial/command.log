@@ -1,0 +1,6 @@
+Invoking command in '/home/jelly/ros2_ws/build/serial': /usr/bin/cmake /home/jelly/ros2_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/serial
+Invoked command in '/home/jelly/ros2_ws/build/serial' returned '0': /usr/bin/cmake /home/jelly/ros2_ws/src/serial -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/serial
+Invoking command in '/home/jelly/ros2_ws/build/serial': /usr/bin/cmake --build /home/jelly/ros2_ws/build/serial -- -j4 -l4
+Invoked command in '/home/jelly/ros2_ws/build/serial' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/serial -- -j4 -l4
+Invoking command in '/home/jelly/ros2_ws/build/serial': /usr/bin/cmake --install /home/jelly/ros2_ws/build/serial
+Invoked command in '/home/jelly/ros2_ws/build/serial' returned '0': /usr/bin/cmake --install /home/jelly/ros2_ws/build/serial

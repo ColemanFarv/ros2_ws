@@ -1,0 +1,6 @@
+Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/fp -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/fp
+Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/fp -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/fp
+Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp
+Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_robot_motion:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp

@@ -1,0 +1,42 @@
+[0.047s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_ros2': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_ros2
+[0.235s] -- The C compiler identification is GNU 11.4.0
+[0.420s] -- The CXX compiler identification is GNU 11.4.0
+[0.439s] -- Detecting C compiler ABI info
+[0.824s] -- Detecting C compiler ABI info - done
+[0.869s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.869s] -- Detecting C compile features
+[0.869s] -- Detecting C compile features - done
+[0.891s] -- Detecting CXX compiler ABI info
+[1.347s] -- Detecting CXX compiler ABI info - done
+[1.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.367s] -- Detecting CXX compile features
+[1.373s] -- Detecting CXX compile features - done
+[1.381s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.890s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.365s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.617s] -- Added test 'lint_cmake' to check CMake code style
+[2.618s] -- Added test 'xmllint' to check XML markup files
+[2.619s] -- Configuring done
+[2.635s] -- Generating done
+[2.636s] -- Build files have been written to: /home/jelly/ros2_ws/build/mycobot_ros2
+[2.670s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_ros2' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_ros2 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_ros2
+[2.671s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_ros2': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_ros2 -- -j4 -l4
+[2.851s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_ros2' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_ros2 -- -j4 -l4
+[3.114s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_ros2': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_ros2
+[3.133s] -- Install configuration: ""
+[3.149s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/ament_index/resource_index/package_run_dependencies/mycobot_ros2
+[3.149s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/ament_index/resource_index/parent_prefix_path/mycobot_ros2
+[3.149s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/environment/ament_prefix_path.sh
+[3.149s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/environment/ament_prefix_path.dsv
+[3.150s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/environment/path.sh
+[3.150s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/environment/path.dsv
+[3.150s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/local_setup.bash
+[3.150s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/local_setup.sh
+[3.150s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/local_setup.zsh
+[3.150s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/local_setup.dsv
+[3.150s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.dsv
+[3.157s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/ament_index/resource_index/packages/mycobot_ros2
+[3.157s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/cmake/mycobot_ros2Config.cmake
+[3.157s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/cmake/mycobot_ros2Config-version.cmake
+[3.157s] -- Installing: /home/jelly/ros2_ws/install/mycobot_ros2/share/mycobot_ros2/package.xml
+[3.165s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_ros2' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_description:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_ros2

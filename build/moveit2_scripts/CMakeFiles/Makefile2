@@ -65,8 +65,7 @@ CMAKE_BINARY_DIR = /home/jelly/ros2_ws/build/moveit2_scripts
 # The main recursive "all" target.
 all: CMakeFiles/test_trajectory.dir/all
 all: CMakeFiles/test_trajectory2.dir/all
-all: CMakeFiles/test_trajectory3.dir/all
-all: CMakeFiles/cartesian_path.dir/all
+all: CMakeFiles/position_publisher.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,8 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/moveit2_scripts_uninstall.dir/clean
 clean: CMakeFiles/test_trajectory.dir/clean
 clean: CMakeFiles/test_trajectory2.dir/clean
-clean: CMakeFiles/test_trajectory3.dir/clean
-clean: CMakeFiles/cartesian_path.dir/clean
+clean: CMakeFiles/position_publisher.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -187,56 +185,30 @@ CMakeFiles/test_trajectory2.dir/clean:
 .PHONY : CMakeFiles/test_trajectory2.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/test_trajectory3.dir
+# Target rules for target CMakeFiles/position_publisher.dir
 
 # All Build rule for target.
-CMakeFiles/test_trajectory3.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory3.dir/build.make CMakeFiles/test_trajectory3.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory3.dir/build.make CMakeFiles/test_trajectory3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles --progress-num=7,8 "Built target test_trajectory3"
-.PHONY : CMakeFiles/test_trajectory3.dir/all
+CMakeFiles/position_publisher.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles --progress-num=1,2 "Built target position_publisher"
+.PHONY : CMakeFiles/position_publisher.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/test_trajectory3.dir/rule: cmake_check_build_system
+CMakeFiles/position_publisher.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_trajectory3.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/position_publisher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles 0
-.PHONY : CMakeFiles/test_trajectory3.dir/rule
+.PHONY : CMakeFiles/position_publisher.dir/rule
 
 # Convenience name for target.
-test_trajectory3: CMakeFiles/test_trajectory3.dir/rule
-.PHONY : test_trajectory3
+position_publisher: CMakeFiles/position_publisher.dir/rule
+.PHONY : position_publisher
 
 # clean rule for target.
-CMakeFiles/test_trajectory3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory3.dir/build.make CMakeFiles/test_trajectory3.dir/clean
-.PHONY : CMakeFiles/test_trajectory3.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/cartesian_path.dir
-
-# All Build rule for target.
-CMakeFiles/cartesian_path.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cartesian_path.dir/build.make CMakeFiles/cartesian_path.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cartesian_path.dir/build.make CMakeFiles/cartesian_path.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles --progress-num=1,2 "Built target cartesian_path"
-.PHONY : CMakeFiles/cartesian_path.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/cartesian_path.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cartesian_path.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jelly/ros2_ws/build/moveit2_scripts/CMakeFiles 0
-.PHONY : CMakeFiles/cartesian_path.dir/rule
-
-# Convenience name for target.
-cartesian_path: CMakeFiles/cartesian_path.dir/rule
-.PHONY : cartesian_path
-
-# clean rule for target.
-CMakeFiles/cartesian_path.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cartesian_path.dir/build.make CMakeFiles/cartesian_path.dir/clean
-.PHONY : CMakeFiles/cartesian_path.dir/clean
+CMakeFiles/position_publisher.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_publisher.dir/build.make CMakeFiles/position_publisher.dir/clean
+.PHONY : CMakeFiles/position_publisher.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

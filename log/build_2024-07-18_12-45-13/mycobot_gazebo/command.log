@@ -1,0 +1,2 @@
+Invoking command in '/home/jelly/ros2_ws/build/mycobot_gazebo': /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_gazebo
+Invoked command in '/home/jelly/ros2_ws/build/mycobot_gazebo' returned '1': /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_gazebo

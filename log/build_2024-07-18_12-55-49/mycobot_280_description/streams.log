@@ -1,0 +1,75 @@
+[0.037s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_280_description': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_280_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_280_description
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.352s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.356s] -- Detecting CXX compiler ABI info
+[0.485s] -- Detecting CXX compiler ABI info - done
+[0.497s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.498s] -- Detecting CXX compile features
+[0.498s] -- Detecting CXX compile features - done
+[0.502s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.783s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.901s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.049s] -- Configuring done
+[1.053s] -- Generating done
+[1.054s] -- Build files have been written to: /home/jelly/ros2_ws/build/mycobot_280_description
+[1.062s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_280_description' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake /home/jelly/ros2_ws/src/mycobot-ros2-fix/mycobot_280_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jelly/ros2_ws/install/mycobot_280_description
+[1.063s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_280_description': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_280_description -- -j4 -l4
+[1.134s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_280_description' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_280_description -- -j4 -l4
+[1.184s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_280_description': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_280_description
+[1.197s] -- Install configuration: ""
+[1.198s] -- Execute custom install script
+[1.199s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/controllers.yaml
+[1.223s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/initial_positions.yaml
+[1.240s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/kinematics.yaml
+[1.258s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280/default_kinematics.yaml
+[1.275s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280/joint_limits.yaml
+[1.291s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280/physical_parameters.yaml
+[1.309s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280/visual_parameters.yaml
+[1.323s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/ompl_planning.yaml
+[1.337s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/ros_controllers.yaml
+[1.353s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/launch/launch_test.launch.py
+[1.370s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/launch/move_group.launch.py
+[1.385s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/launch/view_robot.launch.py
+[1.402s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/base.dae
+[1.429s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/base.png
+[1.446s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link1.dae
+[1.463s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link1.png
+[1.477s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link2.dae
+[1.493s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link2.png
+[1.507s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link3.dae
+[1.525s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link3.png
+[1.539s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link4.dae
+[1.552s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link4.png
+[1.568s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link5.dae
+[1.582s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link5.png
+[1.596s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link6.dae
+[1.612s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/meshes/mycobot_280/link6.png
+[1.628s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/rviz/view_robot.rviz
+[1.646s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/urdf/inc/mycobot_common.xacro
+[1.669s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/urdf/mycobot_280.ros2_control.xacro
+[1.683s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/urdf/mycobot_280.srdf.xacro
+[1.698s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/urdf/mycobot_280.urdf
+[1.715s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/urdf/mycobot_280.urdf.xacro
+[1.728s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/urdf/mycobot_280_macro.xacro
+[1.741s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/urdf/mycobot_urdf.urdf
+[1.756s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/ament_index/resource_index/package_run_dependencies/mycobot_280_description
+[1.770s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/ament_index/resource_index/parent_prefix_path/mycobot_280_description
+[1.787s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/environment/ament_prefix_path.sh
+[1.803s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/environment/ament_prefix_path.dsv
+[1.824s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/environment/path.sh
+[1.840s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/environment/path.dsv
+[1.858s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/local_setup.bash
+[1.874s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/local_setup.sh
+[1.891s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/local_setup.zsh
+[1.905s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/local_setup.dsv
+[1.922s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.dsv
+[1.940s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/ament_index/resource_index/packages/mycobot_280_description
+[1.956s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/cmake/mycobot_280_descriptionConfig.cmake
+[1.974s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/cmake/mycobot_280_descriptionConfig-version.cmake
+[1.989s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/package.xml
+[2.019s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_280_description' returned '0': AMENT_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jelly/ros2_ws/install/mycobot_hardware_interface:/home/jelly/ros2_ws/install/mycobot:/home/jelly/ros2_ws/install/serial:/home/jelly/ros2_ws/install/fp:/home/jelly/ros2_ws/install/catch2:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_280_description

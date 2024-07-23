@@ -1,0 +1,2 @@
+[0.039s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_gazebo': /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_gazebo -- -j4 -l4
+[0.250s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_gazebo' returned '0': /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_gazebo -- -j4 -l4

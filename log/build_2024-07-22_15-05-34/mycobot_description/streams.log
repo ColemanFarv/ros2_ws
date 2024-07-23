@@ -1,0 +1,31 @@
+[0.045s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_description -- -j4 -l4
+[0.155s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/mycobot_description -- -j4 -l4
+[0.284s] Invoking command in '/home/jelly/ros2_ws/build/mycobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_description
+[0.306s] -- Install configuration: ""
+[0.307s] -- Execute custom install script
+[0.308s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/holder.stl
+[0.308s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint1.stl
+[0.308s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint2.stl
+[0.309s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint3.stl
+[0.309s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint4.stl
+[0.309s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint5.stl
+[0.324s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint6.stl
+[0.325s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/joint7.stl
+[0.325s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/meshes/mycobot_280/spectrometer.stl
+[0.326s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/urdf/mycobot_280_urdf.xacro
+[0.326s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/ament_index/resource_index/package_run_dependencies/mycobot_description
+[0.326s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/ament_index/resource_index/parent_prefix_path/mycobot_description
+[0.326s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.sh
+[0.326s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/environment/ament_prefix_path.dsv
+[0.326s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.sh
+[0.326s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/environment/path.dsv
+[0.327s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.bash
+[0.327s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.sh
+[0.327s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.zsh
+[0.327s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/local_setup.dsv
+[0.327s] -- Symlinking: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.dsv
+[0.331s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/ament_index/resource_index/packages/mycobot_description
+[0.335s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig.cmake
+[0.335s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/cmake/mycobot_descriptionConfig-version.cmake
+[0.336s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/mycobot_description/share/mycobot_description/package.xml
+[0.339s] Invoked command in '/home/jelly/ros2_ws/build/mycobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/mycobot_description

@@ -1,0 +1,42 @@
+[0.037s] Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.204s] [ 10%] Built target no_discard
+[0.207s] [ 20%] Built target validate_in
+[0.209s] [ 30%] Built target result
+[0.217s] [ 40%] Built target maybe_error
+[0.284s] [ 50%] Built target validate_range
+[0.294s] [ 60%] Built target gtest_main
+[0.303s] [ 70%] Built target gtest
+[0.359s] [ 80%] Built target mbind_tests
+[0.369s] [ 90%] Built target result_tests
+[0.375s] [100%] Built target validate_tests
+[0.456s] Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/fp -- -j4 -l4
+[0.548s] Invoking command in '/home/jelly/ros2_ws/build/fp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp
+[0.562s] -- Install configuration: ""
+[0.563s] -- Execute custom install script
+[0.566s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/_external/expected.hpp
+[0.566s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/all.hpp
+[0.566s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/macros.hpp
+[0.567s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/monad.hpp
+[0.567s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/no_discard.hpp
+[0.567s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/result.hpp
+[0.567s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/validate.hpp
+[0.567s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/package_run_dependencies/fp
+[0.568s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/parent_prefix_path/fp
+[0.570s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.sh
+[0.570s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.dsv
+[0.570s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.sh
+[0.571s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.dsv
+[0.571s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.bash
+[0.572s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.sh
+[0.573s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.zsh
+[0.573s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.dsv
+[0.573s] -- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/package.dsv
+[0.591s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/packages/fp
+[0.592s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.592s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_targets-extras.cmake
+[0.592s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.593s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig.cmake
+[0.593s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig-version.cmake
+[0.594s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/package.xml
+[0.599s] -- Up-to-date: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpTargetsExport.cmake
+[0.607s] Invoked command in '/home/jelly/ros2_ws/build/fp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/fp

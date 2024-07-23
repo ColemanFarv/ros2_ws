@@ -1,0 +1,24 @@
+[0.032s] Invoking command in '/home/jelly/ros2_ws/build/FMT': /usr/bin/cmake --build /home/jelly/ros2_ws/build/FMT -- -j4 -l4
+[0.136s] [  4%] Built target fmt
+[0.142s] [  7%] Built target gtest
+[0.194s] [ 12%] Built target test-main
+[0.195s] [ 21%] Built target scan-test
+[0.210s] [ 29%] Built target compile-fp-test
+[0.215s] [ 39%] Built target format-impl-test
+[0.265s] [ 47%] Built target unicode-test
+[0.265s] [ 50%] Built target enforce-checks-test
+[0.274s] [ 53%] Built target xchar-test
+[0.288s] [ 61%] Built target posix-mock-test
+[0.306s] [ 64%] Built target os-test
+[0.314s] [ 67%] Built target base-test
+[0.318s] [ 70%] Built target args-test
+[0.328s] [ 73%] Built target assert-test
+[0.359s] [ 76%] Built target chrono-test
+[0.361s] [ 78%] Built target color-test
+[0.362s] [ 81%] Built target gtest-extra-test
+[0.371s] [ 84%] Built target format-test
+[0.403s] [ 88%] Built target printf-test
+[0.404s] [ 90%] Built target ostream-test
+[0.426s] [ 92%] Built target compile-test
+[0.430s] [ 97%] Built target ranges-test
+[0.461s] [100%] Built target std-test

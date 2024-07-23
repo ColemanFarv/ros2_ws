@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[ 37%] Built target cartesian_path
+[ 62%] Built target test_trajectory
+[ 87%] Built target test_trajectory3

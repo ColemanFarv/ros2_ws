@@ -1,0 +1,79 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jelly/ros2_ws/src/fp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jelly/ros2_ws/build/fp
+[35m[1mConsolidate compiler generated dependencies of target no_discard[0m
+[35m[1mConsolidate compiler generated dependencies of target maybe_error[0m
+[35m[1mConsolidate compiler generated dependencies of target result[0m
+[35m[1mConsolidate compiler generated dependencies of target validate_in[0m
+[ 10%] Built target no_discard
+[ 20%] Built target result
+[ 30%] Built target maybe_error
+[ 40%] Built target validate_in
+[35m[1mConsolidate compiler generated dependencies of target validate_range[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 50%] Built target gtest_main
+[ 60%] Built target gtest
+[ 70%] Built target validate_range
+[35m[1mConsolidate compiler generated dependencies of target validate_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target result_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target mbind_tests[0m
+[ 80%] Built target validate_tests
+[ 90%] Built target result_tests
+[100%] Built target mbind_tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jelly/ros2_ws/install/fp/include//fp/_external/expected.hpp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/include//fp/all.hpp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/include//fp/macros.hpp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/include//fp/monad.hpp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/include//fp/no_discard.hpp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/include//fp/result.hpp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/include//fp/validate.hpp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/package_run_dependencies/fp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/parent_prefix_path/fp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.sh
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.sh
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.dsv
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.bash
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.sh
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.zsh
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.dsv
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/package.dsv
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/packages/fp
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig.cmake
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig-version.cmake
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/package.xml
+-- Installing: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpTargetsExport.cmake

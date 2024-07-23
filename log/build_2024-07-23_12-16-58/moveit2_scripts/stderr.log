@@ -1,0 +1,28 @@
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:19:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   19 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:5:47:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    5 | class PositionPublisher : public rclcpp::Node [01;36m[K{[m[K
+      |                                               [01;36m[K^[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:[m[K In constructor ‘[01m[KPositionPublisher::PositionPublisher()[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:8:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+    8 |         [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("position_topic", 10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+    9 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:10:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   10 |             [01;31m[K500ms[m[K, std::bind(&PositionPublisher::publishPosition, this));
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:10:50:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishPosition[m[K’ is not a member of ‘[01m[KPositionPublisher[m[K’
+   10 |             500ms, std::bind(&PositionPublisher::[01;31m[KpublishPosition[m[K, this));
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:[m[K At global scope:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/position_publisher.cpp:19:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   19 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/position_publisher.dir/build.make:76: CMakeFiles/position_publisher.dir/src/position_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/position_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

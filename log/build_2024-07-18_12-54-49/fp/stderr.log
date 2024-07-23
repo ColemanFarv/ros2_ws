@@ -1,0 +1,5 @@
+[31mCMake Error at cmake_install.cmake:51 (file):
+  file INSTALL cannot set permissions on "/usr/local/include/": Operation not
+  permitted.
+
+[0m

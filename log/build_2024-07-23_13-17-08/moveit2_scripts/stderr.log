@@ -1,0 +1,78 @@
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:22:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   22 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:34:69:[m[K [01;31m[Kerror: [m[Knon-member function ‘[01m[Kstd::vector<float> parsePosition(const string&)[m[K’ cannot have cv-qualifier
+   34 |   std::vector<float> parsePosition(const std::string& position_str) [01;31m[Kconst[m[K {
+      |                                                                     [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In function ‘[01m[Kstd::vector<float> parsePosition(const string&)[m[K’:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:42:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   42 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Invalid argument: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:42:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:42:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   42 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Invalid argument: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:42:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   42 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Invalid argument: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:42:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   42 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Invalid argument: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:42:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   42 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Invalid argument: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:42:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   42 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Invalid argument: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:45:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   45 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Out of range: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:45:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:45:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Out of range: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:45:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Out of range: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:45:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 |         [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Out of range: %s", e.what());
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+                 from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:45:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   45 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Out of range: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:45:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   45 |         RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Out of range: %s", e.what());
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K At global scope:
+[01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:53:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   53 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

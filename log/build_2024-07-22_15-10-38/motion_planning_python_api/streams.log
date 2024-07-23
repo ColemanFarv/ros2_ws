@@ -1,0 +1,26 @@
+[0.020s] Invoking command in '/home/jelly/ros2_ws/build/motion_planning_python_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/motion_planning_python_api -- -j4 -l4
+[0.154s] Invoked command in '/home/jelly/ros2_ws/build/motion_planning_python_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/motion_planning_python_api -- -j4 -l4
+[0.286s] Invoking command in '/home/jelly/ros2_ws/build/motion_planning_python_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/motion_planning_python_api
+[0.311s] -- Install configuration: ""
+[0.312s] -- Execute custom install script
+[0.313s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/lib/motion_planning_python_api/motion_planning_python_api_tutorial.py
+[0.313s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/lib/motion_planning_python_api/motion_planning_python_api_planning_scene.py
+[0.313s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/config/motion_planning_python_api_tutorial.rviz
+[0.313s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/config/motion_planning_python_api_tutorial.yaml
+[0.313s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/launch/motion_planning_python_api_tutorial.launch.py
+[0.313s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/ament_index/resource_index/package_run_dependencies/motion_planning_python_api
+[0.314s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/ament_index/resource_index/parent_prefix_path/motion_planning_python_api
+[0.314s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/environment/ament_prefix_path.sh
+[0.314s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/environment/ament_prefix_path.dsv
+[0.315s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/environment/path.sh
+[0.316s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/environment/path.dsv
+[0.316s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/local_setup.bash
+[0.317s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/local_setup.sh
+[0.319s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/local_setup.zsh
+[0.319s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/local_setup.dsv
+[0.319s] -- Symlinking: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/package.dsv
+[0.340s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/ament_index/resource_index/packages/motion_planning_python_api
+[0.340s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/cmake/motion_planning_python_apiConfig.cmake
+[0.340s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/cmake/motion_planning_python_apiConfig-version.cmake
+[0.340s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/motion_planning_python_api/share/motion_planning_python_api/package.xml
+[0.346s] Invoked command in '/home/jelly/ros2_ws/build/motion_planning_python_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/my_moveit2_package:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/motion_planning_python_api

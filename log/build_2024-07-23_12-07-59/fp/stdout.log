@@ -1,0 +1,38 @@
+[ 10%] Built target no_discard
+[ 20%] Built target maybe_error
+[ 30%] Built target result
+[ 40%] Built target validate_in
+[ 50%] Built target gtest_main
+[ 60%] Built target validate_range
+[ 70%] Built target gtest
+[ 80%] Built target mbind_tests
+[ 90%] Built target result_tests
+[100%] Built target validate_tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/_external/expected.hpp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/all.hpp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/macros.hpp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/monad.hpp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/no_discard.hpp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/result.hpp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/include//fp/validate.hpp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/package_run_dependencies/fp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/parent_prefix_path/fp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.sh
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/environment/path.dsv
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.bash
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.sh
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.zsh
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/local_setup.dsv
+-- Symlinking: /home/jelly/ros2_ws/install/fp/share/fp/package.dsv
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/ament_index/resource_index/packages/fp
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig.cmake
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpConfig-version.cmake
+-- Up-to-date symlink: /home/jelly/ros2_ws/install/fp/share/fp/package.xml
+-- Up-to-date: /home/jelly/ros2_ws/install/fp/share/fp/cmake/fpTargetsExport.cmake

@@ -1,0 +1,34 @@
+[0.056s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target test_trajectory2[0m
+[0.415s] [ 33%] Built target position_publisher
+[0.416s] [ 66%] Built target test_trajectory
+[0.452s] [ 83%] [32mBuilding CXX object CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o[0m
+[8.155s] In file included from [01m[K/opt/ros/humble/include/moveit/kinematics_base/kinematics_base.h:42[m[K,
+[8.156s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/joint_model_group.h:42[m[K,
+[8.156s]                  from [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:45[m[K,
+[8.156s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[8.156s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[8.156s]                  from [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:1[m[K:
+[8.156s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:[m[K In member function ‘[01m[Kvoid PositionListener::positionCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[8.156s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:63:15:[m[K [01;31m[Kerror: [m[K‘[01m[KLOGGER[m[K’ was not declared in this scope
+[8.157s]    63 |   RCLCPP_INFO([01;31m[KLOGGER[m[K, "Going to Position 2");
+[8.157s]       |               [01;31m[K^~~~~~[m[K
+[8.157s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:63:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.157s]    63 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+[8.157s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[8.157s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:63:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.157s]    63 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+[8.157s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[8.157s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:63:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.157s]    63 |   [01;31m[KRCLCPP_INFO[m[K(LOGGER, "Going to Position 2");
+[8.157s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[8.158s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:40:40:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.158s]    40 |   const moveit::core::JointModelGroup *[01;35m[Kjoint_model_group[m[K =
+[8.158s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[8.158s] [01m[K/home/jelly/ros2_ws/src/moveit2_scripts/src/test_trajectory2.cpp:60:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksuccess[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.158s]    60 |   bool [01;35m[Ksuccess[m[K =
+[8.158s]       |        [01;35m[K^~~~~~~[m[K
+[14.709s] gmake[2]: *** [CMakeFiles/test_trajectory2.dir/build.make:76: CMakeFiles/test_trajectory2.dir/src/test_trajectory2.cpp.o] Error 1
+[14.710s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/test_trajectory2.dir/all] Error 2
+[14.710s] gmake: *** [Makefile:146: all] Error 2
+[14.713s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
