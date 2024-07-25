@@ -1,0 +1,23 @@
+[  4%] Built target fmt
+[  7%] Built target gtest
+[ 12%] Built target test-main
+[ 22%] Built target scan-test
+[ 29%] Built target compile-fp-test
+[ 39%] Built target format-impl-test
+[ 42%] Built target xchar-test
+[ 50%] Built target unicode-test
+[ 53%] Built target enforce-checks-test
+[ 61%] Built target posix-mock-test
+[ 64%] Built target os-test
+[ 67%] Built target args-test
+[ 70%] Built target base-test
+[ 73%] Built target assert-test
+[ 76%] Built target chrono-test
+[ 78%] Built target color-test
+[ 81%] Built target gtest-extra-test
+[ 84%] Built target format-test
+[ 87%] Built target ostream-test
+[ 90%] Built target compile-test
+[ 92%] Built target printf-test
+[ 97%] Built target ranges-test
+[100%] Built target std-test

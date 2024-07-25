@@ -1,0 +1,44 @@
+[  4%] Built target fmt
+[  7%] Built target gtest
+[ 16%] Built target format-impl-test
+[ 22%] Built target test-main
+[ 30%] Built target compile-fp-test
+[ 39%] Built target scan-test
+[ 47%] Built target posix-mock-test
+[ 56%] Built target unicode-test
+[ 59%] Built target os-test
+[ 61%] Built target args-test
+[ 67%] Built target assert-test
+[ 67%] Built target base-test
+[ 70%] Built target chrono-test
+[ 73%] Built target gtest-extra-test
+[ 76%] Built target color-test
+[ 78%] Built target format-test
+[ 81%] Built target ostream-test
+[ 84%] Built target compile-test
+[ 87%] Built target printf-test
+[ 90%] Built target std-test
+[ 94%] Built target ranges-test
+[ 97%] Built target xchar-test
+[100%] Built target enforce-checks-test
+-- Install configuration: "Release"
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/libfmt.a
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/args.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/base.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/chrono.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/color.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/compile.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/core.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/format.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/format-inl.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/os.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/ostream.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/printf.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/ranges.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/std.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/include/fmt/xchar.h
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-config-version.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/cmake/fmt/fmt-targets-release.cmake
+-- Up-to-date: /home/jelly/ros2_ws/install/FMT/lib/pkgconfig/fmt.pc

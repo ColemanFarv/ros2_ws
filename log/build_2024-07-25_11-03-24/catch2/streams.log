@@ -1,0 +1,27 @@
+[0.048s] Invoking command in '/home/jelly/ros2_ws/build/catch2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/catch2 -- -j4 -l4
+[0.133s] Invoked command in '/home/jelly/ros2_ws/build/catch2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/catch2 -- -j4 -l4
+[0.260s] Invoking command in '/home/jelly/ros2_ws/build/catch2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/catch2
+[0.283s] -- Install configuration: ""
+[0.285s] -- Execute custom install script
+[0.291s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/include//catch2/.clang-format
+[0.292s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/include//catch2/catch.hpp
+[0.293s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/include//catch2/fakeit.hpp
+[0.295s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/ament_index/resource_index/package_run_dependencies/catch2
+[0.296s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/ament_index/resource_index/parent_prefix_path/catch2
+[0.297s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/environment/ament_prefix_path.sh
+[0.299s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/environment/path.sh
+[0.301s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/environment/path.dsv
+[0.303s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/local_setup.bash
+[0.305s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/local_setup.sh
+[0.307s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/local_setup.zsh
+[0.308s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/local_setup.dsv
+[0.390s] -- Symlinking: /home/jelly/ros2_ws/install/catch2/share/catch2/package.dsv
+[0.410s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/ament_index/resource_index/packages/catch2
+[0.410s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.410s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/ament_cmake_export_targets-extras.cmake
+[0.410s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/catch2Config.cmake
+[0.410s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/catch2Config-version.cmake
+[0.411s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/catch2/share/catch2/package.xml
+[0.411s] -- Up-to-date: /home/jelly/ros2_ws/install/catch2/share/catch2/cmake/catch2_TargetsExport.cmake
+[0.411s] Invoked command in '/home/jelly/ros2_ws/build/catch2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/catch2

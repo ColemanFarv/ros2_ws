@@ -264,6 +264,7 @@ def generate_launch_description():
         executable="robot_state_publisher",
         output="both",
         parameters=[robot_description],
+        remappings=[('/robot_description', '/controller_manager/robot_description')]
     )
 
     control_node = Node(

@@ -1,4 +1,5 @@
 /home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/config/mycobot_280_controllers.yaml
+/home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/launch_robot.launch.py
 /home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/mycobot_280_arduino_bringup_classic_gazebo.launch.py
 /home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/mycobot_280_arduino_bringup_ros2_control_classic_gazebo.launch.py
 /home/jelly/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/models/aws_robomaker_residential_AirconditionerA_01/materials/textures/aws_AirconditionerA_01.png

@@ -1,38 +1,12 @@
-<?xml version="1.0" ?>
-<robot xmlns:xacro="http://wiki.ros.org/xacro" name="mycobot_280">
-    <xacro:include filename="$(find mycobot_gazebo)/urdf/ros2_control/classic_gazebo/mycobot_280_classic_gazebo.xacro"/>
-    <xacro:include filename="$(find mycobot_gazebo)/urdf/ros2_control/classic_gazebo/mycobot_280_ros2_control.xacro"/>
-
-    <xacro:macro name="default_transmission" params="joint_name">
-        <transmission name="transmission_${joint_name}">
-            <plugin>transmission_interface/SimpleTransmission</plugin>
-            <actuator name="actuator_${joint_name}" role="actuator_${joint_name}"/>
-            <joint name="${joint_name}" role="${joint_name}">
-                <mechanical_reduction>1.0</mechanical_reduction>
-            </joint>
-        </transmission>
-    </xacro:macro>
+<?xml version="1.0"?>
+<robot  xmlns:xacro="http://www.ros.org/wiki/xacro" name="firefighter" >
 	
 <xacro:property name="width" value=".2" />
-
-  <material name="white">
-        <color rgba="1 1 1 1"/>
-    </material>
-
-    <material name="orange">
-        <color rgba="1 0.3 0.1 1"/>
-    </material>
-
-    <material name="blue">
-        <color rgba="0.2 0.2 1 1"/>
-    </material>
 
 
 <material name="silver">
   <color rgba="0.75 0.75 0.75 1.0"/>
 </material>
-
-
 
 
 
@@ -46,7 +20,7 @@
 	
 	<!-- ********** LINKS ********** -->
 
-  <link name="base_link">
+  <link name="joint1">
     <visual>
       <geometry>
 	     <!--- 0.0 0 -0.04  1.5708 3.14159-->
@@ -246,7 +220,8 @@
 		</inertial>
   </link>
 
-    <link name="holder">
+
+  <link name="holder">
   <inertial>
     <origin xyz="9.542063908505497e-10 4.713475046347886e-13 0.051986133375594434" rpy="0 0 0"/>
     <mass value="2.1138978819045212e-10"/>
@@ -289,35 +264,6 @@
 </link>
 
 
-  <gazebo reference="base_link">
-        <material>Gazebo/Green</material>
-    </gazebo>
-
-    <gazebo reference="link1">
-        <material>Gazebo/Blue</material>
-    </gazebo>
-
-    <gazebo reference="link2">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-
-<gazebo reference="link3">
-        <material>Gazebo/Green</material>
-    </gazebo>
-
-    <gazebo reference="link4">
-        <material>Gazebo/Blue</material>
-    </gazebo>
-
-    <gazebo reference="link5">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-
-      <gazebo reference="link5_flange">
-        <material>Gazebo/Green</material>
-    </gazebo>
-
-
 <!-- ********** JOINTS ********** -->
 
 <!-- Attach the robot base to the world frame with no initial offset or rotation. -->
@@ -325,20 +271,23 @@
 <!-- Attach the robot base to the world frame with no initial offset or rotation. -->
 	<joint name="virtual_joint" type="fixed">
 		<parent link="world"/>
-		<child link="base_link"/>
-		<origin xyz= "0 0 -0.05" rpy = "0 0 0"/>  
+		<child link="joint1"/>
+		<origin xyz= "0 0 0" rpy = "0 0 0"/>  
 	</joint>
+	
+	<!-- Define the joint name and its type as "fixed". A fixed joint 
+	means the two connected links cannot move relative to each other. -->
 
-<joint name="base_link_to_link1" type="revolute">
+		<joint name="joint1" type="revolute">
 		<axis xyz="0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
-		<parent link="base_link"/>
+		<parent link="joint1"/>
 		<child link="link1"/>
 	    <origin xyz= "0 0 0.13156" rpy = "0 0 ${pi/2}"/>  
         <dynamics damping="0.05" friction="0.05"/>
 	</joint>
 
-	<joint name="link1_to_link2" type="revolute">
+	<joint name="joint2" type="revolute">
 		<axis xyz="0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
 		<parent link="link1"/>
@@ -347,7 +296,7 @@
         <dynamics damping="0.205" friction="0.15"/>
 	</joint>
 
-	<joint name="link2_to_link3" type="revolute">
+	<joint name="joint3" type="revolute">
 		<axis xyz=" 0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
 		<parent link="link2"/>
@@ -358,7 +307,7 @@
 
 	
 
-	<joint name="link3_to_link4" type="revolute">
+	<joint name="joint4" type="revolute">
 		<axis xyz=" 0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
 		<parent link="link3"/>
@@ -368,7 +317,7 @@
 	</joint>
 		
 
-	<joint name="link4_to_link5" type="revolute">
+	<joint name="joint5" type="revolute">
 		<axis xyz=" 0 0 1"/>
 		<limit effort = "${effort}" lower = "-2.879793" upper = "2.879793" velocity = "${velocity}"/>
 		<parent link="link4"/>
@@ -377,7 +326,7 @@
         <dynamics damping="0.01" friction="0.005"/>
 	</joint>
 
-	<joint name="link5_to_link5_flange" type="revolute">
+	<joint name="joint6" type="revolute">
 		<axis xyz=" 0 0 1"/>
 		<limit effort = "${effort}" lower = "-3.05" upper = "3.05" velocity = "${velocity}"/>
 		<parent link="link5"/>
@@ -398,11 +347,6 @@
   <child link="spectrometer"/>
 </joint>
 
-    <xacro:default_transmission joint_name="base_link_to_link1"/>
-    <xacro:default_transmission joint_name="link1_to_link2"/>
-    <xacro:default_transmission joint_name="link2_to_link3"/>
-    <xacro:default_transmission joint_name="link3_to_link4"/>
-    <xacro:default_transmission joint_name="link4_to_link5"/>
-    <xacro:default_transmission joint_name="link5_to_link5_flange"/>
+		
 
 </robot>
