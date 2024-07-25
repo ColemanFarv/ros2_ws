@@ -1,0 +1,1 @@
+/home/jelly/ros2_ws/src/moveit2_scripts/launch/cartesian_path.launch.py

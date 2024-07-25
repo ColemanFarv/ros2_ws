@@ -1,0 +1,1 @@
+/home/jelly/ros2_ws/build/moveit2_scripts/ament_cmake_environment_hooks/local_setup.sh

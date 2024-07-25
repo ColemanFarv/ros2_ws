@@ -1,0 +1,1 @@
+/home/jelly/ros2_ws/build/fp/ament_cmake_environment_hooks/local_setup.zsh

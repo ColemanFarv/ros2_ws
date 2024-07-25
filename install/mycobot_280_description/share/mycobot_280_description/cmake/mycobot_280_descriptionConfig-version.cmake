@@ -1,0 +1,1 @@
+/home/jelly/ros2_ws/build/mycobot_280_description/ament_cmake_core/mycobot_280_descriptionConfig-version.cmake

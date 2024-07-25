@@ -1,0 +1,1 @@
+/home/jelly/ros2_ws/build/mycobot_hardware_interface/ament_cmake_core/mycobot_hardware_interfaceConfig-version.cmake
