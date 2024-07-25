@@ -5,7 +5,6 @@
 /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280.srdf
 /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280.srdf.xacro
 /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280.urdf.xacro
-/home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280.urdf.xml
 /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280/default_kinematics.yaml
 /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280/joint_limits.yaml
 /home/jelly/ros2_ws/install/mycobot_280_description/share/mycobot_280_description/config/mycobot_280/physical_parameters.yaml

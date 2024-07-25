@@ -62,7 +62,7 @@ public:
     target_pose.orientation.w = 0.0;
     target_pose.orientation.x = -0.2128;
     target_pose.orientation.y = 0.976;
-    target_pose.orientation.z = -0.04276;
+    target_pose.orientation.z = 0.0;
     target_pose.position.x = position[0];
     target_pose.position.y = position[1];
     target_pose.position.z = position[2];

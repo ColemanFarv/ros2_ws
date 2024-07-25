@@ -1,0 +1,34 @@
+[0.040s] Invoking command in '/home/jelly/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/serial -- -j4 -l4
+[0.164s] [100%] Built target serial
+[0.191s] Invoked command in '/home/jelly/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/serial -- -j4 -l4
+[0.361s] Invoking command in '/home/jelly/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/serial
+[0.386s] -- Install configuration: ""
+[0.387s] -- Execute custom install script
+[0.388s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/include/serial/impl/unix.h
+[0.389s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/include/serial/impl/win.h
+[0.389s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/include/serial/serial.h
+[0.391s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/include/serial/v8stdint.h
+[0.391s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/environment/library_path.sh
+[0.391s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[0.393s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.394s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.394s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.394s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.394s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/environment/path.sh
+[0.394s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/environment/path.dsv
+[0.394s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/local_setup.bash
+[0.395s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/local_setup.sh
+[0.395s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/local_setup.zsh
+[0.395s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/local_setup.dsv
+[0.395s] -- Symlinking: /home/jelly/ros2_ws/install/serial/share/serial/package.dsv
+[0.426s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[0.436s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.444s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.444s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[0.444s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[0.445s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.451s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/serial/share/serial/package.xml
+[0.452s] -- Up-to-date: /home/jelly/ros2_ws/install/serial/lib/libserial.a
+[0.452s] -- Up-to-date: /home/jelly/ros2_ws/install/serial/share/serial/cmake/export_serialExport.cmake
+[0.452s] -- Up-to-date: /home/jelly/ros2_ws/install/serial/share/serial/cmake/export_serialExport-noconfig.cmake
+[0.454s] Invoked command in '/home/jelly/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jelly/ros2_ws/install/mycobot_real_moveit:/home/jelly/ros2_ws/install/mycobot_280:/home/jelly/ros2_ws/install/my_moveit2_package:/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/serial
