@@ -1,16 +1,13 @@
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="mycobot_280">
 
- 
-
-
-    <!-- Interface the robot's hardware with the ROS 2 Control library 
-    <ros2_control name="GazeboSystem" type="system">
+    <!-- Interface the robot's hardware with the ROS 2 Control library -->
+    <ros2_control name="RobotSystem" type="system">
         <hardware>
             <plugin>gazebo_ros2_control/GazeboSystem</plugin>
         </hardware>
 
-        <joint name="joint1">
+        <joint name="base_link_to_link1">
             <command_interface name="position">
                 <param name="min">-2.879793</param>
                 <param name="max">2.879793</param>
@@ -18,7 +15,7 @@
             <state_interface name="position"/>
         </joint>
 
-        <joint name="joint2">
+        <joint name="link1_to_link2">
             <command_interface name="position">
                 <param name="min">-2.879793</param>
                 <param name="max">2.879793</param>
@@ -26,7 +23,7 @@
             <state_interface name="position"/>
         </joint>
 
-        <joint name="joint3">
+        <joint name="link2_to_link3">
             <command_interface name="position">
                 <param name="min">-2.879793</param>
                 <param name="max">2.879793</param>
@@ -34,7 +31,7 @@
             <state_interface name="position"/>
         </joint>
 
-        <joint name="joint4">
+        <joint name="link3_to_link4">
             <command_interface name="position">
                 <param name="min">-2.879793</param>
                 <param name="max">2.879793</param>
@@ -42,7 +39,7 @@
             <state_interface name="position"/>
         </joint>
 
-        <joint name="joint5">
+        <joint name="link4_to_link5">
             <command_interface name="position">
                 <param name="min">-2.879793</param>
                 <param name="max">2.879793</param>
@@ -50,67 +47,7 @@
             <state_interface name="position"/>
         </joint>
 
-        <joint name="joint6">
-            <command_interface name="position">
-                <param name="min">-3.05</param>
-                <param name="max">3.05</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-
-    </ros2_control>
-    -->
-    
-
-
-    <!-- Interface the robot's hardware with the ROS 2 Control library -->
-
-    <ros2_control name="RealRobot" type="system">
-      <hardware>
-          <plugin>mycobot_hardware_interface/MyCobotHardwareInterface</plugin>
-      </hardware>
-
-        <joint name="joint1">
-            <command_interface name="position">
-                <param name="min">-2.879793</param>
-                <param name="max">2.879793</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-
-        <joint name="joint2">
-            <command_interface name="position">
-                <param name="min">-2.879793</param>
-                <param name="max">2.879793</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-
-        <joint name="joint3">
-            <command_interface name="position">
-                <param name="min">-2.879793</param>
-                <param name="max">2.879793</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-
-        <joint name="joint4">
-            <command_interface name="position">
-                <param name="min">-2.879793</param>
-                <param name="max">2.879793</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-
-        <joint name="joint5">
-            <command_interface name="position">
-                <param name="min">-2.879793</param>
-                <param name="max">2.879793</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-
-        <joint name="joint6">
+        <joint name="link5_to_link5_flange">
             <command_interface name="position">
                 <param name="min">-3.05</param>
                 <param name="max">3.05</param>

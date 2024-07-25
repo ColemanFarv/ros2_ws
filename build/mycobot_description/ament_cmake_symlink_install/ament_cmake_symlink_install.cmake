@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "meshes" "urdf" "DESTINATION" "share/mycobot_description")
-ament_cmake_symlink_install_directory("/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description" DIRECTORY "meshes" "urdf" "DESTINATION" "share/mycobot_description")
+# install(DIRECTORY "meshes" "launch" "urdf" "DESTINATION" "share/mycobot_description")
+ament_cmake_symlink_install_directory("/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description" DIRECTORY "meshes" "launch" "urdf" "DESTINATION" "share/mycobot_description")
 
 # install(FILES "/home/jelly/ros2_ws/build/mycobot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mycobot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_description" FILES "/home/jelly/ros2_ws/build/mycobot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mycobot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

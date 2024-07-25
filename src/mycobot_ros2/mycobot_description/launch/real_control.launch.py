@@ -10,10 +10,6 @@ from launch.substitutions import Command, LaunchConfiguration, PythonExpression
 from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 from launch_ros.substitutions import FindPackageShare
-from ament_index_python.packages import get_package_share_directory
-from launch.actions import IncludeLaunchDescription, TimerAction
-from launch.actions import RegisterEventHandler
-from launch.event_handlers import OnProcessStart
 
 def generate_launch_description():
 
@@ -24,7 +20,6 @@ def generate_launch_description():
   default_robot_name = 'mycobot_280'
   gazebo_launch_file_path = 'launch'
   gazebo_models_path = 'models'
-  rviz_config_file_path = 'rviz/mycobot_280_arduino_view_description.rviz'
   urdf_file_path = 'urdf/ros2_control/classic_gazebo/mycobot_280.urdf.xacro'
   world_file_path = 'worlds/empty_classic.world' # Example: 'worlds/house_classic.world', 'worlds/empty_classic.world', 'worlds/small_warehouse_classic.world'
 
@@ -91,7 +86,7 @@ def generate_launch_description():
     
   declare_use_sim_time_cmd = DeclareLaunchArgument(
     name='use_sim_time',
-    default_value='false',
+    default_value='true',
     description='Use simulation (Gazebo) clock if true')
 
   declare_use_simulator_cmd = DeclareLaunchArgument(
@@ -140,22 +135,6 @@ def generate_launch_description():
     'GAZEBO_MODEL_PATH',
     gazebo_models_path)
   
- 
-  package_name='mycobot_gazebo'
-
-  controller_params_file = os.path.join(get_package_share_directory(package_name),'urdf','ros2_control','classic_gazebo','controller_manager.yaml')
-  robot_description = Command(['ros2 param get --hide-type /robot_state_publisher robot_description'])
-
-  # Launch arm controller
-  controller_manager = Node(
-        package="controller_manager",
-        executable="ros2_control_node",
-        parameters=[{'robot_description': robot_description},
-                    controller_params_file]
-    )
-  
-  delayed_controller_manager = TimerAction(period=3.0, actions=[controller_manager])
-  
   # Launch arm controller
   start_arm_controller_cmd = Node(
     package="controller_manager",
@@ -166,16 +145,21 @@ def generate_launch_description():
       "/controller_manager"
     ]
   )  
+  
+  # Start Gazebo server
+  start_gazebo_server_cmd = IncludeLaunchDescription(
+    PythonLaunchDescriptionSource(
+      os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')),
+    condition=IfCondition(use_simulator),
+    launch_arguments={'world': world}.items())
 
-  delayed_arm_spawner = RegisterEventHandler(
-        event_handler=OnProcessStart(
-            target_action=controller_manager,
-            on_start=[start_arm_controller_cmd],
-        )
-    )
+  # Start Gazebo client    
+  start_gazebo_client_cmd = IncludeLaunchDescription(
+    PythonLaunchDescriptionSource(
+      os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')),
+    condition=IfCondition(PythonExpression([use_simulator, ' and not ', headless])))
 
-
-  # Launch joint state bff_drive_spawnerroadcaster
+  # Launch joint state broadcaster
   start_joint_state_broadcaster_cmd = Node(
     package="controller_manager",
     executable="spawner",
@@ -185,13 +169,6 @@ def generate_launch_description():
       "/controller_manager"
     ]
   )  
-
-  delayed_joint_broad_spawner = RegisterEventHandler(
-        event_handler=OnProcessStart(
-            target_action=controller_manager,
-            on_start=[start_joint_state_broadcaster_cmd],
-        )
-    )
     
   # Subscribe to the joint states of the robot, and publish the 3D pose of each link.
   robot_description_content = ParameterValue(Command(['xacro ', urdf_model]), value_type=None)
@@ -204,8 +181,6 @@ def generate_launch_description():
     parameters=[{
       'use_sim_time': use_sim_time, 
       'robot_description': robot_description_content}])
-  
-  delayed_robot_publisher = TimerAction(period=2.0, actions=[start_robot_state_publisher_cmd])
 
   # Launch RViz
   start_rviz_cmd = Node(
@@ -216,6 +191,21 @@ def generate_launch_description():
     output='screen',
     arguments=['-d', rviz_config_file])  
     
+  # Spawn the robot
+  start_gazebo_ros_spawner_cmd = Node(
+    package='gazebo_ros',
+    executable='spawn_entity.py',
+    arguments=[
+      '-entity', robot_name,
+      '-topic', "robot_description", 
+      '-x', x,
+      '-y', y,
+      '-z', z,
+      '-R', roll,
+      '-P', pitch,
+      '-Y', yaw
+      ],
+    output='screen')  
     
   # Create the launch description and populate
   ld = LaunchDescription()
@@ -240,12 +230,12 @@ def generate_launch_description():
 
   # Add any actions
   ld.add_action(set_env_vars_resources)
-  ld.add_action(delayed_controller_manager)
-  ld.add_action(delayed_arm_spawner) 
-
-  ld.add_action(delayed_joint_broad_spawner)
-  ld.add_action(delayed_robot_publisher )
+  ld.add_action(start_arm_controller_cmd) 
+  ld.add_action(start_gazebo_server_cmd)
+  ld.add_action(start_gazebo_client_cmd)
+  ld.add_action(start_joint_state_broadcaster_cmd)
+  ld.add_action(start_robot_state_publisher_cmd)
   ld.add_action(start_rviz_cmd)  
-
+  ld.add_action(start_gazebo_ros_spawner_cmd)
 
   return ld
