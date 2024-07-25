@@ -1,1 +1,0 @@
-/home/jelly/ros2_ws/src/moveit2_scripts/launch/test_trajectory3.launch.py

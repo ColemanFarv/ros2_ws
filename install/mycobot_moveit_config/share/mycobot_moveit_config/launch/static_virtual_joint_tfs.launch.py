@@ -1,1 +1,0 @@
-/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_moveit_config/launch/static_virtual_joint_tfs.launch.py

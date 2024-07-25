@@ -1,1 +1,0 @@
-/home/jelly/ros2_ws/src/serial/include/serial/serial.h

@@ -1,1 +1,0 @@
-/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo/launch/mycobot_280_arduino_bringup_classic_gazebo.launch.py
