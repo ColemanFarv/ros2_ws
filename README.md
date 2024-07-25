@@ -11,17 +11,25 @@ This project involves controlling a Mycobot 280 robot using ROS 2, MoveIt!, and 
 
 ## Usage
 
-### 1. Giving a Desired Pose
+### 1. Gazebo and ros2_control
+
+```bash
+# Launch the Mycobot Gazebo simulation
+ros2 launch mycobot_gazebo mycobot_280_arduino_bringup_ros2_control_classic_gazebo.launch.py
+```
+
+### 2. Launching real robot with control
+
+```bash
+# Launch the MoveIt! move group
+ros2 launch mycobot_280_description move_group.launch.py
+```
+
+### 3. Giving a Desired Pose
 
 To send a desired pose to the Mycobot 280 using MoveIt! and ROS 2, use the following commands:
 
 ```bash
 # Launch the MoveIt! test trajectory
 ros2 launch moveit2_scripts test_trajectory.launch.py
-
-# Launch the Mycobot Gazebo simulation
-ros2 launch mycobot_gazebo mycobot_280_arduino_bringup_ros2_control_classic_gazebo.launch.py
-
-# Launch the MoveIt! move group
-ros2 launch mycobot_280_description move_group.launch.py
 ```
