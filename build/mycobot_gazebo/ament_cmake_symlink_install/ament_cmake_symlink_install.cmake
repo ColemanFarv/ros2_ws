@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "config" "launch" "models" "urdf" "worlds" "DESTINATION" "share/mycobot_gazebo")
 ament_cmake_symlink_install_directory("/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo" DIRECTORY "config" "launch" "models" "urdf" "worlds" "DESTINATION" "share/mycobot_gazebo")
 
+# install(DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo" DIRECTORY "include/" "DESTINATION" "include")
+
 # install(FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mycobot_gazebo" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/jelly/ros2_ws/src/mycobot_ros2/mycobot_gazebo" FILES "/home/jelly/ros2_ws/build/mycobot_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mycobot_gazebo" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

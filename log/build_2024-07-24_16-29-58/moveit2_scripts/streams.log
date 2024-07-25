@@ -1,0 +1,30 @@
+[0.043s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.212s] [ 33%] Built target position_publisher
+[0.218s] [ 66%] Built target test_trajectory
+[0.223s] [100%] Built target test_trajectory2
+[0.249s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jelly/ros2_ws/build/moveit2_scripts -- -j4 -l4
+[0.430s] Invoking command in '/home/jelly/ros2_ws/build/moveit2_scripts': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/moveit2_scripts
+[0.442s] -- Install configuration: ""
+[0.443s] -- Execute custom install script
+[0.443s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/package_run_dependencies/moveit2_scripts
+[0.443s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/parent_prefix_path/moveit2_scripts
+[0.444s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.sh
+[0.444s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/ament_prefix_path.dsv
+[0.444s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.sh
+[0.445s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/environment/path.dsv
+[0.445s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.bash
+[0.446s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.sh
+[0.446s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.zsh
+[0.446s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/local_setup.dsv
+[0.446s] -- Symlinking: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.dsv
+[0.479s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/ament_index/resource_index/packages/moveit2_scripts
+[0.483s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig.cmake
+[0.484s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/cmake/moveit2_scriptsConfig-version.cmake
+[0.484s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/package.xml
+[0.484s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/position_publisher.launch.py
+[0.485s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory.launch.py
+[0.485s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/share/moveit2_scripts/launch/test_trajectory2.launch.py
+[0.485s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory
+[0.485s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/test_trajectory2
+[0.485s] -- Up-to-date symlink: /home/jelly/ros2_ws/install/moveit2_scripts/lib/moveit2_scripts/position_publisher
+[0.507s] Invoked command in '/home/jelly/ros2_ws/build/moveit2_scripts' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jelly/ros2_ws/build/moveit2_scripts
