@@ -1,4 +1,4 @@
-# Mycobot 280 ROS 2 Project
+# Mycobot 280 with ROS2 Humble, ROS2 control and MoveIt2
 
 This project involves controlling a Mycobot 280 robot using ROS 2, MoveIt!, and Gazebo simulation. The system allows for sending desired poses to the robot, launching ROS 2 control simulations, and running the robot in a real environment.
 
@@ -36,3 +36,5 @@ Listens to [X, Y, Z] topic and sends the desire pose to moveit2:
 # Launch the MoveIt! test trajectory
 ros2 launch moveit2_scripts test_trajectory.launch.py
 ```
+
+# Experimental instructions
