@@ -38,3 +38,18 @@ ros2 launch moveit2_scripts test_trajectory.launch.py
 ```
 
 # Experimental instructions
+
+### 1. Lauch Slicer on Linux 
+
+### 2. Launch real robot with MoveIt2
+
+### 3. Merge Slicer and robot coordinate frames
+
+### 4. Start listening to Slicer
+
+### 5. Start Slicer module
+
+### 6. Experiment starts
+
+
+
