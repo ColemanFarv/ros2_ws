@@ -95,15 +95,14 @@ Set four fiducils points in Slicer at known locations and move the robot to each
 ros2 launch moveit2_scripts test_trajectory.launch.py
 ```
 
-
 ### 5. Start Slicer module
 
 1. Press button to initialize module
 2. Press button to publish points
 
-
-
 ### 6. Experiment starts
 
-Robot will scan each point on STL as shown in the video 
+Robot will scan each point on STL as shown in the video: https://youtu.be/AizRuA_jTYM
+![IMG_A86E24E89752-1](https://github.com/user-attachments/assets/b061fa60-6085-4bb6-a79e-d19f80d503e2)
+
 
