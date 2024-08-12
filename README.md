@@ -36,7 +36,32 @@ Listens to [X, Y, Z] topic and sends the desire pose to moveit2:
 ros2 launch moveit2_scripts test_trajectory.launch.py
 ```
 
-# Experimental instructions
+
+# Autonomous breast cancer scan
+
+Powerpoint to show solution: https://github.com/ColemanFarv/ros2_ws/blob/main/Breast%20Cancer%20Scanning%20with%20robot.pptx
+
+### 1. Scan cavity
+
+1. Scan cavity with intel intellisense depth camera
+
+2. Put image in jupiter notebook
+<img width="146" alt="image" src="https://github.com/user-attachments/assets/1e8f446f-d379-4de4-a900-eb67fdc6d13d">
+
+4. Isolate cavity
+<img width="162" alt="image" src="https://github.com/user-attachments/assets/dc3ba8d8-80e3-4fc9-b479-1d6b00593923">
+
+5. Get point cloud in Slicer
+![image](https://github.com/user-attachments/assets/e444db1e-a8fc-43d3-bcb7-067ecc8e0512)
+
+Send point cloud points to Moveit2 as poses iterativly to scan the fantom cavity:
+https://youtu.be/Fz6Yo6vJVx8?si=G-bxJqX7FI-_D-VB
+
+![image](https://github.com/user-attachments/assets/6d84f17b-c40e-4acd-8497-a865fc078686)
+
+# Accuracy Experiment
+
+Experiment for checking accuracy of system.
 
 ### 1. Lauch Slicer on Linux 
 
