@@ -61,7 +61,6 @@ Using the Moveit2 interface in rviz and fiducial registration wizard module in S
 
 Set four fiducils points in Slicer at known locations and move the robot to each fiducial in real life in the order of the points and select place to in the registration wizard.
 
-<img width="337" alt="image" src="https://github.com/user-attachments/assets/4bca73f0-4bd0-4ade-a5fc-a3594d40af51">
 
 ### 4. Start listening to Slicer
 
@@ -73,9 +72,12 @@ ros2 launch moveit2_scripts test_trajectory.launch.py
 
 ### 5. Start Slicer module
 
+1. Press button to initialize module
+2. Press button to publish points
+
 
 
 ### 6. Experiment starts
 
-
+Robot will scan each point on STL as shown in the video 
 
