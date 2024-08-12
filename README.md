@@ -52,6 +52,7 @@ Powerpoint to show solution: https://github.com/ColemanFarv/ros2_ws/blob/main/Br
 <img width="162" alt="image" src="https://github.com/user-attachments/assets/dc3ba8d8-80e3-4fc9-b479-1d6b00593923">
 
 5. Get point cloud in Slicer
+   
 ![image](https://github.com/user-attachments/assets/e444db1e-a8fc-43d3-bcb7-067ecc8e0512)
 
 Send point cloud points to Moveit2 as poses iterativly to scan the fantom cavity:
