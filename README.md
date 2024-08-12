@@ -63,11 +63,12 @@ Set four fiducils points in Slicer at known locations and move the robot to each
 
 <img width="337" alt="image" src="https://github.com/user-attachments/assets/4bca73f0-4bd0-4ade-a5fc-a3594d40af51">
 
-
-
-
 ### 4. Start listening to Slicer
 
+```bash
+# Start Listening
+ros2 launch moveit2_scripts test_trajectory.launch.py
+```
 
 
 ### 5. Start Slicer module
